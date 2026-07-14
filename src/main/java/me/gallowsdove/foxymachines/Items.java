@@ -17,7 +17,7 @@ import me.gallowsdove.foxymachines.implementation.machines.PotionMixer;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
-import org.bukkit.enchantments.Enchantment;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.meta.ItemMeta;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
@@ -85,7 +85,7 @@ public final class Items{
     );
 
     static {
-        ELECTRIC_WIND_STAFF.addUnsafeEnchantment(Enchantment.DURABILITY, 1);
+        CompatUtils.addEnchantment(ELECTRIC_WIND_STAFF, "DURABILITY", 1);
         ItemMeta meta = ELECTRIC_WIND_STAFF.getItemMeta();
         meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         ELECTRIC_WIND_STAFF.setItemMeta(meta);
@@ -101,7 +101,7 @@ public final class Items{
             "&c&o&8\u21E8 &e\u26A1 &70 / 100 J"
     );
     static {
-        ELECTRIC_FIRE_STAFF.addUnsafeEnchantment(Enchantment.DURABILITY, 1);
+        CompatUtils.addEnchantment(ELECTRIC_FIRE_STAFF, "DURABILITY", 1);
         ItemMeta meta = ELECTRIC_FIRE_STAFF.getItemMeta();
         meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         ELECTRIC_FIRE_STAFF.setItemMeta(meta);
@@ -117,7 +117,7 @@ public final class Items{
             "&c&o&8\u21E8 &e\u26A1 &70 / 200 J"
     );
     static {
-        ELECTRIC_FIRE_STAFF_II.addUnsafeEnchantment(Enchantment.DURABILITY, 1);
+        CompatUtils.addEnchantment(ELECTRIC_FIRE_STAFF_II, "DURABILITY", 1);
         ItemMeta meta = ELECTRIC_FIRE_STAFF_II.getItemMeta();
         meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         ELECTRIC_FIRE_STAFF_II.setItemMeta(meta);
@@ -409,8 +409,8 @@ public final class Items{
             "&7Can catch special items."
     );
     static {
-        POSEIDONS_FISHING_ROD.addUnsafeEnchantment(Enchantment.LUCK, 5);
-        POSEIDONS_FISHING_ROD.addUnsafeEnchantment(Enchantment.LURE, 3);
+        CompatUtils.addEnchantment(POSEIDONS_FISHING_ROD, "LUCK", 5);
+        CompatUtils.addEnchantment(POSEIDONS_FISHING_ROD, "LURE", 3);
     }
 
     public static final SlimefunItemStack POSEIDONS_BLESSING = new SlimefunItemStack(
@@ -448,8 +448,8 @@ public final class Items{
             "&7Overheal"
     );
     static {
-        ELUCIDATOR.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 10);
-        ELUCIDATOR.addUnsafeEnchantment(Enchantment.LOOT_BONUS_MOBS, 5);
+        CompatUtils.addEnchantment(ELUCIDATOR, "DAMAGE_ALL", 10);
+        CompatUtils.addEnchantment(ELUCIDATOR, "LOOT_BONUS_MOBS", 5);
     }
 
     public static final SlimefunItemStack MAGIC_LUMP_4 = new SlimefunItemStack(
@@ -474,10 +474,10 @@ public final class Items{
             "&7Darkvision"
     );
     static {
-        AQUATIC_HELMET.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 5);
-        AQUATIC_HELMET.addUnsafeEnchantment(Enchantment.WATER_WORKER, 1);
-        AQUATIC_HELMET.addUnsafeEnchantment(Enchantment.OXYGEN, 5);
-        AQUATIC_HELMET.addUnsafeEnchantment(Enchantment.DEPTH_STRIDER, 5);
+        CompatUtils.addEnchantment(AQUATIC_HELMET, "PROTECTION_ENVIRONMENTAL", 5);
+        CompatUtils.addEnchantment(AQUATIC_HELMET, "WATER_WORKER", 1);
+        CompatUtils.addEnchantment(AQUATIC_HELMET, "OXYGEN", 5);
+        CompatUtils.addEnchantment(AQUATIC_HELMET, "DEPTH_STRIDER", 5);
     }
 
 
@@ -489,7 +489,7 @@ public final class Items{
             "&7Regeneration I"
     );
     static {
-        RESISTANT_CHESTPLATE.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 5);
+        CompatUtils.addEnchantment(RESISTANT_CHESTPLATE, "PROTECTION_ENVIRONMENTAL", 5);
     }
 
     public static final SlimefunItemStack FIERY_LEGGINGS = new SlimefunItemStack(
@@ -499,8 +499,8 @@ public final class Items{
             "&7Fire Aura II"
     );
     static {
-        FIERY_LEGGINGS.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 5);
-        FIERY_LEGGINGS.addUnsafeEnchantment(Enchantment.THORNS, 6);
+        CompatUtils.addEnchantment(FIERY_LEGGINGS, "PROTECTION_ENVIRONMENTAL", 5);
+        CompatUtils.addEnchantment(FIERY_LEGGINGS, "THORNS", 6);
     }
 
     public static final SlimefunItemStack LIGHT_BOOTS = new SlimefunItemStack(
@@ -512,9 +512,9 @@ public final class Items{
             "&7Lightweight"
     );
     static {
-        LIGHT_BOOTS.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 5);
-        LIGHT_BOOTS.addUnsafeEnchantment(Enchantment.PROTECTION_FALL, 5);
-        LIGHT_BOOTS.addUnsafeEnchantment(Enchantment.SOUL_SPEED, 5);
+        CompatUtils.addEnchantment(LIGHT_BOOTS, "PROTECTION_ENVIRONMENTAL", 5);
+        CompatUtils.addEnchantment(LIGHT_BOOTS, "PROTECTION_FALL", 5);
+        CompatUtils.addEnchantment(LIGHT_BOOTS, "SOUL_SPEED", 5);
     }
 
     public static final SlimefunItemStack AQUATIC_HELMET_FRAME = new SlimefunItemStack(
@@ -654,8 +654,8 @@ public final class Items{
             "&7Armor Piercing II"
     );
     static {
-        ACRI_ARCUM.addUnsafeEnchantment(Enchantment.ARROW_DAMAGE, 7);
-        ACRI_ARCUM.addUnsafeEnchantment(Enchantment.ARROW_INFINITE, 1);
+        CompatUtils.addEnchantment(ACRI_ARCUM, "ARROW_DAMAGE", 7);
+        CompatUtils.addEnchantment(ACRI_ARCUM, "ARROW_INFINITE", 1);
     }
 
     public static final SlimefunItemStack GHOST_BLOCK_REMOVER = new SlimefunItemStack(

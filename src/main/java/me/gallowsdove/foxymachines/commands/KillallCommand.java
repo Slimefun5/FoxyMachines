@@ -3,6 +3,7 @@ package me.gallowsdove.foxymachines.commands;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import me.gallowsdove.foxymachines.abstracts.CustomBoss;
 import me.gallowsdove.foxymachines.abstracts.CustomMob;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -43,7 +44,9 @@ public class KillallCommand extends SubCommand {
             }
         }
 
-        CustomBoss.removeBossBars();
+        if (CompatUtils.customMobsSupported()) {
+            CustomBoss.removeBossBars();
+        }
 
         player.sendMessage(String.format("Killed %s Entities", count));
     }

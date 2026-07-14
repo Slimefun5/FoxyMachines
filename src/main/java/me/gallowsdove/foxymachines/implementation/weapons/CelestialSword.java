@@ -8,12 +8,11 @@ import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.concurrent.ThreadLocalRandom;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class CelestialSword extends OnHitWeapon {
@@ -38,6 +37,6 @@ public class CelestialSword extends OnHitWeapon {
             entity.damage(8);
         }
 
-        entity.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 80, 0, false, false));
+        CompatUtils.applyPotionEffect(entity, "GLOWING", 80, 0, false, false);
     }
 }

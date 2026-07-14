@@ -50,6 +50,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 final class ItemSetup {
@@ -63,7 +64,7 @@ final class ItemSetup {
 
         initialised = true;
 
-        boolean customMobs = FoxyMachines.getInstance().getConfig().getBoolean("custom-mobs");
+        boolean customMobs = FoxyMachines.getInstance().getConfig().getBoolean("custom-mobs") && CompatUtils.customMobsSupported();
 
         new SimpleMaterial(Items.MAGIC_LUMP_4, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 SlimefunItems.MAGIC_LUMP_3.item(), SlimefunItems.MAGIC_LUMP_3.item(), null,
@@ -314,28 +315,28 @@ final class ItemSetup {
                 Items.EQUANIMOUS_GEM.item(), Items.MAGIC_LUMP_5.item(), Items.EQUANIMOUS_GEM.item(),
                 Items.TROPICAL_FISH_SCALE.item(), Items.AQUATIC_HELMET_FRAME.item(), Items.TROPICAL_FISH_SCALE.item(),
                 Items.EQUANIMOUS_GEM.item(), Items.MAGIC_LUMP_5.item(), Items.EQUANIMOUS_GEM.item()},
-                new PotionEffect[] { new PotionEffect(PotionEffectType.WATER_BREATHING, 300, 0, false, false, false),
-                new PotionEffect(PotionEffectType.NIGHT_VISION, 500, 0, false, false, false)})
+                new PotionEffect[] { CompatUtils.potionEffect("WATER_BREATHING", 300, 0, false, false, false),
+                CompatUtils.potionEffect("NIGHT_VISION", 500, 0, false, false, false)})
                 .register(FoxyMachines.getInstance());
         new SlimefunArmorPiece(Items.WEAPONS_AND_ARMORS_ITEM_GROUP, Items.RESISTANT_CHESTPLATE, RecipeType.ANCIENT_ALTAR, new ItemStack[]{
                 Items.EQUANIMOUS_GEM.item(), Items.MAGIC_LUMP_5.item(), Items.EQUANIMOUS_GEM.item(),
                 Items.POLAR_FOX_HIDE.item(), Items.RESISTANT_CHESTPLATE_FRAME.item(), Items.POLAR_FOX_HIDE.item(),
                 Items.EQUANIMOUS_GEM.item(), Items.MAGIC_LUMP_5.item(), Items.EQUANIMOUS_GEM.item()},
-                new PotionEffect[] { new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 300, 0, false, false, false),
-                        new PotionEffect(PotionEffectType.REGENERATION, 300, 0, false, false, false)})
+                new PotionEffect[] { CompatUtils.potionEffect("DAMAGE_RESISTANCE", 300, 0, false, false, false),
+                        CompatUtils.potionEffect("REGENERATION", 300, 0, false, false, false)})
                 .register(FoxyMachines.getInstance());
         new SlimefunArmorPiece(Items.WEAPONS_AND_ARMORS_ITEM_GROUP, Items.FIERY_LEGGINGS, RecipeType.ANCIENT_ALTAR, new ItemStack[]{
                 Items.EQUANIMOUS_GEM.item(), Items.MAGIC_LUMP_5.item(), Items.EQUANIMOUS_GEM.item(),
                 Items.MAGMA_ESSENCE.item(), Items.FIERY_LEGGINGS_FRAME.item(), Items.MAGMA_ESSENCE.item(),
                 Items.EQUANIMOUS_GEM.item(), Items.MAGIC_LUMP_5.item(), Items.EQUANIMOUS_GEM.item()},
-                new PotionEffect[] { new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 300, 0, false, false, false)})
+                new PotionEffect[] { CompatUtils.potionEffect("FIRE_RESISTANCE", 300, 0, false, false, false)})
                 .register(FoxyMachines.getInstance());
         new SlimefunArmorPiece(Items.WEAPONS_AND_ARMORS_ITEM_GROUP, Items.LIGHT_BOOTS, RecipeType.ANCIENT_ALTAR, new ItemStack[]{
                 Items.EQUANIMOUS_GEM.item(), Items.MAGIC_LUMP_5.item(), Items.EQUANIMOUS_GEM.item(),
                 Items.PARROT_FEATHER.item(), Items.LIGHT_BOOTS_FRAME.item(), Items.PARROT_FEATHER.item(),
                 Items.EQUANIMOUS_GEM.item(), Items.MAGIC_LUMP_5.item(), Items.EQUANIMOUS_GEM.item()},
-                new PotionEffect[] { new PotionEffect(PotionEffectType.SPEED, 300, 1, false, false, false),
-                        new PotionEffect(PotionEffectType.JUMP, 300, 1, false, false, false)})
+                new PotionEffect[] { CompatUtils.potionEffect("SPEED", 300, 1, false, false, false),
+                        CompatUtils.potionEffect("JUMP", 300, 1, false, false, false)})
                 .register(FoxyMachines.getInstance());
         new ImprovementForge().register(FoxyMachines.getInstance());
         new PotionMixer().register(FoxyMachines.getInstance());
@@ -421,7 +422,7 @@ final class ResearchSetup {
 
         initialised = true;
 
-        boolean customMobs = FoxyMachines.getInstance().getConfig().getBoolean("custom-mobs");
+        boolean customMobs = FoxyMachines.getInstance().getConfig().getBoolean("custom-mobs") && CompatUtils.customMobsSupported();
 
         new Research(new NamespacedKey(FoxyMachines.getInstance(), "electric_wind_staff"),
                 6669666, "On the wind with the power of electricity", 22)

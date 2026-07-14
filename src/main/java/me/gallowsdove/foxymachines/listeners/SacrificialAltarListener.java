@@ -5,7 +5,7 @@ import me.gallowsdove.foxymachines.Items;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.Particle;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Fox;
 import org.bukkit.entity.LivingEntity;
@@ -109,9 +109,9 @@ public class SacrificialAltarListener implements Listener {
     public static void particleAnimation(Location location) {
         ThreadLocalRandom random = ThreadLocalRandom.current();
         for (int i = 0; i < 16; i++) {
-            location.getWorld().spawnParticle(Particle.SOUL_FIRE_FLAME, location, 1,
+            CompatUtils.spawnParticle(location, "SOUL_FIRE_FLAME", 1,
                     random.nextDouble(-1, 1), random.nextDouble(1.2, 2), random.nextDouble(-1, 1), 0);
         }
-        location.getWorld().spawnParticle(Particle.SOUL, location, 40);
+        CompatUtils.spawnParticle(location, "SOUL", 40);
     }
 }

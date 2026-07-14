@@ -6,7 +6,7 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunItem;
 import me.gallowsdove.foxymachines.Items;
-import org.bukkit.Sound;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
@@ -44,7 +44,7 @@ public class SimpleConsumable extends SimpleSlimefunItem<ItemUseHandler> {
             double health = p.getHealth();
             p.addPotionEffects(Arrays.asList(effects));
             p.setHealth(health);
-            p.playSound(p.getLocation(), Sound.ENTITY_GENERIC_EAT, 1, 1);
+            CompatUtils.playSound(p.getLocation(), "ENTITY_GENERIC_EAT", 1, 1);
         };
     }
 }

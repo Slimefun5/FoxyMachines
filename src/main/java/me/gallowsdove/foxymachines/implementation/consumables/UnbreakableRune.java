@@ -13,7 +13,7 @@ import me.gallowsdove.foxymachines.Items;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.Sound;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Item;
@@ -101,7 +101,7 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
                     if (rune.isValid() && item.isValid() && itemStack.getAmount() == 1) {
 
                         l.getWorld().createExplosion(l, 0);
-                        l.getWorld().playSound(l, Sound.ENTITY_GENERIC_EXPLODE, 0.3F, 1);
+                        CompatUtils.playSound(l, "ENTITY_GENERIC_EXPLODE", 0.3F, 1);
 
                         item.remove();
                         rune.remove();

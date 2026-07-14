@@ -19,6 +19,7 @@ import me.gallowsdove.foxymachines.listeners.*;
 import me.gallowsdove.foxymachines.tasks.GhostBlockTask;
 import me.gallowsdove.foxymachines.tasks.MobTicker;
 import me.gallowsdove.foxymachines.tasks.QuestTicker;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import me.gallowsdove.foxymachines.utils.QuestUtils;
 
 import javax.annotation.Nonnull;
@@ -65,7 +66,7 @@ public class FoxyMachines extends AbstractAddon {
         Scheduler.run(() -> ForcefieldDome.INSTANCE.setupDomes());
         Scheduler.repeat(240, 10, new QuestTicker());
         Scheduler.repeat(100, new GhostBlockTask());
-        if (getConfig().getBoolean("custom-mobs")) {
+        if (getConfig().getBoolean("custom-mobs") && CompatUtils.customMobsSupported()) {
             Scheduler.repeat(2, new MobTicker());
         }
 
@@ -83,7 +84,7 @@ public class FoxyMachines extends AbstractAddon {
     public void disable() {
         BerryBushTrimmer.saveTrimmedBlocks();
         ForcefieldDome.saveDomeLocations();
-        if (getConfig().getBoolean("custom-mobs")) {
+        if (getConfig().getBoolean("custom-mobs") && CompatUtils.customMobsSupported()) {
             CustomBoss.removeBossBars();
         }
     }

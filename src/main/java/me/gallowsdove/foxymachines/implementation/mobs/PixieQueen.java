@@ -4,6 +4,7 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import me.gallowsdove.foxymachines.abstracts.CustomBoss;
 import me.gallowsdove.foxymachines.abstracts.CustomMob;
 import me.gallowsdove.foxymachines.utils.Utils;
@@ -172,7 +173,7 @@ public class PixieQueen extends CustomBoss {
         }
 
         for (int i = 0; i < 10; i++) {
-            location.getWorld().spawnParticle(Particle.VILLAGER_HAPPY, location, 1, random.nextDouble(-1.5, 1.5),
+            CompatUtils.spawnParticle(location, "VILLAGER_HAPPY", 1, random.nextDouble(-1.5, 1.5),
                     random.nextDouble(-1.2, 2.4), random.nextDouble(-1.5, 1.5), 0);
         }
     }

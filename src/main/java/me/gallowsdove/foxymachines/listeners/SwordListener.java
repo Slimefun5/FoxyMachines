@@ -25,7 +25,7 @@ public class SwordListener implements Listener {
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
     private void onDamage(EntityDamageByEntityEvent event) {
         // If it's not a possible cause
-        if (event.getCause() != EntityDamageEvent.DamageCause.ENTITY_ATTACK && event.getCause() != EntityDamageEvent.DamageCause.ENTITY_SWEEP_ATTACK) {
+        if (event.getCause() != EntityDamageEvent.DamageCause.ENTITY_ATTACK && !event.getCause().name().equals("ENTITY_SWEEP_ATTACK")) {
             return;
         }
 

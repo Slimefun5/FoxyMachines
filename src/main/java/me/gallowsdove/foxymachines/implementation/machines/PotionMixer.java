@@ -40,6 +40,7 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.*;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 
@@ -227,32 +228,32 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
         if (lingering){
             d = 4;
         }
-        switch (type) {
-            case FIRE_RESISTANCE:
+        switch (type.name()) {
+            case "FIRE_RESISTANCE":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 8*60*20/d, 0)};
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 3*60*20/d, 0)};
                 }
-            case INSTANT_DAMAGE:
+            case "INSTANT_DAMAGE":
                 if (upgraded) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.HARM, 0, 1)};
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.HARM, 0, 0)};
                 }
-            case INSTANT_HEAL:
+            case "INSTANT_HEAL":
                 if (upgraded) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.HEAL, 0, 1)};
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.HEAL, 0, 0)};
                 }
-            case INVISIBILITY:
+            case "INVISIBILITY":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.INVISIBILITY, 8*60*20/d, 0)};
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.INVISIBILITY, 3*60*20/d, 0)};
                 }
-            case JUMP:
+            case "JUMP":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.JUMP, 8*60*20/d, 0)};
                 } else if (upgraded) {
@@ -260,15 +261,15 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.JUMP, 3*60*20/d, 0)};
                 }
-            case LUCK:
+            case "LUCK":
                 return new PotionEffect[] {new PotionEffect(PotionEffectType.LUCK, 5*60*20/d, 0)};
-            case NIGHT_VISION:
+            case "NIGHT_VISION":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.NIGHT_VISION, 8*60*20/d, 0)};
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.NIGHT_VISION, 3*60*20/d, 0)};
                 }
-            case POISON:
+            case "POISON":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.POISON, 45*20/d, 0)};
                 } else if (upgraded) {
@@ -276,7 +277,7 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.POISON, 90*20/d, 0)};
                 }
-            case REGEN:
+            case "REGEN":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.REGENERATION, 45*20/d, 0)};
                 } else if (upgraded) {
@@ -284,13 +285,13 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.REGENERATION, 90*20/d, 0)};
                 }
-            case SLOW_FALLING:
+            case "SLOW_FALLING":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.SLOW_FALLING, 4*60*20/d, 0)};
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.SLOW_FALLING, 90*20/d, 0)};
                 }
-            case SLOWNESS:
+            case "SLOWNESS":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.SLOW, 4*60*20/d, 0)};
                 } else if (upgraded) {
@@ -298,7 +299,7 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.SLOW, 90*20/d, 0)};
                 }
-            case SPEED:
+            case "SPEED":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.SPEED, 8*60*20/d, 0)};
                 } else if (upgraded) {
@@ -306,7 +307,7 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.SPEED, 3*60*20/d, 0)};
                 }
-            case STRENGTH:
+            case "STRENGTH":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 8*60*20/d, 0)};
                 } else if (upgraded) {
@@ -314,7 +315,7 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 3*60*20/d, 0)};
                 }
-            case TURTLE_MASTER:
+            case "TURTLE_MASTER":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.SLOW, 40*20/d, 3), new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 40*20/d, 2)};
                 } else if (upgraded) {
@@ -322,13 +323,13 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.SLOW, 20*20/d, 3), new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 20*20/d, 2)};
                 }
-            case WATER_BREATHING:
+            case "WATER_BREATHING":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.WATER_BREATHING, 8*60*20/d, 0)};
                 } else {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.WATER_BREATHING, 3*60*20/d, 0)};
                 }
-            case WEAKNESS:
+            case "WEAKNESS":
                 if (extended) {
                     return new PotionEffect[] {new PotionEffect(PotionEffectType.WEAKNESS, 4*60*20/d, 0)};
                 } else {
@@ -340,6 +341,16 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
 
     @Nullable
     protected MachineRecipe findNextRecipe(@Nonnull BlockMenu menu) {
+        // Potion combining uses PotionData / PotionMeta#getBasePotionData / PotionType.UNCRAFTABLE, all 1.9+.
+        // Isolate that behind a version guard so those types are never resolved on 1.8 (machine just idles).
+        if (!CompatUtils.particlesSupported()) {
+            return null;
+        }
+        return findNextRecipeModern(menu);
+    }
+
+    @Nullable
+    private MachineRecipe findNextRecipeModern(@Nonnull BlockMenu menu) {
         int[] slots = getInputSlots();
         ItemStack potion1 = menu.getItemInSlot(slots[0]);
         ItemStack potion2 = menu.getItemInSlot(slots[1]);

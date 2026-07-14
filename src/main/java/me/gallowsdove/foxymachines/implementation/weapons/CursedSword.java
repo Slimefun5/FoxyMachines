@@ -4,7 +4,7 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.Utils;
 import org.bukkit.Material;
-import org.bukkit.Particle;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.LivingEntity;
@@ -58,7 +58,7 @@ public class CursedSword extends OnHitWeapon {
         // Particle Effects
         ThreadLocalRandom random = ThreadLocalRandom.current();
         for (int i = 0; i < 10; i++) {
-            entity.getWorld().spawnParticle(Particle.SQUID_INK, entity.getLocation(), 1,
+            CompatUtils.spawnParticle(entity.getLocation(), "SQUID_INK", 1,
                     random.nextDouble(-1, 1), random.nextDouble(1.6, 2), random.nextDouble(-1, 1), 0);
         }
 
