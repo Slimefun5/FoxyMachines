@@ -1,19 +1,19 @@
 package me.gallowsdove.foxymachines.utils;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.utils.ChatUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import org.bukkit.ChatColor;
-import org.bukkit.NamespacedKey;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
-import org.bukkit.persistence.PersistentDataContainer;
-import org.bukkit.persistence.PersistentDataType;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.logging.Level;
@@ -21,10 +21,10 @@ import java.util.logging.Level;
 public class QuestUtils {
     private QuestUtils() {}
 
-    public static final NamespacedKey KEY = new NamespacedKey(FoxyMachines.getInstance(), "quest");
+    public static final String KEY = "foxymachines:quest";
 
     private static final List<EntityType> QUEST_MOBS = new ArrayList<>();
-    private static final List<String> CURSED_LINES = List.of(
+    private static final List<String> CURSED_LINES = Collections.unmodifiableList(Arrays.asList(
             "I would love to kill a {entity}, so tasty!",
             "Give me a {entity}, now!",
             "Surely you can help me slay a {entity}.",
@@ -36,8 +36,8 @@ public class QuestUtils {
             "I could be devouring a {entity} whole day.",
             "I've been waiting for too long. Too long or a day to kill a {entity}.",
             "{entity}'s blood shall be spilled",
-            "My curse shall devour {entity}'s soul");
-    private static final List<String> CELESTIAL_LINES = List.of(
+            "My curse shall devour {entity}'s soul"));
+    private static final List<String> CELESTIAL_LINES = Collections.unmodifiableList(Arrays.asList(
             "I love all beings... except {entity}, I hate those.",
             "All life must be in balance, what's why I need to kill a {entity}.",
             "I am celestial, but I am also a sword. Now get me a {entity}.",
@@ -48,7 +48,7 @@ public class QuestUtils {
             "The God wants a {entity} dead.",
             "For God and honour, go slay a {entity}.",
             "Go, get that {entity}! For justice!",
-            "The stars have aligned. I can clearly see the {entity} that shall die by my blade");
+            "The stars have aligned. I can clearly see the {entity} that shall die by my blade"));
 
 
     public static void init() {
@@ -68,7 +68,7 @@ public class QuestUtils {
 
     @ParametersAreNonnullByDefault
     public static boolean hasActiveQuest(Player p) {
-        return p.getPersistentDataContainer().has(KEY, PersistentDataType.INTEGER);
+        return PersistentDataAPI.hasInt(p, KEY);
     }
 
     @ParametersAreNonnullByDefault
@@ -78,11 +78,10 @@ public class QuestUtils {
 
     @ParametersAreNonnullByDefault
     public static int getQuestLine(Player p) {
-        PersistentDataContainer container = p.getPersistentDataContainer();
         int id;
 
-        if (container.has(KEY, PersistentDataType.INTEGER)) {
-            id = container.get(KEY, PersistentDataType.INTEGER);
+        if (PersistentDataAPI.hasInt(p, KEY)) {
+            id = PersistentDataAPI.getInt(p, KEY);
         } else {
             id = nextQuestLine(p);
         }
@@ -93,7 +92,7 @@ public class QuestUtils {
     @ParametersAreNonnullByDefault
     public static int nextQuestLine(Player p) {
         int id = ThreadLocalRandom.current().nextInt(QUEST_MOBS.size());
-        p.getPersistentDataContainer().set(KEY, PersistentDataType.INTEGER, id);
+        PersistentDataAPI.setInt(p, KEY, id);
         return id;
     }
 
@@ -115,10 +114,8 @@ public class QuestUtils {
 
     @ParametersAreNonnullByDefault
     public static void resetQuestLine(Player p) {
-        PersistentDataContainer container = p.getPersistentDataContainer();
-
-        if (container.has(KEY, PersistentDataType.INTEGER)) {
-            container.remove(KEY);
+        if (PersistentDataAPI.hasInt(p, KEY)) {
+            PersistentDataAPI.remove(p, KEY);
         }
     }
 

@@ -1,8 +1,8 @@
 package me.gallowsdove.foxymachines.listeners;
 
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.weapons.CelestialSword;
 import me.gallowsdove.foxymachines.implementation.weapons.CursedSword;
@@ -31,12 +31,16 @@ public class SwordListener implements Listener {
 
         // If the attacker is not a HumanEntity, someone who can't use the item, return
         // Or if the attacked entity is not a living entity, someone who can't be attacked, return
-        if (!(event.getDamager() instanceof HumanEntity humanoid) || !(event.getEntity() instanceof LivingEntity entity)) {
+        if (!(event.getDamager() instanceof HumanEntity) || !(event.getEntity() instanceof LivingEntity)) {
             return;
         }
+        HumanEntity humanoid = (HumanEntity) event.getDamager();
+        LivingEntity entity = (LivingEntity) event.getEntity();
 
         ItemStack item = humanoid.getInventory().getItemInMainHand();
-        if (SlimefunItem.getByItem(item) instanceof OnHitWeapon onHitWeapon) {
+        SlimefunItem sfItemHit = SlimefunItem.getByItem(item);
+        if (sfItemHit instanceof OnHitWeapon) {
+            OnHitWeapon onHitWeapon = (OnHitWeapon) sfItemHit;
             onHitWeapon.onHit(event, humanoid, entity);
         }
     }
@@ -57,11 +61,11 @@ public class SwordListener implements Listener {
         SlimefunItem sfItem = SlimefunItem.getByItem(inventory.getItemInMainHand());
 
         if (sfItem instanceof CursedSword) {
-            inventory.addItem(new SlimefunItemStack(Items.CURSED_SHARD, 1));
+            inventory.addItem(new SlimefunItemStack(Items.CURSED_SHARD, 1).item());
             p.sendMessage(ChatColor.RED + "The Cursed Sword is pleased.");
             Scheduler.run(20, () -> QuestUtils.sendQuestLine(p, Items.CURSED_SWORD));
         } else if (sfItem instanceof CelestialSword) {
-            inventory.addItem(new SlimefunItemStack(Items.CELESTIAL_SHARD, 1));
+            inventory.addItem(new SlimefunItemStack(Items.CELESTIAL_SHARD, 1).item());
             p.sendMessage(ChatColor.YELLOW + "The Celestial Sword is pleased.");
             Scheduler.run(20, () -> QuestUtils.sendQuestLine(p, Items.CELESTIAL_SWORD));
         }

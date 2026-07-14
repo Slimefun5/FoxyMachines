@@ -4,14 +4,13 @@ import io.github.mooy1.infinitylib.common.Events;
 import lombok.Getter;
 import me.gallowsdove.foxymachines.FoxyMachines;
 
-import io.github.thebusybiscuit.slimefun4.libraries.commons.lang.Validate;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.commons.lang.Validate;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
@@ -34,6 +33,8 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.UUID;
 import java.util.stream.Collectors;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public abstract class CustomMob {
 
@@ -51,7 +52,7 @@ public abstract class CustomMob {
         return id == null ? null : getById(id);
     }
 
-    private static final NamespacedKey KEY = new NamespacedKey(FoxyMachines.getInstance(), "mob");
+    private static final String KEY = "foxymachines:mob";
 
     @Getter
     @Nonnull
@@ -210,7 +211,7 @@ public abstract class CustomMob {
             private void onNametagEvent(PlayerInteractEntityEvent event) {
                 ItemStack item = event.getPlayer().getInventory().getItemInMainHand();
 
-                if (item.getType() == Material.NAME_TAG && CustomMob.getByEntity(event.getRightClicked()) != null) {
+                if (item.getType() == MaterialCompat.safe(XMaterial.NAME_TAG) && CustomMob.getByEntity(event.getRightClicked()) != null) {
                     event.setCancelled(true);
                 }
             }

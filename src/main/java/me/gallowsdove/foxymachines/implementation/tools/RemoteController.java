@@ -1,10 +1,10 @@
 package me.gallowsdove.foxymachines.implementation.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Rechargeable;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.machines.ForcefieldDome;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
@@ -15,7 +15,6 @@ import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.persistence.PersistentDataContainer;
 
 import javax.annotation.Nonnull;
 import java.util.UUID;
@@ -25,9 +24,9 @@ public class RemoteController extends SlimefunItem implements NotPlaceable, Rech
 
     public RemoteController() {
         super(Items.TOOLS_ITEM_GROUP, Items.REMOTE_CONTROLLER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                Items.DAMIENIUM, Items.WIRELESS_TRANSMITTER, Items.DAMIENIUM,
-                Items.DAMIENIUM, Items.WIRELESS_TRANSMITTER, Items.DAMIENIUM,
-                Items.DAMIENIUM, Items.WIRELESS_TRANSMITTER, Items.DAMIENIUM
+                Items.DAMIENIUM.item(), Items.WIRELESS_TRANSMITTER.item(), Items.DAMIENIUM.item(),
+                Items.DAMIENIUM.item(), Items.WIRELESS_TRANSMITTER.item(), Items.DAMIENIUM.item(),
+                Items.DAMIENIUM.item(), Items.WIRELESS_TRANSMITTER.item(), Items.DAMIENIUM.item()
         });
     }
 
@@ -42,7 +41,6 @@ public class RemoteController extends SlimefunItem implements NotPlaceable, Rech
             ItemStack item = e.getItem();
             ItemStack itemInInventory = e.getPlayer().getInventory().getItemInMainHand();
             ItemMeta meta = itemInInventory.getItemMeta();
-            PersistentDataContainer container = meta.getPersistentDataContainer();
 
             if (e.getPlayer().isSneaking()) {
                 if (e.getClickedBlock().isPresent()) {
@@ -51,7 +49,7 @@ public class RemoteController extends SlimefunItem implements NotPlaceable, Rech
 
                         SimpleLocation loc = new SimpleLocation(b.getX(), b.getY(), b.getZ(), b.getWorld().getUID().toString(), "forcefield");
 
-                        loc.storePersistently(container);
+                        loc.storePersistently(meta);
                         itemInInventory.setItemMeta(meta);
                         e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "Forcefield dome is now bound to the remote controller.");
                     } else {
@@ -59,7 +57,7 @@ public class RemoteController extends SlimefunItem implements NotPlaceable, Rech
                     }
                 }
             } else {
-                SimpleLocation loc = SimpleLocation.fromPersistentStorage(container, "forcefield");
+                SimpleLocation loc = SimpleLocation.fromPersistentStorage(meta, "forcefield");
 
                 if (loc != null) {
                     World world = Bukkit.getWorld(UUID.fromString(loc.getWorldUUID()));

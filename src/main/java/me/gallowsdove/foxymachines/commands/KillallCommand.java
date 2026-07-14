@@ -22,9 +22,10 @@ public class KillallCommand extends SubCommand {
 
     @Override
     protected void execute(@Nonnull CommandSender sender, @Nonnull String[] args) {
-        if (!(sender instanceof Player player)) {
+        if (!(sender instanceof Player)) {
             return;
         }
+        Player player = (Player) sender;
 
         if (args.length != 0) {
             sender.sendMessage(ChatColor.LIGHT_PURPLE + "Usage: /foxy killall");
@@ -44,7 +45,7 @@ public class KillallCommand extends SubCommand {
 
         CustomBoss.removeBossBars();
 
-        player.sendMessage("Killed %s Entities".formatted(count));
+        player.sendMessage(String.format("Killed %s Entities", count));
     }
 
     @Override

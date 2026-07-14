@@ -1,6 +1,6 @@
 package me.gallowsdove.foxymachines.implementation.weapons;
 
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.Utils;
 import org.bukkit.Material;
@@ -14,21 +14,25 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 import javax.annotation.ParametersAreNonnullByDefault;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class CursedSword extends OnHitWeapon {
-    public static final List<PotionEffect> EFFECTS = List.of(
+    public static final List<PotionEffect> EFFECTS = Collections.unmodifiableList(Arrays.asList(
             new PotionEffect(PotionEffectType.SLOW, 80, 1, false, false),
             new PotionEffect(PotionEffectType.BLINDNESS, 80, 20, false, false),
             new PotionEffect(PotionEffectType.CONFUSION, 100, 3, false, false),
-            new PotionEffect(PotionEffectType.WITHER, 80, 1, false, false));
+            new PotionEffect(PotionEffectType.WITHER, 80, 1, false, false)));
 
     public CursedSword() {
         super(Items.WEAPONS_AND_ARMORS_ITEM_GROUP, Items.CURSED_SWORD, RecipeType.ANCIENT_ALTAR, new ItemStack[] {
-                Items.BLOOD, Items.CURSED_RABBIT_PAW, Items.BLOOD,
-                Items.MAGIC_LUMP_5, new ItemStack(Material.NETHERITE_SWORD), Items.MAGIC_LUMP_5,
-                Items.BLOOD, Items.BLOOD_INFUSED_SKULL, Items.BLOOD
+                Items.BLOOD.item(), Items.CURSED_RABBIT_PAW.item(), Items.BLOOD.item(),
+                Items.MAGIC_LUMP_5.item(), new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_SWORD)), Items.MAGIC_LUMP_5.item(),
+                Items.BLOOD.item(), Items.BLOOD_INFUSED_SKULL.item(), Items.BLOOD.item()
         });
     }
 

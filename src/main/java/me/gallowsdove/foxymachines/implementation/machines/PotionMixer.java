@@ -1,16 +1,16 @@
 package me.gallowsdove.foxymachines.implementation.machines;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
 import me.gallowsdove.foxymachines.Items;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu.AdvancedMenuClickHandler;
@@ -39,6 +39,8 @@ import org.bukkit.potion.PotionType;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.*;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 
 public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
@@ -53,9 +55,9 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
 
     public PotionMixer() {
         super(Items.MACHINES_ITEM_GROUP, Items.POTION_MIXER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                SlimefunItems.CARBONADO, SlimefunItems.GOLD_24K, SlimefunItems.CARBONADO,
-                SlimefunItems.ELECTRIC_MOTOR, new ItemStack(Material.BREWING_STAND), SlimefunItems.ELECTRIC_MOTOR,
-                SlimefunItems.GOLD_24K, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.GOLD_24K
+                SlimefunItems.CARBONADO.item(), SlimefunItems.GOLD_24K.item(), SlimefunItems.CARBONADO.item(),
+                SlimefunItems.ELECTRIC_MOTOR.item(), new ItemStack(MaterialCompat.safe(XMaterial.BREWING_STAND)), SlimefunItems.ELECTRIC_MOTOR.item(),
+                SlimefunItems.GOLD_24K.item(), SlimefunItems.MEDIUM_CAPACITOR.item(), SlimefunItems.GOLD_24K.item()
         });
 
 
@@ -133,7 +135,7 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
 
     @Nonnull
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.GOLDEN_HOE);
+        return new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_HOE));
     }
 
     @Nullable
@@ -196,7 +198,7 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                 progress.put(b, timeleft - 1);
             }
             else {
-                inv.replaceExistingItem(13, new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "));
+                inv.replaceExistingItem(13, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "));
 
                 for (ItemStack output : processing.get(b).getOutput()) {
                     inv.pushItem(output.clone(), getOutputSlots());
@@ -344,11 +346,11 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
 
         if (potion1 != null && potion2 != null) {
 
-            if ((potion1.getType() == Material.POTION && potion2.getType() == Material.POTION) ||
-                    (potion1.getType() == Material.SPLASH_POTION && potion2.getType() == Material.SPLASH_POTION) ||
-                    (potion1.getType() == Material.LINGERING_POTION && potion2.getType() == Material.LINGERING_POTION)){
+            if ((potion1.getType() == MaterialCompat.safe(XMaterial.POTION) && potion2.getType() == MaterialCompat.safe(XMaterial.POTION)) ||
+                    (potion1.getType() == MaterialCompat.safe(XMaterial.SPLASH_POTION) && potion2.getType() == MaterialCompat.safe(XMaterial.SPLASH_POTION)) ||
+                    (potion1.getType() == MaterialCompat.safe(XMaterial.LINGERING_POTION) && potion2.getType() == MaterialCompat.safe(XMaterial.LINGERING_POTION))){
 
-                boolean lingering = potion1.getType() == Material.LINGERING_POTION;
+                boolean lingering = potion1.getType() == MaterialCompat.safe(XMaterial.LINGERING_POTION);
                 ItemStack potion = potion1.clone();
                 potion.setAmount(1);
 
@@ -391,18 +393,25 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
                     potionMeta.addCustomEffect(effect, false);
                 }
 
-                List<String> lore = new ArrayList<>() {{
+                List<String> lore = new ArrayList<String>() {{
                     add("Not usable in Brewing Stand");
                 }};
                 potionMeta.setBasePotionData(new PotionData(PotionType.UNCRAFTABLE, false, false));
                 switch (potion1.getType()) {
-                    case POTION -> potionMeta.setDisplayName(ChatColor.AQUA + "Combined Potion");
-                    case LINGERING_POTION -> {
+                    case POTION:
+                        potionMeta.setDisplayName(ChatColor.AQUA + "Combined Potion");
+                        break;
+                    case LINGERING_POTION: {
                         lore.add(ChatColor.RED + "The time shown is incorrect due to a Minecraft");
                         lore.add(ChatColor.RED + "bug, multiply it by 4 to get the real time.");
                         potionMeta.setDisplayName(ChatColor.AQUA + "Combined Lingering Potion");
+                        break;
                     }
-                    case SPLASH_POTION -> potionMeta.setDisplayName(ChatColor.AQUA + "Combined Splash Potion");
+                    case SPLASH_POTION:
+                        potionMeta.setDisplayName(ChatColor.AQUA + "Combined Splash Potion");
+                        break;
+                    default:
+                        break;
                 }
                 potionMeta.setLore(lore);
                 potionMeta.setColor(Color.AQUA);
@@ -431,14 +440,14 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
         }
 
         for (int i : BORDER_IN) {
-            preset.addItem(i, new SlimefunItemStack("_UI_INPUT_SLOT", Material.CYAN_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, new SlimefunItemStack("_UI_INPUT_SLOT", MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS_PANE), " ").item(), ChestMenuUtils.getEmptyClickHandler());
         }
 
         for (int i : BORDER_OUT) {
-            preset.addItem(i, new SlimefunItemStack("_UI_OUTPUT_SLOT", Material.ORANGE_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, new SlimefunItemStack("_UI_OUTPUT_SLOT", MaterialCompat.safe(XMaterial.ORANGE_STAINED_GLASS_PANE), " ").item(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(13, new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(13, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
 
         for (int i : getOutputSlots()) {
             preset.addMenuClickHandler(i, new AdvancedMenuClickHandler() {
@@ -450,7 +459,7 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
 
                 @Override
                 public boolean onClick(@Nonnull InventoryClickEvent e, @Nonnull Player p, int slot, @Nullable ItemStack cursor, @Nonnull ClickAction action) {
-                    return cursor == null || cursor.getType() == Material.AIR;
+                    return cursor == null || cursor.getType() == MaterialCompat.safe(XMaterial.AIR);
                 }
             });
         }

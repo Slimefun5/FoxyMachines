@@ -2,12 +2,12 @@ package me.gallowsdove.foxymachines.implementation.consumables;
 
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.core.AddonConfig;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemDropHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.implementation.items.SimpleSlimefunItem;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemDropHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunItem;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import org.bukkit.ChatColor;
@@ -30,6 +30,8 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.logging.Level;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
 
@@ -55,9 +57,9 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
 
     public UnbreakableRune() {
         super(Items.TOOLS_ITEM_GROUP, Items.UNBREAKABLE_RUNE, RecipeType.ANCIENT_ALTAR, new ItemStack[] {
-                Items.DAMIENIUM, Items.MAGIC_LUMP_5, Items.DAMIENIUM,
-                SlimefunItems.ESSENCE_OF_AFTERLIFE, SlimefunItems.LIGHTNING_RUNE , SlimefunItems.ESSENCE_OF_AFTERLIFE,
-                Items.DAMIENIUM, Items.MAGIC_LUMP_5, Items.DAMIENIUM
+                Items.DAMIENIUM.item(), Items.MAGIC_LUMP_5.item(), Items.DAMIENIUM.item(),
+                SlimefunItems.ESSENCE_OF_AFTERLIFE.item(), SlimefunItems.LIGHTNING_RUNE.item() , SlimefunItems.ESSENCE_OF_AFTERLIFE.item(),
+                Items.DAMIENIUM.item(), Items.MAGIC_LUMP_5.item(), Items.DAMIENIUM.item()
         });
     }
 
@@ -67,7 +69,7 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
         return (e, p, item) -> {
             if (isItem(item.getItemStack())) {
 
-                if (!SlimefunUtils.canPlayerUseItem(p, Items.UNBREAKABLE_RUNE , true)) {
+                if (!SlimefunUtils.canPlayerUseItem(p, Items.UNBREAKABLE_RUNE.item() , true)) {
                     return true;
                 }
 
@@ -119,7 +121,8 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
     }
 
     private boolean findCompatibleItem(Player player, Entity entity) {
-        if (entity instanceof Item item) {
+        if (entity instanceof Item) {
+            Item item = (Item) entity;
             ItemStack itemStack = item.getItemStack();
             return !isUnbreakable(itemStack) && !isItem(itemStack) && !isDisallowed(player, itemStack);
         }
@@ -128,7 +131,7 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
     }
 
     public static void setUnbreakable(@Nullable ItemStack item) {
-        if (item != null && item.getType() != Material.AIR) {
+        if (item != null && item.getType() != MaterialCompat.safe(XMaterial.AIR)) {
 
             if (!isUnbreakable(item) && item.hasItemMeta()) {
                 ItemMeta meta = item.getItemMeta();
@@ -140,7 +143,7 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
     }
 
     public static boolean isUnbreakable(@Nullable ItemStack item) {
-        if (item != null && item.getType() != Material.AIR) {
+        if (item != null && item.getType() != MaterialCompat.safe(XMaterial.AIR)) {
             if (item.hasItemMeta()) {
                 return item.getItemMeta().isUnbreakable();
             } else {

@@ -1,7 +1,7 @@
 package me.gallowsdove.foxymachines.commands;
 
 import io.github.mooy1.infinitylib.commands.SubCommand;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.QuestUtils;
 import org.bukkit.ChatColor;
@@ -18,18 +18,19 @@ public class QuestCommand extends SubCommand {
 
     @Override
     protected void execute(@Nonnull CommandSender commandSender, @Nonnull String[] args) {
-        if (!(commandSender instanceof Player p) ) {
+        if (!(commandSender instanceof Player)) {
             return;
         }
+        Player p = (Player) commandSender;
 
         if (args.length != 0) {
             commandSender.sendMessage(ChatColor.LIGHT_PURPLE + "Usage: /foxy quest");
             return;
         }
 
-        if (SlimefunUtils.isItemSimilar(p.getInventory().getItemInMainHand(), Items.CURSED_SWORD, false, false)) {
+        if (SlimefunUtils.isItemSimilar(p.getInventory().getItemInMainHand(), Items.CURSED_SWORD.item(), false, false)) {
             QuestUtils.sendQuestLine(p, Items.CURSED_SWORD);
-        } else if (SlimefunUtils.isItemSimilar(p.getInventory().getItemInMainHand(), Items.CELESTIAL_SWORD, false, false)) {
+        } else if (SlimefunUtils.isItemSimilar(p.getInventory().getItemInMainHand(), Items.CELESTIAL_SWORD.item(), false, false)) {
             QuestUtils.sendQuestLine(p, Items.CELESTIAL_SWORD);
         } else {
             p.sendMessage(ChatColor.LIGHT_PURPLE + "You need to be holding the " + ChatColor.RED + "Cursed Sword" +

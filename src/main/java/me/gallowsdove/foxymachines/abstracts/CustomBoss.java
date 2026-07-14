@@ -1,9 +1,7 @@
 package me.gallowsdove.foxymachines.abstracts;
 
-import me.gallowsdove.foxymachines.FoxyMachines;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.NamespacedKey;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.boss.BarColor;
 import org.bukkit.boss.BarFlag;
@@ -18,14 +16,15 @@ import org.bukkit.event.entity.EntityDeathEvent;
 
 import javax.annotation.Nonnull;
 import javax.annotation.OverridingMethodsMustInvokeSuper;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 public abstract class CustomBoss extends CustomMob {
-
-    private static final NamespacedKey KEY = new NamespacedKey(FoxyMachines.getInstance(), "boss");
 
     private static final Map<LivingEntity, BossBar> instances = new HashMap<>();
 
@@ -33,10 +32,26 @@ public abstract class CustomBoss extends CustomMob {
 
     protected CustomBoss(@Nonnull String id, @Nonnull String name, @Nonnull EntityType type, int health, @Nonnull DamageCause... resistances) {
         super(id, name, type, health);
-        this.resistances = Set.of(resistances);
+        this.resistances = Collections.unmodifiableSet(new HashSet<>(Arrays.asList(resistances)));
     }
 
-    public record BossBarStyle(String name, BarColor color, BarStyle style, BarFlag... flags) { }
+    /**
+     * Java-8 downlevel of a record (records are a Java 16 feature): a plain immutable data holder with
+     * public final fields, matching the field-access syntax used at the call sites (e.g. {@code style.name}).
+     */
+    public static final class BossBarStyle {
+        public final String name;
+        public final BarColor color;
+        public final BarStyle style;
+        public final BarFlag[] flags;
+
+        public BossBarStyle(String name, BarColor color, BarStyle style, BarFlag... flags) {
+            this.name = name;
+            this.color = color;
+            this.style = style;
+            this.flags = flags;
+        }
+    }
 
     @Nonnull
     protected abstract BossBarStyle getBossBarStyle();
@@ -49,7 +64,7 @@ public abstract class CustomBoss extends CustomMob {
     @OverridingMethodsMustInvokeSuper
     public void onSpawn(@Nonnull LivingEntity spawned) {
         BossBarStyle style = getBossBarStyle();
-        BossBar bossbar = Bukkit.createBossBar(KEY, style.name, style.color, style.style, style.flags);
+        BossBar bossbar = Bukkit.createBossBar(style.name, style.color, style.style, style.flags);
         bossbar.setVisible(true);
         bossbar.setProgress(1.0);
 
@@ -71,10 +86,12 @@ public abstract class CustomBoss extends CustomMob {
     public final void onHit(@Nonnull EntityDamageEvent event) {
         this.onBossDamaged(event);
 
-        if (!event.isCancelled() && event.getEntity() instanceof LivingEntity entity) {
+        if (!event.isCancelled() && event.getEntity() instanceof LivingEntity) {
+            LivingEntity entity = (LivingEntity) event.getEntity();
             BossBar bossbar = getBossBarForEntity(entity);
 
-            if (entity.isInsideVehicle() && entity.getVehicle() instanceof LivingEntity vehicle) {
+            if (entity.isInsideVehicle() && entity.getVehicle() instanceof LivingEntity) {
+                LivingEntity vehicle = (LivingEntity) entity.getVehicle();
                 double finalHealth = entity.getHealth() + vehicle.getHealth() - event.getFinalDamage();
                 if (finalHealth > 0) {
                     bossbar.setProgress(Math.min(finalHealth / (entity.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue() +
@@ -133,9 +150,10 @@ public abstract class CustomBoss extends CustomMob {
         }
 
         BossBarStyle style = getBossBarStyle();
-        BossBar bossbar = Bukkit.createBossBar(KEY, style.name, style.color, style.style, style.flags);
+        BossBar bossbar = Bukkit.createBossBar(style.name, style.color, style.style, style.flags);
         bossbar.setVisible(true);
-        if (entity.isInsideVehicle() && entity.getVehicle() instanceof LivingEntity vehicle) {
+        if (entity.isInsideVehicle() && entity.getVehicle() instanceof LivingEntity) {
+            LivingEntity vehicle = (LivingEntity) entity.getVehicle();
             bossbar.setProgress(Math.min((entity.getHealth() + vehicle.getHealth()) / (entity.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue() +
                     vehicle.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue()), 1));
         } else {

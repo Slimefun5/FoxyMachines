@@ -1,6 +1,6 @@
 package me.gallowsdove.foxymachines.listeners;
 
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.tools.BerryBushTrimmer;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
@@ -13,6 +13,8 @@ import org.bukkit.event.entity.EntityDamageByBlockEvent;
 import org.bukkit.event.player.PlayerShearEntityEvent;
 
 import javax.annotation.Nonnull;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class BerryBushListener implements Listener {
     @EventHandler(ignoreCancelled = true)
@@ -20,7 +22,7 @@ public class BerryBushListener implements Listener {
         Block b = e.getDamager();
 
 
-        if ( b != null && b.getType() == Material.SWEET_BERRY_BUSH && BerryBushTrimmer.TRIMMED_BLOCKS.contains(new SimpleLocation(b, "trimmed"))) {
+        if ( b != null && b.getType() == MaterialCompat.safe(XMaterial.SWEET_BERRY_BUSH) && BerryBushTrimmer.TRIMMED_BLOCKS.contains(new SimpleLocation(b, "trimmed"))) {
              e.setCancelled(true);
         }
     }
@@ -28,7 +30,7 @@ public class BerryBushListener implements Listener {
     @EventHandler(ignoreCancelled = true)
     private void onBushBreak(@Nonnull BlockBreakEvent e) {
         Block b = e.getBlock();
-        if (b.getType() == Material.SWEET_BERRY_BUSH) {
+        if (b.getType() == MaterialCompat.safe(XMaterial.SWEET_BERRY_BUSH)) {
             BerryBushTrimmer.TRIMMED_BLOCKS.remove(new SimpleLocation(b, "trimmed"));
         }
     }

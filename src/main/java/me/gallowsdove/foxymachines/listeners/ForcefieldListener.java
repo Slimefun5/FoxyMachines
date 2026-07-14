@@ -1,6 +1,6 @@
 package me.gallowsdove.foxymachines.listeners;
 
-import io.github.thebusybiscuit.slimefun4.api.events.ExplosiveToolBreakBlocksEvent;
+import io.github.thebusybiscuit.slimefun5.api.events.ExplosiveToolBreakBlocksEvent;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.implementation.machines.ForcefieldDome;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
@@ -20,6 +20,8 @@ import org.bukkit.event.player.PlayerTeleportEvent.TeleportCause;
 
 import javax.annotation.Nonnull;
 import java.util.UUID;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class ForcefieldListener implements Listener {
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
@@ -27,7 +29,7 @@ public class ForcefieldListener implements Listener {
         Block b = e.getBlock();
 
         if (ForcefieldDome.FORCEFIELD_BLOCKS.remove(b)) {
-            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(Material.BARRIER));
+            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(MaterialCompat.safe(XMaterial.BARRIER)));
         }
     }
 
@@ -36,7 +38,7 @@ public class ForcefieldListener implements Listener {
         Block b = e.getBlock();
 
         if (ForcefieldDome.FORCEFIELD_BLOCKS.remove(b)) {
-            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(Material.BARRIER));
+            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(MaterialCompat.safe(XMaterial.BARRIER)));
         }
     }
 
@@ -45,7 +47,7 @@ public class ForcefieldListener implements Listener {
         Block b = e.getBlock();
 
         if (ForcefieldDome.FORCEFIELD_BLOCKS.remove(b)) {
-            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(Material.BARRIER));
+            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(MaterialCompat.safe(XMaterial.BARRIER)));
         }
     }
 
@@ -54,7 +56,7 @@ public class ForcefieldListener implements Listener {
         Block b = e.getBlock();
 
         if (ForcefieldDome.FORCEFIELD_BLOCKS.remove(b)) {
-            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(Material.BARRIER));
+            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(MaterialCompat.safe(XMaterial.BARRIER)));
         }
     }
 
@@ -63,7 +65,7 @@ public class ForcefieldListener implements Listener {
         Block b = e.getBlock();
 
         if (ForcefieldDome.FORCEFIELD_BLOCKS.remove(b)) {
-            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(Material.BARRIER));
+            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(MaterialCompat.safe(XMaterial.BARRIER)));
         }
     }
 
@@ -76,7 +78,7 @@ public class ForcefieldListener implements Listener {
         Block b = e.getBlock();
 
         if (ForcefieldDome.FORCEFIELD_BLOCKS.remove(b)) {
-            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(Material.BARRIER));
+            Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(MaterialCompat.safe(XMaterial.BARRIER)));
         }
     }
 
@@ -84,7 +86,7 @@ public class ForcefieldListener implements Listener {
     private void onBlocksBreakByExplosiveToolEvent(@Nonnull ExplosiveToolBreakBlocksEvent e) {
         for (Block b : e.getAdditionalBlocks()) {
             if (ForcefieldDome.FORCEFIELD_BLOCKS.remove(b)) {
-                Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(Material.BARRIER));
+                Bukkit.getScheduler().runTask(FoxyMachines.getInstance(), () -> b.setType(MaterialCompat.safe(XMaterial.BARRIER)));
             }
         }
     }

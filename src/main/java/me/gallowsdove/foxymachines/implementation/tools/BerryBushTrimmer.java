@@ -2,11 +2,11 @@ package me.gallowsdove.foxymachines.implementation.tools;
 
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ToolUseHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ToolUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
@@ -23,15 +23,17 @@ import java.io.*;
 import java.lang.reflect.Type;
 import java.util.HashSet;
 import java.util.Set;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class BerryBushTrimmer extends SlimefunItem {
     public static Set<SimpleLocation> TRIMMED_BLOCKS = new HashSet<>();
 
     public BerryBushTrimmer() {
         super(Items.TOOLS_ITEM_GROUP, Items.BERRY_BUSH_TRIMMER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                null, SlimefunItems.DAMASCUS_STEEL_INGOT, null,
-                SlimefunItems.DAMASCUS_STEEL_INGOT, null, SlimefunItems.DAMASCUS_STEEL_INGOT,
-                new ItemStack(Material.STICK), SlimefunItems.DAMASCUS_STEEL_INGOT, null
+                null, SlimefunItems.DAMASCUS_STEEL_INGOT.item(), null,
+                SlimefunItems.DAMASCUS_STEEL_INGOT.item(), null, SlimefunItems.DAMASCUS_STEEL_INGOT.item(),
+                new ItemStack(MaterialCompat.safe(XMaterial.STICK)), SlimefunItems.DAMASCUS_STEEL_INGOT.item(), null
         });
     }
 
@@ -48,7 +50,7 @@ public class BerryBushTrimmer extends SlimefunItem {
     @Nonnull
     protected ItemUseHandler onUse() {
         return e -> {
-            if (e.getClickedBlock().isPresent() && e.getClickedBlock().get().getType() == Material.SWEET_BERRY_BUSH) {
+            if (e.getClickedBlock().isPresent() && e.getClickedBlock().get().getType() == MaterialCompat.safe(XMaterial.SWEET_BERRY_BUSH)) {
                 Block b = e.getClickedBlock().get();
                 Player p = e.getPlayer();
 
@@ -57,7 +59,7 @@ public class BerryBushTrimmer extends SlimefunItem {
                     ItemMeta shearsMeta = e.getItem().getItemMeta();
                     int damage = ((Damageable) shearsMeta).getDamage() + 4;
 
-                    if (damage > Material.SHEARS.getMaxDurability()) {
+                    if (damage > MaterialCompat.safe(XMaterial.SHEARS).getMaxDurability()) {
                         shears = null;
                     } else {
                         ((Damageable) shearsMeta).setDamage(damage);

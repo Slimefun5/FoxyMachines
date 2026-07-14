@@ -1,9 +1,17 @@
-/bin/
-/.settings/
-/target/
-/.idea/
+# Gradle
+.gradle/
+build/
+out/
+bin/
+.idea/
 *.iml
+.settings/
 .project
 .classpath
-dependency-reduced-pom.xml
+
+# MacOS
 .DS_Store
+
+# Temporary files
+*.tmp
+*.log

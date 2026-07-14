@@ -1,8 +1,8 @@
 package me.gallowsdove.foxymachines.implementation.mobs;
 
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.abstracts.CustomBoss;
@@ -21,22 +21,23 @@ import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.EntityTargetEvent;
 import org.bukkit.inventory.EntityEquipment;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 import javax.annotation.Nonnull;
 import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class HeadlessHorseman extends CustomBoss {
 
     public static class AttackPattern {
-        public static final short LIGHTNING = 0;
-        public static final short SHOOT = 1;
-        public static final short SUMMON = 2;
+        public static final int LIGHTNING = 0;
+        public static final int SHOOT = 1;
+        public static final int SUMMON = 2;
     }
 
-    private static final NamespacedKey PATTERN_KEY = new NamespacedKey(FoxyMachines.getInstance(), "pattern");
+    private static final String PATTERN_KEY = "foxymachines:pattern";
 
     public HeadlessHorseman() {
         super("HEADLESS_HORSEMAN", ChatColor.RED + "Headless Horseman", EntityType.SKELETON, 1,
@@ -54,11 +55,11 @@ public class HeadlessHorseman extends CustomBoss {
         horse.addPassenger(spawned);
 
         EntityEquipment equipment = spawned.getEquipment();
-        equipment.setArmorContents(new ItemStack[] { new ItemStack(Material.NETHERITE_BOOTS), new ItemStack(Material.NETHERITE_LEGGINGS),
-                new ItemStack(Material.NETHERITE_CHESTPLATE), new ItemStack(Material.CARVED_PUMPKIN) });
+        equipment.setArmorContents(new ItemStack[] { new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_BOOTS)), new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_LEGGINGS)),
+                new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE)), new ItemStack(MaterialCompat.safe(XMaterial.CARVED_PUMPKIN)) });
 
         spawned.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(28);
-        spawned.getPersistentDataContainer().set(PATTERN_KEY, PersistentDataType.SHORT, AttackPattern.LIGHTNING);
+        PersistentDataAPI.setInt(spawned, PATTERN_KEY, AttackPattern.LIGHTNING);
     }
 
     @Nonnull
@@ -85,19 +86,20 @@ public class HeadlessHorseman extends CustomBoss {
     public void onBossPattern(@Nonnull LivingEntity mob) {
         super.onBossPattern(mob);
 
-        short pattern = (short) ThreadLocalRandom.current().nextInt(7);
+        int pattern = ThreadLocalRandom.current().nextInt(7);
         if (pattern < 2) {
             pattern = AttackPattern.LIGHTNING;
         } else if (pattern < 5) {
             pattern = AttackPattern.SHOOT;
-            if (mob.getVehicle() instanceof LivingEntity vehicle) {
+            if (mob.getVehicle() instanceof LivingEntity) {
+                LivingEntity vehicle = (LivingEntity) mob.getVehicle();
                 vehicle.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 100));
             }
         } else {
             pattern = AttackPattern.SUMMON;
         }
 
-        PersistentDataAPI.setShort(mob, PATTERN_KEY, pattern);
+        PersistentDataAPI.setInt(mob, PATTERN_KEY, pattern);
     }
 
     @Override
@@ -115,7 +117,7 @@ public class HeadlessHorseman extends CustomBoss {
         super.onMobTick(entity, tick);
 
         Skeleton headlessHorseman = (Skeleton) entity;
-        short pattern = PersistentDataAPI.getShort(entity, PATTERN_KEY);
+        int pattern = PersistentDataAPI.getInt(entity, PATTERN_KEY);
 
         if ((tick + 4) % 5 == 0) {
             headlessHorseman.setTarget(Utils.getNearbyPlayerInSurvival(headlessHorseman.getLocation(), 30, 20, 30));
@@ -127,9 +129,10 @@ public class HeadlessHorseman extends CustomBoss {
         }
 
         Entity target = headlessHorseman.getTarget();
-        if (!(target instanceof Player player)) {
+        if (!(target instanceof Player)) {
             return;
         }
+        Player player = (Player) target;
 
         if (tick % 5 == 0 && pattern == AttackPattern.SHOOT) {
             Arrow arrow = entity.launchProjectile(Arrow.class);
@@ -184,7 +187,7 @@ public class HeadlessHorseman extends CustomBoss {
 
         event.getDrops().clear();
         Location location = event.getEntity().getLocation();
-        location.getWorld().dropItemNaturally(location, new SlimefunItemStack(Items.VILE_PUMPKIN, 1));
+        location.getWorld().dropItemNaturally(location, new SlimefunItemStack(Items.VILE_PUMPKIN, 1).item());
         location.getWorld().spawn(location, ExperienceOrb.class).setExperience(2000 + ThreadLocalRandom.current().nextInt(800));
     }
 

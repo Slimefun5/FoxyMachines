@@ -1,9 +1,9 @@
 package me.gallowsdove.foxymachines.implementation.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.abstracts.AbstractWand;
@@ -14,9 +14,9 @@ import org.bukkit.inventory.ItemStack;
 public class FillWand extends AbstractWand {
     public FillWand() {
         super(Items.FILL_WAND, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                Items.AQUATIC_NETHERITE_INGOT, Items.WIRELESS_TRANSMITTER, Items.AQUATIC_NETHERITE_INGOT,
-                Items.DEMONIC_PLATE, SlimefunItems.PROGRAMMABLE_ANDROID_2, Items.DEMONIC_PLATE,
-                Items.SWEETENED_SWEET_INGOT, Items.WIRELESS_TRANSMITTER, Items.SWEETENED_SWEET_INGOT
+                Items.AQUATIC_NETHERITE_INGOT.item(), Items.WIRELESS_TRANSMITTER.item(), Items.AQUATIC_NETHERITE_INGOT.item(),
+                Items.DEMONIC_PLATE.item(), SlimefunItems.PROGRAMMABLE_ANDROID_2.item(), Items.DEMONIC_PLATE.item(),
+                Items.SWEETENED_SWEET_INGOT.item(), Items.WIRELESS_TRANSMITTER.item(), Items.SWEETENED_SWEET_INGOT.item()
         });
     }
 

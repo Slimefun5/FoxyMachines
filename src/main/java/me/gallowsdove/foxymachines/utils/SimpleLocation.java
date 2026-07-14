@@ -1,15 +1,12 @@
 package me.gallowsdove.foxymachines.utils;
 
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Setter;
-import me.gallowsdove.foxymachines.FoxyMachines;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
-import org.bukkit.persistence.PersistentDataContainer;
-import org.bukkit.persistence.PersistentDataType;
 
 import lombok.Getter;
 
@@ -49,37 +46,37 @@ public class SimpleLocation {
         this.prefix = prefix;
     }
 
-    public void storePersistently(@Nonnull PersistentDataContainer container) {
-        container.set(getXKey(this.prefix), PersistentDataType.INTEGER, this.x);
-        container.set(getYKey(this.prefix), PersistentDataType.INTEGER, this.y);
-        container.set(getZKey(this.prefix), PersistentDataType.INTEGER, this.z);
-        container.set(getWorldKey(this.prefix), PersistentDataType.STRING, this.worldUUID);
+    public void storePersistently(@Nonnull Object container) {
+        PersistentDataAPI.setInt(container, getXKey(this.prefix), this.x);
+        PersistentDataAPI.setInt(container, getYKey(this.prefix), this.y);
+        PersistentDataAPI.setInt(container, getZKey(this.prefix), this.z);
+        PersistentDataAPI.setString(container, getWorldKey(this.prefix), this.worldUUID);
     }
 
     @Nullable
-    public static SimpleLocation fromPersistentStorage(@Nonnull PersistentDataContainer container, @Nonnull String prefix) {
-        if (container.has(getWorldKey(prefix), PersistentDataType.STRING)) {
-            return new SimpleLocation(container.get(getXKey(prefix), PersistentDataType.INTEGER), container.get(getYKey(prefix), PersistentDataType.INTEGER),
-                    container.get(getZKey(prefix), PersistentDataType.INTEGER), container.get(getWorldKey(prefix), PersistentDataType.STRING), prefix);
+    public static SimpleLocation fromPersistentStorage(@Nonnull Object container, @Nonnull String prefix) {
+        if (PersistentDataAPI.hasString(container, getWorldKey(prefix))) {
+            return new SimpleLocation(PersistentDataAPI.getInt(container, getXKey(prefix)), PersistentDataAPI.getInt(container, getYKey(prefix)),
+                    PersistentDataAPI.getInt(container, getZKey(prefix)), PersistentDataAPI.getString(container, getWorldKey(prefix)), prefix);
         } else {
             return null;
         }
     }
 
-    private static NamespacedKey getWorldKey(@Nonnull String prefix) {
-        return new NamespacedKey(FoxyMachines.getInstance(), prefix + "_world");
+    private static String getWorldKey(@Nonnull String prefix) {
+        return "foxymachines:" + prefix + "_world";
     }
 
-    private static NamespacedKey getXKey(@Nonnull String prefix) {
-        return new NamespacedKey(FoxyMachines.getInstance(), prefix + "_x");
+    private static String getXKey(@Nonnull String prefix) {
+        return "foxymachines:" + prefix + "_x";
     }
 
-    private static NamespacedKey getYKey(@Nonnull String prefix) {
-        return new NamespacedKey(FoxyMachines.getInstance(), prefix + "_y");
+    private static String getYKey(@Nonnull String prefix) {
+        return "foxymachines:" + prefix + "_y";
     }
 
-    private static NamespacedKey getZKey(@Nonnull String prefix) {
-        return new NamespacedKey(FoxyMachines.getInstance(), prefix + "_z");
+    private static String getZKey(@Nonnull String prefix) {
+        return "foxymachines:" + prefix + "_z";
     }
 
     public String toString() {

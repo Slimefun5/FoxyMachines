@@ -1,36 +1,38 @@
 package me.gallowsdove.foxymachines.implementation.materials;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import me.gallowsdove.foxymachines.FoxyMachines;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.gallowsdove.foxymachines.Items;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.FallingBlock;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.util.Vector;
 
 import javax.annotation.Nonnull;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class GhostBlock extends SlimefunItem {
 
-    public static final NamespacedKey KEY = new NamespacedKey(FoxyMachines.getInstance(), "ghost_block");
+    public static final String KEY = "foxymachines:ghost_block";
 
-    public static final Set<Material> EXCLUDED = Set.of(Material.BARRIER, Material.SPAWNER, Material.COMMAND_BLOCK,
-            Material.STRUCTURE_BLOCK, Material.REPEATING_COMMAND_BLOCK, Material.CHAIN_COMMAND_BLOCK, Material.JIGSAW);
+    public static final Set<Material> EXCLUDED = Collections.unmodifiableSet(new HashSet<>(Arrays.asList(MaterialCompat.safe(XMaterial.BARRIER), MaterialCompat.safe(XMaterial.SPAWNER), MaterialCompat.safe(XMaterial.COMMAND_BLOCK),
+            MaterialCompat.safe(XMaterial.STRUCTURE_BLOCK), MaterialCompat.safe(XMaterial.REPEATING_COMMAND_BLOCK), MaterialCompat.safe(XMaterial.CHAIN_COMMAND_BLOCK), MaterialCompat.safe(XMaterial.JIGSAW))));
 
     public static final Set<UUID> BLOCK_CACHE = new HashSet<>();
 
@@ -39,9 +41,9 @@ public class GhostBlock extends SlimefunItem {
 
     public GhostBlock(SlimefunItemStack item) {
         super(Items.GHOST_BLOCKS_ITEM_GROUP, item, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                SlimefunItems.BILLON_INGOT, SlimefunItems.BILLON_INGOT, SlimefunItems.BILLON_INGOT,
-                SlimefunItems.MAGICAL_GLASS, new ItemStack(item.getType()), SlimefunItems.MAGICAL_GLASS,
-                SlimefunItems.BILLON_INGOT, SlimefunItems.BILLON_INGOT, SlimefunItems.BILLON_INGOT
+                SlimefunItems.BILLON_INGOT.item(), SlimefunItems.BILLON_INGOT.item(), SlimefunItems.BILLON_INGOT.item(),
+                SlimefunItems.MAGICAL_GLASS.item(), new ItemStack(item.getType()), SlimefunItems.MAGICAL_GLASS.item(),
+                SlimefunItems.BILLON_INGOT.item(), SlimefunItems.BILLON_INGOT.item(), SlimefunItems.BILLON_INGOT.item()
         });
 
         this.material = item.getType();
@@ -56,7 +58,7 @@ public class GhostBlock extends SlimefunItem {
     private ItemUseHandler onUse() {
         return e -> {
             e.cancel();
-            if (e.getClickedBlock().isEmpty()) {
+            if (!e.getClickedBlock().isPresent()) {
                 return;
             }
 
@@ -78,7 +80,7 @@ public class GhostBlock extends SlimefunItem {
             block.setDropItem(false);
             block.setPersistent(true);
             block.setInvulnerable(true);
-            block.getPersistentDataContainer().set(KEY, PersistentDataType.STRING, "true");
+            PersistentDataAPI.setString(block, KEY, "true");
 
             ItemStack item = e.getInteractEvent().getItem();
             item.setAmount(item.getAmount() - 1);
@@ -88,6 +90,6 @@ public class GhostBlock extends SlimefunItem {
     }
 
     public static boolean isGhostBlock(Entity entity) {
-        return entity.getPersistentDataContainer().has(KEY, PersistentDataType.STRING);
+        return PersistentDataAPI.hasString(entity, KEY);
     }
 }

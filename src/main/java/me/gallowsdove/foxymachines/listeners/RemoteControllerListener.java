@@ -1,6 +1,6 @@
 package me.gallowsdove.foxymachines.listeners;
 
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.Items;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
@@ -8,6 +8,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class RemoteControllerListener implements Listener {
     @EventHandler(ignoreCancelled = true)
@@ -20,7 +22,7 @@ public class RemoteControllerListener implements Listener {
             item = e.getPlayer().getInventory().getItemInOffHand();
         }
 
-        if (item.getType() == Material.NAME_TAG && SlimefunUtils.isItemSimilar(e.getPlayer().getInventory().getItemInMainHand(), Items.REMOTE_CONTROLLER, false)) {
+        if (item.getType() == MaterialCompat.safe(XMaterial.NAME_TAG) && SlimefunUtils.isItemSimilar(e.getPlayer().getInventory().getItemInMainHand(), Items.REMOTE_CONTROLLER.item(), false)) {
             e.setCancelled(true);
         }
     }

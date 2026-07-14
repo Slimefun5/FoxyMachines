@@ -15,9 +15,10 @@ public class SacrificialAltarCommand extends SubCommand {
 
     @Override
     protected void execute(@Nonnull CommandSender commandSender, @Nonnull String[] args) {
-        if (!(commandSender instanceof Player p)) {
+        if (!(commandSender instanceof Player)) {
             return;
         }
+        Player p = (Player) commandSender;
 
         p.sendMessage(ChatColor.LIGHT_PURPLE + "https://youtu.be/KbwCCpzq3O0");
     }

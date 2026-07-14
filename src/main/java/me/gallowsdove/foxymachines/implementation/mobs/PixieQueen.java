@@ -1,7 +1,7 @@
 package me.gallowsdove.foxymachines.implementation.mobs;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.abstracts.CustomBoss;
@@ -17,7 +17,6 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.EntityTargetEvent;
-import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
@@ -28,13 +27,13 @@ import java.util.concurrent.ThreadLocalRandom;
 public class PixieQueen extends CustomBoss {
 
     public static class AttackPattern {
-        public static final short CHARGE = 0;
-        public static final short SHOOT = 1;
-        public static final short SUMMON = 2;
-        public static final short IDLE = 3;
+        public static final int CHARGE = 0;
+        public static final int SHOOT = 1;
+        public static final int SUMMON = 2;
+        public static final int IDLE = 3;
     }
 
-    private static final NamespacedKey PATTERN_KEY = new NamespacedKey(FoxyMachines.getInstance(), "pattern");
+    private static final String PATTERN_KEY = "foxymachines:pattern";
 
     public PixieQueen() {
         super("PIXIE_QUEEN", ChatColor.GREEN + "Pixie Queen", EntityType.VEX, 800,
@@ -48,7 +47,7 @@ public class PixieQueen extends CustomBoss {
         spawned.setGlowing(true);
 
         spawned.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(28);
-        spawned.getPersistentDataContainer().set(PATTERN_KEY, PersistentDataType.SHORT, AttackPattern.CHARGE);
+        PersistentDataAPI.setInt(spawned, PATTERN_KEY, AttackPattern.CHARGE);
     }
 
     @Nonnull
@@ -75,7 +74,7 @@ public class PixieQueen extends CustomBoss {
     public void onBossPattern(@Nonnull LivingEntity mob) {
         super.onBossPattern(mob);
 
-        short pattern = (short) ThreadLocalRandom.current().nextInt(7);
+        int pattern = ThreadLocalRandom.current().nextInt(7);
         if (pattern < 2) {
             pattern = AttackPattern.CHARGE;
         } else if (pattern < 4) {
@@ -87,7 +86,7 @@ public class PixieQueen extends CustomBoss {
             pattern = AttackPattern.IDLE;
         }
 
-        PersistentDataAPI.setShort(mob, PATTERN_KEY, pattern);
+        PersistentDataAPI.setInt(mob, PATTERN_KEY, pattern);
     }
 
     @Override
@@ -95,7 +94,7 @@ public class PixieQueen extends CustomBoss {
         super.onMobTick(entity, tick);
 
         Vex pixieQueen = (Vex) entity;
-        short pattern = PersistentDataAPI.getShort(entity, PATTERN_KEY);
+        int pattern = PersistentDataAPI.getInt(entity, PATTERN_KEY);
 
         if (pattern == AttackPattern.SUMMON && tick == 25) {
             summonPixieSwarm(pixieQueen.getLocation());
@@ -154,7 +153,7 @@ public class PixieQueen extends CustomBoss {
 
         event.getDrops().clear();
         Location loc = event.getEntity().getLocation();
-        loc.getWorld().dropItemNaturally(loc, new SlimefunItemStack(Items.PIXIE_QUEEN_HEART, 1));
+        loc.getWorld().dropItemNaturally(loc, new SlimefunItemStack(Items.PIXIE_QUEEN_HEART, 1).item());
         loc.getWorld().spawn(loc, ExperienceOrb.class).setExperience(1400 + ThreadLocalRandom.current().nextInt(600));
     }
 

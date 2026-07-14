@@ -1,17 +1,18 @@
 package me.gallowsdove.foxymachines.implementation.machines;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
@@ -25,18 +26,18 @@ import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.persistence.PersistentDataType;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.*;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 
 public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetComponent {
@@ -44,7 +45,7 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
     private static final int[] BORDER_IN = { 11, 12, 13, 20, 22, 29, 31, 38 , 39, 40 };
     private static final int[] BORDER_OUT = { 15, 16, 17, 24, 26, 33, 35, 42, 43, 44 };
     private static final int[] GOLD_INDEXES = { 0, 9, 18, 27, 36, 45, 1, 10, 19, 28, 37, 46 };
-    private static final ItemStack[] GOLDS = { SlimefunItems.GOLD_4K, SlimefunItems.GOLD_6K, SlimefunItems.GOLD_8K, SlimefunItems.GOLD_10K, SlimefunItems.GOLD_12K, SlimefunItems.GOLD_14K, SlimefunItems.GOLD_16K, SlimefunItems.GOLD_18K, SlimefunItems.GOLD_20K, SlimefunItems.GOLD_22K, SlimefunItems.GOLD_24K };
+    private static final ItemStack[] GOLDS = { SlimefunItems.GOLD_4K.item(), SlimefunItems.GOLD_6K.item(), SlimefunItems.GOLD_8K.item(), SlimefunItems.GOLD_10K.item(), SlimefunItems.GOLD_12K.item(), SlimefunItems.GOLD_14K.item(), SlimefunItems.GOLD_16K.item(), SlimefunItems.GOLD_18K.item(), SlimefunItems.GOLD_20K.item(), SlimefunItems.GOLD_22K.item(), SlimefunItems.GOLD_24K.item() };
     public static final int ENERGY_CONSUMPTION = 36;
     public static final int CAPACITY = 512;
 
@@ -53,9 +54,9 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
 
     public ElectricGoldRefinery() {
         super(Items.MACHINES_ITEM_GROUP, Items.ELECTRIC_GOLD_REFINERY, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                SlimefunItems.HARDENED_METAL_INGOT, SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.HARDENED_METAL_INGOT,
-                SlimefunItems.HEATING_COIL, SlimefunItems.ELECTRIC_SMELTERY, SlimefunItems.HEATING_COIL,
-                SlimefunItems.HARDENED_METAL_INGOT, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.HARDENED_METAL_INGOT
+                SlimefunItems.HARDENED_METAL_INGOT.item(), SlimefunItems.ELECTRIC_MOTOR.item(), SlimefunItems.HARDENED_METAL_INGOT.item(),
+                SlimefunItems.HEATING_COIL.item(), SlimefunItems.ELECTRIC_SMELTERY.item(), SlimefunItems.HEATING_COIL.item(),
+                SlimefunItems.HARDENED_METAL_INGOT.item(), SlimefunItems.MEDIUM_CAPACITOR.item(), SlimefunItems.HARDENED_METAL_INGOT.item()
         });
 
 
@@ -80,21 +81,22 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
                 if (!BlockStorage.hasBlockInfo(b) ||
                         BlockStorage.getLocationInfo(b.getLocation(), "gold_recipe") == null ||
                         BlockStorage.getLocationInfo(b.getLocation(), "gold_recipe").equals("11")) {
-                    menu.replaceExistingItem(32, new CustomItemStack(Material.RED_STAINED_GLASS_PANE, "&6Current Recipe: &cNONE", "", "&e> Choose on the left to change it"));
+                    menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), "&6Current Recipe: &cNONE", "", "&e> Choose on the left to change it"));
                 } else {
                     switch (BlockStorage.getLocationInfo(b.getLocation(), "gold_recipe")) {
-                        case "0" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(4 Carat)", "", "&e> Choose on the left to change it"));
-                        case "1" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(6 Carat)", "", "&e> Choose on the left to change it"));
-                        case "2" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(8 Carat)", "", "&e> Choose on the left to change it"));
-                        case "3" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(10 Carat)", "", "&e> Choose on the left to change it"));
-                        case "4" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(12 Carat)", "", "&e> Choose on the left to change it"));
-                        case "5" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(14 Carat)", "", "&e> Choose on the left to change it"));
-                        case "6" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(16 Carat)", "", "&e> Choose on the left to change it"));
-                        case "7" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(18 Carat)", "", "&e> Choose on the left to change it"));
-                        case "8" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(20 Carat)", "", "&e> Choose on the left to change it"));
-                        case "9" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(22 Carat)", "", "&e> Choose on the left to change it"));
-                        case "10" -> menu.replaceExistingItem(32, new CustomItemStack(Material.GOLD_INGOT, "&6Current Recipe: &fGold Ingot &7(24 Carat)", "", "&e> Choose on the left to change it"));
-                        case "11" -> menu.replaceExistingItem(32, new CustomItemStack(Material.RED_STAINED_GLASS_PANE, "&6Current Recipe: &cNONE", "", "&e> Choose on the left to change it"));
+                        case "0": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(4 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "1": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(6 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "2": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(8 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "3": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(10 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "4": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(12 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "5": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(14 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "6": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(16 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "7": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(18 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "8": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(20 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "9": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(22 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "10": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.GOLD_INGOT), "&6Current Recipe: &fGold Ingot &7(24 Carat)", "", "&e> Choose on the left to change it")); break;
+                        case "11": menu.replaceExistingItem(32, CustomItemStack.create(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), "&6Current Recipe: &cNONE", "", "&e> Choose on the left to change it")); break;
+                        default: break;
                     }
                 }
             }
@@ -171,7 +173,7 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
     }
 
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.GOLDEN_CHESTPLATE);
+        return new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_CHESTPLATE));
     }
 
     public MachineRecipe getProcessing(Block b) {
@@ -232,7 +234,7 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
                 progress.put(b, timeleft - 1);
             }
             else {
-                inv.replaceExistingItem(23, new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "));
+                inv.replaceExistingItem(23, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "));
 
                 for (ItemStack output : processing.get(b).getOutput()) {
                     inv.pushItem(output.clone(), getOutputSlots());
@@ -262,15 +264,15 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
         ItemStack goldDust1 = menu.getItemInSlot(inputSlots[0]);
         ItemStack goldDust2 = menu.getItemInSlot(inputSlots[1]);
         List<ItemStack> goldDustList = new ArrayList<>();
-        if (goldDust1 != null && SlimefunUtils.isItemSimilar(goldDust1, SlimefunItems.GOLD_DUST, true, false)) {
+        if (goldDust1 != null && SlimefunUtils.isItemSimilar(goldDust1, SlimefunItems.GOLD_DUST.item(), true, false)) {
             goldDustList.add(goldDust1);
         } else {
-            goldDustList.add(new SlimefunItemStack(SlimefunItems.GOLD_DUST, 0));
+            goldDustList.add(new SlimefunItemStack(SlimefunItems.GOLD_DUST, 0).item());
         }
-        if (goldDust2 != null && SlimefunUtils.isItemSimilar(goldDust2, SlimefunItems.GOLD_DUST, true, false)) {
+        if (goldDust2 != null && SlimefunUtils.isItemSimilar(goldDust2, SlimefunItems.GOLD_DUST.item(), true, false)) {
             goldDustList.add(goldDust2);
         } else {
-            goldDustList.add(new SlimefunItemStack(SlimefunItems.GOLD_DUST, 0));
+            goldDustList.add(new SlimefunItemStack(SlimefunItems.GOLD_DUST, 0).item());
         }
         int goldDusts = 0;
         int goldTier = Integer.parseInt(g);
@@ -302,7 +304,7 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
                 }
             }
 
-            return new MachineRecipe ((int) (3 + 0.5*goldTier), new ItemStack[] { new SlimefunItemStack(SlimefunItems.GOLD_DUST, goldTier) }, new ItemStack[] { output });
+            return new MachineRecipe ((int) (3 + 0.5*goldTier), new ItemStack[] { new SlimefunItemStack(SlimefunItems.GOLD_DUST, goldTier).item() }, new ItemStack[] { output });
         }
 
         return null;
@@ -314,23 +316,22 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
         }
 
         for (int i : BORDER_IN) {
-            preset.addItem(i, new SlimefunItemStack("_UI_INPUT_SLOT", Material.CYAN_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, new SlimefunItemStack("_UI_INPUT_SLOT", MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS_PANE), " ").item(), ChestMenuUtils.getEmptyClickHandler());
         }
 
         for (int i : BORDER_OUT) {
-            preset.addItem(i, new SlimefunItemStack("_UI_OUTPUT_SLOT", Material.ORANGE_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, new SlimefunItemStack("_UI_OUTPUT_SLOT", MaterialCompat.safe(XMaterial.ORANGE_STAINED_GLASS_PANE), " ").item(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(23, new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
-        preset.addItem(46, new CustomItemStack(Material.RED_STAINED_GLASS_PANE, "&cNONE"), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(23, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(46, CustomItemStack.create(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), "&cNONE"), ChestMenuUtils.getEmptyClickHandler());
 
-        NamespacedKey key = new NamespacedKey(FoxyMachines.getInstance(), "nonstackable");
+        String key = "foxymachines:nonstackable";
 
         for (int i = 0; i < GOLDS.length; i++) {
             ItemStack itemStack = GOLDS[i].clone();
             ItemMeta itemMeta = itemStack.getItemMeta();
-            Byte value = 1;
-            itemMeta.getPersistentDataContainer().set(key, PersistentDataType.BYTE, value);
+            PersistentDataAPI.setBoolean(itemMeta, key, true);
             itemStack.setItemMeta(itemMeta);
             preset.addItem(GOLD_INDEXES[i], itemStack, ChestMenuUtils.getEmptyClickHandler());
         }
@@ -345,7 +346,7 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
 
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
-                    return cursor == null || cursor.getType() == Material.AIR;
+                    return cursor == null || cursor.getType() == MaterialCompat.safe(XMaterial.AIR);
                 }
             });
         }

@@ -3,16 +3,16 @@ package me.gallowsdove.foxymachines.implementation.machines;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockPlaceHandler;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockUseHandler;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockPlaceHandler;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockUseHandler;
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import lombok.SneakyThrows;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
@@ -32,6 +32,8 @@ import javax.annotation.Nonnull;
 import java.io.*;
 import java.lang.reflect.Type;
 import java.util.*;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public final class ForcefieldDome extends SlimefunItem implements EnergyNetComponent {
 
@@ -39,8 +41,8 @@ public final class ForcefieldDome extends SlimefunItem implements EnergyNetCompo
 
     public static final int ENERGY_CONSUMPTION = 6000;
 
-    private static final Set<Material> MATERIALS_TO_REPLACE = Set.of(Material.AIR, Material.CAVE_AIR, Material.WATER,
-            Material.LAVA);
+    private static final Set<Material> MATERIALS_TO_REPLACE = Collections.unmodifiableSet(new HashSet<>(Arrays.asList(MaterialCompat.safe(XMaterial.AIR), MaterialCompat.safe(XMaterial.CAVE_AIR), MaterialCompat.safe(XMaterial.WATER),
+            MaterialCompat.safe(XMaterial.LAVA))));
 
     public static ArrayList<SimpleLocation> domeLocations = new ArrayList<>();
 
@@ -48,9 +50,9 @@ public final class ForcefieldDome extends SlimefunItem implements EnergyNetCompo
 
     public ForcefieldDome() {
         super(Items.MACHINES_ITEM_GROUP, Items.FORCEFIELD_DOME, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
-                Items.SWEETENED_SWEET_INGOT, Items.FORCEFIELD_STABILIZER, Items.SWEETENED_SWEET_INGOT,
-                Items.FORCEFIELD_STABILIZER, Items.FORCEFIELD_ENGINE, Items.FORCEFIELD_STABILIZER,
-                Items.SWEETENED_SWEET_INGOT, Items.FORCEFIELD_STABILIZER, Items.SWEETENED_SWEET_INGOT
+                Items.SWEETENED_SWEET_INGOT.item(), Items.FORCEFIELD_STABILIZER.item(), Items.SWEETENED_SWEET_INGOT.item(),
+                Items.FORCEFIELD_STABILIZER.item(), Items.FORCEFIELD_ENGINE.item(), Items.FORCEFIELD_STABILIZER.item(),
+                Items.SWEETENED_SWEET_INGOT.item(), Items.FORCEFIELD_STABILIZER.item(), Items.SWEETENED_SWEET_INGOT.item()
         });
 
         this.addItemHandler(onTick(), onPlace(), onUse(), onBreak());
@@ -116,7 +118,7 @@ public final class ForcefieldDome extends SlimefunItem implements EnergyNetCompo
     @Nonnull
     public BlockUseHandler onUse() {
         return e -> {
-            if (!SlimefunUtils.isItemSimilar(e.getPlayer().getInventory().getItemInMainHand(), Items.REMOTE_CONTROLLER, true, false)) {
+            if (!SlimefunUtils.isItemSimilar(e.getPlayer().getInventory().getItemInMainHand(), Items.REMOTE_CONTROLLER.item(), true, false)) {
                 Block b = e.getClickedBlock().get();
                 if (BlockStorage.getLocationInfo(b.getLocation(), "cooldown").equals("false")) {
                     String active = BlockStorage.getLocationInfo(b.getLocation(), "active");
@@ -165,8 +167,8 @@ public final class ForcefieldDome extends SlimefunItem implements EnergyNetCompo
             UUID uuid = UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"));
             if (Slimefun.getProtectionManager().hasPermission(Bukkit.getOfflinePlayer(uuid), block, Interaction.BREAK_BLOCK)) {
                 if (MATERIALS_TO_REPLACE.contains(block.getType())) {
-                    block.setType(Material.BARRIER);
-                } else if (block.getType() != Material.BARRIER) {
+                    block.setType(MaterialCompat.safe(XMaterial.BARRIER));
+                } else if (block.getType() != MaterialCompat.safe(XMaterial.BARRIER)) {
                     FORCEFIELD_BLOCKS.add(block);
                 }
             }
@@ -180,8 +182,8 @@ public final class ForcefieldDome extends SlimefunItem implements EnergyNetCompo
         for(Block block: domeBlocks) {
             UUID uuid = UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner"));
             if (Slimefun.getProtectionManager().hasPermission(Bukkit.getOfflinePlayer(uuid), block, Interaction.BREAK_BLOCK)) {
-                if (block.getType() == Material.BARRIER) {
-                    block.setType(Material.AIR);
+                if (block.getType() == MaterialCompat.safe(XMaterial.BARRIER)) {
+                    block.setType(MaterialCompat.safe(XMaterial.AIR));
                 } else {
                     FORCEFIELD_BLOCKS.remove(block);
                 }

@@ -24,7 +24,7 @@ public class MobTicker implements Runnable {
             Set<UUID> entities = entry.getValue();
             for (UUID uuid : new HashSet<>(entities)) {
                 Entity entity = Bukkit.getEntity(uuid);
-                if (!(entity instanceof LivingEntity livingEntity)) {
+                if (!(entity instanceof LivingEntity)) {
                     if (entity != null) {
                         entity.remove();
                     }
@@ -33,7 +33,7 @@ public class MobTicker implements Runnable {
                     continue;
                 }
 
-                customMob.onMobTick(livingEntity, tick);
+                customMob.onMobTick((LivingEntity) entity, tick);
             }
         }
 

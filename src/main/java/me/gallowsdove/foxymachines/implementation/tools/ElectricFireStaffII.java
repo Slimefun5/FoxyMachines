@@ -1,10 +1,10 @@
 package me.gallowsdove.foxymachines.implementation.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Rechargeable;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import me.gallowsdove.foxymachines.Items;
 import org.bukkit.entity.LargeFireball;
 import org.bukkit.entity.Player;
@@ -19,9 +19,9 @@ public class ElectricFireStaffII extends SlimefunItem implements Rechargeable {
 
     public ElectricFireStaffII() {
         super(Items.TOOLS_ITEM_GROUP, Items.ELECTRIC_FIRE_STAFF_II, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                SlimefunItems.CARBONADO, SlimefunItems.POWER_CRYSTAL, SlimefunItems.CARBONADO,
-                SlimefunItems.HEATING_COIL, Items.ELECTRIC_FIRE_STAFF, SlimefunItems.HEATING_COIL,
-                SlimefunItems.REINFORCED_ALLOY_INGOT, SlimefunItems.MEDIUM_CAPACITOR, SlimefunItems.REINFORCED_ALLOY_INGOT
+                SlimefunItems.CARBONADO.item(), SlimefunItems.POWER_CRYSTAL.item(), SlimefunItems.CARBONADO.item(),
+                SlimefunItems.HEATING_COIL.item(), Items.ELECTRIC_FIRE_STAFF.item(), SlimefunItems.HEATING_COIL.item(),
+                SlimefunItems.REINFORCED_ALLOY_INGOT.item(), SlimefunItems.MEDIUM_CAPACITOR.item(), SlimefunItems.REINFORCED_ALLOY_INGOT.item()
         });
     }
 

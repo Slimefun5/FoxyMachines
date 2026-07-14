@@ -1,17 +1,17 @@
 package me.gallowsdove.foxymachines.implementation.machines;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetComponent;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
-import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.protection.Interaction;
-import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.EnergyNetComponent;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.Items;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu.AdvancedMenuClickHandler;
@@ -33,6 +33,8 @@ import org.bukkit.inventory.ItemStack;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.*;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 
 public class ImprovementForge extends SlimefunItem implements EnergyNetComponent {
@@ -46,19 +48,19 @@ public class ImprovementForge extends SlimefunItem implements EnergyNetComponent
     public static Map<Block, Integer> progress = new HashMap<>();
 
     public static final Material[][] tools = {
-            {Material.WOODEN_SWORD, Material.WOODEN_SHOVEL, Material.WOODEN_PICKAXE, Material.WOODEN_AXE, Material.WOODEN_HOE, Material.WOODEN_SHOVEL, Material.LEATHER_BOOTS, Material.LEATHER_LEGGINGS, Material.LEATHER_CHESTPLATE, Material.LEATHER_HELMET},
-            {Material.STONE_SWORD, Material.STONE_SHOVEL, Material.STONE_PICKAXE, Material.STONE_AXE, Material.STONE_HOE, Material.STONE_SHOVEL, Material.CHAINMAIL_BOOTS, Material.CHAINMAIL_LEGGINGS, Material.CHAINMAIL_CHESTPLATE, Material.CHAINMAIL_HELMET},
-            {Material.IRON_SWORD, Material.IRON_SHOVEL, Material.IRON_PICKAXE, Material.IRON_AXE, Material.IRON_HOE, Material.IRON_SHOVEL, Material.IRON_BOOTS, Material.IRON_LEGGINGS, Material.IRON_CHESTPLATE, Material.IRON_HELMET},
-            {Material.GOLDEN_SWORD, Material.GOLDEN_SHOVEL, Material.GOLDEN_PICKAXE, Material.GOLDEN_AXE, Material.GOLDEN_HOE, Material.GOLDEN_SHOVEL, Material.GOLDEN_BOOTS, Material.GOLDEN_LEGGINGS, Material.GOLDEN_CHESTPLATE, Material.GOLDEN_HELMET},
-            {Material.DIAMOND_SWORD, Material.DIAMOND_SHOVEL, Material.DIAMOND_PICKAXE, Material.DIAMOND_AXE, Material.DIAMOND_HOE, Material.DIAMOND_SHOVEL, Material.DIAMOND_BOOTS, Material.DIAMOND_LEGGINGS, Material.DIAMOND_CHESTPLATE, Material.DIAMOND_HELMET},
-            {Material.NETHERITE_SWORD, Material.NETHERITE_SHOVEL, Material.NETHERITE_PICKAXE, Material.NETHERITE_AXE, Material.NETHERITE_HOE, Material.NETHERITE_SHOVEL, Material.NETHERITE_BOOTS, Material.NETHERITE_LEGGINGS, Material.NETHERITE_CHESTPLATE, Material.NETHERITE_HELMET}
+            {MaterialCompat.safe(XMaterial.WOODEN_SWORD), MaterialCompat.safe(XMaterial.WOODEN_SHOVEL), MaterialCompat.safe(XMaterial.WOODEN_PICKAXE), MaterialCompat.safe(XMaterial.WOODEN_AXE), MaterialCompat.safe(XMaterial.WOODEN_HOE), MaterialCompat.safe(XMaterial.WOODEN_SHOVEL), MaterialCompat.safe(XMaterial.LEATHER_BOOTS), MaterialCompat.safe(XMaterial.LEATHER_LEGGINGS), MaterialCompat.safe(XMaterial.LEATHER_CHESTPLATE), MaterialCompat.safe(XMaterial.LEATHER_HELMET)},
+            {MaterialCompat.safe(XMaterial.STONE_SWORD), MaterialCompat.safe(XMaterial.STONE_SHOVEL), MaterialCompat.safe(XMaterial.STONE_PICKAXE), MaterialCompat.safe(XMaterial.STONE_AXE), MaterialCompat.safe(XMaterial.STONE_HOE), MaterialCompat.safe(XMaterial.STONE_SHOVEL), MaterialCompat.safe(XMaterial.CHAINMAIL_BOOTS), MaterialCompat.safe(XMaterial.CHAINMAIL_LEGGINGS), MaterialCompat.safe(XMaterial.CHAINMAIL_CHESTPLATE), MaterialCompat.safe(XMaterial.CHAINMAIL_HELMET)},
+            {MaterialCompat.safe(XMaterial.IRON_SWORD), MaterialCompat.safe(XMaterial.IRON_SHOVEL), MaterialCompat.safe(XMaterial.IRON_PICKAXE), MaterialCompat.safe(XMaterial.IRON_AXE), MaterialCompat.safe(XMaterial.IRON_HOE), MaterialCompat.safe(XMaterial.IRON_SHOVEL), MaterialCompat.safe(XMaterial.IRON_BOOTS), MaterialCompat.safe(XMaterial.IRON_LEGGINGS), MaterialCompat.safe(XMaterial.IRON_CHESTPLATE), MaterialCompat.safe(XMaterial.IRON_HELMET)},
+            {MaterialCompat.safe(XMaterial.GOLDEN_SWORD), MaterialCompat.safe(XMaterial.GOLDEN_SHOVEL), MaterialCompat.safe(XMaterial.GOLDEN_PICKAXE), MaterialCompat.safe(XMaterial.GOLDEN_AXE), MaterialCompat.safe(XMaterial.GOLDEN_HOE), MaterialCompat.safe(XMaterial.GOLDEN_SHOVEL), MaterialCompat.safe(XMaterial.GOLDEN_BOOTS), MaterialCompat.safe(XMaterial.GOLDEN_LEGGINGS), MaterialCompat.safe(XMaterial.GOLDEN_CHESTPLATE), MaterialCompat.safe(XMaterial.GOLDEN_HELMET)},
+            {MaterialCompat.safe(XMaterial.DIAMOND_SWORD), MaterialCompat.safe(XMaterial.DIAMOND_SHOVEL), MaterialCompat.safe(XMaterial.DIAMOND_PICKAXE), MaterialCompat.safe(XMaterial.DIAMOND_AXE), MaterialCompat.safe(XMaterial.DIAMOND_HOE), MaterialCompat.safe(XMaterial.DIAMOND_SHOVEL), MaterialCompat.safe(XMaterial.DIAMOND_BOOTS), MaterialCompat.safe(XMaterial.DIAMOND_LEGGINGS), MaterialCompat.safe(XMaterial.DIAMOND_CHESTPLATE), MaterialCompat.safe(XMaterial.DIAMOND_HELMET)},
+            {MaterialCompat.safe(XMaterial.NETHERITE_SWORD), MaterialCompat.safe(XMaterial.NETHERITE_SHOVEL), MaterialCompat.safe(XMaterial.NETHERITE_PICKAXE), MaterialCompat.safe(XMaterial.NETHERITE_AXE), MaterialCompat.safe(XMaterial.NETHERITE_HOE), MaterialCompat.safe(XMaterial.NETHERITE_SHOVEL), MaterialCompat.safe(XMaterial.NETHERITE_BOOTS), MaterialCompat.safe(XMaterial.NETHERITE_LEGGINGS), MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE), MaterialCompat.safe(XMaterial.NETHERITE_HELMET)}
     };
 
     public ImprovementForge() {
         super(Items.MACHINES_ITEM_GROUP, Items.IMPROVEMENT_FORGE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                SlimefunItems.CARBONADO, SlimefunItems.BLISTERING_INGOT_3, SlimefunItems.CARBONADO,
-                SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.AUTO_ENCHANTER, SlimefunItems.ELECTRIC_MOTOR,
-                SlimefunItems.REINFORCED_PLATE, SlimefunItems.BLISTERING_INGOT_3, SlimefunItems.REINFORCED_PLATE
+                SlimefunItems.CARBONADO.item(), SlimefunItems.BLISTERING_INGOT_3.item(), SlimefunItems.CARBONADO.item(),
+                SlimefunItems.ELECTRIC_MOTOR.item(), SlimefunItems.AUTO_ENCHANTER.item(), SlimefunItems.ELECTRIC_MOTOR.item(),
+                SlimefunItems.REINFORCED_PLATE.item(), SlimefunItems.BLISTERING_INGOT_3.item(), SlimefunItems.REINFORCED_PLATE.item()
         });
 
 
@@ -136,7 +138,7 @@ public class ImprovementForge extends SlimefunItem implements EnergyNetComponent
 
     @Nonnull
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.GOLDEN_CHESTPLATE);
+        return new ItemStack(MaterialCompat.safe(XMaterial.GOLDEN_CHESTPLATE));
     }
 
     @Nullable
@@ -199,7 +201,7 @@ public class ImprovementForge extends SlimefunItem implements EnergyNetComponent
                 progress.put(b, timeleft - 1);
             }
             else {
-                inv.replaceExistingItem(22, new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "));
+                inv.replaceExistingItem(22, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "));
 
                 for (ItemStack output : processing.get(b).getOutput()) {
                     inv.pushItem(output.clone(), getOutputSlots());
@@ -226,7 +228,7 @@ public class ImprovementForge extends SlimefunItem implements EnergyNetComponent
             ItemStack item = menu.getItemInSlot(slot);
 
             if (item != null) {
-                if (SlimefunUtils.isItemSimilar(improvementCore, Items.IMPROVEMENT_CORE, true, false)) {
+                if (SlimefunUtils.isItemSimilar(improvementCore, Items.IMPROVEMENT_CORE.item(), true, false)) {
 
                     int tier = -1;
                     int index = -1;
@@ -274,14 +276,14 @@ public class ImprovementForge extends SlimefunItem implements EnergyNetComponent
         }
 
         for (int i : BORDER_IN) {
-            preset.addItem(i, new SlimefunItemStack("_UI_INPUT_SLOT", Material.CYAN_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, new SlimefunItemStack("_UI_INPUT_SLOT", MaterialCompat.safe(XMaterial.CYAN_STAINED_GLASS_PANE), " ").item(), ChestMenuUtils.getEmptyClickHandler());
         }
 
         for (int i : BORDER_OUT) {
-            preset.addItem(i, new SlimefunItemStack("_UI_OUTPUT_SLOT", Material.ORANGE_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+            preset.addItem(i, new SlimefunItemStack("_UI_OUTPUT_SLOT", MaterialCompat.safe(XMaterial.ORANGE_STAINED_GLASS_PANE), " ").item(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        preset.addItem(22, new CustomItemStack(Material.BLACK_STAINED_GLASS_PANE, " "), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(22, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
 
         for (int i : getOutputSlots()) {
             preset.addMenuClickHandler(i, new AdvancedMenuClickHandler() {
@@ -293,7 +295,7 @@ public class ImprovementForge extends SlimefunItem implements EnergyNetComponent
 
                 @Override
                 public boolean onClick(InventoryClickEvent e, Player p, int slot, ItemStack cursor, ClickAction action) {
-                    return cursor == null || cursor.getType() == Material.AIR;
+                    return cursor == null || cursor.getType() == MaterialCompat.safe(XMaterial.AIR);
                 }
             });
         }

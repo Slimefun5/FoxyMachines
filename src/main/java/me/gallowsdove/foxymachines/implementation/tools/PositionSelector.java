@@ -1,12 +1,12 @@
 package me.gallowsdove.foxymachines.implementation.tools;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Rechargeable;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ToolUseHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.core.handlers.ToolUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
 import org.bukkit.ChatColor;
@@ -21,9 +21,9 @@ public class PositionSelector extends SlimefunItem implements NotPlaceable, Rech
 
     public PositionSelector() {
         super(Items.TOOLS_ITEM_GROUP, Items.POSITION_SELECTOR, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                Items.SWEET_INGOT, Items.WIRELESS_TRANSMITTER, Items.SWEET_INGOT,
-                SlimefunItems.CORINTHIAN_BRONZE_INGOT, SlimefunItems.BIG_CAPACITOR, SlimefunItems.CORINTHIAN_BRONZE_INGOT,
-                Items.SWEET_INGOT, SlimefunItems.CORINTHIAN_BRONZE_INGOT, Items.SWEET_INGOT
+                Items.SWEET_INGOT.item(), Items.WIRELESS_TRANSMITTER.item(), Items.SWEET_INGOT.item(),
+                SlimefunItems.CORINTHIAN_BRONZE_INGOT.item(), SlimefunItems.BIG_CAPACITOR.item(), SlimefunItems.CORINTHIAN_BRONZE_INGOT.item(),
+                Items.SWEET_INGOT.item(), SlimefunItems.CORINTHIAN_BRONZE_INGOT.item(), Items.SWEET_INGOT.item()
         });
     }
 
@@ -45,7 +45,7 @@ public class PositionSelector extends SlimefunItem implements NotPlaceable, Rech
                 Player player = e.getPlayer();
 
                 SimpleLocation loc = new SimpleLocation(block, "secondary_position");
-                loc.storePersistently(player.getPersistentDataContainer());
+                loc.storePersistently(player);
                 player.sendMessage(ChatColor.LIGHT_PURPLE + "Secondary position set to " + loc);
             }
         };

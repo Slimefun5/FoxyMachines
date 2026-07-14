@@ -76,8 +76,8 @@ public class Utils {
 
         List<Player> players = new ArrayList<>();
         for (Entity entity : world.getNearbyEntities(location, x, y, z)) {
-            if (entity instanceof Player player && player.getGameMode() == GameMode.SURVIVAL) {
-                players.add(player);
+            if (entity instanceof Player && ((Player) entity).getGameMode() == GameMode.SURVIVAL) {
+                players.add((Player) entity);
             }
         }
         return players;
@@ -94,8 +94,8 @@ public class Utils {
         }
 
         for (Entity entity : world.getNearbyEntities(location, x, y, z)) {
-            if (entity instanceof Player player && player.getGameMode() == GameMode.SURVIVAL) {
-                return player;
+            if (entity instanceof Player && ((Player) entity).getGameMode() == GameMode.SURVIVAL) {
+                return (Player) entity;
             }
         }
         return null;

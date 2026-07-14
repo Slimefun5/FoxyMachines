@@ -1,6 +1,6 @@
 package me.gallowsdove.foxymachines.listeners;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import me.gallowsdove.foxymachines.Items;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Location;
@@ -17,6 +17,8 @@ import org.bukkit.event.entity.EntityDeathEvent;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.concurrent.ThreadLocalRandom;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class SacrificialAltarListener implements Listener {
     @EventHandler
@@ -26,46 +28,53 @@ public class SacrificialAltarListener implements Listener {
         LivingEntity entity = e.getEntity();
         if (findAltar(entity.getLocation().getBlock()) != null) {
             switch (entity.getType()) {
-                case ARMOR_STAND -> {
+                case ARMOR_STAND: {
                     return;
                 }
-                case RABBIT ->
-                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.CURSED_RABBIT_PAW, 1));
-                case PLAYER ->
-                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.HUMAN_SKULL, 1));
-                case WITHER_SKELETON -> {
+                case RABBIT:
+                    entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.CURSED_RABBIT_PAW, 1).item());
+                    break;
+                case PLAYER:
+                    entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.HUMAN_SKULL, 1).item());
+                    break;
+                case WITHER_SKELETON: {
                     if (random.nextInt(100) < 75) {
-                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.UNHOLY_WITHER_SKELETON_BONE, random.nextInt(100) < 33 ? 2 : 1));
+                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.UNHOLY_WITHER_SKELETON_BONE, random.nextInt(100) < 33 ? 2 : 1).item());
                     }
+                    break;
                 }
-                case FOX -> {
+                case FOX: {
                     if (((Fox) entity).getFoxType() == Fox.Type.SNOW) {
                         if (random.nextInt(100) < 75) {
-                            entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.POLAR_FOX_HIDE, random.nextInt(100) < 33 ? 2 : 1));
+                            entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.POLAR_FOX_HIDE, random.nextInt(100) < 33 ? 2 : 1).item());
                         }
                     }
+                    break;
                 }
-                case MAGMA_CUBE -> {
+                case MAGMA_CUBE: {
                     if (random.nextInt(100) < 50) {
-                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.MAGMA_ESSENCE, random.nextInt(100) < 25 ? 2 : 1));
+                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.MAGMA_ESSENCE, random.nextInt(100) < 25 ? 2 : 1).item());
                     }
+                    break;
                 }
-                case PARROT -> {
+                case PARROT: {
                     if (random.nextInt(100) < 75) {
-                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.PARROT_FEATHER, random.nextInt(100) < 33 ? 2 : 1));
+                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.PARROT_FEATHER, random.nextInt(100) < 33 ? 2 : 1).item());
                     }
+                    break;
                 }
-                case TROPICAL_FISH -> {
+                case TROPICAL_FISH: {
                     if (random.nextInt(100) < 75) {
-                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.TROPICAL_FISH_SCALE, random.nextInt(100) < 33 ? 2 : 1));
+                        entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.TROPICAL_FISH_SCALE, random.nextInt(100) < 33 ? 2 : 1).item());
                     }
+                    break;
                 }
-                default -> {
-                }
+                default:
+                    break;
             }
 
             if (random.nextInt(100) < 33) {
-                entity.getWorld().dropItem(entity.getLocation(), new SlimefunItemStack(Items.BLOOD, random.nextInt(100) < 25 ? 2 : 1));
+                entity.getWorld().dropItem(entity.getLocation(), new SlimefunItemStack(Items.BLOOD, random.nextInt(100) < 25 ? 2 : 1).item());
             }
 
             particleAnimation(entity.getLocation());
@@ -74,7 +83,7 @@ public class SacrificialAltarListener implements Listener {
 
     @EventHandler(ignoreCancelled = true)
     private void onWaterTorchDestroy(BlockFromToEvent e) {
-        if (e.getToBlock().getType() == Material.SOUL_TORCH && BlockStorage.hasBlockInfo(e.getToBlock())) {
+        if (e.getToBlock().getType() == MaterialCompat.safe(XMaterial.SOUL_TORCH) && BlockStorage.hasBlockInfo(e.getToBlock())) {
             e.setCancelled(true);
         }
     }
@@ -86,7 +95,7 @@ public class SacrificialAltarListener implements Listener {
                 for (int z = -1; z <= 1; z++) {
                     Block block = b.getRelative(x, y, z);
 
-                    if (block.getType() == Material.POLISHED_BLACKSTONE_PRESSURE_PLATE && BlockStorage.getLocationInfo(block.getLocation(), "id") != null &&
+                    if (block.getType() == MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_PRESSURE_PLATE) && BlockStorage.getLocationInfo(block.getLocation(), "id") != null &&
                             BlockStorage.getLocationInfo(block.getLocation(), "id").equals("SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE")) {
                         return block;
                     }

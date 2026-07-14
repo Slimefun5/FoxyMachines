@@ -1,8 +1,8 @@
 package me.gallowsdove.foxymachines.listeners;
 
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.core.attributes.Rechargeable;
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.tools.PositionSelector;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
@@ -21,11 +21,11 @@ public class PositionSelectorListener implements Listener {
         if (e.getAction() == Action.LEFT_CLICK_BLOCK && e.hasBlock()) {
             Player player = e.getPlayer();
             ItemStack item = player.getInventory().getItemInMainHand();
-            if (SlimefunUtils.isItemSimilar(item, Items.POSITION_SELECTOR, false, false) &&
+            if (SlimefunUtils.isItemSimilar(item, Items.POSITION_SELECTOR.item(), false, false) &&
                     ((Rechargeable) SlimefunItem.getByItem(item)).removeItemCharge(item, PositionSelector.COST) ) {
                 Block block = e.getClickedBlock();
                 SimpleLocation loc = new SimpleLocation(block, "primary_position");
-                loc.storePersistently(player.getPersistentDataContainer());
+                loc.storePersistently(player);
                 player.sendMessage(ChatColor.LIGHT_PURPLE + "Primary position set to " + loc);
             }
         }

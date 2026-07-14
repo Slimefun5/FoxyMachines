@@ -17,9 +17,10 @@ public final class SummonCommand extends SubCommand {
 
     @Override
     protected void execute(@Nonnull CommandSender sender, @Nonnull String[] args) {
-        if (!(sender instanceof Player player)) {
+        if (!(sender instanceof Player)) {
             return;
         }
+        Player player = (Player) sender;
 
         if (args.length != 1) {
             sender.sendMessage(ChatColor.LIGHT_PURPLE + "Usage: /foxy summon <MOB_ID>");
