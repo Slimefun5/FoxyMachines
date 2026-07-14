@@ -9,6 +9,7 @@ import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import me.gallowsdove.foxymachines.Items;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -74,19 +75,29 @@ public class GhostBlock extends SlimefunItem {
                 return;
             }
 
-            FallingBlock block = b.getWorld().spawnFallingBlock(b.getLocation().add(0.5, 0, 0.5), material.createBlockData());
-            block.setVelocity(new Vector(0, 0, 0));
-            block.setGravity(false);
-            block.setDropItem(false);
-            block.setPersistent(true);
-            block.setInvulnerable(true);
-            PersistentDataAPI.setString(block, KEY, "true");
+            // Ghost blocks rely on BlockData (1.13+) + Entity#setPersistent (1.14+). Isolate that in
+            // spawnGhostBlock so BlockData is never resolved on legacy servers.
+            if (!CompatUtils.ghostBlocksSupported()) {
+                p.sendMessage(ChatColor.LIGHT_PURPLE + "Ghost Blocks require Minecraft 1.14 or newer.");
+                return;
+            }
 
-            ItemStack item = e.getInteractEvent().getItem();
-            item.setAmount(item.getAmount() - 1);
-
-            BLOCK_CACHE.add(block.getUniqueId());
+            spawnGhostBlock(b, e.getInteractEvent().getItem());
         };
+    }
+
+    private void spawnGhostBlock(@Nonnull Block b, @Nonnull ItemStack usedItem) {
+        FallingBlock block = b.getWorld().spawnFallingBlock(b.getLocation().add(0.5, 0, 0.5), material.createBlockData());
+        block.setVelocity(new Vector(0, 0, 0));
+        block.setGravity(false);
+        block.setDropItem(false);
+        block.setPersistent(true);
+        block.setInvulnerable(true);
+        PersistentDataAPI.setString(block, KEY, "true");
+
+        usedItem.setAmount(usedItem.getAmount() - 1);
+
+        BLOCK_CACHE.add(block.getUniqueId());
     }
 
     public static boolean isGhostBlock(Entity entity) {

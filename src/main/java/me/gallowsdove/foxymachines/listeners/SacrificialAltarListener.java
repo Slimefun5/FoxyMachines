@@ -27,23 +27,23 @@ public class SacrificialAltarListener implements Listener {
 
         LivingEntity entity = e.getEntity();
         if (findAltar(entity.getLocation().getBlock()) != null) {
-            switch (entity.getType()) {
-                case ARMOR_STAND: {
+            switch (entity.getType().name()) {
+                case "ARMOR_STAND": {
                     return;
                 }
-                case RABBIT:
+                case "RABBIT":
                     entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.CURSED_RABBIT_PAW, 1).item());
                     break;
-                case PLAYER:
+                case "PLAYER":
                     entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.HUMAN_SKULL, 1).item());
                     break;
-                case WITHER_SKELETON: {
+                case "WITHER_SKELETON": {
                     if (random.nextInt(100) < 75) {
                         entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.UNHOLY_WITHER_SKELETON_BONE, random.nextInt(100) < 33 ? 2 : 1).item());
                     }
                     break;
                 }
-                case FOX: {
+                case "FOX": {
                     if (((Fox) entity).getFoxType() == Fox.Type.SNOW) {
                         if (random.nextInt(100) < 75) {
                             entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.POLAR_FOX_HIDE, random.nextInt(100) < 33 ? 2 : 1).item());
@@ -51,19 +51,19 @@ public class SacrificialAltarListener implements Listener {
                     }
                     break;
                 }
-                case MAGMA_CUBE: {
+                case "MAGMA_CUBE": {
                     if (random.nextInt(100) < 50) {
                         entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.MAGMA_ESSENCE, random.nextInt(100) < 25 ? 2 : 1).item());
                     }
                     break;
                 }
-                case PARROT: {
+                case "PARROT": {
                     if (random.nextInt(100) < 75) {
                         entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.PARROT_FEATHER, random.nextInt(100) < 33 ? 2 : 1).item());
                     }
                     break;
                 }
-                case TROPICAL_FISH: {
+                case "TROPICAL_FISH": {
                     if (random.nextInt(100) < 75) {
                         entity.getWorld().dropItemNaturally(entity.getLocation(), new SlimefunItemStack(Items.TROPICAL_FISH_SCALE, random.nextInt(100) < 33 ? 2 : 1).item());
                     }

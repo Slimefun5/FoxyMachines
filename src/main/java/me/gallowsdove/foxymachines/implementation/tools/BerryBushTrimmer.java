@@ -15,8 +15,7 @@ import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.Damageable;
-import org.bukkit.inventory.meta.ItemMeta;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 
 import javax.annotation.Nonnull;
 import java.io.*;
@@ -56,14 +55,12 @@ public class BerryBushTrimmer extends SlimefunItem {
 
                 if (TRIMMED_BLOCKS.add(new SimpleLocation(b, "trimmed"))) {
                     ItemStack shears = e.getItem();
-                    ItemMeta shearsMeta = e.getItem().getItemMeta();
-                    int damage = ((Damageable) shearsMeta).getDamage() + 4;
+                    int damage = CompatUtils.getItemDamage(shears) + 4;
 
                     if (damage > MaterialCompat.safe(XMaterial.SHEARS).getMaxDurability()) {
                         shears = null;
                     } else {
-                        ((Damageable) shearsMeta).setDamage(damage);
-                        shears.setItemMeta(shearsMeta);
+                        CompatUtils.setItemDamage(shears, damage);
                     }
 
                     p.getInventory().setItemInMainHand(shears);

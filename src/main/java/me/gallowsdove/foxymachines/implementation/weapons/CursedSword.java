@@ -5,7 +5,6 @@ import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.Utils;
 import org.bukkit.Material;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
-import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
@@ -41,7 +40,7 @@ public class CursedSword extends OnHitWeapon {
     public void onHit(EntityDamageByEntityEvent event, HumanEntity humanoid, LivingEntity entity) {
         // Life Steal I
         double health = humanoid.getHealth() + 1.25D;
-        double maxHealth = humanoid.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue();
+        double maxHealth = humanoid.getMaxHealth();
         humanoid.setHealth(Math.min(health, maxHealth));
 
         // Armor Penetration I

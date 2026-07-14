@@ -33,6 +33,12 @@ public class KillallCommand extends SubCommand {
             return;
         }
 
+        // Touching CustomMob/CustomBoss loads a 1.9+ boss-bar/spellcaster listener; skip on legacy servers.
+        if (!CompatUtils.customMobsSupported()) {
+            player.sendMessage(ChatColor.LIGHT_PURPLE + "Custom mobs are not supported on this Minecraft version.");
+            return;
+        }
+
         int count = 0;
         for (Set<UUID> uuids : CustomMob.MOB_CACHE.values()) {
             for (UUID uuid : uuids) {
@@ -44,9 +50,7 @@ public class KillallCommand extends SubCommand {
             }
         }
 
-        if (CompatUtils.customMobsSupported()) {
-            CustomBoss.removeBossBars();
-        }
+        CustomBoss.removeBossBars();
 
         player.sendMessage(String.format("Killed %s Entities", count));
     }

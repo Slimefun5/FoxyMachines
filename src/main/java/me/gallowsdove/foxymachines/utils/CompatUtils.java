@@ -7,9 +7,13 @@ import java.util.Optional;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
+import java.lang.reflect.Method;
+
 import org.bukkit.Location;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.LivingEntity;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
@@ -43,6 +47,49 @@ public final class CompatUtils {
     /** {@code World#spawnParticle} + {@code org.bukkit.Particle} are 1.9+. */
     public static boolean particlesSupported() {
         return Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_9);
+    }
+
+    /** {@code Material#createBlockData} / {@code Block#getBlockData} / {@code BlockData} are 1.13+. */
+    public static boolean blockDataSupported() {
+        return Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_13);
+    }
+
+    /** Ghost Blocks need {@code createBlockData} (1.13) + {@code Entity#setPersistent} (1.14), so gate at 1.14. */
+    public static boolean ghostBlocksSupported() {
+        return Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_14);
+    }
+
+    // --- Item durability (org.bukkit.inventory.meta.Damageable is 1.13+; routed reflectively) ----------
+
+    public static int getItemDamage(@Nonnull ItemStack item) {
+        ItemMeta meta = item.getItemMeta();
+        if (meta != null) {
+            try {
+                Method getDamage = meta.getClass().getMethod("getDamage");
+                Object result = getDamage.invoke(meta);
+                if (result instanceof Integer) {
+                    return (Integer) result;
+                }
+            } catch (ReflectiveOperationException ignored) {
+                // fall through to legacy durability
+            }
+        }
+        return item.getDurability();
+    }
+
+    public static void setItemDamage(@Nonnull ItemStack item, int damage) {
+        ItemMeta meta = item.getItemMeta();
+        if (meta != null) {
+            try {
+                Method setDamage = meta.getClass().getMethod("setDamage", int.class);
+                setDamage.invoke(meta, damage);
+                item.setItemMeta(meta);
+                return;
+            } catch (ReflectiveOperationException ignored) {
+                // fall through to legacy durability
+            }
+        }
+        item.setDurability((short) damage);
     }
 
     // --- Enchantments (resolved by name; a modern-only enchant is skipped on legacy servers) ---------

@@ -9,6 +9,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.commons.lang.StringUtils;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.materials.GhostBlock;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.Material;
 import org.bukkit.entity.FallingBlock;
 import org.bukkit.inventory.ItemStack;
@@ -33,6 +34,11 @@ public class GhostBlockRemover extends SlimefunItem {
     @Nonnull
     protected EntityInteractHandler onInteract() {
         return (e, itemStack, b) -> {
+            // getBlockData() is 1.13+; ghost blocks only exist on 1.14+ (see GhostBlock), so this branch
+            // never runs on legacy servers. Explicit guard keeps BlockData from resolving there.
+            if (!CompatUtils.blockDataSupported()) {
+                return;
+            }
             if (e.getRightClicked() instanceof FallingBlock && PersistentDataAPI.hasString((FallingBlock) e.getRightClicked(), GhostBlock.KEY)) {
                 FallingBlock block = (FallingBlock) e.getRightClicked();
                 Material material = block.getBlockData().getMaterial();

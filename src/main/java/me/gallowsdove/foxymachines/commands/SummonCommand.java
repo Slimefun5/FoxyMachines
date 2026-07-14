@@ -2,6 +2,7 @@ package me.gallowsdove.foxymachines.commands;
 
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import me.gallowsdove.foxymachines.abstracts.CustomMob;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -27,6 +28,11 @@ public final class SummonCommand extends SubCommand {
             return;
         }
 
+        if (!CompatUtils.customMobsSupported()) {
+            sender.sendMessage(ChatColor.LIGHT_PURPLE + "Custom mobs are not supported on this Minecraft version.");
+            return;
+        }
+
         CustomMob mob = CustomMob.getById(args[0]);
 
         if (mob != null) {
@@ -37,6 +43,8 @@ public final class SummonCommand extends SubCommand {
 
     @Override
     protected void complete(@Nonnull CommandSender sender, @Nonnull String[] args, @Nonnull List<String> tabs) {
-        tabs.addAll(CustomMob.MOBS.keySet());
+        if (CompatUtils.customMobsSupported()) {
+            tabs.addAll(CustomMob.MOBS.keySet());
+        }
     }
 }

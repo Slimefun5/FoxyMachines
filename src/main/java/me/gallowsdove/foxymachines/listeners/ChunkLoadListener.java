@@ -3,6 +3,7 @@ package me.gallowsdove.foxymachines.listeners;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.ChunkPosition;
 import me.gallowsdove.foxymachines.abstracts.CustomMob;
 import me.gallowsdove.foxymachines.implementation.materials.GhostBlock;
+import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.Chunk;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.FallingBlock;
@@ -26,10 +27,15 @@ public class ChunkLoadListener implements Listener {
         }
         SCANNED_CHUNKS.add(chunkPosition);
 
+        boolean customMobs = CompatUtils.customMobsSupported();
         for (Entity entity : chunk.getEntities()) {
-            CustomMob customMob = CustomMob.getByEntity(entity);
-            if (customMob != null) {
-                customMob.cacheEntity(entity);
+            // CustomMob loads a Spellcaster/EntitySpellCastEvent listener (1.9+) in its static init - only
+            // touch it where the custom-mob feature is supported so it never resolves on legacy servers.
+            if (customMobs) {
+                CustomMob customMob = CustomMob.getByEntity(entity);
+                if (customMob != null) {
+                    customMob.cacheEntity(entity);
+                }
             }
 
             if (entity instanceof FallingBlock && GhostBlock.isGhostBlock(entity)) {

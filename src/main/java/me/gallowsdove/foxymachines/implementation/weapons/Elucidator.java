@@ -3,7 +3,6 @@ package me.gallowsdove.foxymachines.implementation.weapons;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.Utils;
-import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
@@ -31,7 +30,7 @@ public class Elucidator extends OnHitWeapon {
 
         // Life Steal II && Overheal
         double health = humanoid.getHealth() + 1.5D;
-        double maxHealth = humanoid.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue();
+        double maxHealth = humanoid.getMaxHealth();
 
         if (health > maxHealth) {
             humanoid.setHealth(maxHealth);
