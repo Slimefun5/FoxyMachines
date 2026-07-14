@@ -1,7 +1,8 @@
 package me.gallowsdove.foxymachines.utils;
 
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
@@ -21,7 +22,7 @@ import java.util.logging.Level;
 public class QuestUtils {
     private QuestUtils() {}
 
-    public static final String KEY = "foxymachines:quest";
+    public static final NamespacedKey KEY = new NamespacedKey(FoxyMachines.getInstance(), "quest");
 
     private static final List<EntityType> QUEST_MOBS = new ArrayList<>();
     private static final List<String> CURSED_LINES = Collections.unmodifiableList(Arrays.asList(
@@ -68,7 +69,7 @@ public class QuestUtils {
 
     @ParametersAreNonnullByDefault
     public static boolean hasActiveQuest(Player p) {
-        return PersistentDataAPI.hasInt(p, KEY);
+        return PdcCompat.has(p, KEY, "INTEGER");
     }
 
     @ParametersAreNonnullByDefault
@@ -80,8 +81,8 @@ public class QuestUtils {
     public static int getQuestLine(Player p) {
         int id;
 
-        if (PersistentDataAPI.hasInt(p, KEY)) {
-            id = PersistentDataAPI.getInt(p, KEY);
+        if (PdcCompat.has(p, KEY, "INTEGER")) {
+            id = PdcCompat.getInt(p, KEY);
         } else {
             id = nextQuestLine(p);
         }
@@ -92,7 +93,7 @@ public class QuestUtils {
     @ParametersAreNonnullByDefault
     public static int nextQuestLine(Player p) {
         int id = ThreadLocalRandom.current().nextInt(QUEST_MOBS.size());
-        PersistentDataAPI.setInt(p, KEY, id);
+        PdcCompat.setInt(p, KEY, id);
         return id;
     }
 
@@ -114,8 +115,8 @@ public class QuestUtils {
 
     @ParametersAreNonnullByDefault
     public static void resetQuestLine(Player p) {
-        if (PersistentDataAPI.hasInt(p, KEY)) {
-            PersistentDataAPI.remove(p, KEY);
+        if (PdcCompat.has(p, KEY, "INTEGER")) {
+            PdcCompat.remove(p, KEY);
         }
     }
 

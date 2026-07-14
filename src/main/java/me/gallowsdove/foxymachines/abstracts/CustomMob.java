@@ -6,7 +6,8 @@ import me.gallowsdove.foxymachines.FoxyMachines;
 
 import io.github.thebusybiscuit.slimefun5.libraries.commons.lang.Validate;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -48,11 +49,11 @@ public abstract class CustomMob {
 
     @Nullable
     public static CustomMob getByEntity(@Nonnull Entity entity) {
-        String id = PersistentDataAPI.getString(entity, CustomMob.KEY);
+        String id = PdcCompat.getString(entity, CustomMob.KEY);
         return id == null ? null : getById(id);
     }
 
-    private static final String KEY = "foxymachines:mob";
+    private static final NamespacedKey KEY = new NamespacedKey(FoxyMachines.getInstance(), "mob");
 
     @Getter
     @Nonnull
@@ -79,7 +80,7 @@ public abstract class CustomMob {
     @Nonnull
     public final LivingEntity spawn(@Nonnull Location loc) {
         LivingEntity entity = (LivingEntity) loc.getWorld().spawnEntity(loc, this.type);
-        PersistentDataAPI.setString(entity, KEY, this.id);
+        PdcCompat.setString(entity, KEY, this.id);
 
         Objects.requireNonNull(entity.getAttribute(Attribute.GENERIC_MAX_HEALTH)).setBaseValue(this.health);
         entity.setHealth(this.health);

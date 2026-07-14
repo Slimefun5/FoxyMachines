@@ -8,7 +8,8 @@ import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponentType;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
@@ -326,12 +327,12 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
         preset.addItem(23, CustomItemStack.create(MaterialCompat.safe(XMaterial.BLACK_STAINED_GLASS_PANE), " "), ChestMenuUtils.getEmptyClickHandler());
         preset.addItem(46, CustomItemStack.create(MaterialCompat.safe(XMaterial.RED_STAINED_GLASS_PANE), "&cNONE"), ChestMenuUtils.getEmptyClickHandler());
 
-        String key = "foxymachines:nonstackable";
+        NamespacedKey key = new NamespacedKey(FoxyMachines.getInstance(), "nonstackable");
 
         for (int i = 0; i < GOLDS.length; i++) {
             ItemStack itemStack = GOLDS[i].clone();
             ItemMeta itemMeta = itemStack.getItemMeta();
-            PersistentDataAPI.setBoolean(itemMeta, key, true);
+            PdcCompat.setByte(itemMeta, key, (byte) 1);
             itemStack.setItemMeta(itemMeta);
             preset.addItem(GOLD_INDEXES[i], itemStack, ChestMenuUtils.getEmptyClickHandler());
         }

@@ -1,7 +1,8 @@
 package me.gallowsdove.foxymachines.implementation.mobs;
 
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
@@ -34,7 +35,7 @@ public class PixieQueen extends CustomBoss {
         public static final int IDLE = 3;
     }
 
-    private static final String PATTERN_KEY = "foxymachines:pattern";
+    private static final NamespacedKey PATTERN_KEY = new NamespacedKey(FoxyMachines.getInstance(), "pattern");
 
     public PixieQueen() {
         super("PIXIE_QUEEN", ChatColor.GREEN + "Pixie Queen", EntityType.VEX, 800,
@@ -48,7 +49,7 @@ public class PixieQueen extends CustomBoss {
         spawned.setGlowing(true);
 
         spawned.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(28);
-        PersistentDataAPI.setInt(spawned, PATTERN_KEY, AttackPattern.CHARGE);
+        PdcCompat.setInt(spawned, PATTERN_KEY, AttackPattern.CHARGE);
     }
 
     @Nonnull
@@ -87,7 +88,7 @@ public class PixieQueen extends CustomBoss {
             pattern = AttackPattern.IDLE;
         }
 
-        PersistentDataAPI.setInt(mob, PATTERN_KEY, pattern);
+        PdcCompat.setInt(mob, PATTERN_KEY, pattern);
     }
 
     @Override
@@ -95,7 +96,7 @@ public class PixieQueen extends CustomBoss {
         super.onMobTick(entity, tick);
 
         Vex pixieQueen = (Vex) entity;
-        int pattern = PersistentDataAPI.getInt(entity, PATTERN_KEY);
+        int pattern = PdcCompat.getInt(entity, PATTERN_KEY);
 
         if (pattern == AttackPattern.SUMMON && tick == 25) {
             summonPixieSwarm(pixieQueen.getLocation());

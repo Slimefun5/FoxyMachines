@@ -6,7 +6,7 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.EntityInteractHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun5.libraries.commons.lang.StringUtils;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.materials.GhostBlock;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
@@ -39,7 +39,7 @@ public class GhostBlockRemover extends SlimefunItem {
             if (!CompatUtils.blockDataSupported()) {
                 return;
             }
-            if (e.getRightClicked() instanceof FallingBlock && PersistentDataAPI.hasString((FallingBlock) e.getRightClicked(), GhostBlock.KEY)) {
+            if (e.getRightClicked() instanceof FallingBlock && PdcCompat.has((FallingBlock) e.getRightClicked(), GhostBlock.KEY, "STRING")) {
                 FallingBlock block = (FallingBlock) e.getRightClicked();
                 Material material = block.getBlockData().getMaterial();
                 SlimefunItemStack stack = new SlimefunItemStack(

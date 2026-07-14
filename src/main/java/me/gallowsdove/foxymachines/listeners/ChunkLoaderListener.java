@@ -2,7 +2,8 @@ package me.gallowsdove.foxymachines.listeners;
 
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.config.Config;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
@@ -41,9 +42,9 @@ public class ChunkLoaderListener implements Listener {
             return;
         }
 
-        String key = "foxymachines:chunkloaders";
+        NamespacedKey key = new NamespacedKey(FoxyMachines.getInstance(), "chunkloaders");
 
-        int i = PersistentDataAPI.getInt(p, key, 0) + 1;
+        int i = PdcCompat.getInt(p, key, 0) + 1;
         Config cfg = new Config(FoxyMachines.getInstance());
         if (!p.hasPermission("foxymachines.bypass-chunk-loader-limit")) {
             int max = cfg.getInt("max-chunk-loaders");
@@ -61,7 +62,7 @@ public class ChunkLoaderListener implements Listener {
             return;
         }
 
-        PersistentDataAPI.setInt(p, key, i);
+        PdcCompat.setInt(p, key, i);
         b.getChunk().setForceLoaded(true);
         BlockStorage.addBlockInfo(b, "owner", p.getUniqueId().toString());
     }

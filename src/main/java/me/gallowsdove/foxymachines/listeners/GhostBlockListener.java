@@ -1,6 +1,6 @@
 package me.gallowsdove.foxymachines.listeners;
 
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import me.gallowsdove.foxymachines.implementation.materials.GhostBlock;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -22,7 +22,7 @@ public class GhostBlockListener implements Listener {
     private final Map<UUID, Location> preExplosionLocations = new ConcurrentHashMap<>();
     @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
     private void onHitByFishingRod(PlayerFishEvent e) {
-        if (e.getCaught() instanceof FallingBlock && PersistentDataAPI.hasString((FallingBlock) e.getCaught(), GhostBlock.KEY)) {
+        if (e.getCaught() instanceof FallingBlock && PdcCompat.has((FallingBlock) e.getCaught(), GhostBlock.KEY, "STRING")) {
             e.setCancelled(true);
         }
     }

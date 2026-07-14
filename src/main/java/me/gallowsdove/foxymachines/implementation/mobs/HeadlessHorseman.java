@@ -2,7 +2,8 @@ package me.gallowsdove.foxymachines.implementation.mobs;
 
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
@@ -38,7 +39,7 @@ public class HeadlessHorseman extends CustomBoss {
         public static final int SUMMON = 2;
     }
 
-    private static final String PATTERN_KEY = "foxymachines:pattern";
+    private static final NamespacedKey PATTERN_KEY = new NamespacedKey(FoxyMachines.getInstance(), "pattern");
 
     public HeadlessHorseman() {
         super("HEADLESS_HORSEMAN", ChatColor.RED + "Headless Horseman", EntityType.SKELETON, 1,
@@ -60,7 +61,7 @@ public class HeadlessHorseman extends CustomBoss {
                 new ItemStack(MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE)), new ItemStack(MaterialCompat.safe(XMaterial.CARVED_PUMPKIN)) });
 
         spawned.getAttribute(Attribute.GENERIC_ATTACK_DAMAGE).setBaseValue(28);
-        PersistentDataAPI.setInt(spawned, PATTERN_KEY, AttackPattern.LIGHTNING);
+        PdcCompat.setInt(spawned, PATTERN_KEY, AttackPattern.LIGHTNING);
     }
 
     @Nonnull
@@ -100,7 +101,7 @@ public class HeadlessHorseman extends CustomBoss {
             pattern = AttackPattern.SUMMON;
         }
 
-        PersistentDataAPI.setInt(mob, PATTERN_KEY, pattern);
+        PdcCompat.setInt(mob, PATTERN_KEY, pattern);
     }
 
     @Override
@@ -118,7 +119,7 @@ public class HeadlessHorseman extends CustomBoss {
         super.onMobTick(entity, tick);
 
         Skeleton headlessHorseman = (Skeleton) entity;
-        int pattern = PersistentDataAPI.getInt(entity, PATTERN_KEY);
+        int pattern = PdcCompat.getInt(entity, PATTERN_KEY);
 
         if ((tick + 4) % 5 == 0) {
             headlessHorseman.setTarget(Utils.getNearbyPlayerInSurvival(headlessHorseman.getLocation(), 30, 20, 30));

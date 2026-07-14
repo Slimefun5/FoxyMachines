@@ -7,7 +7,9 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
 import io.github.thebusybiscuit.slimefun5.core.handlers.BlockUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
+import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 import org.bukkit.Bukkit;
@@ -45,11 +47,11 @@ public class ChunkLoader extends SlimefunItem {
             public void onPlayerBreak(@Nonnull BlockBreakEvent e, @Nonnull ItemStack item, @Nonnull List<ItemStack> drops) {
                 Block b = e.getBlock();
                 if (BlockStorage.getLocationInfo(b.getLocation(), "owner") != null) {
-                    String key = "foxymachines:chunkloaders";
+                    NamespacedKey key = new NamespacedKey(FoxyMachines.getInstance(), "chunkloaders");
                     Player p = Bukkit.getPlayer(UUID.fromString(BlockStorage.getLocationInfo(b.getLocation(), "owner")));
 
-                    int i = PersistentDataAPI.getInt(p, key) - 1;
-                    PersistentDataAPI.setInt(p, key, i);
+                    int i = PdcCompat.getInt(p, key) - 1;
+                    PdcCompat.setInt(p, key, i);
 
                     b.getChunk().setForceLoaded(false);
                     BlockStorage.clearBlockInfo(b);

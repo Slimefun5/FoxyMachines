@@ -9,7 +9,8 @@ import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
 import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
 import io.github.thebusybiscuit.slimefun5.utils.tags.SlimefunTag;
 import me.gallowsdove.foxymachines.FoxyMachines;
@@ -35,7 +36,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public abstract class AbstractWand extends SlimefunItem implements NotPlaceable, Rechargeable {
-    private static final String MATERIAL_KEY = "foxymachines:wand_material";
+    private static final NamespacedKey MATERIAL_KEY = new NamespacedKey(FoxyMachines.getInstance(), "wand_material");
 
     protected static final Set<Material> WHITELIST = new HashSet<>();
 
@@ -111,7 +112,7 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
                 if ((material.isBlock() && material.isSolid() && material.isOccluding() && !BLACKLIST.contains(material)) ||
                         WHITELIST.contains(material)) {
                     player.sendMessage(ChatColor.LIGHT_PURPLE + "Material set to: " + humanizedName);
-                    PersistentDataAPI.setString(meta, AbstractWand.MATERIAL_KEY, material.toString());
+                    PdcCompat.setString(meta, AbstractWand.MATERIAL_KEY, material.toString());
                     List<String> lore = this.getItem().getItemMeta().getLore();
                     lore.set(lore.size() - 2, ChatColor.GRAY + "Material: " + ChatColor.YELLOW + humanizedName);
                     meta.setLore(lore);
@@ -121,8 +122,8 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
                     player.sendMessage(ChatColor.RED + "Cannot use: " + humanizedName + ", with the fill wand");
                 }
             } else {
-                if (isRemoving() && !PersistentDataAPI.hasString(meta, MATERIAL_KEY)) {
-                    PersistentDataAPI.setString(meta, MATERIAL_KEY, MaterialCompat.safe(XMaterial.AIR).toString());
+                if (isRemoving() && !PdcCompat.has(meta, MATERIAL_KEY, "STRING")) {
+                    PdcCompat.setString(meta, MATERIAL_KEY, MaterialCompat.safe(XMaterial.AIR).toString());
                 }
 
                 List<Location> locs = getLocations(player);
@@ -132,11 +133,11 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
                 }
 
                 Inventory inventory = player.getInventory();
-                if (!PersistentDataAPI.hasString(meta, MATERIAL_KEY)) {
+                if (!PdcCompat.has(meta, MATERIAL_KEY, "STRING")) {
                     player.sendMessage(ChatColor.RED + "Select a building material with Shift + Right Click!");
                     return;
                 }
-                Material material = Material.getMaterial(PersistentDataAPI.getString(meta, MATERIAL_KEY));
+                Material material = Material.getMaterial(PdcCompat.getString(meta, MATERIAL_KEY));
 
                 ItemStack blocks = new ItemStack(material, locs.size());
 

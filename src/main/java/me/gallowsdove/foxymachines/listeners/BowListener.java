@@ -1,7 +1,9 @@
 package me.gallowsdove.foxymachines.listeners;
 
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
+import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.Utils;
 import org.bukkit.entity.Arrow;
@@ -18,7 +20,7 @@ import javax.annotation.Nonnull;
 
 public class BowListener implements Listener {
 
-    private static final String KEY = "foxymachines:arci_arcum";
+    private static final NamespacedKey KEY = new NamespacedKey(FoxyMachines.getInstance(), "arci_arcum");
 
     @EventHandler(ignoreCancelled = true)
     private void onShoot(@Nonnull EntityShootBowEvent e) {
@@ -27,14 +29,14 @@ public class BowListener implements Listener {
             Arrow arrow = (Arrow) e.getProjectile();
             arrow.setVelocity(arrow.getVelocity().multiply(2));
             arrow.setGlowing(true);
-            PersistentDataAPI.setBoolean(arrow, KEY, true);
+            PdcCompat.setByte(arrow, KEY, (byte) 1);
         }
     }
 
     @EventHandler(ignoreCancelled = true)
     private void onHit(@Nonnull EntityDamageByEntityEvent e) {
         if (e.getDamager() instanceof Arrow && e.getEntity() instanceof LivingEntity &&
-                PersistentDataAPI.getBoolean(e.getDamager(), KEY)) {
+                PdcCompat.getByte(e.getDamager(), KEY) == 1) {
             LivingEntity entity = (LivingEntity) e.getEntity();
             e.setDamage(e.getDamage() * 0.9);
             Utils.dealDamageBypassingArmor(entity, (e.getDamage() - e.getFinalDamage()) * 0.045);

@@ -6,8 +6,10 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
+import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.ChatColor;
@@ -30,7 +32,7 @@ import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
 public class GhostBlock extends SlimefunItem {
 
-    public static final String KEY = "foxymachines:ghost_block";
+    public static final NamespacedKey KEY = new NamespacedKey(FoxyMachines.getInstance(), "ghost_block");
 
     public static final Set<Material> EXCLUDED = Collections.unmodifiableSet(new HashSet<>(Arrays.asList(MaterialCompat.safe(XMaterial.BARRIER), MaterialCompat.safe(XMaterial.SPAWNER), MaterialCompat.safe(XMaterial.COMMAND_BLOCK),
             MaterialCompat.safe(XMaterial.STRUCTURE_BLOCK), MaterialCompat.safe(XMaterial.REPEATING_COMMAND_BLOCK), MaterialCompat.safe(XMaterial.CHAIN_COMMAND_BLOCK), MaterialCompat.safe(XMaterial.JIGSAW))));
@@ -93,7 +95,7 @@ public class GhostBlock extends SlimefunItem {
         block.setDropItem(false);
         block.setPersistent(true);
         block.setInvulnerable(true);
-        PersistentDataAPI.setString(block, KEY, "true");
+        PdcCompat.setString(block, KEY, "true");
 
         usedItem.setAmount(usedItem.getAmount() - 1);
 
@@ -101,6 +103,6 @@ public class GhostBlock extends SlimefunItem {
     }
 
     public static boolean isGhostBlock(Entity entity) {
-        return PersistentDataAPI.hasString(entity, KEY);
+        return PdcCompat.has(entity, KEY, "STRING");
     }
 }
