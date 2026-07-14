@@ -1,12 +1,14 @@
 package me.gallowsdove.foxymachines.abstracts;
 
 import io.github.mooy1.infinitylib.core.AddonConfig;
+import io.github.thebusybiscuit.slimefun5.api.MinecraftVersion;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
 import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
 import io.github.thebusybiscuit.slimefun5.utils.tags.SlimefunTag;
@@ -51,6 +53,10 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
     }
 
     public static void loadList(String name, Set<Material> materials, List<String> values) {
+        // Vanilla block tags (org.bukkit.Tag / Bukkit.getTag / NamespacedKey.minecraft) are 1.14+.
+        // Resolve the version once so the isolated helper below is only ever invoked on 1.14+.
+        boolean vanillaTagsSupported = Slimefun.getMinecraftVersion().isAtLeast(MinecraftVersion.MINECRAFT_1_14);
+
         for (String value : values) {
             try {
                 Material material = Material.valueOf(value);
@@ -58,15 +64,28 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
                 continue;
             } catch (IllegalArgumentException ignored) {}
 
-            Tag<Material> tag = Bukkit.getTag(Tag.REGISTRY_BLOCKS, NamespacedKey.minecraft(value.toLowerCase()), Material.class);
+            Set<Material> vanillaTagValues = vanillaTagsSupported ? resolveVanillaTagValues(value) : null;
             SlimefunTag slimefunTag = SlimefunTag.getTag(value);
-            if (tag == null && slimefunTag == null) {
+            if (vanillaTagValues == null && slimefunTag == null) {
                 FoxyMachines.log(Level.WARNING, "Invalid Entry in \"" + name + "\": " + value);
                 continue;
             }
 
-            materials.addAll(tag != null ? tag.getValues() : slimefunTag.getValues());
+            materials.addAll(vanillaTagValues != null ? vanillaTagValues : slimefunTag.getValues());
         }
+    }
+
+    /**
+     * Resolves a vanilla block {@code Tag}'s materials. References {@code org.bukkit.Tag},
+     * {@code Bukkit#getTag} and {@code NamespacedKey#minecraft} - all 1.14+ - so it is isolated in its
+     * own method and MUST only be invoked behind a {@code MinecraftVersion >= 1.14} guard. Keeping these
+     * references out of {@link #loadList} prevents the JVM from resolving {@code org.bukkit.Tag} on
+     * legacy servers (1.8&ndash;1.13), where it would otherwise throw {@code NoClassDefFoundError}.
+     */
+    private static Set<Material> resolveVanillaTagValues(String value) {
+        org.bukkit.Tag<Material> tag = Bukkit.getTag(org.bukkit.Tag.REGISTRY_BLOCKS,
+                org.bukkit.NamespacedKey.minecraft(value.toLowerCase()), Material.class);
+        return tag != null ? tag.getValues() : null;
     }
 
     protected AbstractWand(SlimefunItemStack item, RecipeType recipeType, ItemStack [] recipe) {
