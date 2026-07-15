@@ -1,21 +1,11 @@
 package me.gallowsdove.foxymachines;
 
-import io.github.mooy1.infinitylib.machines.MachineLore;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.items.groups.NestedItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.groups.SubItemGroup;
-import io.github.thebusybiscuit.slimefun5.core.attributes.MachineTier;
-import io.github.thebusybiscuit.slimefun5.core.attributes.MachineType;
-import io.github.thebusybiscuit.slimefun5.core.attributes.Radioactivity;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
-import io.github.thebusybiscuit.slimefun5.utils.LoreBuilder;
 import io.github.thebusybiscuit.slimefun5.utils.itemstack.ColoredFireworkStar;
-import me.gallowsdove.foxymachines.implementation.machines.ElectricGoldRefinery;
-import me.gallowsdove.foxymachines.implementation.machines.ForcefieldDome;
-import me.gallowsdove.foxymachines.implementation.machines.ImprovementForge;
-import me.gallowsdove.foxymachines.implementation.machines.PotionMixer;
 import org.bukkit.Color;
-import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.inventory.ItemFlag;
@@ -23,6 +13,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
 
+// Item display name + lore are authored per-language in resources/languages/<lang>/items.yml
+// (rendered per-viewer by the fork's LoreComposer). Items are constructed name-less here.
 public final class Items{
 
     // Item groups
@@ -76,12 +68,7 @@ public final class Items{
     // Items
     public static final SlimefunItemStack ELECTRIC_WIND_STAFF = new SlimefunItemStack(
             "ELECTRIC_WIND_STAFF",
-            MaterialCompat.safe(XMaterial.BLAZE_ROD),
-            "&bElectric Wind Staff",
-            "",
-            "&7Ride on the wind.",
-            "",
-            "&c&o&8\u21E8 &e\u26A1 &70 / 100 J"
+            MaterialCompat.safe(XMaterial.BLAZE_ROD)
     );
 
     static {
@@ -93,12 +80,7 @@ public final class Items{
 
     public static final SlimefunItemStack ELECTRIC_FIRE_STAFF = new SlimefunItemStack(
             "ELECTRIC_FIRE_STAFF",
-            MaterialCompat.safe(XMaterial.BLAZE_ROD),
-            "&4Electric Fire Staff",
-            "",
-            "&7Create inferno.",
-            "",
-            "&c&o&8\u21E8 &e\u26A1 &70 / 100 J"
+            MaterialCompat.safe(XMaterial.BLAZE_ROD)
     );
     static {
         CompatUtils.addEnchantment(ELECTRIC_FIRE_STAFF, "DURABILITY", 1);
@@ -109,12 +91,7 @@ public final class Items{
 
     public static final SlimefunItemStack ELECTRIC_FIRE_STAFF_II = new SlimefunItemStack(
             "ELECTRIC_FIRE_STAFF_II",
-            MaterialCompat.safe(XMaterial.BLAZE_ROD),
-            "&4Electric Fire Staff &7- &eII",
-            "",
-            "&7Fire, fire, fire!",
-            "",
-            "&c&o&8\u21E8 &e\u26A1 &70 / 200 J"
+            MaterialCompat.safe(XMaterial.BLAZE_ROD)
     );
     static {
         CompatUtils.addEnchantment(ELECTRIC_FIRE_STAFF_II, "DURABILITY", 1);
@@ -125,288 +102,192 @@ public final class Items{
 
     public static final SlimefunItemStack HEALING_BOW = new SlimefunItemStack(
             "HEALING_BOW",
-            MaterialCompat.safe(XMaterial.BOW),
-            "&4Healing Bow",
-            "&cHealing II",
-            "",
-            "&8Finally a support weapon."
+            MaterialCompat.safe(XMaterial.BOW)
     );
 
     public static final SlimefunItemStack REINFORCED_STRING = new SlimefunItemStack(
             "REINFORCED_STRING",
-            MaterialCompat.safe(XMaterial.STRING),
-            "&bReinforced String"
+            MaterialCompat.safe(XMaterial.STRING)
     );
 
     public static final SlimefunItemStack IMPROVEMENT_FORGE = new SlimefunItemStack(
             "IMPROVEMENT_FORGE",
-            MaterialCompat.safe(XMaterial.SMITHING_TABLE),
-            "&bImprovement Forge",
-            "",
-            "&7Used to improve Slimefun tools, weapons and armor.",
-            "",
-            LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
-            LoreBuilder.powerPerSecond(ImprovementForge.ENERGY_CONSUMPTION)
+            MaterialCompat.safe(XMaterial.SMITHING_TABLE)
     );
 
     public static final SlimefunItemStack IMPROVEMENT_CORE = new SlimefunItemStack(
             "IMPROVEMENT_CORE",
-            "faff2eb498e5c6a04484f0c9f785b448479ab213df95ec91176a308a12add70",
-            "&aImprovement Core",
-            "",
-            "&7Combine it with a tool in Improvement Forge to improve it."
+            "faff2eb498e5c6a04484f0c9f785b448479ab213df95ec91176a308a12add70"
     );
 
     public static final SlimefunItemStack POTION_MIXER = new SlimefunItemStack(
             "POTION_MIXER",
-            MaterialCompat.safe(XMaterial.BREWING_STAND)	,
-            "&bPotion Mixer",
-            "",
-            "&7Used to mix potions.",
-            "",
-            LoreBuilder.machine(MachineTier.GOOD, MachineType.MACHINE),
-            LoreBuilder.powerPerSecond(PotionMixer.ENERGY_CONSUMPTION)
+            MaterialCompat.safe(XMaterial.BREWING_STAND)
     );
 
     public static final SlimefunItemStack ELECTRIC_GOLD_REFINERY = new SlimefunItemStack(
             "ELECTRIC_GOLD_REFINERY",
-            MaterialCompat.safe(XMaterial.GOLD_BLOCK)	,
-            "&bElectric Gold Refinery",
-            "",
-            "&7Refines gold dust to gold ingots.",
-            "",
-            LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
-            LoreBuilder.powerPerSecond(ElectricGoldRefinery.ENERGY_CONSUMPTION)
+            MaterialCompat.safe(XMaterial.GOLD_BLOCK)
     );
 
     public static final SlimefunItemStack CHUNK_LOADER = new SlimefunItemStack(
             "CHUNK_LOADER",
-            MaterialCompat.safe(XMaterial.BEACON),
-            "&bChunk Loader",
-            "",
-            "&7Keeps chunk loaded."
+            MaterialCompat.safe(XMaterial.BEACON)
     );
 
     public static final SlimefunItemStack STABILIZED_BLISTERING_BLOCK = new SlimefunItemStack(
             "STABILIZED_BLISTERING_BLOCK",
-            MaterialCompat.safe(XMaterial.SNOW_BLOCK),
-            "&bStabilized Blistering Block",
-            "",
-            "&7A stable material."
+            MaterialCompat.safe(XMaterial.SNOW_BLOCK)
     );
 
     public static final SlimefunItemStack BOOSTED_RAIL = new SlimefunItemStack(
             "BOOSTED_RAIL",
-            MaterialCompat.safe(XMaterial.RAIL),
-            "&fBoosted Rail",
-            "",
-            "&7Supports 2.5x the speed."
+            MaterialCompat.safe(XMaterial.RAIL)
     );
 
     public static final SlimefunItemStack BOOSTED_ACTIVATOR_RAIL = new SlimefunItemStack(
             "BOOSTED_ACTIVATOR_RAIL",
-            MaterialCompat.safe(XMaterial.ACTIVATOR_RAIL),
-            "&fBoosted Activator Rail",
-            "",
-            "&7Supports 2.5x the speed."
+            MaterialCompat.safe(XMaterial.ACTIVATOR_RAIL)
     );
 
     public static final SlimefunItemStack BOOSTED_DETECTOR_RAIL = new SlimefunItemStack(
             "BOOSTED_DETECTOR_RAIL",
-            MaterialCompat.safe(XMaterial.DETECTOR_RAIL),
-            "&fBoosted Detector Rail",
-            "",
-            "&7Supports 2.5x the speed."
+            MaterialCompat.safe(XMaterial.DETECTOR_RAIL)
     );
 
     public static final SlimefunItemStack BOOSTED_POWERED_RAIL = new SlimefunItemStack(
             "BOOSTED_POWERED_RAIL",
-            MaterialCompat.safe(XMaterial.POWERED_RAIL),
-            "&fBoosted Powered Rail",
-            "",
-            "&7Supports 2.5x the speed."
+            MaterialCompat.safe(XMaterial.POWERED_RAIL)
     );
 
     public static final SlimefunItemStack BERRY_BUSH_TRIMMER = new SlimefunItemStack(
             "BERRY_BUSH_TRIMMER",
-            MaterialCompat.safe(XMaterial.SHEARS),
-            "&eSweet Berry Bush Trimmer",
-            "",
-            "&7Removes thorns from sweet berry bushes."
+            MaterialCompat.safe(XMaterial.SHEARS)
     );
 
     public static final SlimefunItemStack FORCEFIELD_DOME = new SlimefunItemStack(
             "FORCEFIELD_DOME",
-            MaterialCompat.safe(XMaterial.OBSERVER),
-            "&4Forcefield Dome",
-            "",
-            "&7When powered, creates a protective barrier",
-            "&7with a 32-block radius.",
-            "&7Will revert once unpowered or broken",
-            "",
-            MachineLore.energyPerSecond(ForcefieldDome.ENERGY_CONSUMPTION)
+            MaterialCompat.safe(XMaterial.OBSERVER)
     );
 
     public static final SlimefunItemStack REMOTE_CONTROLLER = new SlimefunItemStack(
             "REMOTE_CONTROLLER",
-            MaterialCompat.safe(XMaterial.NAME_TAG),
-            "&cRemote Controller",
-            "",
-            "&7Allows you to control your Forcefield Dome from distance-",
-            "&7Bind it using Shift + Right Click.",
-            "",
-            "&c&o&8\u21E8 &e\u26A1 &70 / 1000 J"
+            MaterialCompat.safe(XMaterial.NAME_TAG)
     );
 
     public static final SlimefunItemStack FORCEFIELD_ENGINE = new SlimefunItemStack(
             "FORCEFIELD_ENGINE",
-            MaterialCompat.safe(XMaterial.STRUCTURE_BLOCK),
-            "&fForcefield Engine"
+            MaterialCompat.safe(XMaterial.STRUCTURE_BLOCK)
     );
 
     public static final SlimefunItemStack FORCEFIELD_STABILIZER = new SlimefunItemStack(
             "FORCEFIELD_STABILIZER",
-            MaterialCompat.safe(XMaterial.STRUCTURE_VOID),
-            "&fForcefield Stabilizer"
+            MaterialCompat.safe(XMaterial.STRUCTURE_VOID)
     );
 
     public static final SlimefunItemStack WIRELESS_TRANSMITTER = new SlimefunItemStack(
             "WIRELESS_TRANSMITTER",
-            MaterialCompat.safe(XMaterial.REPEATER),
-            "&fWireless Transmitter"
+            MaterialCompat.safe(XMaterial.REPEATER)
     );
 
     public static final SlimefunItemStack DEMONIC_INGOT = new SlimefunItemStack(
             "DEMONIC_INGOT",
-            MaterialCompat.safe(XMaterial.GOLD_INGOT),
-            "&cDemonic Ingot"
+            MaterialCompat.safe(XMaterial.GOLD_INGOT)
     );
 
     public static final SlimefunItemStack DEMONIC_PLATE = new SlimefunItemStack(
             "DEMONIC_PLATE",
-            MaterialCompat.safe(XMaterial.LIGHT_WEIGHTED_PRESSURE_PLATE),
-            "&cDemonic Plate"
+            MaterialCompat.safe(XMaterial.LIGHT_WEIGHTED_PRESSURE_PLATE)
     );
 
     public static final SlimefunItemStack AQUATIC_NETHERITE_INGOT = new SlimefunItemStack(
             "AQUATIC_NETHERITE_INGOT",
-            MaterialCompat.safe(XMaterial.NETHERITE_INGOT),
-            "&bAquatic Netherite Ingot"
+            MaterialCompat.safe(XMaterial.NETHERITE_INGOT)
     );
 
     public static final SlimefunItemStack DAMIENIUM = new SlimefunItemStack(
             "DAMIENIUM",
-            MaterialCompat.safe(XMaterial.GOLD_INGOT),
-            "&aDamienium"
+            MaterialCompat.safe(XMaterial.GOLD_INGOT)
     );
 
     public static final SlimefunItemStack SWEET_INGOT = new SlimefunItemStack(
             "SWEET_INGOT",
-            MaterialCompat.safe(XMaterial.GOLD_INGOT),
-            "&eSweet Ingot"
+            MaterialCompat.safe(XMaterial.GOLD_INGOT)
     );
 
     public static final SlimefunItemStack SWEETENED_SWEET_INGOT = new SlimefunItemStack(
             "SWEETENED_SWEET_INGOT",
-            MaterialCompat.safe(XMaterial.GOLD_INGOT),
-            "&eSweetened Sweet Ingot"
+            MaterialCompat.safe(XMaterial.GOLD_INGOT)
     );
 
     public static final SlimefunItemStack SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS = new SlimefunItemStack(
             "SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS",
-            MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICKS),
-            "&fSacrificial Blackstone Bricks",
-            "",
-            "&7Used as a part of Sacrificial Altar."
+            MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICKS)
     );
 
     public static final SlimefunItemStack SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL = new SlimefunItemStack(
             "SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL",
-            MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICK_WALL),
-            "&fSacrificial Blackstone Brick Wall",
-            "",
-            "&7Used as a part of Sacrificial Altar."
+            MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICK_WALL)
     );
 
     public static final SlimefunItemStack SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS = new SlimefunItemStack(
             "SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS",
-            MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICK_STAIRS),
-            "&fSacrificial Blackstone Brick Stairs",
-            "",
-            "&7Used as a part of Sacrificial Altar."
+            MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICK_STAIRS)
     );
 
     public static final SlimefunItemStack SACRIFICIAL_ALTAR_SOUL_TORCH = new SlimefunItemStack(
             "SACRIFICIAL_ALTAR_SOUL_TORCH",
-            MaterialCompat.safe(XMaterial.SOUL_TORCH),
-            "&fSacrificial Soul Torch",
-            "",
-            "&7Used as a part of Sacrificial Altar."
+            MaterialCompat.safe(XMaterial.SOUL_TORCH)
     );
 
     public static final SlimefunItemStack SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE = new SlimefunItemStack(
             "SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE",
-            MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_PRESSURE_PLATE),
-            "&fSacrificial Mat",
-            "",
-            "&7Used as a part of Sacrificial Altar."
+            MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_PRESSURE_PLATE)
     );
 
     public static final SlimefunItemStack CURSED_RABBIT_PAW = new SlimefunItemStack(
             "CURSED_RABBIT_PAW",
-            MaterialCompat.safe(XMaterial.RABBIT_FOOT),
-            "&cCursed Rabbit Paw"
+            MaterialCompat.safe(XMaterial.RABBIT_FOOT)
     );
 
     public static final SlimefunItemStack HUMAN_SKULL = new SlimefunItemStack(
             "HUMAN_SKULL",
-            MaterialCompat.safe(XMaterial.SKELETON_SKULL),
-            "&cHuman Skull"
+            MaterialCompat.safe(XMaterial.SKELETON_SKULL)
     );
 
     public static final SlimefunItemStack BLOOD_INFUSED_SKULL = new SlimefunItemStack(
             "BLOOD_INFUSED_SKULL",
-            "daa4e2294df370b9a50cb924cdda78f740b0fbaf5a687106178505c80a79addc",
-            "&cBlood Infused Skull"
+            "daa4e2294df370b9a50cb924cdda78f740b0fbaf5a687106178505c80a79addc"
     );
 
     public static final SlimefunItemStack BLOOD = new SlimefunItemStack(
             "BLOOD",
-            MaterialCompat.safe(XMaterial.REDSTONE),
-            "&cBlood"
+            MaterialCompat.safe(XMaterial.REDSTONE)
     );
 
     public static final SlimefunItemStack UNHOLY_WITHER_SKELETON_BONE = new SlimefunItemStack(
             "UNHOLY_WITHER_SKELETON_BONE",
-            MaterialCompat.safe(XMaterial.BONE),
-            "&cUnholy Wither Skeleton Bone"
+            MaterialCompat.safe(XMaterial.BONE)
     );
 
     public static final SlimefunItemStack PURIFIED_BONE = new SlimefunItemStack(
             "PURIFIED_BONE",
-            MaterialCompat.safe(XMaterial.BONE),
-            "&bPurified Bone"
+            MaterialCompat.safe(XMaterial.BONE)
     );
 
     public static final SlimefunItemStack PURE_BONE_DUST = new SlimefunItemStack(
             "PURE_BONE_DUST",
-            MaterialCompat.safe(XMaterial.BONE_MEAL),
-            "&bPure Bone Dust"
+            MaterialCompat.safe(XMaterial.BONE_MEAL)
     );
 
     public static final SlimefunItemStack BUCKET_OF_BLOOD = new SlimefunItemStack(
             "BUCKET_OF_BLOOD",
-            MaterialCompat.safe(XMaterial.LAVA_BUCKET),
-            "&cBucket of Blood"
+            MaterialCompat.safe(XMaterial.LAVA_BUCKET)
     );
 
     public static final SlimefunItemStack POSEIDONS_FISHING_ROD = new SlimefunItemStack(
             "POSEIDONS_FISHING_ROD",
-            MaterialCompat.safe(XMaterial.FISHING_ROD),
-            "&bPoseidon's Fishing Rod",
-            "&7Poseidon's Blessing",
-            "",
-            "&7Can catch special items."
+            MaterialCompat.safe(XMaterial.FISHING_ROD)
     );
     static {
         CompatUtils.addEnchantment(POSEIDONS_FISHING_ROD, "LUCK", 5);
@@ -415,37 +296,22 @@ public final class Items{
 
     public static final SlimefunItemStack POSEIDONS_BLESSING = new SlimefunItemStack(
             "POSEIDONS_BLESSING",
-            MaterialCompat.safe(XMaterial.HEART_OF_THE_SEA),
-            "&bPoseidon's Blessing"
+            MaterialCompat.safe(XMaterial.HEART_OF_THE_SEA)
     );
 
     public static final SlimefunItemStack CURSED_SWORD = new SlimefunItemStack(
             "CURSED_SWORD",
-            MaterialCompat.safe(XMaterial.NETHERITE_SWORD),
-            "&cCursed Sword",
-            "&7Life Steal I",
-            "&7Armor Penetration I",
-            "",
-            "&7Confuses enemies. Increases damage.",
-            "&7Can negatively affect wielder."
+            MaterialCompat.safe(XMaterial.NETHERITE_SWORD)
     );
 
     public static final SlimefunItemStack CELESTIAL_SWORD = new SlimefunItemStack(
             "CELESTIAL_SWORD",
-            MaterialCompat.safe(XMaterial.NETHERITE_SWORD),
-            "&eCelestial Sword",
-            "&7Divine Smite II",
-            "&7Armor Penetration V"
+            MaterialCompat.safe(XMaterial.NETHERITE_SWORD)
     );
 
     public static final SlimefunItemStack ELUCIDATOR = new SlimefunItemStack(
             "ELUCIDATOR",
-            MaterialCompat.safe(XMaterial.NETHERITE_SWORD),
-            "&bElucidator",
-            "&7Damage III",
-            "&7Life Steal II",
-            "&7Armor Penetration II",
-            "&7Overheal"
+            MaterialCompat.safe(XMaterial.NETHERITE_SWORD)
     );
     static {
         CompatUtils.addEnchantment(ELUCIDATOR, "DAMAGE_ALL", 10);
@@ -454,24 +320,17 @@ public final class Items{
 
     public static final SlimefunItemStack MAGIC_LUMP_4 = new SlimefunItemStack(
             "MAGIC_LUMP_4",
-            MaterialCompat.safe(XMaterial.GOLD_NUGGET),
-            "&6Magical Lump &7- &eIV",
-            "",
-            "&c&oTier: IV");
+            MaterialCompat.safe(XMaterial.GOLD_NUGGET)
+    );
 
     public static final SlimefunItemStack MAGIC_LUMP_5 = new SlimefunItemStack(
             "MAGIC_LUMP_5",
-            MaterialCompat.safe(XMaterial.GOLD_NUGGET),
-            "&6Magical Lump &7- &eV",
-            "",
-            "&c&oTier: V");
+            MaterialCompat.safe(XMaterial.GOLD_NUGGET)
+    );
 
     public static final SlimefunItemStack AQUATIC_HELMET = new SlimefunItemStack(
             "AQUATIC_HELMET",
-            MaterialCompat.safe(XMaterial.NETHERITE_HELMET),
-            "&bAquatic Helmet",
-            "&7Water Breathing",
-            "&7Darkvision"
+            MaterialCompat.safe(XMaterial.NETHERITE_HELMET)
     );
     static {
         CompatUtils.addEnchantment(AQUATIC_HELMET, "PROTECTION_ENVIRONMENTAL", 5);
@@ -483,10 +342,7 @@ public final class Items{
 
     public static final SlimefunItemStack RESISTANT_CHESTPLATE = new SlimefunItemStack(
             "RESISTANT_CHESTPLATE",
-            MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE),
-            "&aResistant Chestplate",
-            "&7Resistance I",
-            "&7Regeneration I"
+            MaterialCompat.safe(XMaterial.NETHERITE_CHESTPLATE)
     );
     static {
         CompatUtils.addEnchantment(RESISTANT_CHESTPLATE, "PROTECTION_ENVIRONMENTAL", 5);
@@ -494,9 +350,7 @@ public final class Items{
 
     public static final SlimefunItemStack FIERY_LEGGINGS = new SlimefunItemStack(
             "FIERY_LEGGINGS",
-            MaterialCompat.safe(XMaterial.NETHERITE_LEGGINGS),
-            "&cFiery Leggings",
-            "&7Fire Aura II"
+            MaterialCompat.safe(XMaterial.NETHERITE_LEGGINGS)
     );
     static {
         CompatUtils.addEnchantment(FIERY_LEGGINGS, "PROTECTION_ENVIRONMENTAL", 5);
@@ -505,11 +359,7 @@ public final class Items{
 
     public static final SlimefunItemStack LIGHT_BOOTS = new SlimefunItemStack(
             "LIGHT_BOOTS",
-            MaterialCompat.safe(XMaterial.NETHERITE_BOOTS),
-            "&eLight Boots",
-            "&7Jump I",
-            "&7Speed I",
-            "&7Lightweight"
+            MaterialCompat.safe(XMaterial.NETHERITE_BOOTS)
     );
     static {
         CompatUtils.addEnchantment(LIGHT_BOOTS, "PROTECTION_ENVIRONMENTAL", 5);
@@ -519,139 +369,96 @@ public final class Items{
 
     public static final SlimefunItemStack AQUATIC_HELMET_FRAME = new SlimefunItemStack(
             "HELMET_FRAME",
-            MaterialCompat.safe(XMaterial.CHAINMAIL_HELMET),
-            "&fAquatic Helmet Frame",
-            "",
-            "&7Crafting Material"
+            MaterialCompat.safe(XMaterial.CHAINMAIL_HELMET)
     );
 
     public static final SlimefunItemStack RESISTANT_CHESTPLATE_FRAME = new SlimefunItemStack(
             "RESISTANT_CHESTPLATE_FRAME",
-            MaterialCompat.safe(XMaterial.CHAINMAIL_CHESTPLATE),
-            "&fResistant Chestplate Frame",
-            "",
-            "&7Crafting Material"
+            MaterialCompat.safe(XMaterial.CHAINMAIL_CHESTPLATE)
     );
 
     public static final SlimefunItemStack FIERY_LEGGINGS_FRAME = new SlimefunItemStack(
             "FIERY_LEGGINGS_FRAME",
-            MaterialCompat.safe(XMaterial.CHAINMAIL_LEGGINGS),
-            "&fFiery Leggings Frame",
-            "",
-            "&7Crafting Material"
+            MaterialCompat.safe(XMaterial.CHAINMAIL_LEGGINGS)
     );
 
     public static final SlimefunItemStack LIGHT_BOOTS_FRAME = new SlimefunItemStack(
             "LIGHT_BOOTS_FRAME",
-            MaterialCompat.safe(XMaterial.CHAINMAIL_BOOTS),
-            "&fLight Boots Frame",
-            "",
-            "&7Crafting Material"
+            MaterialCompat.safe(XMaterial.CHAINMAIL_BOOTS)
     );
 
     public static final SlimefunItemStack CURSED_SHARD = new SlimefunItemStack(
             "CURSED_SHARD",
-            MaterialCompat.safe(XMaterial.NETHERITE_SCRAP),
-            "&cCursed Shard",
-            "&7Crafting Material",
-            "&7Will reset a Quest when thrown into an Altar..."
+            MaterialCompat.safe(XMaterial.NETHERITE_SCRAP)
     );
 
     public static final SlimefunItemStack CELESTIAL_SHARD = new SlimefunItemStack(
             "CELESTIAL_SHARD",
-            MaterialCompat.safe(XMaterial.PRISMARINE_SHARD),
-            "&eCelestial Shard",
-            "&7Crafting Material",
-            "&7Will reset a Quest when thrown into an Altar..."
+            MaterialCompat.safe(XMaterial.PRISMARINE_SHARD)
     );
 
     public static final SlimefunItemStack EQUANIMOUS_GEM = new SlimefunItemStack(
             "EQUANIMOUS_GEM",
-            MaterialCompat.safe(XMaterial.EMERALD),
-            "&aEquanimous Gem"
+            MaterialCompat.safe(XMaterial.EMERALD)
     );
 
     public static final SlimefunItemStack POLAR_FOX_HIDE = new SlimefunItemStack(
             "POLAR_FOX_HIDE",
-            MaterialCompat.safe(XMaterial.SNOWBALL),
-            "&fPolar Fox Hide"
+            MaterialCompat.safe(XMaterial.SNOWBALL)
     );
 
     public static final SlimefunItemStack MAGMA_ESSENCE = new SlimefunItemStack(
             "MAGMA_ESSENCE",
-            MaterialCompat.safe(XMaterial.MAGMA_CREAM),
-            "&cMagma Essence"
+            MaterialCompat.safe(XMaterial.MAGMA_CREAM)
     );
 
     public static final SlimefunItemStack TROPICAL_FISH_SCALE = new SlimefunItemStack(
             "TROPICAL_FISH_SCALE",
-            MaterialCompat.safe(XMaterial.TROPICAL_FISH_SPAWN_EGG),
-            "&bTropical Fish Scale"
+            MaterialCompat.safe(XMaterial.TROPICAL_FISH_SPAWN_EGG)
     );
 
     public static final SlimefunItemStack PARROT_FEATHER = new SlimefunItemStack(
             "PARROT_FEATHER",
-            MaterialCompat.safe(XMaterial.FEATHER),
-            "&aParrot Feather"
+            MaterialCompat.safe(XMaterial.FEATHER)
     );
 
     public static final SlimefunItemStack UNBREAKABLE_RUNE = new SlimefunItemStack(
             "UNBREAKABLE_RUNE",
-            ColoredFireworkStar.create(
-                    Color.fromRGB(0, 188, 0),
-                    "&7Ancient Rune &8&l[&2&lUnbreakable&8&l]",
-                    "",
-                    "&eDrop this rune onto a dropped item to",
-                    "&emake it &2unbreakable"
-            ));
+            ColoredFireworkStar.create(Color.fromRGB(0, 188, 0)));
 
     public static final SlimefunItemStack PIXIE_QUEEN_SPAWN_EGG = new SlimefunItemStack(
             "PIXIE_QUEEN_SPAWN_EGG",
-            MaterialCompat.safe(XMaterial.CREEPER_SPAWN_EGG),
-            "&aPixie Queen Spawn Egg"
+            MaterialCompat.safe(XMaterial.CREEPER_SPAWN_EGG)
     );
 
     public static final SlimefunItemStack HEADLESS_HORSEMAN_SPAWN_EGG = new SlimefunItemStack(
             "HEADLESS_HORSEMAN_SPAWN_EGG",
-            MaterialCompat.safe(XMaterial.SPIDER_SPAWN_EGG),
-            "&cHeadless Horseman Spawn Egg"
+            MaterialCompat.safe(XMaterial.SPIDER_SPAWN_EGG)
     );
 
     public static final SlimefunItemStack PIXIE_QUEEN_HEART = new SlimefunItemStack(
             "PIXIE_QUEEN_HEART",
-            MaterialCompat.safe(XMaterial.FERMENTED_SPIDER_EYE),
-            "&4Pixie Queen Heart"
+            MaterialCompat.safe(XMaterial.FERMENTED_SPIDER_EYE)
     );
 
     public static final SlimefunItemStack PIXIE_DUST = new SlimefunItemStack(
             "PIXIE_DUST",
-            MaterialCompat.safe(XMaterial.SUGAR),
-            "&ePixie Dust",
-            "",
-            "&7Strength IV"
+            MaterialCompat.safe(XMaterial.SUGAR)
     );
 
     public static final SlimefunItemStack VILE_PUMPKIN = new SlimefunItemStack(
             "VILE_PUMPKIN",
-            MaterialCompat.safe(XMaterial.CARVED_PUMPKIN),
-            "&cVile Pumpkin"
+            MaterialCompat.safe(XMaterial.CARVED_PUMPKIN)
     );
 
     public static final SlimefunItemStack VILE_SEEDS = new SlimefunItemStack(
             "VILE_SEEDS",
-            MaterialCompat.safe(XMaterial.MELON_SEEDS),
-            "&cVile Seeds",
-            "",
-            "&7Health Boost V"
+            MaterialCompat.safe(XMaterial.MELON_SEEDS)
     );
 
     public static final SlimefunItemStack ACRI_ARCUM = new SlimefunItemStack(
             "ACRI_ARCUM",
-            MaterialCompat.safe(XMaterial.BOW),
-            "&eAcri Arcum",
-            "",
-            "&7Damage III",
-            "&7Armor Piercing II"
+            MaterialCompat.safe(XMaterial.BOW)
     );
     static {
         CompatUtils.addEnchantment(ACRI_ARCUM, "ARROW_DAMAGE", 7);
@@ -660,58 +467,31 @@ public final class Items{
 
     public static final SlimefunItemStack GHOST_BLOCK_REMOVER = new SlimefunItemStack(
             "GHOST_BLOCK_REMOVER",
-            MaterialCompat.safe(XMaterial.CLOCK),
-            "&eGhost Block Remover",
-            "",
-            "&7Right click to remove a Ghost Block."
+            MaterialCompat.safe(XMaterial.CLOCK)
     );
 
     public static final SlimefunItemStack POSITION_SELECTOR = new SlimefunItemStack(
             "POSITION_SELECTOR",
-            MaterialCompat.safe(XMaterial.STICK),
-            "&ePosition Selector",
-            "",
-            "&7Left click a block to select primary position.",
-            "&7Right click a block to select secondary position.",
-            "",
-            "&c&o&8\u21E8 &e\u26A1 &70 / 200 J"
+            MaterialCompat.safe(XMaterial.STICK)
     );
 
     public static final SlimefunItemStack FILL_WAND = new SlimefunItemStack(
             "FILL_WAND",
-            MaterialCompat.safe(XMaterial.BLAZE_ROD),
-            "&eFill Wand",
-            "",
-            "&7Select corner points with Position Selector.",
-            "&7Shift right click to select material.",
-            "&7Right click to fill an area.",
-            "",
-            "&7Material: &eNone",
-            "&c&o&8\u21E8 &e\u26A1 &70 / 1000 J"
+            MaterialCompat.safe(XMaterial.BLAZE_ROD)
     );
 
     public static final SlimefunItemStack SPONGE_WAND = new SlimefunItemStack(
             "SPONGE_WAND",
-            MaterialCompat.safe(XMaterial.BLAZE_ROD),
-            "&eSponge Wand",
-            "",
-            "&7Select corner points with Position Selector.",
-            "&7Right click to remove Water and Lava.",
-            "",
-            "&c&o&8\u21E8 &e\u26A1 &70 / 2000 J"
+            MaterialCompat.safe(XMaterial.BLAZE_ROD)
     );
 
     public static final SlimefunItemStack NUCLEAR_SALT = new SlimefunItemStack(
             "NUCLEAR_SALT",
-            MaterialCompat.safe(XMaterial.LIME_DYE),
-            "&aNuclear Salt",
-            "",
-            LoreBuilder.radioactive(Radioactivity.VERY_HIGH)
+            MaterialCompat.safe(XMaterial.LIME_DYE)
     );
 
     public static final SlimefunItemStack COMPRESSED_SPONGE = new SlimefunItemStack(
             "COMPRESSED_SPONGE",
-            MaterialCompat.safe(XMaterial.WET_SPONGE),
-            "&fCompressed Sponge"
+            MaterialCompat.safe(XMaterial.WET_SPONGE)
     );
 }

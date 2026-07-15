@@ -113,9 +113,14 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
                         WHITELIST.contains(material)) {
                     player.sendMessage(ChatColor.LIGHT_PURPLE + "Material set to: " + humanizedName);
                     PdcCompat.setString(meta, AbstractWand.MATERIAL_KEY, material.toString());
+                    // The selected material is persisted in the item's PDC and reported via chat; the
+                    // per-viewer lore is rendered from languages/<lang>/items.yml, so the physical lore
+                    // is empty after canonicalization - only mutate it if a legacy baked lore is present.
                     List<String> lore = this.getItem().getItemMeta().getLore();
-                    lore.set(lore.size() - 2, ChatColor.GRAY + "Material: " + ChatColor.YELLOW + humanizedName);
-                    meta.setLore(lore);
+                    if (lore != null && lore.size() >= 2) {
+                        lore.set(lore.size() - 2, ChatColor.GRAY + "Material: " + ChatColor.YELLOW + humanizedName);
+                        meta.setLore(lore);
+                    }
                     itemInInventory.setItemMeta(meta);
                     setItemCharge(itemInInventory, getItemCharge(itemInInventory)); // To update it in lore
                 } else {
