@@ -1,0 +1,104 @@
+# Per-item balance scores (0-100) for FoxyMachines, relative to vanilla Minecraft.
+# Read by Slimefun's BalanceService (overrides the auto heuristic). Bands:
+#   0-10 Trivial | 11-25 Standard | 26-40 Advanced | 41-69 Powerful | 70-100 Overpowered
+#   (vanilla anchors: iron gear ~15, netherite ~30, beacon ~35, end crystal ~70, mace ~85)
+# Scores below are derived from actual stats read from src/main/java (energy capacity/
+# consumption, enchant levels, potion effects, recipe cost) - see source for specifics.
+scores:
+  # --- Machines (energy consumers) ---
+  FORCEFIELD_DOME: 62         # 6000 J/s, 24000 J buffer -> 32-block protective barrier over an area
+  IMPROVEMENT_FORGE: 45       # 128 J/s, 512 J buffer, END_GAME tier, upgrades tools/weapons/armor
+  CHUNK_LOADER: 44            # keeps a chunk permanently loaded (strong server-side utility)
+  ELECTRIC_GOLD_REFINERY: 30  # 36 J/s, 512 J buffer, END_GAME tier, gold dust -> gold ingots
+  POTION_MIXER: 28            # 28 J/s, 128 J buffer, GOOD tier, combines potion effects
+
+  # --- Weapons ---
+  ELUCIDATOR: 72              # Sharpness 10 (2.5x cap) + Looting 5 + Life Steal II + Armor Pen II + Overheal
+  ACRI_ARCUM: 58             # Power 7 + Infinity + Damage III + Armor Piercing II bow
+  CELESTIAL_SWORD: 48        # Divine Smite II + Armor Penetration V
+  CURSED_SWORD: 40           # Life Steal I + Armor Penetration I, confuses enemies (self-risk)
+  HEALING_BOW: 30            # fires Healing II support arrows
+  POSEIDONS_FISHING_ROD: 35  # Luck of the Sea 5 + Lure 3, catches special items
+
+  # --- Armor (netherite base + built-in enchants & potion effects) ---
+  RESISTANT_CHESTPLATE: 58    # Protection 5 + permanent Resistance I + Regeneration I
+  FIERY_LEGGINGS: 52         # Protection 5 + Thorns 6 + Fire Resistance + fire aura
+  AQUATIC_HELMET: 50         # Protection 5 + Aqua Affinity + Respiration 5 + Depth Strider 5 + water breathing/vision
+  LIGHT_BOOTS: 48            # Protection 5 + Feather Falling 5 + Soul Speed 5 + Speed I + Jump I
+
+  # --- Tools (chargeable / build utilities) ---
+  FILL_WAND: 40              # 1000 J buffer, fills a selected region with a material (WorldEdit-lite)
+  SPONGE_WAND: 35            # 2000 J buffer, clears water & lava from a selected region
+  ELECTRIC_FIRE_STAFF_II: 32 # 200 J buffer, larger inferno than tier I
+  REMOTE_CONTROLLER: 30      # 1000 J buffer, controls a Forcefield Dome from a distance
+  ELECTRIC_FIRE_STAFF: 28    # 100 J buffer, creates fire
+  ELECTRIC_WIND_STAFF: 25    # 100 J buffer, launches the user on the wind
+  POSITION_SELECTOR: 15      # 200 J buffer, marks corner points for the wands
+  BERRY_BUSH_TRIMMER: 12     # removes thorns from sweet berry bushes
+  GHOST_BLOCK_REMOVER: 10    # removes intangible ghost blocks
+
+  # --- Consumables ---
+  UNBREAKABLE_RUNE: 45       # makes any dropped item unbreakable (removes durability entirely)
+  PIXIE_DUST: 30             # Strength IV buff consumable
+  VILE_SEEDS: 28             # Health Boost V buff consumable
+
+  # --- High-tier crafting materials ---
+  EQUANIMOUS_GEM: 34         # core ingredient across the endgame armor/weapon recipes
+  CURSED_SHARD: 30           # quest shard; resets a Quest when sacrificed
+  CELESTIAL_SHARD: 30        # quest shard; resets a Quest when sacrificed
+  IMPROVEMENT_CORE: 35       # consumed with a tool in the Improvement Forge to upgrade it
+  FORCEFIELD_ENGINE: 30      # Forcefield Dome component
+  FORCEFIELD_STABILIZER: 30  # Forcefield Dome component
+  AQUATIC_NETHERITE_INGOT: 30 # netherite-based alloy ingot
+  WIRELESS_TRANSMITTER: 26   # wireless energy/signal component
+  SWEETENED_SWEET_INGOT: 26  # refined sweet alloy
+  DEMONIC_PLATE: 24          # compressed demonic plate
+  DAMIENIUM: 24              # mid-tier alloy ingot
+  MAGIC_LUMP_5: 24           # Tier V magical lump
+  DEMONIC_INGOT: 22          # mid-tier nether alloy ingot
+  SWEET_INGOT: 22            # sweet alloy ingot
+  STABILIZED_BLISTERING_BLOCK: 22 # stabilized blistering material
+  MAGIC_LUMP_4: 20           # Tier IV magical lump
+  POSEIDONS_BLESSING: 20     # fishing-obtained blessing material
+  BLOOD_INFUSED_SKULL: 18    # altar crafting intermediate
+  REINFORCED_STRING: 14      # reinforced-alloy string, early crafting material
+  PURIFIED_BONE: 14          # purified bone crafting material
+  PURE_BONE_DUST: 14         # pure bone dust crafting material
+  NUCLEAR_SALT: 26           # VERY_HIGH radioactivity, boosted-uranium derived
+  COMPRESSED_SPONGE: 15      # 24 sponges compressed into one block
+
+  # --- Boosted rails ---
+  BOOSTED_RAIL: 20           # supports 2.5x minecart speed
+  BOOSTED_POWERED_RAIL: 20   # supports 2.5x minecart speed
+  BOOSTED_ACTIVATOR_RAIL: 20 # supports 2.5x minecart speed
+  BOOSTED_DETECTOR_RAIL: 20  # supports 2.5x minecart speed
+
+  # --- Armor frames (crafting materials) ---
+  HELMET_FRAME: 18           # Aquatic Helmet frame
+  RESISTANT_CHESTPLATE_FRAME: 18 # Resistant Chestplate frame
+  FIERY_LEGGINGS_FRAME: 18   # Fiery Leggings frame
+  LIGHT_BOOTS_FRAME: 18      # Light Boots frame
+
+  # --- Sacrificial Altar structure blocks ---
+  SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS: 16
+  SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL: 16
+  SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS: 16
+  SACRIFICIAL_ALTAR_SOUL_TORCH: 16
+  SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE: 16
+
+  # --- Bosses & their drops/spawns ---
+  HEADLESS_HORSEMAN_SPAWN_EGG: 32 # summons the Headless Horseman boss
+  PIXIE_QUEEN_SPAWN_EGG: 30   # summons the Pixie Queen boss
+  PIXIE_QUEEN_HEART: 28       # Pixie Queen boss drop
+  VILE_PUMPKIN: 24            # Headless Horseman boss drop
+
+  # --- Sacrificial Altar mob drops (low-tier materials) ---
+  MAGMA_ESSENCE: 14          # Magma Cube altar drop
+  TROPICAL_FISH_SCALE: 14    # Tropical Fish altar drop
+  PARROT_FEATHER: 14         # Parrot altar drop
+  POLAR_FOX_HIDE: 14         # Polar Fox altar drop
+  UNHOLY_WITHER_SKELETON_BONE: 14 # Wither Skeleton altar drop
+  CURSED_RABBIT_PAW: 12      # Rabbit altar drop
+  HUMAN_SKULL: 12            # Player altar drop
+  BUCKET_OF_BLOOD: 12        # crafted from blood
+  BLOOD: 10                  # base altar drop

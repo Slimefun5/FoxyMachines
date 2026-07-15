@@ -1,0 +1,390 @@
+# English item lore for FoxyMachines. Keyed by Slimefun item id.
+# Composed by LoreComposer in order: Type -> Description -> Stats -> Usage.
+
+ELECTRIC_WIND_STAFF:
+  name: "&bElectric Wind Staff"
+  type:
+    - "&7&oTool"
+  description:
+    - "&7Ride on the wind."
+  stats:
+    - "&8⇨ &e⚡ &7100 J Buffer"
+
+ELECTRIC_FIRE_STAFF:
+  name: "&4Electric Fire Staff"
+  type:
+    - "&7&oTool"
+  description:
+    - "&7Create inferno."
+  stats:
+    - "&8⇨ &e⚡ &7100 J Buffer"
+
+ELECTRIC_FIRE_STAFF_II:
+  name: "&4Electric Fire Staff &7- &eII"
+  type:
+    - "&7&oTool"
+  description:
+    - "&7Fire, fire, fire!"
+  stats:
+    - "&8⇨ &e⚡ &7200 J Buffer"
+
+HEALING_BOW:
+  name: "&4Healing Bow"
+  description:
+    - "&8Finally a support weapon."
+  stats:
+    - "&cHealing II"
+
+REINFORCED_STRING:
+  name: "&bReinforced String"
+
+IMPROVEMENT_FORGE:
+  name: "&bImprovement Forge"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Used to improve Slimefun tools, weapons and armor."
+  stats:
+    - "&8⇨ &e⚡ &7128 J/s"
+
+IMPROVEMENT_CORE:
+  name: "&aImprovement Core"
+  description:
+    - "&7Combine it with a tool in Improvement Forge to improve it."
+
+POTION_MIXER:
+  name: "&bPotion Mixer"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Used to mix potions."
+  stats:
+    - "&8⇨ &e⚡ &728 J/s"
+
+ELECTRIC_GOLD_REFINERY:
+  name: "&bElectric Gold Refinery"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Refines gold dust to gold ingots."
+  stats:
+    - "&8⇨ &e⚡ &736 J/s"
+
+CHUNK_LOADER:
+  name: "&bChunk Loader"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Keeps chunk loaded."
+
+STABILIZED_BLISTERING_BLOCK:
+  name: "&bStabilized Blistering Block"
+  description:
+    - "&7A stable material."
+
+BOOSTED_RAIL:
+  name: "&fBoosted Rail"
+  description:
+    - "&7Supports 2.5x the speed."
+
+BOOSTED_ACTIVATOR_RAIL:
+  name: "&fBoosted Activator Rail"
+  description:
+    - "&7Supports 2.5x the speed."
+
+BOOSTED_DETECTOR_RAIL:
+  name: "&fBoosted Detector Rail"
+  description:
+    - "&7Supports 2.5x the speed."
+
+BOOSTED_POWERED_RAIL:
+  name: "&fBoosted Powered Rail"
+  description:
+    - "&7Supports 2.5x the speed."
+
+BERRY_BUSH_TRIMMER:
+  name: "&eSweet Berry Bush Trimmer"
+  description:
+    - "&7Removes thorns from sweet berry bushes."
+
+FORCEFIELD_DOME:
+  name: "&4Forcefield Dome"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7When powered, creates a protective barrier"
+    - "&7with a 32-block radius."
+    - "&7Will revert once unpowered or broken"
+  stats:
+    - "&8⇨ &e⚡ &76000 J/s"
+
+REMOTE_CONTROLLER:
+  name: "&cRemote Controller"
+  description:
+    - "&7Allows you to control your Forcefield Dome from distance."
+  stats:
+    - "&8⇨ &e⚡ &71000 J Buffer"
+  usage:
+    - "&7Bind it using Shift + Right Click."
+
+FORCEFIELD_ENGINE:
+  name: "&fForcefield Engine"
+
+FORCEFIELD_STABILIZER:
+  name: "&fForcefield Stabilizer"
+
+WIRELESS_TRANSMITTER:
+  name: "&fWireless Transmitter"
+
+DEMONIC_INGOT:
+  name: "&cDemonic Ingot"
+
+DEMONIC_PLATE:
+  name: "&cDemonic Plate"
+
+AQUATIC_NETHERITE_INGOT:
+  name: "&bAquatic Netherite Ingot"
+
+DAMIENIUM:
+  name: "&aDamienium"
+
+SWEET_INGOT:
+  name: "&eSweet Ingot"
+
+SWEETENED_SWEET_INGOT:
+  name: "&eSweetened Sweet Ingot"
+
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  name: "&fSacrificial Blackstone Bricks"
+  description:
+    - "&7Used as a part of Sacrificial Altar."
+
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  name: "&fSacrificial Blackstone Brick Wall"
+  description:
+    - "&7Used as a part of Sacrificial Altar."
+
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  name: "&fSacrificial Blackstone Brick Stairs"
+  description:
+    - "&7Used as a part of Sacrificial Altar."
+
+SACRIFICIAL_ALTAR_SOUL_TORCH:
+  name: "&fSacrificial Soul Torch"
+  description:
+    - "&7Used as a part of Sacrificial Altar."
+
+SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  name: "&fSacrificial Mat"
+  description:
+    - "&7Used as a part of Sacrificial Altar."
+
+CURSED_RABBIT_PAW:
+  name: "&cCursed Rabbit Paw"
+
+HUMAN_SKULL:
+  name: "&cHuman Skull"
+
+BLOOD_INFUSED_SKULL:
+  name: "&cBlood Infused Skull"
+
+BLOOD:
+  name: "&cBlood"
+
+UNHOLY_WITHER_SKELETON_BONE:
+  name: "&cUnholy Wither Skeleton Bone"
+
+PURIFIED_BONE:
+  name: "&bPurified Bone"
+
+PURE_BONE_DUST:
+  name: "&bPure Bone Dust"
+
+BUCKET_OF_BLOOD:
+  name: "&cBucket of Blood"
+
+POSEIDONS_FISHING_ROD:
+  name: "&bPoseidon's Fishing Rod"
+  description:
+    - "&7Can catch special items."
+  stats:
+    - "&7Poseidon's Blessing"
+
+POSEIDONS_BLESSING:
+  name: "&bPoseidon's Blessing"
+
+CURSED_SWORD:
+  name: "&cCursed Sword"
+  description:
+    - "&7Confuses enemies. Increases damage."
+    - "&7Can negatively affect wielder."
+  stats:
+    - "&7Life Steal I"
+    - "&7Armor Penetration I"
+
+CELESTIAL_SWORD:
+  name: "&eCelestial Sword"
+  stats:
+    - "&7Divine Smite II"
+    - "&7Armor Penetration V"
+
+ELUCIDATOR:
+  name: "&bElucidator"
+  stats:
+    - "&7Damage III"
+    - "&7Life Steal II"
+    - "&7Armor Penetration II"
+    - "&7Overheal"
+
+MAGIC_LUMP_4:
+  name: "&6Magical Lump &7- &eIV"
+  stats:
+    - "&c&oTier: IV"
+
+MAGIC_LUMP_5:
+  name: "&6Magical Lump &7- &eV"
+  stats:
+    - "&c&oTier: V"
+
+AQUATIC_HELMET:
+  name: "&bAquatic Helmet"
+  stats:
+    - "&7Water Breathing"
+    - "&7Darkvision"
+
+RESISTANT_CHESTPLATE:
+  name: "&aResistant Chestplate"
+  stats:
+    - "&7Resistance I"
+    - "&7Regeneration I"
+
+FIERY_LEGGINGS:
+  name: "&cFiery Leggings"
+  stats:
+    - "&7Fire Aura II"
+
+LIGHT_BOOTS:
+  name: "&eLight Boots"
+  stats:
+    - "&7Jump I"
+    - "&7Speed I"
+    - "&7Lightweight"
+
+HELMET_FRAME:
+  name: "&fAquatic Helmet Frame"
+  description:
+    - "&7Crafting Material"
+
+RESISTANT_CHESTPLATE_FRAME:
+  name: "&fResistant Chestplate Frame"
+  description:
+    - "&7Crafting Material"
+
+FIERY_LEGGINGS_FRAME:
+  name: "&fFiery Leggings Frame"
+  description:
+    - "&7Crafting Material"
+
+LIGHT_BOOTS_FRAME:
+  name: "&fLight Boots Frame"
+  description:
+    - "&7Crafting Material"
+
+CURSED_SHARD:
+  name: "&cCursed Shard"
+  description:
+    - "&7Crafting Material"
+    - "&7Will reset a Quest when thrown into an Altar..."
+
+CELESTIAL_SHARD:
+  name: "&eCelestial Shard"
+  description:
+    - "&7Crafting Material"
+    - "&7Will reset a Quest when thrown into an Altar..."
+
+EQUANIMOUS_GEM:
+  name: "&aEquanimous Gem"
+
+POLAR_FOX_HIDE:
+  name: "&fPolar Fox Hide"
+
+MAGMA_ESSENCE:
+  name: "&cMagma Essence"
+
+TROPICAL_FISH_SCALE:
+  name: "&bTropical Fish Scale"
+
+PARROT_FEATHER:
+  name: "&aParrot Feather"
+
+UNBREAKABLE_RUNE:
+  name: "&7Ancient Rune &8&l[&2&lUnbreakable&8&l]"
+  usage:
+    - "&eDrop this rune onto a dropped item to"
+    - "&emake it &2unbreakable"
+
+PIXIE_QUEEN_SPAWN_EGG:
+  name: "&aPixie Queen Spawn Egg"
+
+HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: "&cHeadless Horseman Spawn Egg"
+
+PIXIE_QUEEN_HEART:
+  name: "&4Pixie Queen Heart"
+
+PIXIE_DUST:
+  name: "&ePixie Dust"
+  stats:
+    - "&7Strength IV"
+
+VILE_PUMPKIN:
+  name: "&cVile Pumpkin"
+
+VILE_SEEDS:
+  name: "&cVile Seeds"
+  stats:
+    - "&7Health Boost V"
+
+ACRI_ARCUM:
+  name: "&eAcri Arcum"
+  stats:
+    - "&7Damage III"
+    - "&7Armor Piercing II"
+
+GHOST_BLOCK_REMOVER:
+  name: "&eGhost Block Remover"
+  usage:
+    - "&7Right click to remove a Ghost Block."
+
+POSITION_SELECTOR:
+  name: "&ePosition Selector"
+  stats:
+    - "&8⇨ &e⚡ &7200 J Buffer"
+  usage:
+    - "&7Left click a block to select primary position."
+    - "&7Right click a block to select secondary position."
+
+FILL_WAND:
+  name: "&eFill Wand"
+  stats:
+    - "&8⇨ &e⚡ &71000 J Buffer"
+  usage:
+    - "&7Select corner points with Position Selector."
+    - "&7Shift right click to select material."
+    - "&7Right click to fill an area."
+
+SPONGE_WAND:
+  name: "&eSponge Wand"
+  stats:
+    - "&8⇨ &e⚡ &72000 J Buffer"
+  usage:
+    - "&7Select corner points with Position Selector."
+    - "&7Right click to remove Water and Lava."
+
+NUCLEAR_SALT:
+  name: "&aNuclear Salt"
+  stats:
+    - "&a☢&7 Radiation level: &cVERY HIGH"
+
+COMPRESSED_SPONGE:
+  name: "&fCompressed Sponge"
