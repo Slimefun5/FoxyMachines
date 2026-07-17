@@ -2,6 +2,7 @@ package me.gallowsdove.foxymachines.commands;
 
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.QuestUtils;
 import org.bukkit.ChatColor;
@@ -28,9 +29,9 @@ public class QuestCommand extends SubCommand {
             return;
         }
 
-        if (SlimefunUtils.isItemSimilar(p.getInventory().getItemInMainHand(), Items.CURSED_SWORD.item(), false, false)) {
+        if (SlimefunUtils.isItemSimilar(HandCompat.getMainHand(p.getInventory()), Items.CURSED_SWORD.item(), false, false)) {
             QuestUtils.sendQuestLine(p, Items.CURSED_SWORD);
-        } else if (SlimefunUtils.isItemSimilar(p.getInventory().getItemInMainHand(), Items.CELESTIAL_SWORD.item(), false, false)) {
+        } else if (SlimefunUtils.isItemSimilar(HandCompat.getMainHand(p.getInventory()), Items.CELESTIAL_SWORD.item(), false, false)) {
             QuestUtils.sendQuestLine(p, Items.CELESTIAL_SWORD);
         } else {
             p.sendMessage(ChatColor.LIGHT_PURPLE + "You need to be holding the " + ChatColor.RED + "Cursed Sword" +

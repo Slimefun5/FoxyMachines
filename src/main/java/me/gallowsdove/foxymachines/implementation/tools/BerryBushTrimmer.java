@@ -7,6 +7,7 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ToolUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
@@ -63,7 +64,7 @@ public class BerryBushTrimmer extends SlimefunItem {
                         CompatUtils.setItemDamage(shears, damage);
                     }
 
-                    p.getInventory().setItemInMainHand(shears);
+                    HandCompat.setMainHand(p.getInventory(), shears);
                 } else {
                     p.sendMessage(ChatColor.LIGHT_PURPLE + "This berry bush is already trimmed!");
                 }
