@@ -23,5 +23,6 @@ tasks {
         relocate("io.github.mooy1.infinitylib", "me.gallowsdove.foxymachines.infinitylib")
         minimize()
         exclude("io/github/thebusybiscuit/slimefun5/**")
+        exclude("me/mrCookieSlime/**")
     }
 }
