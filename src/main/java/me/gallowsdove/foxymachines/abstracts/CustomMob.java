@@ -7,6 +7,7 @@ import me.gallowsdove.foxymachines.FoxyMachines;
 import io.github.thebusybiscuit.slimefun5.libraries.commons.lang.Validate;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
 
 import org.bukkit.Bukkit;
@@ -210,7 +211,7 @@ public abstract class CustomMob {
 
             @EventHandler(ignoreCancelled = true)
             private void onNametagEvent(PlayerInteractEntityEvent event) {
-                ItemStack item = event.getPlayer().getInventory().getItemInMainHand();
+                ItemStack item = HandCompat.getMainHand(event.getPlayer().getInventory());
 
                 if (item.getType() == MaterialCompat.safe(XMaterial.NAME_TAG) && CustomMob.getByEntity(event.getRightClicked()) != null) {
                     event.setCancelled(true);

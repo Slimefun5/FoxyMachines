@@ -3,6 +3,7 @@ package me.gallowsdove.foxymachines.listeners;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.weapons.CelestialSword;
 import me.gallowsdove.foxymachines.implementation.weapons.CursedSword;
@@ -37,7 +38,7 @@ public class SwordListener implements Listener {
         HumanEntity humanoid = (HumanEntity) event.getDamager();
         LivingEntity entity = (LivingEntity) event.getEntity();
 
-        ItemStack item = humanoid.getInventory().getItemInMainHand();
+        ItemStack item = HandCompat.getMainHand(humanoid.getInventory());
         SlimefunItem sfItemHit = SlimefunItem.getByItem(item);
         if (sfItemHit instanceof OnHitWeapon) {
             OnHitWeapon onHitWeapon = (OnHitWeapon) sfItemHit;
@@ -58,7 +59,7 @@ public class SwordListener implements Listener {
 
         QuestUtils.nextQuestLine(p);
         PlayerInventory inventory = p.getInventory();
-        SlimefunItem sfItem = SlimefunItem.getByItem(inventory.getItemInMainHand());
+        SlimefunItem sfItem = SlimefunItem.getByItem(HandCompat.getMainHand(inventory));
 
         if (sfItem instanceof CursedSword) {
             inventory.addItem(new SlimefunItemStack(Items.CURSED_SHARD, 1).item());

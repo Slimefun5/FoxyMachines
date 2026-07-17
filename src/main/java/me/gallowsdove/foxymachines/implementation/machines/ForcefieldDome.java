@@ -13,6 +13,7 @@ import io.github.thebusybiscuit.slimefun5.core.networks.energy.EnergyNetComponen
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import lombok.SneakyThrows;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
@@ -118,7 +119,7 @@ public final class ForcefieldDome extends SlimefunItem implements EnergyNetCompo
     @Nonnull
     public BlockUseHandler onUse() {
         return e -> {
-            if (!SlimefunUtils.isItemSimilar(e.getPlayer().getInventory().getItemInMainHand(), Items.REMOTE_CONTROLLER.item(), true, false)) {
+            if (!SlimefunUtils.isItemSimilar(HandCompat.getMainHand(e.getPlayer().getInventory()), Items.REMOTE_CONTROLLER.item(), true, false)) {
                 Block b = e.getClickedBlock().get();
                 if (BlockStorage.getLocationInfo(b.getLocation(), "cooldown").equals("false")) {
                     String active = BlockStorage.getLocationInfo(b.getLocation(), "active");

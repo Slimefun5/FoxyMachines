@@ -5,6 +5,7 @@ import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
 import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.machines.ForcefieldDome;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
@@ -39,7 +40,7 @@ public class RemoteController extends SlimefunItem implements NotPlaceable, Rech
     protected ItemUseHandler onUse() {
         return e -> {
             ItemStack item = e.getItem();
-            ItemStack itemInInventory = e.getPlayer().getInventory().getItemInMainHand();
+            ItemStack itemInInventory = HandCompat.getMainHand(e.getPlayer().getInventory());
             ItemMeta meta = itemInInventory.getItemMeta();
 
             if (e.getPlayer().isSneaking()) {
