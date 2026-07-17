@@ -3,6 +3,7 @@ package me.gallowsdove.foxymachines.listeners;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.core.attributes.Rechargeable;
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.tools.PositionSelector;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
@@ -20,7 +21,7 @@ public class PositionSelectorListener implements Listener {
     private void onLeftClick(PlayerInteractEvent e) {
         if (e.getAction() == Action.LEFT_CLICK_BLOCK && e.hasBlock()) {
             Player player = e.getPlayer();
-            ItemStack item = player.getInventory().getItemInMainHand();
+            ItemStack item = HandCompat.getMainHand(player.getInventory());
             if (SlimefunUtils.isItemSimilar(item, Items.POSITION_SELECTOR.item(), false, false) &&
                     ((Rechargeable) SlimefunItem.getByItem(item)).removeItemCharge(item, PositionSelector.COST) ) {
                 Block block = e.getClickedBlock();

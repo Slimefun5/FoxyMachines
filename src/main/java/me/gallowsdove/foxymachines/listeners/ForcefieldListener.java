@@ -93,7 +93,9 @@ public class ForcefieldListener implements Listener {
 
     @EventHandler(ignoreCancelled = true)
     private void onPlayerTeleport(@Nonnull PlayerTeleportEvent e) {
-        if (e.getCause() == TeleportCause.ENDER_PEARL || e.getCause() == TeleportCause.CHORUS_FRUIT) {
+        // CHORUS_FRUIT is a 1.9+ TeleportCause constant; compare by name so it's never referenced
+        // directly (a direct reference throws NoSuchFieldError on 1.8, where the constant doesn't exist).
+        if (e.getCause() == TeleportCause.ENDER_PEARL || e.getCause().name().equals("CHORUS_FRUIT")) {
             Location l = e.getTo();
             for (SimpleLocation loc: ForcefieldDome.domeLocations) {
                 if (e.getPlayer().getWorld() == Bukkit.getServer().getWorld(UUID.fromString(loc.getWorldUUID()))) {
