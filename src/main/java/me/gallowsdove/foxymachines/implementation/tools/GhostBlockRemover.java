@@ -24,6 +24,7 @@ public class GhostBlockRemover extends SlimefunItem {
                 Items.SWEET_INGOT.item(), SlimefunItems.BASIC_CIRCUIT_BOARD.item(), Items.SWEET_INGOT.item(),
                 Items.DAMIENIUM.item(), Items.DAMIENIUM.item(), Items.DAMIENIUM.item()
         });
+        setGuideType("tools");
     }
 
     @Override

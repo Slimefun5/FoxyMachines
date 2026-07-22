@@ -25,6 +25,7 @@ public class PositionSelector extends SlimefunItem implements NotPlaceable, Rech
                 SlimefunItems.CORINTHIAN_BRONZE_INGOT.item(), SlimefunItems.BIG_CAPACITOR.item(), SlimefunItems.CORINTHIAN_BRONZE_INGOT.item(),
                 Items.SWEET_INGOT.item(), SlimefunItems.CORINTHIAN_BRONZE_INGOT.item(), Items.SWEET_INGOT.item()
         });
+        setGuideType("tools");
     }
 
     @Override

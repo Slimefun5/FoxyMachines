@@ -27,6 +27,7 @@ public class SacrificialAltarPressurePlate extends SlimefunItem {
                 SlimefunItems.MAGIC_LUMP_3.item(), new ItemStack(MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_PRESSURE_PLATE)), SlimefunItems.MAGIC_LUMP_3.item(),
                 new ItemStack(MaterialCompat.safe(XMaterial.GHAST_TEAR)), SlimefunItems.MAGIC_LUMP_3.item(), new ItemStack(MaterialCompat.safe(XMaterial.GHAST_TEAR))
         });
+        setGuideType("decoration");
     }
 
     @Override

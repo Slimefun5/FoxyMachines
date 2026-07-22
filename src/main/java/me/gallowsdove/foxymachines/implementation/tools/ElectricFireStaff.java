@@ -23,6 +23,7 @@ public class ElectricFireStaff extends SlimefunItem implements Rechargeable {
                 SlimefunItems.HEATING_COIL.item(), SlimefunItems.STAFF_FIRE.item(), SlimefunItems.HEATING_COIL.item(),
                 SlimefunItems.REINFORCED_ALLOY_INGOT.item(), SlimefunItems.MEDIUM_CAPACITOR.item(), SlimefunItems.REINFORCED_ALLOY_INGOT.item()
         });
+        setGuideType("weapons");
     }
 
     @Override

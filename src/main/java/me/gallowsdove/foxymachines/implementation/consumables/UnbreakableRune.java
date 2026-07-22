@@ -61,6 +61,7 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
                 SlimefunItems.ESSENCE_OF_AFTERLIFE.item(), SlimefunItems.LIGHTNING_RUNE.item() , SlimefunItems.ESSENCE_OF_AFTERLIFE.item(),
                 Items.DAMIENIUM.item(), Items.MAGIC_LUMP_5.item(), Items.DAMIENIUM.item()
         });
+        setGuideType("magic");
     }
 
     @Nonnull
