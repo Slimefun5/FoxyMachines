@@ -33,6 +33,7 @@ public class ChunkLoader extends SlimefunItem {
                 SlimefunItems.ENRICHED_NETHER_ICE.item(), Items.STABILIZED_BLISTERING_BLOCK.item(), Items.WIRELESS_TRANSMITTER.item(),
                 Items.REINFORCED_STRING.item(), Items.STABILIZED_BLISTERING_BLOCK.item(), Items.REINFORCED_STRING.item()
         });
+        setGuideType("machines");
     }
 
     @Override

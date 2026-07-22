@@ -24,6 +24,7 @@ public class ElectricWindStaff extends SlimefunItem implements Rechargeable {
                 SlimefunItems.ELECTRIC_MOTOR.item(), SlimefunItems.STAFF_WIND.item(), SlimefunItems.ELECTRIC_MOTOR.item(),
                 null, SlimefunItems.MEDIUM_CAPACITOR.item(), null
         });
+        setGuideType("tools");
     }
 
     @Override

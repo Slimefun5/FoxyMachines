@@ -29,6 +29,7 @@ public class RemoteController extends SlimefunItem implements NotPlaceable, Rech
                 Items.DAMIENIUM.item(), Items.WIRELESS_TRANSMITTER.item(), Items.DAMIENIUM.item(),
                 Items.DAMIENIUM.item(), Items.WIRELESS_TRANSMITTER.item(), Items.DAMIENIUM.item()
         });
+        setGuideType("tools");
     }
 
     @Override

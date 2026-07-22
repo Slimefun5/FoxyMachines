@@ -50,6 +50,7 @@ public class GhostBlock extends SlimefunItem {
         });
 
         this.material = item.getType();
+        setGuideType("decoration");
     }
 
     @Override

@@ -19,6 +19,7 @@ public class ShardMaterial extends SimpleSlimefunItem<ItemDropHandler> {
         super(itemGroup, item, recipeType, recipe);
 
         this.color = color;
+        setGuideType("resources");
     }
 
     @Nonnull

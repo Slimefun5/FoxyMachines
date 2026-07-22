@@ -271,7 +271,7 @@ final class ItemSetup {
                 Items.CURSED_SHARD.item(), Items.CELESTIAL_SHARD.item(), Items.CURSED_SHARD.item(),
                 Items.CELESTIAL_SHARD.item(), new ItemStack(MaterialCompat.safe(XMaterial.EMERALD)), Items.CELESTIAL_SHARD.item(),
                 Items.CURSED_SHARD.item(), Items.CELESTIAL_SHARD.item(), Items.CURSED_SHARD.item()
-                }).register(FoxyMachines.getInstance());
+                }).setGuideType("resources").register(FoxyMachines.getInstance());
         new SacrificialAltarPiece(Items.SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS, new ItemStack[]{
                 new ItemStack(MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICKS)), new ItemStack(MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICKS)), new ItemStack(MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICKS)),
                 new ItemStack(MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICKS)), SlimefunItems.REINFORCED_PLATE.item(), new ItemStack(MaterialCompat.safe(XMaterial.POLISHED_BLACKSTONE_BRICKS)),

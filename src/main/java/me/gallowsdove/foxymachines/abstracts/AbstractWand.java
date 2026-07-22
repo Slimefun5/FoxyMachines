@@ -91,6 +91,7 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
 
     protected AbstractWand(SlimefunItemStack item, RecipeType recipeType, ItemStack [] recipe) {
         super(Items.TOOLS_ITEM_GROUP, item, recipeType, recipe);
+        setGuideType("tools");
     }
 
     @Override
