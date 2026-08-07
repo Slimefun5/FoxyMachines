@@ -17,7 +17,6 @@ import me.gallowsdove.foxymachines.utils.MaterialCompat;
 // (rendered per-viewer by the fork's LoreComposer). Items are constructed name-less here.
 public final class Items{
 
-    // Item groups
     public static final NestedItemGroup MAIN_ITEM_GROUP = new NestedItemGroup(
             new NamespacedKey(FoxyMachines.getInstance(), "foxy_machines"),
             CustomItemStack.create(MaterialCompat.safe(XMaterial.SHEARS), "&4Foxy Machines")
@@ -65,7 +64,6 @@ public final class Items{
             CustomItemStack.create(MaterialCompat.safe(XMaterial.GLASS), "&5Ghost Blocks")
     );
 
-    // Items
     public static final SlimefunItemStack ELECTRIC_WIND_STAFF = new SlimefunItemStack(
             "ELECTRIC_WIND_STAFF",
             MaterialCompat.safe(XMaterial.BLAZE_ROD)
