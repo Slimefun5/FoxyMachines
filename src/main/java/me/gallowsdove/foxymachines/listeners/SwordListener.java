@@ -25,13 +25,10 @@ import org.bukkit.inventory.PlayerInventory;
 public class SwordListener implements Listener {
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
     private void onDamage(EntityDamageByEntityEvent event) {
-        // If it's not a possible cause
         if (event.getCause() != EntityDamageEvent.DamageCause.ENTITY_ATTACK && !event.getCause().name().equals("ENTITY_SWEEP_ATTACK")) {
             return;
         }
 
-        // If the attacker is not a HumanEntity, someone who can't use the item, return
-        // Or if the attacked entity is not a living entity, someone who can't be attacked, return
         if (!(event.getDamager() instanceof HumanEntity) || !(event.getEntity() instanceof LivingEntity)) {
             return;
         }

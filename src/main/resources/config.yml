@@ -24,7 +24,6 @@
 #   - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 # For tags see:
 #   - https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Tag.html
-#   - https://slimefun.github.io/javadocs/Slimefun4/docs/io/github/thebusybiscuit/slimefun4/utils/tags/SlimefunTag.html
 # If a material and tag share the same name only the material will be added.
 #
 # max-sponge-wand-blocks: default: 16384
