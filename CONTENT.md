@@ -4,7 +4,7 @@ FoxyMachines adds a wide range of machines, custom mobs and bosses, wands and en
 
 | FoxyMachines | Slimefun5 | Minecraft |
 |---|---|---|
-| UNOFFICIAL | 5.2.0+ | 1.8.x – 26.x |
+| UNOFFICIAL | 5.2.0+ | 1.8.x to 26.x |
 
 Download the latest release and place it in your server's `plugins/` folder. Slimefun5 must be installed first.
 
