@@ -26,6 +26,7 @@ import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 import me.mrCookieSlime.Slimefun.api.inventory.DirtyChestMenu;
 import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
+import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -65,6 +66,7 @@ public class ElectricGoldRefinery extends SlimefunItem implements EnergyNetCompo
 
             @Override
             public void init() {
+                optOutOfHeaderItem(ChatColor.GOLD);
                 constructMenu(this);
             }
 

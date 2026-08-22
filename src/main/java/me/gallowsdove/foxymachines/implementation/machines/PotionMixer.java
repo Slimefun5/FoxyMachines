@@ -66,6 +66,7 @@ public class PotionMixer extends SlimefunItem implements EnergyNetComponent {
 
             @Override
             public void init() {
+                optOutOfHeaderItem(ChatColor.GOLD);
                 constructMenu(this);
             }
 
