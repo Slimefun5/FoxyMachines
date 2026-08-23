@@ -492,4 +492,19 @@ public final class Items{
             "COMPRESSED_SPONGE",
             MaterialCompat.safe(XMaterial.WET_SPONGE)
     );
+
+    /**
+     * Places this addon's items in the shared guide categories. One call per group is enough:
+     * the guide reads a group's category for every item in it (see ItemTypeClassifier), so items
+     * no longer fall back to Misc.
+     */
+    static {
+        MATERIALS_ITEM_GROUP.setCategory("resources");
+        MACHINES_ITEM_GROUP.setCategory("machines");
+        TOOLS_ITEM_GROUP.setCategory("tools");
+        WEAPONS_AND_ARMORS_ITEM_GROUP.setCategory("weapons");
+        ALTAR_ITEM_GROUP.setCategory("magic");
+        BOSSES_ITEM_GROUP.setCategory("misc");
+        GHOST_BLOCKS_ITEM_GROUP.setCategory("decoration");
+    }
 }
