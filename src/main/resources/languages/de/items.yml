@@ -1,2 +1,13 @@
 # German item translations for FoxyMachines. Keyed by Slimefun item id.
 # name = display name with '&' colour codes. Missing items fall back to English.
+
+# Family template: covers every auto-generated GHOST_BLOCK_<MATERIAL> (one per vanilla block).
+# %MOB% captures the material segment and is humanized (ACACIA_LOG -> "Acacia Log"); that segment
+# comes from the Bukkit enum and so stays English. The exact GHOST_BLOCK_REMOVER id, when present,
+# still wins (exact lookups beat family templates).
+GHOST_BLOCK_%MOB%:
+  name: "&fGeisterblock: &6%mob%"
+  type:
+    - "&7&oGadget"
+  description:
+    - "&7Ein immaterieller Block."
