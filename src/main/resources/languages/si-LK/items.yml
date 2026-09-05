@@ -1,0 +1,231 @@
+ACRI_ARCUM:
+  type:
+  - '&7&oආයුධය'
+AQUATIC_HELMET:
+  type:
+  - '&7&oසන්නාහය'
+AQUATIC_NETHERITE_INGOT:
+  type:
+  - '&7&oසම්පත'
+BERRY_BUSH_TRIMMER:
+  type:
+  - '&7&oමෙවලම'
+BLOOD:
+  type:
+  - '&7&oසම්පත'
+BLOOD_INFUSED_SKULL:
+  type:
+  - '&7&oසම්පත'
+BOOSTED_ACTIVATOR_RAIL:
+  type:
+  - '&7&oයන්ත්‍රය'
+BOOSTED_DETECTOR_RAIL:
+  type:
+  - '&7&oයන්ත්‍රය'
+BOOSTED_POWERED_RAIL:
+  type:
+  - '&7&oයන්ත්‍රය'
+BOOSTED_RAIL:
+  type:
+  - '&7&oයන්ත්‍රය'
+BUCKET_OF_BLOOD:
+  type:
+  - '&7&oසම්පත'
+CELESTIAL_SHARD:
+  type:
+  - '&7&oසම්පත'
+CELESTIAL_SWORD:
+  type:
+  - '&7&oආයුධය'
+CHUNK_LOADER:
+  type:
+  - '&7&oයන්ත්‍රය'
+COMPRESSED_SPONGE:
+  type:
+  - '&7&oසම්පත'
+CURSED_RABBIT_PAW:
+  type:
+  - '&7&oසම්පත'
+CURSED_SHARD:
+  type:
+  - '&7&oසම්පත'
+CURSED_SWORD:
+  type:
+  - '&7&oආයුධය'
+DAMIENIUM:
+  type:
+  - '&7&oසම්පත'
+DEMONIC_INGOT:
+  type:
+  - '&7&oසම්පත'
+DEMONIC_PLATE:
+  type:
+  - '&7&oසම්පත'
+ELECTRIC_FIRE_STAFF:
+  type:
+  - '&7&oමෙවලම'
+ELECTRIC_FIRE_STAFF_II:
+  type:
+  - '&7&oමෙවලම'
+ELECTRIC_GOLD_REFINERY:
+  type:
+  - '&7&oයන්ත්‍රය'
+ELECTRIC_WIND_STAFF:
+  type:
+  - '&7&oමෙවලම'
+ELUCIDATOR:
+  type:
+  - '&7&oආයුධය'
+EQUANIMOUS_GEM:
+  type:
+  - '&7&oසම්පත'
+FIERY_LEGGINGS:
+  type:
+  - '&7&oසන්නාහය'
+FIERY_LEGGINGS_FRAME:
+  type:
+  - '&7&oසම්පත'
+FILL_WAND:
+  type:
+  - '&7&oමෙවලම'
+FORCEFIELD_DOME:
+  type:
+  - '&7&oයන්ත්‍රය'
+FORCEFIELD_ENGINE:
+  type:
+  - '&7&oසම්පත'
+FORCEFIELD_STABILIZER:
+  type:
+  - '&7&oසම්පත'
+GHOST_BLOCK_%MOB%:
+  type:
+  - '&7&oඋපාංගය'
+GHOST_BLOCK_REMOVER:
+  type:
+  - '&7&oමෙවලම'
+HEADLESS_HORSEMAN_SPAWN_EGG:
+  type:
+  - '&7&oවිවිධ'
+HEALING_BOW:
+  type:
+  - '&7&oආයුධය'
+HELMET_FRAME:
+  type:
+  - '&7&oසම්පත'
+HUMAN_SKULL:
+  type:
+  - '&7&oසම්පත'
+IMPROVEMENT_CORE:
+  type:
+  - '&7&oසම්පත'
+IMPROVEMENT_FORGE:
+  type:
+  - '&7&oයන්ත්‍රය'
+LIGHT_BOOTS:
+  type:
+  - '&7&oසන්නාහය'
+LIGHT_BOOTS_FRAME:
+  type:
+  - '&7&oසම්පත'
+MAGIC_LUMP_4:
+  type:
+  - '&7&oසම්පත'
+MAGIC_LUMP_5:
+  type:
+  - '&7&oසම්පත'
+MAGMA_ESSENCE:
+  type:
+  - '&7&oසම්පත'
+NUCLEAR_SALT:
+  type:
+  - '&7&oසම්පත'
+PARROT_FEATHER:
+  type:
+  - '&7&oසම්පත'
+PIXIE_DUST:
+  type:
+  - '&7&oආහාර'
+PIXIE_QUEEN_HEART:
+  type:
+  - '&7&oසම්පත'
+PIXIE_QUEEN_SPAWN_EGG:
+  type:
+  - '&7&oවිවිධ'
+POLAR_FOX_HIDE:
+  type:
+  - '&7&oසම්පත'
+POSEIDONS_BLESSING:
+  type:
+  - '&7&oසම්පත'
+POSEIDONS_FISHING_ROD:
+  type:
+  - '&7&oමෙවලම'
+POSITION_SELECTOR:
+  type:
+  - '&7&oමෙවලම'
+POTION_MIXER:
+  type:
+  - '&7&oයන්ත්‍රය'
+PURE_BONE_DUST:
+  type:
+  - '&7&oසම්පත'
+PURIFIED_BONE:
+  type:
+  - '&7&oසම්පත'
+REINFORCED_STRING:
+  type:
+  - '&7&oසම්පත'
+REMOTE_CONTROLLER:
+  type:
+  - '&7&oමෙවලම'
+RESISTANT_CHESTPLATE:
+  type:
+  - '&7&oසන්නාහය'
+RESISTANT_CHESTPLATE_FRAME:
+  type:
+  - '&7&oසම්පත'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  type:
+  - '&7&oයන්ත්‍රය'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  type:
+  - '&7&oයන්ත්‍රය'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  type:
+  - '&7&oයන්ත්‍රය'
+SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  type:
+  - '&7&oයන්ත්‍රය'
+SACRIFICIAL_ALTAR_SOUL_TORCH:
+  type:
+  - '&7&oයන්ත්‍රය'
+SPONGE_WAND:
+  type:
+  - '&7&oමෙවලම'
+STABILIZED_BLISTERING_BLOCK:
+  type:
+  - '&7&oසම්පත'
+SWEETENED_SWEET_INGOT:
+  type:
+  - '&7&oසම්පත'
+SWEET_INGOT:
+  type:
+  - '&7&oසම්පත'
+TROPICAL_FISH_SCALE:
+  type:
+  - '&7&oසම්පත'
+UNBREAKABLE_RUNE:
+  type:
+  - '&7&oවිවිධ'
+UNHOLY_WITHER_SKELETON_BONE:
+  type:
+  - '&7&oසම්පත'
+VILE_PUMPKIN:
+  type:
+  - '&7&oසම්පත'
+VILE_SEEDS:
+  type:
+  - '&7&oආහාර'
+WIRELESS_TRANSMITTER:
+  type:
+  - '&7&oසම්පත'

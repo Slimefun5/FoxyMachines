@@ -98,17 +98,14 @@ FORCEFIELD_STABILIZER:
   type:
   - '&7&oRecurso'
 GHOST_BLOCK_%MOB%:
-  description:
-  - '&7Um bloco intangivel.'
-  name: '&fBloco Fantasma: &6%mob%'
   type:
-  - '&7&oEngenhoca'
+  - '&7&oAcessório'
 GHOST_BLOCK_REMOVER:
   type:
   - '&7&oFerramenta'
 HEADLESS_HORSEMAN_SPAWN_EGG:
   type:
-  - '&7&oDiversos'
+  - '&7&oDiverso'
 HEALING_BOW:
   type:
   - '&7&oArma'
@@ -153,7 +150,7 @@ PIXIE_QUEEN_HEART:
   - '&7&oRecurso'
 PIXIE_QUEEN_SPAWN_EGG:
   type:
-  - '&7&oDiversos'
+  - '&7&oDiverso'
 POLAR_FOX_HIDE:
   type:
   - '&7&oRecurso'
@@ -219,7 +216,7 @@ TROPICAL_FISH_SCALE:
   - '&7&oRecurso'
 UNBREAKABLE_RUNE:
   type:
-  - '&7&oDiversos'
+  - '&7&oDiverso'
 UNHOLY_WITHER_SKELETON_BONE:
   type:
   - '&7&oRecurso'

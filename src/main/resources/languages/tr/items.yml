@@ -1,234 +1,231 @@
 ACRI_ARCUM:
   type:
-  - '&7&oArma'
+  - '&7&oSilah'
 AQUATIC_HELMET:
   type:
-  - '&7&oArmadura'
+  - '&7&oZırh'
 AQUATIC_NETHERITE_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 BERRY_BUSH_TRIMMER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 BLOOD:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 BLOOD_INFUSED_SKULL:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 BOOSTED_ACTIVATOR_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 BOOSTED_DETECTOR_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 BOOSTED_POWERED_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 BOOSTED_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 BUCKET_OF_BLOOD:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 CELESTIAL_SHARD:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 CELESTIAL_SWORD:
   type:
-  - '&7&oArma'
+  - '&7&oSilah'
 CHUNK_LOADER:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 COMPRESSED_SPONGE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 CURSED_RABBIT_PAW:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 CURSED_SHARD:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 CURSED_SWORD:
   type:
-  - '&7&oArma'
+  - '&7&oSilah'
 DAMIENIUM:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 DEMONIC_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 DEMONIC_PLATE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 ELECTRIC_FIRE_STAFF:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 ELECTRIC_FIRE_STAFF_II:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 ELECTRIC_GOLD_REFINERY:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 ELECTRIC_WIND_STAFF:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 ELUCIDATOR:
   type:
-  - '&7&oArma'
+  - '&7&oSilah'
 EQUANIMOUS_GEM:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 FIERY_LEGGINGS:
   type:
-  - '&7&oArmadura'
+  - '&7&oZırh'
 FIERY_LEGGINGS_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 FILL_WAND:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 FORCEFIELD_DOME:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 FORCEFIELD_ENGINE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 FORCEFIELD_STABILIZER:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 GHOST_BLOCK_%MOB%:
-  description:
-  - '&7Um bloco intangivel.'
-  name: '&fBloco Fantasma: &6%mob%'
   type:
-  - '&7&oEngenhoca'
+  - '&7&oCihaz'
 GHOST_BLOCK_REMOVER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 HEADLESS_HORSEMAN_SPAWN_EGG:
   type:
-  - '&7&oDiversos'
+  - '&7&oÇeşitli'
 HEALING_BOW:
   type:
-  - '&7&oArma'
+  - '&7&oSilah'
 HELMET_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 HUMAN_SKULL:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 IMPROVEMENT_CORE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 IMPROVEMENT_FORGE:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 LIGHT_BOOTS:
   type:
-  - '&7&oArmadura'
+  - '&7&oZırh'
 LIGHT_BOOTS_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 MAGIC_LUMP_4:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 MAGIC_LUMP_5:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 MAGMA_ESSENCE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 NUCLEAR_SALT:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 PARROT_FEATHER:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 PIXIE_DUST:
   type:
-  - '&7&oComida'
+  - '&7&oYiyecek'
 PIXIE_QUEEN_HEART:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 PIXIE_QUEEN_SPAWN_EGG:
   type:
-  - '&7&oDiversos'
+  - '&7&oÇeşitli'
 POLAR_FOX_HIDE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 POSEIDONS_BLESSING:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 POSEIDONS_FISHING_ROD:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 POSITION_SELECTOR:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 POTION_MIXER:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 PURE_BONE_DUST:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 PURIFIED_BONE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 REINFORCED_STRING:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 REMOTE_CONTROLLER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 RESISTANT_CHESTPLATE:
   type:
-  - '&7&oArmadura'
+  - '&7&oZırh'
 RESISTANT_CHESTPLATE_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
-  - '&7&oMáquina'
+  - '&7&oMakine'
 SPONGE_WAND:
   type:
-  - '&7&oFerramenta'
+  - '&7&oAlet'
 STABILIZED_BLISTERING_BLOCK:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 SWEETENED_SWEET_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 SWEET_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 TROPICAL_FISH_SCALE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 UNBREAKABLE_RUNE:
   type:
-  - '&7&oDiversos'
+  - '&7&oÇeşitli'
 UNHOLY_WITHER_SKELETON_BONE:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 VILE_PUMPKIN:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'
 VILE_SEEDS:
   type:
-  - '&7&oComida'
+  - '&7&oYiyecek'
 WIRELESS_TRANSMITTER:
   type:
-  - '&7&oRecurso'
+  - '&7&oKaynak'

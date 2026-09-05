@@ -1,234 +1,231 @@
 ACRI_ARCUM:
   type:
-  - '&7&oArma'
+  - '&7&oسلاح'
 AQUATIC_HELMET:
   type:
-  - '&7&oArmadura'
+  - '&7&oدرع'
 AQUATIC_NETHERITE_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 BERRY_BUSH_TRIMMER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 BLOOD:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 BLOOD_INFUSED_SKULL:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 BOOSTED_ACTIVATOR_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 BOOSTED_DETECTOR_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 BOOSTED_POWERED_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 BOOSTED_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 BUCKET_OF_BLOOD:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 CELESTIAL_SHARD:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 CELESTIAL_SWORD:
   type:
-  - '&7&oArma'
+  - '&7&oسلاح'
 CHUNK_LOADER:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 COMPRESSED_SPONGE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 CURSED_RABBIT_PAW:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 CURSED_SHARD:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 CURSED_SWORD:
   type:
-  - '&7&oArma'
+  - '&7&oسلاح'
 DAMIENIUM:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 DEMONIC_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 DEMONIC_PLATE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 ELECTRIC_FIRE_STAFF:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 ELECTRIC_FIRE_STAFF_II:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 ELECTRIC_GOLD_REFINERY:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 ELECTRIC_WIND_STAFF:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 ELUCIDATOR:
   type:
-  - '&7&oArma'
+  - '&7&oسلاح'
 EQUANIMOUS_GEM:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 FIERY_LEGGINGS:
   type:
-  - '&7&oArmadura'
+  - '&7&oدرع'
 FIERY_LEGGINGS_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 FILL_WAND:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 FORCEFIELD_DOME:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 FORCEFIELD_ENGINE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 FORCEFIELD_STABILIZER:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 GHOST_BLOCK_%MOB%:
-  description:
-  - '&7Um bloco intangivel.'
-  name: '&fBloco Fantasma: &6%mob%'
   type:
-  - '&7&oEngenhoca'
+  - '&7&oجهاز'
 GHOST_BLOCK_REMOVER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 HEADLESS_HORSEMAN_SPAWN_EGG:
   type:
-  - '&7&oDiversos'
+  - '&7&oمتنوع'
 HEALING_BOW:
   type:
-  - '&7&oArma'
+  - '&7&oسلاح'
 HELMET_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 HUMAN_SKULL:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 IMPROVEMENT_CORE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 IMPROVEMENT_FORGE:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 LIGHT_BOOTS:
   type:
-  - '&7&oArmadura'
+  - '&7&oدرع'
 LIGHT_BOOTS_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 MAGIC_LUMP_4:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 MAGIC_LUMP_5:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 MAGMA_ESSENCE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 NUCLEAR_SALT:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 PARROT_FEATHER:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 PIXIE_DUST:
   type:
-  - '&7&oComida'
+  - '&7&oطعام'
 PIXIE_QUEEN_HEART:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 PIXIE_QUEEN_SPAWN_EGG:
   type:
-  - '&7&oDiversos'
+  - '&7&oمتنوع'
 POLAR_FOX_HIDE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 POSEIDONS_BLESSING:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 POSEIDONS_FISHING_ROD:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 POSITION_SELECTOR:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 POTION_MIXER:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 PURE_BONE_DUST:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 PURIFIED_BONE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 REINFORCED_STRING:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 REMOTE_CONTROLLER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 RESISTANT_CHESTPLATE:
   type:
-  - '&7&oArmadura'
+  - '&7&oدرع'
 RESISTANT_CHESTPLATE_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
-  - '&7&oMáquina'
+  - '&7&oآلة'
 SPONGE_WAND:
   type:
-  - '&7&oFerramenta'
+  - '&7&oأداة'
 STABILIZED_BLISTERING_BLOCK:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 SWEETENED_SWEET_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 SWEET_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 TROPICAL_FISH_SCALE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 UNBREAKABLE_RUNE:
   type:
-  - '&7&oDiversos'
+  - '&7&oمتنوع'
 UNHOLY_WITHER_SKELETON_BONE:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 VILE_PUMPKIN:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'
 VILE_SEEDS:
   type:
-  - '&7&oComida'
+  - '&7&oطعام'
 WIRELESS_TRANSMITTER:
   type:
-  - '&7&oRecurso'
+  - '&7&oمورد'

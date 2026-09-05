@@ -1,234 +1,231 @@
 ACRI_ARCUM:
   type:
-  - '&7&oArma'
+  - '&7&oОружје'
 AQUATIC_HELMET:
   type:
-  - '&7&oArmadura'
+  - '&7&oОклоп'
 AQUATIC_NETHERITE_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 BERRY_BUSH_TRIMMER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 BLOOD:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 BLOOD_INFUSED_SKULL:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 BOOSTED_ACTIVATOR_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 BOOSTED_DETECTOR_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 BOOSTED_POWERED_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 BOOSTED_RAIL:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 BUCKET_OF_BLOOD:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 CELESTIAL_SHARD:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 CELESTIAL_SWORD:
   type:
-  - '&7&oArma'
+  - '&7&oОружје'
 CHUNK_LOADER:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 COMPRESSED_SPONGE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 CURSED_RABBIT_PAW:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 CURSED_SHARD:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 CURSED_SWORD:
   type:
-  - '&7&oArma'
+  - '&7&oОружје'
 DAMIENIUM:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 DEMONIC_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 DEMONIC_PLATE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 ELECTRIC_FIRE_STAFF:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 ELECTRIC_FIRE_STAFF_II:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 ELECTRIC_GOLD_REFINERY:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 ELECTRIC_WIND_STAFF:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 ELUCIDATOR:
   type:
-  - '&7&oArma'
+  - '&7&oОружје'
 EQUANIMOUS_GEM:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 FIERY_LEGGINGS:
   type:
-  - '&7&oArmadura'
+  - '&7&oОклоп'
 FIERY_LEGGINGS_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 FILL_WAND:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 FORCEFIELD_DOME:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 FORCEFIELD_ENGINE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 FORCEFIELD_STABILIZER:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 GHOST_BLOCK_%MOB%:
-  description:
-  - '&7Um bloco intangivel.'
-  name: '&fBloco Fantasma: &6%mob%'
   type:
-  - '&7&oEngenhoca'
+  - '&7&oНаправа'
 GHOST_BLOCK_REMOVER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 HEADLESS_HORSEMAN_SPAWN_EGG:
   type:
-  - '&7&oDiversos'
+  - '&7&oРазно'
 HEALING_BOW:
   type:
-  - '&7&oArma'
+  - '&7&oОружје'
 HELMET_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 HUMAN_SKULL:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 IMPROVEMENT_CORE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 IMPROVEMENT_FORGE:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 LIGHT_BOOTS:
   type:
-  - '&7&oArmadura'
+  - '&7&oОклоп'
 LIGHT_BOOTS_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 MAGIC_LUMP_4:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 MAGIC_LUMP_5:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 MAGMA_ESSENCE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 NUCLEAR_SALT:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 PARROT_FEATHER:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 PIXIE_DUST:
   type:
-  - '&7&oComida'
+  - '&7&oХрана'
 PIXIE_QUEEN_HEART:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 PIXIE_QUEEN_SPAWN_EGG:
   type:
-  - '&7&oDiversos'
+  - '&7&oРазно'
 POLAR_FOX_HIDE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 POSEIDONS_BLESSING:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 POSEIDONS_FISHING_ROD:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 POSITION_SELECTOR:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 POTION_MIXER:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 PURE_BONE_DUST:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 PURIFIED_BONE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 REINFORCED_STRING:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 REMOTE_CONTROLLER:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 RESISTANT_CHESTPLATE:
   type:
-  - '&7&oArmadura'
+  - '&7&oОклоп'
 RESISTANT_CHESTPLATE_FRAME:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
-  - '&7&oMáquina'
+  - '&7&oМашина'
 SPONGE_WAND:
   type:
-  - '&7&oFerramenta'
+  - '&7&oАлатка'
 STABILIZED_BLISTERING_BLOCK:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 SWEETENED_SWEET_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 SWEET_INGOT:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 TROPICAL_FISH_SCALE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 UNBREAKABLE_RUNE:
   type:
-  - '&7&oDiversos'
+  - '&7&oРазно'
 UNHOLY_WITHER_SKELETON_BONE:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 VILE_PUMPKIN:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'
 VILE_SEEDS:
   type:
-  - '&7&oComida'
+  - '&7&oХрана'
 WIRELESS_TRANSMITTER:
   type:
-  - '&7&oRecurso'
+  - '&7&oРесурс'

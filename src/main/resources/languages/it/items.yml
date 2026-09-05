@@ -1,13 +1,234 @@
-# Italian item translations for FoxyMachines. Keyed by Slimefun item id.
-# name = display name with '&' colour codes. Missing items fall back to English.
-
-# Family template: covers every auto-generated GHOST_BLOCK_<MATERIAL> (one per vanilla block).
-# %MOB% captures the material segment and is humanized (ACACIA_LOG -> "Acacia Log"); that segment
-# comes from the Bukkit enum and so stays English. The exact GHOST_BLOCK_REMOVER id, when present,
-# still wins (exact lookups beat family templates).
-GHOST_BLOCK_%MOB%:
-  name: "&fBlocco Fantasma: &6%mob%"
+ACRI_ARCUM:
   type:
-    - "&7&oAggeggio"
+  - '&7&oArma'
+AQUATIC_HELMET:
+  type:
+  - '&7&oArmatura'
+AQUATIC_NETHERITE_INGOT:
+  type:
+  - '&7&oRisorsa'
+BERRY_BUSH_TRIMMER:
+  type:
+  - '&7&oStrumento'
+BLOOD:
+  type:
+  - '&7&oRisorsa'
+BLOOD_INFUSED_SKULL:
+  type:
+  - '&7&oRisorsa'
+BOOSTED_ACTIVATOR_RAIL:
+  type:
+  - '&7&oMacchina'
+BOOSTED_DETECTOR_RAIL:
+  type:
+  - '&7&oMacchina'
+BOOSTED_POWERED_RAIL:
+  type:
+  - '&7&oMacchina'
+BOOSTED_RAIL:
+  type:
+  - '&7&oMacchina'
+BUCKET_OF_BLOOD:
+  type:
+  - '&7&oRisorsa'
+CELESTIAL_SHARD:
+  type:
+  - '&7&oRisorsa'
+CELESTIAL_SWORD:
+  type:
+  - '&7&oArma'
+CHUNK_LOADER:
+  type:
+  - '&7&oMacchina'
+COMPRESSED_SPONGE:
+  type:
+  - '&7&oRisorsa'
+CURSED_RABBIT_PAW:
+  type:
+  - '&7&oRisorsa'
+CURSED_SHARD:
+  type:
+  - '&7&oRisorsa'
+CURSED_SWORD:
+  type:
+  - '&7&oArma'
+DAMIENIUM:
+  type:
+  - '&7&oRisorsa'
+DEMONIC_INGOT:
+  type:
+  - '&7&oRisorsa'
+DEMONIC_PLATE:
+  type:
+  - '&7&oRisorsa'
+ELECTRIC_FIRE_STAFF:
+  type:
+  - '&7&oStrumento'
+ELECTRIC_FIRE_STAFF_II:
+  type:
+  - '&7&oStrumento'
+ELECTRIC_GOLD_REFINERY:
+  type:
+  - '&7&oMacchina'
+ELECTRIC_WIND_STAFF:
+  type:
+  - '&7&oStrumento'
+ELUCIDATOR:
+  type:
+  - '&7&oArma'
+EQUANIMOUS_GEM:
+  type:
+  - '&7&oRisorsa'
+FIERY_LEGGINGS:
+  type:
+  - '&7&oArmatura'
+FIERY_LEGGINGS_FRAME:
+  type:
+  - '&7&oRisorsa'
+FILL_WAND:
+  type:
+  - '&7&oStrumento'
+FORCEFIELD_DOME:
+  type:
+  - '&7&oMacchina'
+FORCEFIELD_ENGINE:
+  type:
+  - '&7&oRisorsa'
+FORCEFIELD_STABILIZER:
+  type:
+  - '&7&oRisorsa'
+GHOST_BLOCK_%MOB%:
   description:
-    - "&7Un blocco intangibile."
+  - '&7Un blocco intangibile.'
+  name: '&fBlocco Fantasma: &6%mob%'
+  type:
+  - '&7&oAggeggio'
+GHOST_BLOCK_REMOVER:
+  type:
+  - '&7&oStrumento'
+HEADLESS_HORSEMAN_SPAWN_EGG:
+  type:
+  - '&7&oVarie'
+HEALING_BOW:
+  type:
+  - '&7&oArma'
+HELMET_FRAME:
+  type:
+  - '&7&oRisorsa'
+HUMAN_SKULL:
+  type:
+  - '&7&oRisorsa'
+IMPROVEMENT_CORE:
+  type:
+  - '&7&oRisorsa'
+IMPROVEMENT_FORGE:
+  type:
+  - '&7&oMacchina'
+LIGHT_BOOTS:
+  type:
+  - '&7&oArmatura'
+LIGHT_BOOTS_FRAME:
+  type:
+  - '&7&oRisorsa'
+MAGIC_LUMP_4:
+  type:
+  - '&7&oRisorsa'
+MAGIC_LUMP_5:
+  type:
+  - '&7&oRisorsa'
+MAGMA_ESSENCE:
+  type:
+  - '&7&oRisorsa'
+NUCLEAR_SALT:
+  type:
+  - '&7&oRisorsa'
+PARROT_FEATHER:
+  type:
+  - '&7&oRisorsa'
+PIXIE_DUST:
+  type:
+  - '&7&oCibo'
+PIXIE_QUEEN_HEART:
+  type:
+  - '&7&oRisorsa'
+PIXIE_QUEEN_SPAWN_EGG:
+  type:
+  - '&7&oVarie'
+POLAR_FOX_HIDE:
+  type:
+  - '&7&oRisorsa'
+POSEIDONS_BLESSING:
+  type:
+  - '&7&oRisorsa'
+POSEIDONS_FISHING_ROD:
+  type:
+  - '&7&oStrumento'
+POSITION_SELECTOR:
+  type:
+  - '&7&oStrumento'
+POTION_MIXER:
+  type:
+  - '&7&oMacchina'
+PURE_BONE_DUST:
+  type:
+  - '&7&oRisorsa'
+PURIFIED_BONE:
+  type:
+  - '&7&oRisorsa'
+REINFORCED_STRING:
+  type:
+  - '&7&oRisorsa'
+REMOTE_CONTROLLER:
+  type:
+  - '&7&oStrumento'
+RESISTANT_CHESTPLATE:
+  type:
+  - '&7&oArmatura'
+RESISTANT_CHESTPLATE_FRAME:
+  type:
+  - '&7&oRisorsa'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  type:
+  - '&7&oMacchina'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  type:
+  - '&7&oMacchina'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  type:
+  - '&7&oMacchina'
+SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  type:
+  - '&7&oMacchina'
+SACRIFICIAL_ALTAR_SOUL_TORCH:
+  type:
+  - '&7&oMacchina'
+SPONGE_WAND:
+  type:
+  - '&7&oStrumento'
+STABILIZED_BLISTERING_BLOCK:
+  type:
+  - '&7&oRisorsa'
+SWEETENED_SWEET_INGOT:
+  type:
+  - '&7&oRisorsa'
+SWEET_INGOT:
+  type:
+  - '&7&oRisorsa'
+TROPICAL_FISH_SCALE:
+  type:
+  - '&7&oRisorsa'
+UNBREAKABLE_RUNE:
+  type:
+  - '&7&oVarie'
+UNHOLY_WITHER_SKELETON_BONE:
+  type:
+  - '&7&oRisorsa'
+VILE_PUMPKIN:
+  type:
+  - '&7&oRisorsa'
+VILE_SEEDS:
+  type:
+  - '&7&oCibo'
+WIRELESS_TRANSMITTER:
+  type:
+  - '&7&oRisorsa'
