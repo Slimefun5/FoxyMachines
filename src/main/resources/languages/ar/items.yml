@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oمورد'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 100 جول'
   type:
   - '&7&oأداة'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 200 جول'
   type:
   - '&7&oأداة'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 جول/ث'
   type:
   - '&7&oآلة'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 100 جول'
   type:
   - '&7&oأداة'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oمورد'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 1000 جول'
   type:
   - '&7&oأداة'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 جول/ث'
   type:
   - '&7&oآلة'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oمورد'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 جول/ث'
   type:
   - '&7&oآلة'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oمورد'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 مستوى الإشعاع: &cمرتفع جدا'
   type:
   - '&7&oمورد'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oأداة'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 200 جول'
   type:
   - '&7&oأداة'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 جول/ث'
   type:
   - '&7&oآلة'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&oمورد'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 1000 جول'
   type:
   - '&7&oأداة'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oآلة'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7مخزن 2000 جول'
   type:
   - '&7&oأداة'
 STABILIZED_BLISTERING_BLOCK:

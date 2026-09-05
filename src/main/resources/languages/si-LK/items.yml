@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oසම්පත'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7200 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oසම්පත'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &71000 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oසම්පත'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oසම්පත'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 විකිරණ මට්ටම: &cඉතා ඉහළ'
   type:
   - '&7&oසම්පත'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oමෙවලම'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7200 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&oසම්පත'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &71000 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oයන්ත්‍රය'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &72000 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 STABILIZED_BLISTERING_BLOCK:

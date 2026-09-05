@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oمنبع'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 100 ژول'
   type:
   - '&7&oابزار'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 200 ژول'
   type:
   - '&7&oابزار'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oماشین'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 100 ژول'
   type:
   - '&7&oابزار'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oمنبع'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 1000 ژول'
   type:
   - '&7&oابزار'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oماشین'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oمنبع'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oماشین'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oمنبع'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 سطح تشعشع: &cبسیار بالا'
   type:
   - '&7&oمنبع'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oابزار'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 200 ژول'
   type:
   - '&7&oابزار'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oماشین'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&oمنبع'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 1000 ژول'
   type:
   - '&7&oابزار'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oماشین'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7بافر 2000 ژول'
   type:
   - '&7&oابزار'
 STABILIZED_BLISTERING_BLOCK:

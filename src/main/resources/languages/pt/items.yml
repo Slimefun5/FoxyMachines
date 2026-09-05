@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oRecurso'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7Buffer de 100 J'
   type:
   - '&7&oFerramenta'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7Buffer de 200 J'
   type:
   - '&7&oFerramenta'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMáquina'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7Buffer de 100 J'
   type:
   - '&7&oFerramenta'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oRecurso'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7Buffer de 1000 J'
   type:
   - '&7&oFerramenta'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMáquina'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oRecurso'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMáquina'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oRecurso'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 Nível de radiação: &cMUITO ALTO'
   type:
   - '&7&oRecurso'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oFerramenta'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7Buffer de 200 J'
   type:
   - '&7&oFerramenta'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMáquina'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&oRecurso'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &7Buffer de 1000 J'
   type:
   - '&7&oFerramenta'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oMáquina'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7Buffer de 2000 J'
   type:
   - '&7&oFerramenta'
 STABILIZED_BLISTERING_BLOCK:

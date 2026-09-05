@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oทรัพยากร'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 100 J'
   type:
   - '&7&oเครื่องมือ'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 200 J'
   type:
   - '&7&oเครื่องมือ'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oเครื่องจักร'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 100 J'
   type:
   - '&7&oเครื่องมือ'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oทรัพยากร'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
   type:
   - '&7&oเครื่องมือ'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oเครื่องจักร'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oทรัพยากร'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oเครื่องจักร'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oทรัพยากร'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 ระดับรังสี: &cสูงมาก'
   type:
   - '&7&oทรัพยากร'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oเครื่องมือ'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 200 J'
   type:
   - '&7&oเครื่องมือ'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oเครื่องจักร'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&oทรัพยากร'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
   type:
   - '&7&oเครื่องมือ'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oเครื่องจักร'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7บัฟเฟอร์ 2000 J'
   type:
   - '&7&oเครื่องมือ'
 STABILIZED_BLISTERING_BLOCK:

@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&o资源'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J 缓冲'
   type:
   - '&7&o工具'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7200 J 缓冲'
   type:
   - '&7&o工具'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/秒'
   type:
   - '&7&o机器'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J 缓冲'
   type:
   - '&7&o工具'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&o资源'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &71000 J 缓冲'
   type:
   - '&7&o工具'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/秒'
   type:
   - '&7&o机器'
 FORCEFIELD_ENGINE:
@@ -122,6 +134,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&o资源'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/秒'
   type:
   - '&7&o机器'
 LIGHT_BOOTS:
@@ -140,6 +154,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&o资源'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 辐射等级: &c极高'
   type:
   - '&7&o资源'
 PARROT_FEATHER:
@@ -164,9 +180,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&o工具'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7200 J 缓冲'
   type:
   - '&7&o工具'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/秒'
   type:
   - '&7&o机器'
 PURE_BONE_DUST:
@@ -179,6 +199,8 @@ REINFORCED_STRING:
   type:
   - '&7&o资源'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &71000 J 缓冲'
   type:
   - '&7&o工具'
 RESISTANT_CHESTPLATE:
@@ -203,6 +225,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&o机器'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &72000 J 缓冲'
   type:
   - '&7&o工具'
 STABILIZED_BLISTERING_BLOCK:

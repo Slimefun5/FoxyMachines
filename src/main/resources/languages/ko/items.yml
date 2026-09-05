@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&o자원'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J 버퍼'
   type:
   - '&7&o도구'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7200 J 버퍼'
   type:
   - '&7&o도구'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/초'
   type:
   - '&7&o기계'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J 버퍼'
   type:
   - '&7&o도구'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&o자원'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &71000 J 버퍼'
   type:
   - '&7&o도구'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/초'
   type:
   - '&7&o기계'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&o자원'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/초'
   type:
   - '&7&o기계'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&o자원'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 방사능 수치: &c매우 높음'
   type:
   - '&7&o자원'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&o도구'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7200 J 버퍼'
   type:
   - '&7&o도구'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/초'
   type:
   - '&7&o기계'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&o자원'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &71000 J 버퍼'
   type:
   - '&7&o도구'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&o기계'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &72000 J 버퍼'
   type:
   - '&7&o도구'
 STABILIZED_BLISTERING_BLOCK:

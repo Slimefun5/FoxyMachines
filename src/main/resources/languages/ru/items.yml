@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oРесурс'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J Буфер'
   type:
   - '&7&oИнструмент'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7200 J Буфер'
   type:
   - '&7&oИнструмент'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oМашина'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J Буфер'
   type:
   - '&7&oИнструмент'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oРесурс'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &71000 J Буфер'
   type:
   - '&7&oИнструмент'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oМашина'
 FORCEFIELD_ENGINE:
@@ -122,6 +134,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oРесурс'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 LIGHT_BOOTS:
@@ -140,6 +154,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oРесурс'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 Уровень радиации: &cОЧЕНЬ ВЫСОКИЙ'
   type:
   - '&7&oРесурс'
 PARROT_FEATHER:
@@ -164,9 +180,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oИнструмент'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7200 J Буфер'
   type:
   - '&7&oИнструмент'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oМашина'
 PURE_BONE_DUST:
@@ -179,6 +199,8 @@ REINFORCED_STRING:
   type:
   - '&7&oРесурс'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &71000 J Буфер'
   type:
   - '&7&oИнструмент'
 RESISTANT_CHESTPLATE:
@@ -203,6 +225,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oМашина'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &72000 J Буфер'
   type:
   - '&7&oИнструмент'
 STABILIZED_BLISTERING_BLOCK:

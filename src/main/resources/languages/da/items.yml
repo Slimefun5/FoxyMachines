@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oRessource'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J buffer'
   type:
   - '&7&oVærktøj'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7200 J buffer'
   type:
   - '&7&oVærktøj'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMaskine'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J buffer'
   type:
   - '&7&oVærktøj'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oRessource'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &71000 J buffer'
   type:
   - '&7&oVærktøj'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMaskine'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oRessource'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskine'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oRessource'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 Strålingsniveau: &cMEGET HØJT'
   type:
   - '&7&oRessource'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oVærktøj'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7200 J buffer'
   type:
   - '&7&oVærktøj'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMaskine'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&oRessource'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &71000 J buffer'
   type:
   - '&7&oVærktøj'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oMaskine'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &72000 J buffer'
   type:
   - '&7&oVærktøj'
 STABILIZED_BLISTERING_BLOCK:

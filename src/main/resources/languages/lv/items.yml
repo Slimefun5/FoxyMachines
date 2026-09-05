@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oResurss'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J buferis'
   type:
   - '&7&oRīks'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7200 J buferis'
   type:
   - '&7&oRīks'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMašīna'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7100 J buferis'
   type:
   - '&7&oRīks'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oResurss'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &71000 J buferis'
   type:
   - '&7&oRīks'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMašīna'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oResurss'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašīna'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oResurss'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 Radiācijas līmenis: &cĻOTI AUGSTS'
   type:
   - '&7&oResurss'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oRīks'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7200 J buferis'
   type:
   - '&7&oRīks'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMašīna'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&oResurss'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &71000 J buferis'
   type:
   - '&7&oRīks'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oMašīna'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &72000 J buferis'
   type:
   - '&7&oRīks'
 STABILIZED_BLISTERING_BLOCK:

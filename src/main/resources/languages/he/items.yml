@@ -62,15 +62,23 @@ DEMONIC_PLATE:
   type:
   - '&7&oמשאב'
 ELECTRIC_FIRE_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 100 J'
   type:
   - '&7&oכלי'
 ELECTRIC_FIRE_STAFF_II:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 200 J'
   type:
   - '&7&oכלי'
 ELECTRIC_GOLD_REFINERY:
+  stats:
+  - '&8⇨ &e⚡ &736 J/שנייה'
   type:
   - '&7&oמכונה'
 ELECTRIC_WIND_STAFF:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 100 J'
   type:
   - '&7&oכלי'
 ELUCIDATOR:
@@ -86,9 +94,13 @@ FIERY_LEGGINGS_FRAME:
   type:
   - '&7&oמשאב'
 FILL_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
   type:
   - '&7&oכלי'
 FORCEFIELD_DOME:
+  stats:
+  - '&8⇨ &e⚡ &76000 J/שנייה'
   type:
   - '&7&oמכונה'
 FORCEFIELD_ENGINE:
@@ -119,6 +131,8 @@ IMPROVEMENT_CORE:
   type:
   - '&7&oמשאב'
 IMPROVEMENT_FORGE:
+  stats:
+  - '&8⇨ &e⚡ &7128 J/שנייה'
   type:
   - '&7&oמכונה'
 LIGHT_BOOTS:
@@ -137,6 +151,8 @@ MAGMA_ESSENCE:
   type:
   - '&7&oמשאב'
 NUCLEAR_SALT:
+  stats:
+  - '&a☢&7 רמת קרינה: &cגבוהה מאוד'
   type:
   - '&7&oמשאב'
 PARROT_FEATHER:
@@ -161,9 +177,13 @@ POSEIDONS_FISHING_ROD:
   type:
   - '&7&oכלי'
 POSITION_SELECTOR:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 200 J'
   type:
   - '&7&oכלי'
 POTION_MIXER:
+  stats:
+  - '&8⇨ &e⚡ &728 J/שנייה'
   type:
   - '&7&oמכונה'
 PURE_BONE_DUST:
@@ -176,6 +196,8 @@ REINFORCED_STRING:
   type:
   - '&7&oמשאב'
 REMOTE_CONTROLLER:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 1000 J'
   type:
   - '&7&oכלי'
 RESISTANT_CHESTPLATE:
@@ -200,6 +222,8 @@ SACRIFICIAL_ALTAR_SOUL_TORCH:
   type:
   - '&7&oמכונה'
 SPONGE_WAND:
+  stats:
+  - '&8⇨ &e⚡ &7מאגר 2000 J'
   type:
   - '&7&oכלי'
 STABILIZED_BLISTERING_BLOCK:
