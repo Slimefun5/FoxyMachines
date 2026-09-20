@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eАкри Аркум'
+  stats:
+  - '&7Штета III'
+  - '&7Продирање кроз оклоп II'
   type:
   - '&7&oОружје'
 AQUATIC_HELMET:
+  name: '&bВодени шлем'
+  stats:
+  - '&7Дисање под водом'
+  - '&7Ноћни вид'
   type:
   - '&7&oОклоп'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bВодена нетеритска полуга'
   type:
   - '&7&oРесурс'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Уклања трње са жбунова слатких бобица.'
+  name: '&eКресач жбуна слатких бобица'
   type:
   - '&7&oАлат'
 BLOOD:
+  name: '&cКрв'
   type:
   - '&7&oРесурс'
 BLOOD_INFUSED_SKULL:
+  name: '&cЛобања прожета крвљу'
   type:
   - '&7&oРесурс'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Подржава 2.5x већу брзину.'
+  name: '&fПојачана активаторска шина'
   type:
   - '&7&oМашина'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Подржава 2.5x већу брзину.'
+  name: '&fПојачана детекторска шина'
   type:
   - '&7&oМашина'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Подржава 2.5x већу брзину.'
+  name: '&fПојачана напајана шина'
   type:
   - '&7&oМашина'
 BOOSTED_RAIL:
+  description:
+  - '&7Подржава 2.5x већу брзину.'
+  name: '&fПојачана шина'
   type:
   - '&7&oМашина'
 BUCKET_OF_BLOOD:
+  name: '&cКофа крви'
   type:
   - '&7&oРесурс'
 CELESTIAL_SHARD:
+  description:
+  - '&7Материјал за израду'
+  - '&7Поништиће задатак када се баци у олтар...'
+  name: '&eНебеска крхотина'
   type:
   - '&7&oРесурс'
 CELESTIAL_SWORD:
+  name: '&eНебески мач'
+  stats:
+  - '&7Божански удар II'
+  - '&7Пробијање оклопа V'
   type:
   - '&7&oОружје'
 CHUNK_LOADER:
+  description:
+  - '&7Држи чанк учитаним.'
+  name: '&bУчитавач чанка'
   type:
   - '&7&oМашина'
 COMPRESSED_SPONGE:
+  name: '&fКомпримовани сунђер'
   type:
   - '&7&oРесурс'
 CURSED_RABBIT_PAW:
+  name: '&cУклета зечја шапа'
   type:
   - '&7&oРесурс'
 CURSED_SHARD:
+  description:
+  - '&7Материјал за израду'
+  - '&7Поништиће задатак када се баци у олтар...'
+  name: '&cУклета крхотина'
   type:
   - '&7&oРесурс'
 CURSED_SWORD:
+  description:
+  - '&7Збуњује непријатеље. Повећава штету.'
+  - '&7Може лоше да утиче и на носиоца.'
+  name: '&cУклети мач'
+  stats:
+  - '&7Крађа живота I'
+  - '&7Пробијање оклопа I'
   type:
   - '&7&oОружје'
 DAMIENIUM:
+  name: '&aДамијенијум'
   type:
   - '&7&oРесурс'
 DEMONIC_INGOT:
+  name: '&cДемонска полуга'
   type:
   - '&7&oРесурс'
 DEMONIC_PLATE:
+  name: '&cДемонска плоча'
   type:
   - '&7&oРесурс'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Створи пакао.'
+  name: '&4Електрични штап ватре'
   stats:
   - '&8⇨ &e⚡ &7100 J бафера'
   type:
   - '&7&oАлат'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Ватра, ватра, ватра!'
+  name: '&4Електрични штап ватре &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J бафера'
   type:
   - '&7&oАлат'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Прерађује златни прах у полуге злата.'
+  name: '&bЕлектрична рафинерија злата'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oМашина'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Јаши на ветру.'
+  name: '&bЕлектрични штап ветра'
   stats:
   - '&8⇨ &e⚡ &7100 J бафера'
   type:
   - '&7&oАлат'
 ELUCIDATOR:
+  name: '&bЕлусидатор'
+  stats:
+  - '&7Штета III'
+  - '&7Крађа живота II'
+  - '&7Пробијање оклопа II'
+  - '&7Прекомерно исцељење'
   type:
   - '&7&oОружје'
 EQUANIMOUS_GEM:
+  name: '&aСмирени драгуљ'
   type:
   - '&7&oРесурс'
 FIERY_LEGGINGS:
+  name: '&cВатрене панталоне'
+  stats:
+  - '&7Ватрена аура II'
   type:
   - '&7&oОклоп'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Материјал за израду'
+  name: '&fОквир ватрених панталона'
   type:
   - '&7&oРесурс'
 FILL_WAND:
+  name: '&eШтапић за попуњавање'
   stats:
   - '&8⇨ &e⚡ &71000 J бафера'
   type:
   - '&7&oАлат'
+  usage:
+  - '&7Изабери угаоне тачке бирачем позиције.'
+  - '&7Шифт + десни клик да изабереш материјал.'
+  - '&7Десни клик да попуниш подручје.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Када је напајана, ствара заштитну баријеру'
+  - '&7полупречника 32 блока.'
+  - '&7Вратиће се када нестане напајања или се разбије'
+  name: '&4Купола силовног поља'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oМашина'
 FORCEFIELD_ENGINE:
+  name: '&fМотор силовног поља'
   type:
   - '&7&oРесурс'
 FORCEFIELD_STABILIZER:
+  name: '&fСтабилизатор силовног поља'
   type:
   - '&7&oРесурс'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Неопипљив блок.'
+  name: '&fБлок дух: &6%mob%'
   type:
   - '&7&oСправа'
 GHOST_BLOCK_REMOVER:
+  name: '&eУклањач блокова духова'
   type:
   - '&7&oАлат'
+  usage:
+  - '&7Десни клик да уклониш блок дух.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cЈаје призивања безглавог коњаника'
   type:
   - '&7&oРазно'
 HEALING_BOW:
+  description:
+  - '&8Коначно и оружје за подршку.'
+  name: '&4Исцелитељски лук'
+  stats:
+  - '&cИсцељење II'
   type:
   - '&7&oОружје'
 HELMET_FRAME:
+  description:
+  - '&7Материјал за израду'
+  name: '&fОквир воденог шлема'
   type:
   - '&7&oРесурс'
 HUMAN_SKULL:
+  name: '&cЉудска лобања'
   type:
   - '&7&oРесурс'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Споји га са алатом у ковачници за унапређење да га унапредиш.'
+  name: '&aЈезгро унапређења'
   type:
   - '&7&oРесурс'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Служи за унапређење Slimefun алата, оружја и оклопа.'
+  name: '&bКовачница за унапређење'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oМашина'
 LIGHT_BOOTS:
+  name: '&eЛаке чизме'
+  stats:
+  - '&7Скок I'
+  - '&7Брзина I'
+  - '&7Лакоћа'
   type:
   - '&7&oОклоп'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Материјал за израду'
+  name: '&fОквир лаких чизама'
   type:
   - '&7&oРесурс'
 MAGIC_LUMP_4:
+  name: '&6Магична груда &7- &eIV'
+  stats:
+  - '&c&oНиво: IV'
   type:
   - '&7&oРесурс'
 MAGIC_LUMP_5:
+  name: '&6Магична груда &7- &eV'
+  stats:
+  - '&c&oНиво: V'
   type:
   - '&7&oРесурс'
 MAGMA_ESSENCE:
+  name: '&cЕсенција магме'
   type:
   - '&7&oРесурс'
 NUCLEAR_SALT:
+  name: '&aНуклеарна со'
   stats:
   - '&a☢&7 Ниво радијације: &cВЕОМА ВИСОК'
   type:
   - '&7&oРесурс'
 PARROT_FEATHER:
+  name: '&aПапагајево перо'
   type:
   - '&7&oРесурс'
 PIXIE_DUST:
+  name: '&eВилински прах'
+  stats:
+  - '&7Снага IV'
   type:
   - '&7&oХрана'
 PIXIE_QUEEN_HEART:
+  name: '&4Срце краљице вила'
   type:
   - '&7&oРесурс'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aЈаје призивања краљице вила'
   type:
   - '&7&oРазно'
 POLAR_FOX_HIDE:
+  name: '&fКожа поларне лисице'
   type:
   - '&7&oРесурс'
 POSEIDONS_BLESSING:
+  name: '&bПосејдонов благослов'
   type:
   - '&7&oРесурс'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Може да упеца посебне предмете.'
+  name: '&bПосејдонов штап за пецање'
+  stats:
+  - '&7Посејдонов благослов'
   type:
   - '&7&oАлат'
 POSITION_SELECTOR:
+  name: '&eБирач позиције'
   stats:
   - '&8⇨ &e⚡ &7200 J бафера'
   type:
   - '&7&oАлат'
+  usage:
+  - '&7Леви клик на блок да изабереш прву позицију.'
+  - '&7Десни клик на блок да изабереш другу позицију.'
 POTION_MIXER:
+  description:
+  - '&7Служи за мешање напитака.'
+  name: '&bМешалица напитака'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oМашина'
 PURE_BONE_DUST:
+  name: '&bЧисти коштани прах'
   type:
   - '&7&oРесурс'
 PURIFIED_BONE:
+  name: '&bПрочишћена кост'
   type:
   - '&7&oРесурс'
 REINFORCED_STRING:
+  name: '&bОјачани конац'
   type:
   - '&7&oРесурс'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Омогућава ти да управљаш куполом силовног поља из даљине.'
+  name: '&cДаљински управљач'
   stats:
   - '&8⇨ &e⚡ &71000 J бафера'
   type:
   - '&7&oАлат'
+  usage:
+  - '&7Повежи га помоћу Шифт + десни клик.'
 RESISTANT_CHESTPLATE:
+  name: '&aОтпорни оклоп за груди'
+  stats:
+  - '&7Отпорност I'
+  - '&7Регенерација I'
   type:
   - '&7&oОклоп'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Материјал за израду'
+  name: '&fОквир отпорног оклопа за груди'
   type:
   - '&7&oРесурс'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Користи се као део жртвеног олтара.'
+  name: '&fЖртвене цигле од црнокамена'
   type:
   - '&7&oМашина'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Користи се као део жртвеног олтара.'
+  name: '&fЖртвене степенице од цигли црнокамена'
   type:
   - '&7&oМашина'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Користи се као део жртвеног олтара.'
+  name: '&fЖртвени зид од цигли црнокамена'
   type:
   - '&7&oМашина'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Користи се као део жртвеног олтара.'
+  name: '&fЖртвена простирка'
   type:
   - '&7&oМашина'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Користи се као део жртвеног олтара.'
+  name: '&fЖртвена бакља душа'
   type:
   - '&7&oМашина'
 SPONGE_WAND:
+  name: '&eШтапић сунђера'
   stats:
   - '&8⇨ &e⚡ &72000 J бафера'
   type:
   - '&7&oАлат'
+  usage:
+  - '&7Изабери угаоне тачке бирачем позиције.'
+  - '&7Десни клик да уклониш воду и лаву.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Стабилан материјал.'
+  name: '&bСтабилизовани ужарени блок'
   type:
   - '&7&oРесурс'
 SWEETENED_SWEET_INGOT:
+  name: '&eЗаслађена слатка полуга'
   type:
   - '&7&oРесурс'
 SWEET_INGOT:
+  name: '&eСлатка полуга'
   type:
   - '&7&oРесурс'
 TROPICAL_FISH_SCALE:
+  name: '&bКрљушт тропске рибе'
   type:
   - '&7&oРесурс'
 UNBREAKABLE_RUNE:
+  name: '&7Древна руна &8&l[&2&lНеломљива&8&l]'
   type:
   - '&7&oРазно'
+  usage:
+  - '&eБаци ову руну на испуштени предмет да'
+  - '&eпостане &2неломљив'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cНечастива кост видер скелета'
   type:
   - '&7&oРесурс'
 VILE_PUMPKIN:
+  name: '&cГнусна бундева'
   type:
   - '&7&oРесурс'
 VILE_SEEDS:
+  name: '&cГнусно семе'
+  stats:
+  - '&7Појачање здравља V'
   type:
   - '&7&oХрана'
 WIRELESS_TRANSMITTER:
+  name: '&fБежични предајник'
   type:
   - '&7&oРесурс'
