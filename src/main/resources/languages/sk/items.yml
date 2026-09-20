@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Poškodenie III'
+  - '&7Prebíjanie brnenia II'
   type:
   - '&7&oZbraň'
 AQUATIC_HELMET:
+  name: '&bVodná prilba'
+  stats:
+  - '&7Dýchanie pod vodou'
+  - '&7Videnie v tme'
   type:
   - '&7&oBrnenie'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bVodný neteritový ingot'
   type:
   - '&7&oSurovina'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Odstraňuje tŕne z kríkov sladkých bobúľ.'
+  name: '&eOstrihávač kríkov sladkých bobúľ'
   type:
   - '&7&oNástroj'
 BLOOD:
+  name: '&cKrv'
   type:
   - '&7&oSurovina'
 BLOOD_INFUSED_SKULL:
+  name: '&cLebka presiaknutá krvou'
   type:
   - '&7&oSurovina'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Znesie 2.5x vyššiu rýchlosť.'
+  name: '&fZrýchlená aktivačná koľajnica'
   type:
   - '&7&oStroj'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Znesie 2.5x vyššiu rýchlosť.'
+  name: '&fZrýchlená detekčná koľajnica'
   type:
   - '&7&oStroj'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Znesie 2.5x vyššiu rýchlosť.'
+  name: '&fZrýchlená napájaná koľajnica'
   type:
   - '&7&oStroj'
 BOOSTED_RAIL:
+  description:
+  - '&7Znesie 2.5x vyššiu rýchlosť.'
+  name: '&fZrýchlená koľajnica'
   type:
   - '&7&oStroj'
 BUCKET_OF_BLOOD:
+  name: '&cVedro krvi'
   type:
   - '&7&oSurovina'
 CELESTIAL_SHARD:
+  description:
+  - '&7Výrobný materiál'
+  - '&7Po hodení do Oltára resetuje úlohu...'
+  name: '&eNebeský črep'
   type:
   - '&7&oSurovina'
 CELESTIAL_SWORD:
+  name: '&eNebeský meč'
+  stats:
+  - '&7Božský úder II'
+  - '&7Prienik brnením V'
   type:
   - '&7&oZbraň'
 CHUNK_LOADER:
+  description:
+  - '&7Udržiava chunk načítaný.'
+  name: '&bNačítavač chunkov'
   type:
   - '&7&oStroj'
 COMPRESSED_SPONGE:
+  name: '&fStlačená huba'
   type:
   - '&7&oSurovina'
 CURSED_RABBIT_PAW:
+  name: '&cPrekliata zajačia laba'
   type:
   - '&7&oSurovina'
 CURSED_SHARD:
+  description:
+  - '&7Výrobný materiál'
+  - '&7Po hodení do Oltára resetuje úlohu...'
+  name: '&cPrekliaty črep'
   type:
   - '&7&oSurovina'
 CURSED_SWORD:
+  description:
+  - '&7Mätie nepriateľov. Zvyšuje poškodenie.'
+  - '&7Môže negatívne ovplyvniť aj svojho nositeľa.'
+  name: '&cPrekliaty meč'
+  stats:
+  - '&7Kradnutie života I'
+  - '&7Prienik brnením I'
   type:
   - '&7&oZbraň'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oSurovina'
 DEMONIC_INGOT:
+  name: '&cDémonický ingot'
   type:
   - '&7&oSurovina'
 DEMONIC_PLATE:
+  name: '&cDémonická doska'
   type:
   - '&7&oSurovina'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Rozpútaj peklo.'
+  name: '&4Elektrická ohnivá palica'
   stats:
   - '&8⇨ &e⚡ &7100 J zásobník'
   type:
   - '&7&oNástroj'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Oheň, oheň, oheň!'
+  name: '&4Elektrická ohnivá palica &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J zásobník'
   type:
   - '&7&oNástroj'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Rafinuje zlatý prach na zlaté ingoty.'
+  name: '&bElektrická rafinéria zlata'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oStroj'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Vez sa na vetre.'
+  name: '&bElektrická veterná palica'
   stats:
   - '&8⇨ &e⚡ &7100 J zásobník'
   type:
   - '&7&oNástroj'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Poškodenie III'
+  - '&7Kradnutie života II'
+  - '&7Prienik brnením II'
+  - '&7Preliečenie'
   type:
   - '&7&oZbraň'
 EQUANIMOUS_GEM:
+  name: '&aVyrovnaný drahokam'
   type:
   - '&7&oSurovina'
 FIERY_LEGGINGS:
+  name: '&cOhnivé nohavice'
+  stats:
+  - '&7Ohnivá aura II'
   type:
   - '&7&oBrnenie'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Výrobný materiál'
+  name: '&fRám ohnivých nohavíc'
   type:
   - '&7&oSurovina'
 FILL_WAND:
+  name: '&eVyplňovacia palička'
   stats:
   - '&8⇨ &e⚡ &71000 J zásobník'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&7Rohové body vyber Vyberačom pozícií.'
+  - '&7Shift + pravý klik vyberie materiál.'
+  - '&7Pravý klik vyplní oblasť.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Pri napájaní vytvára ochrannú bariéru'
+  - '&7s polomerom 32 blokov.'
+  - '&7Po odpojení alebo rozbití sa vráti späť'
+  name: '&4Kupola silového poľa'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oStroj'
 FORCEFIELD_ENGINE:
+  name: '&fMotor silového poľa'
   type:
   - '&7&oSurovina'
 FORCEFIELD_STABILIZER:
+  name: '&fStabilizátor silového poľa'
   type:
   - '&7&oSurovina'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Nehmotný blok.'
+  name: '&fDuchový blok: &6%mob%'
   type:
   - '&7&oGadget'
 GHOST_BLOCK_REMOVER:
+  name: '&eOdstraňovač duchových blokov'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&7Pravý klik odstráni duchový blok.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cVajce na vyvolanie Bezhlavého jazdca'
   type:
   - '&7&oRôzne'
 HEALING_BOW:
+  description:
+  - '&8Konečne podporná zbraň.'
+  name: '&4Liečivý luk'
+  stats:
+  - '&cLiečenie II'
   type:
   - '&7&oZbraň'
 HELMET_FRAME:
+  description:
+  - '&7Výrobný materiál'
+  name: '&fRám vodnej prilby'
   type:
   - '&7&oSurovina'
 HUMAN_SKULL:
+  name: '&cĽudská lebka'
   type:
   - '&7&oSurovina'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Spoj ho s nástrojom vo Vyhni na vylepšenia a nástroj sa vylepší.'
+  name: '&aVylepšovacie jadro'
   type:
   - '&7&oSurovina'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Používa sa na vylepšenie nástrojov, zbraní a brnenia zo Slimefun.'
+  name: '&bVyhňa na vylepšenia'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oStroj'
 LIGHT_BOOTS:
+  name: '&eĽahké čižmy'
+  stats:
+  - '&7Skok I'
+  - '&7Rýchlosť I'
+  - '&7Ľahkosť'
   type:
   - '&7&oBrnenie'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Výrobný materiál'
+  name: '&fRám ľahkých čižiem'
   type:
   - '&7&oSurovina'
 MAGIC_LUMP_4:
+  name: '&6Magická hruda &7- &eIV'
+  stats:
+  - '&c&oStupeň: IV'
   type:
   - '&7&oSurovina'
 MAGIC_LUMP_5:
+  name: '&6Magická hruda &7- &eV'
+  stats:
+  - '&c&oStupeň: V'
   type:
   - '&7&oSurovina'
 MAGMA_ESSENCE:
+  name: '&cMagmová esencia'
   type:
   - '&7&oSurovina'
 NUCLEAR_SALT:
+  name: '&aJadrová soľ'
   stats:
   - '&a☢&7 Úroveň radiácie: &cVEĽMI VYSOKÁ'
   type:
   - '&7&oSurovina'
 PARROT_FEATHER:
+  name: '&aPapagájové pierko'
   type:
   - '&7&oSurovina'
 PIXIE_DUST:
+  name: '&eŠkriatkovský prach'
+  stats:
+  - '&7Sila IV'
   type:
   - '&7&oJedlo'
 PIXIE_QUEEN_HEART:
+  name: '&4Srdce Kráľovnej škriatkov'
   type:
   - '&7&oSurovina'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aVajce na vyvolanie Kráľovnej škriatkov'
   type:
   - '&7&oRôzne'
 POLAR_FOX_HIDE:
+  name: '&fKožušina polárnej líšky'
   type:
   - '&7&oSurovina'
 POSEIDONS_BLESSING:
+  name: '&bPoseidónovo požehnanie'
   type:
   - '&7&oSurovina'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Dokáže uloviť špeciálne predmety.'
+  name: '&bPoseidónov rybársky prút'
+  stats:
+  - '&7Poseidónovo požehnanie'
   type:
   - '&7&oNástroj'
 POSITION_SELECTOR:
+  name: '&eVyberač pozícií'
   stats:
   - '&8⇨ &e⚡ &7200 J zásobník'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&7Ľavý klik na blok vyberie prvú pozíciu.'
+  - '&7Pravý klik na blok vyberie druhú pozíciu.'
 POTION_MIXER:
+  description:
+  - '&7Používa sa na miešanie elixírov.'
+  name: '&bMiešač elixírov'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oStroj'
 PURE_BONE_DUST:
+  name: '&bČistý kostný prach'
   type:
   - '&7&oSurovina'
 PURIFIED_BONE:
+  name: '&bOčistená kosť'
   type:
   - '&7&oSurovina'
 REINFORCED_STRING:
+  name: '&bVystužená struna'
   type:
   - '&7&oSurovina'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Umožňuje ti ovládať Kupolu silového poľa na diaľku.'
+  name: '&cDiaľkový ovládač'
   stats:
   - '&8⇨ &e⚡ &71000 J zásobník'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&7Prepojíš ho cez Shift + pravý klik.'
 RESISTANT_CHESTPLATE:
+  name: '&aOdolný náprsník'
+  stats:
+  - '&7Odolnosť I'
+  - '&7Regenerácia I'
   type:
   - '&7&oBrnenie'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Výrobný materiál'
+  name: '&fRám odolného náprsníka'
   type:
   - '&7&oSurovina'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Používa sa ako časť Obetného oltára.'
+  name: '&fObetné blackstonové tehly'
   type:
   - '&7&oStroj'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Používa sa ako časť Obetného oltára.'
+  name: '&fObetné schody z blackstonových tehál'
   type:
   - '&7&oStroj'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Používa sa ako časť Obetného oltára.'
+  name: '&fObetný múr z blackstonových tehál'
   type:
   - '&7&oStroj'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Používa sa ako časť Obetného oltára.'
+  name: '&fObetná podložka'
   type:
   - '&7&oStroj'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Používa sa ako časť Obetného oltára.'
+  name: '&fObetná duševná fakľa'
   type:
   - '&7&oStroj'
 SPONGE_WAND:
+  name: '&eHubová palička'
   stats:
   - '&8⇨ &e⚡ &72000 J zásobník'
   type:
   - '&7&oNástroj'
+  usage:
+  - '&7Rohové body vyber Vyberačom pozícií.'
+  - '&7Pravý klik odstráni vodu a lávu.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Stabilný materiál.'
+  name: '&bStabilizovaný pálčivý blok'
   type:
   - '&7&oSurovina'
 SWEETENED_SWEET_INGOT:
+  name: '&eOsladený sladký ingot'
   type:
   - '&7&oSurovina'
 SWEET_INGOT:
+  name: '&eSladký ingot'
   type:
   - '&7&oSurovina'
 TROPICAL_FISH_SCALE:
+  name: '&bŠupina tropickej ryby'
   type:
   - '&7&oSurovina'
 UNBREAKABLE_RUNE:
+  name: '&7Staroveká runa &8&l[&2&lNezničiteľná&8&l]'
   type:
   - '&7&oRôzne'
+  usage:
+  - '&eHoď túto runu na odhodený predmet a'
+  - '&eurob ho &2nezničiteľným'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cNesvätá kosť Wither kostlivca'
   type:
   - '&7&oSurovina'
 VILE_PUMPKIN:
+  name: '&cOhavná tekvica'
   type:
   - '&7&oSurovina'
 VILE_SEEDS:
+  name: '&cOhavné semená'
+  stats:
+  - '&7Posilnenie zdravia V'
   type:
   - '&7&oJedlo'
 WIRELESS_TRANSMITTER:
+  name: '&fBezdrôtový vysielač'
   type:
   - '&7&oSurovina'
