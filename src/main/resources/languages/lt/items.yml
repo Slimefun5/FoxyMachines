@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Žala III'
+  - '&7Šarvų pradūrimas II'
   type:
   - '&7&oGinklas'
 AQUATIC_HELMET:
+  name: '&bVandeninis šalmas'
+  stats:
+  - '&7Kvėpavimas po vandeniu'
+  - '&7Naktinis regėjimas'
   type:
   - '&7&oŠarvai'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bVandeninis netherito luitas'
   type:
   - '&7&oIšteklius'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Pašalina spyglius nuo saldžiųjų uogų krūmų.'
+  name: '&eSaldžiųjų uogų krūmų genėtuvas'
   type:
   - '&7&oĮrankis'
 BLOOD:
+  name: '&cKraujas'
   type:
   - '&7&oIšteklius'
 BLOOD_INFUSED_SKULL:
+  name: '&cKrauju permirkusi kaukolė'
   type:
   - '&7&oIšteklius'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Palaiko 2.5x didesnį greitį.'
+  name: '&fPagreitinti aktyvavimo bėgiai'
   type:
   - '&7&oMašina'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Palaiko 2.5x didesnį greitį.'
+  name: '&fPagreitinti jutikliniai bėgiai'
   type:
   - '&7&oMašina'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Palaiko 2.5x didesnį greitį.'
+  name: '&fPagreitinti maitinami bėgiai'
   type:
   - '&7&oMašina'
 BOOSTED_RAIL:
+  description:
+  - '&7Palaiko 2.5x didesnį greitį.'
+  name: '&fPagreitinti bėgiai'
   type:
   - '&7&oMašina'
 BUCKET_OF_BLOOD:
+  name: '&cKraujo kibiras'
   type:
   - '&7&oIšteklius'
 CELESTIAL_SHARD:
+  description:
+  - '&7Gaminimo medžiaga'
+  - '&7Įmesta į altorių, iš naujo pradės užduotį...'
+  name: '&eDangiška skeveldra'
   type:
   - '&7&oIšteklius'
 CELESTIAL_SWORD:
+  name: '&eDangiškasis kardas'
+  stats:
+  - '&7Dieviškas smūgis II'
+  - '&7Šarvų pramušimas V'
   type:
   - '&7&oGinklas'
 CHUNK_LOADER:
+  description:
+  - '&7Išlaiko sritį įkeltą.'
+  name: '&bSrities įkėliklis'
   type:
   - '&7&oMašina'
 COMPRESSED_SPONGE:
+  name: '&fSuspausta kempinė'
   type:
   - '&7&oIšteklius'
 CURSED_RABBIT_PAW:
+  name: '&cPrakeikta triušio letena'
   type:
   - '&7&oIšteklius'
 CURSED_SHARD:
+  description:
+  - '&7Gaminimo medžiaga'
+  - '&7Įmesta į altorių, iš naujo pradės užduotį...'
+  name: '&cPrakeikta skeveldra'
   type:
   - '&7&oIšteklius'
 CURSED_SWORD:
+  description:
+  - '&7Sutrikdo priešus. Padidina žalą.'
+  - '&7Gali neigiamai paveikti nešiotoją.'
+  name: '&cPrakeiktas kardas'
+  stats:
+  - '&7Gyvybės vagystė I'
+  - '&7Šarvų pramušimas I'
   type:
   - '&7&oGinklas'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oIšteklius'
 DEMONIC_INGOT:
+  name: '&cDemoniškas luitas'
   type:
   - '&7&oIšteklius'
 DEMONIC_PLATE:
+  name: '&cDemoniška plokštė'
   type:
   - '&7&oIšteklius'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Sukelkite pragarą.'
+  name: '&4Elektrinė ugnies lazda'
   stats:
   - '&8⇨ &e⚡ &7100 J buferis'
   type:
   - '&7&oĮrankis'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Ugnis, ugnis, ugnis!'
+  name: '&4Elektrinė ugnies lazda &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J buferis'
   type:
   - '&7&oĮrankis'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Perdirba aukso dulkes į aukso luitus.'
+  name: '&bElektrinė aukso rafinerija'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMašina'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Skriskite vėju.'
+  name: '&bElektrinė vėjo lazda'
   stats:
   - '&8⇨ &e⚡ &7100 J buferis'
   type:
   - '&7&oĮrankis'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Žala III'
+  - '&7Gyvybės vagystė II'
+  - '&7Šarvų pramušimas II'
+  - '&7Pergydymas'
   type:
   - '&7&oGinklas'
 EQUANIMOUS_GEM:
+  name: '&aRamybės brangakmenis'
   type:
   - '&7&oIšteklius'
 FIERY_LEGGINGS:
+  name: '&cUgningos kelnės'
+  stats:
+  - '&7Ugnies aura II'
   type:
   - '&7&oŠarvai'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Gaminimo medžiaga'
+  name: '&fUgningų kelnių rėmas'
   type:
   - '&7&oIšteklius'
 FILL_WAND:
+  name: '&eUžpildymo lazdelė'
   stats:
   - '&8⇨ &e⚡ &71000 J buferis'
   type:
   - '&7&oĮrankis'
+  usage:
+  - '&7Pasirinkite kampinius taškus pozicijos parinkikliu.'
+  - '&7Pritūpę spustelėkite dešiniu, kad pasirinktumėte medžiagą.'
+  - '&7Spustelėkite dešiniu, kad užpildytumėte zoną.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Kai maitinamas, sukuria apsauginį barjerą'
+  - '&732 blokų spinduliu.'
+  - '&7Atgal pavirs netekusi energijos arba sulaužyta'
+  name: '&4Jėgos lauko kupolas'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMašina'
 FORCEFIELD_ENGINE:
+  name: '&fJėgos lauko variklis'
   type:
   - '&7&oIšteklius'
 FORCEFIELD_STABILIZER:
+  name: '&fJėgos lauko stabilizatorius'
   type:
   - '&7&oIšteklius'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Neapčiuopiamas blokas.'
+  name: '&fVaiduokliškas blokas: &6%mob%'
   type:
   - '&7&oĮtaisas'
 GHOST_BLOCK_REMOVER:
+  name: '&eVaiduokliškų blokų šalintuvas'
   type:
   - '&7&oĮrankis'
+  usage:
+  - '&7Spustelėkite dešiniu, kad pašalintumėte vaiduoklišką bloką.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cBegalvio raitelio iškvietimo kiaušinis'
   type:
   - '&7&oĮvairūs'
 HEALING_BOW:
+  description:
+  - '&8Pagaliau palaikymo ginklas.'
+  name: '&4Gydantis lankas'
+  stats:
+  - '&cGydymas II'
   type:
   - '&7&oGinklas'
 HELMET_FRAME:
+  description:
+  - '&7Gaminimo medžiaga'
+  name: '&fVandeninio šalmo rėmas'
   type:
   - '&7&oIšteklius'
 HUMAN_SKULL:
+  name: '&cŽmogaus kaukolė'
   type:
   - '&7&oIšteklius'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Sujunkite ją su įrankiu tobulinimo kalvėje, kad jį patobulintumėte.'
+  name: '&aTobulinimo šerdis'
   type:
   - '&7&oIšteklius'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Naudojama Slimefun įrankiams, ginklams ir šarvams tobulinti.'
+  name: '&bTobulinimo kalvė'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašina'
 LIGHT_BOOTS:
+  name: '&eLengvi batai'
+  stats:
+  - '&7Šuolis I'
+  - '&7Greitis I'
+  - '&7Lengvumas'
   type:
   - '&7&oŠarvai'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Gaminimo medžiaga'
+  name: '&fLengvų batų rėmas'
   type:
   - '&7&oIšteklius'
 MAGIC_LUMP_4:
+  name: '&6Magiškas gabalas &7- &eIV'
+  stats:
+  - '&c&oPakopa: IV'
   type:
   - '&7&oIšteklius'
 MAGIC_LUMP_5:
+  name: '&6Magiškas gabalas &7- &eV'
+  stats:
+  - '&c&oPakopa: V'
   type:
   - '&7&oIšteklius'
 MAGMA_ESSENCE:
+  name: '&cMagmos esencija'
   type:
   - '&7&oIšteklius'
 NUCLEAR_SALT:
+  name: '&aBranduolinė druska'
   stats:
   - '&a☢&7 Radiacijos lygis: &cLABAI AUKŠTAS'
   type:
   - '&7&oIšteklius'
 PARROT_FEATHER:
+  name: '&aPapūgos plunksna'
   type:
   - '&7&oIšteklius'
 PIXIE_DUST:
+  name: '&eFėjų dulkės'
+  stats:
+  - '&7Stiprumas IV'
   type:
   - '&7&oMaistas'
 PIXIE_QUEEN_HEART:
+  name: '&4Fėjų karalienės širdis'
   type:
   - '&7&oIšteklius'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aFėjų karalienės iškvietimo kiaušinis'
   type:
   - '&7&oĮvairūs'
 POLAR_FOX_HIDE:
+  name: '&fPoliarinės lapės kailis'
   type:
   - '&7&oIšteklius'
 POSEIDONS_BLESSING:
+  name: '&bPoseidono palaiminimas'
   type:
   - '&7&oIšteklius'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Gali pagauti ypatingų daiktų.'
+  name: '&bPoseidono meškerė'
+  stats:
+  - '&7Poseidono palaiminimas'
   type:
   - '&7&oĮrankis'
 POSITION_SELECTOR:
+  name: '&ePozicijos parinkiklis'
   stats:
   - '&8⇨ &e⚡ &7200 J buferis'
   type:
   - '&7&oĮrankis'
+  usage:
+  - '&7Spustelėkite bloką kairiu, kad pasirinktumėte pirminę poziciją.'
+  - '&7Spustelėkite bloką dešiniu, kad pasirinktumėte antrinę poziciją.'
 POTION_MIXER:
+  description:
+  - '&7Naudojamas eliksyrams maišyti.'
+  name: '&bEliksyrų maišytuvas'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMašina'
 PURE_BONE_DUST:
+  name: '&bGrynos kaulų dulkės'
   type:
   - '&7&oIšteklius'
 PURIFIED_BONE:
+  name: '&bIšgrynintas kaulas'
   type:
   - '&7&oIšteklius'
 REINFORCED_STRING:
+  name: '&bSustiprinta virvelė'
   type:
   - '&7&oIšteklius'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Leidžia valdyti jėgos lauko kupolą per atstumą.'
+  name: '&cNuotolinis valdiklis'
   stats:
   - '&8⇨ &e⚡ &71000 J buferis'
   type:
   - '&7&oĮrankis'
+  usage:
+  - '&7Susiekite jį paspaudę Shift + dešinįjį spustelėjimą.'
 RESISTANT_CHESTPLATE:
+  name: '&aAtsparūs krūtinės šarvai'
+  stats:
+  - '&7Atsparumas I'
+  - '&7Regeneracija I'
   type:
   - '&7&oŠarvai'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Gaminimo medžiaga'
+  name: '&fAtsparių krūtinės šarvų rėmas'
   type:
   - '&7&oIšteklius'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Naudojama kaip aukojamojo altoriaus dalis.'
+  name: '&fAukojamosios juodakmenio plytos'
   type:
   - '&7&oMašina'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Naudojama kaip aukojamojo altoriaus dalis.'
+  name: '&fAukojamieji juodakmenio plytų laiptai'
   type:
   - '&7&oMašina'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Naudojama kaip aukojamojo altoriaus dalis.'
+  name: '&fAukojamoji juodakmenio plytų siena'
   type:
   - '&7&oMašina'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Naudojama kaip aukojamojo altoriaus dalis.'
+  name: '&fAukojamasis kilimėlis'
   type:
   - '&7&oMašina'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Naudojama kaip aukojamojo altoriaus dalis.'
+  name: '&fAukojamasis sielų deglas'
   type:
   - '&7&oMašina'
 SPONGE_WAND:
+  name: '&eKempinės lazdelė'
   stats:
   - '&8⇨ &e⚡ &72000 J buferis'
   type:
   - '&7&oĮrankis'
+  usage:
+  - '&7Pasirinkite kampinius taškus pozicijos parinkikliu.'
+  - '&7Spustelėkite dešiniu, kad pašalintumėte vandenį ir lavą.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Stabili medžiaga.'
+  name: '&bStabilizuotas kaitrus blokas'
   type:
   - '&7&oIšteklius'
 SWEETENED_SWEET_INGOT:
+  name: '&ePasaldintas saldus luitas'
   type:
   - '&7&oIšteklius'
 SWEET_INGOT:
+  name: '&eSaldus luitas'
   type:
   - '&7&oIšteklius'
 TROPICAL_FISH_SCALE:
+  name: '&bTropinės žuvies žvynas'
   type:
   - '&7&oIšteklius'
 UNBREAKABLE_RUNE:
+  name: '&7Senovinė runa &8&l[&2&lNesulaužoma&8&l]'
   type:
   - '&7&oĮvairūs'
+  usage:
+  - '&eNumeskite šią runą ant numesto daikto, kad'
+  - '&epadarytumėte jį &2nesulaužomą'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cNešventas Wither skeleto kaulas'
   type:
   - '&7&oIšteklius'
 VILE_PUMPKIN:
+  name: '&cBjaurusis moliūgas'
   type:
   - '&7&oIšteklius'
 VILE_SEEDS:
+  name: '&cBjauriosios sėklos'
+  stats:
+  - '&7Sveikatos padidinimas V'
   type:
   - '&7&oMaistas'
 WIRELESS_TRANSMITTER:
+  name: '&fBelaidis siųstuvas'
   type:
   - '&7&oIšteklius'
