@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Bojājums III'
+  - '&7Bruņu caurduršana II'
   type:
   - '&7&oIerocis'
 AQUATIC_HELMET:
+  name: '&bŪdens ķivere'
+  stats:
+  - '&7Elpošana zem ūdens'
+  - '&7Nakts redze'
   type:
   - '&7&oBruņas'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bŪdens netherīta lietnis'
   type:
   - '&7&oResurss'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Noņem ērkšķus no saldo ogu krūmiem.'
+  name: '&eSaldo ogu krūma apgriezējs'
   type:
   - '&7&oRīks'
 BLOOD:
+  name: '&cAsinis'
   type:
   - '&7&oResurss'
 BLOOD_INFUSED_SKULL:
+  name: '&cAr asinīm piesūcināts galvaskauss'
   type:
   - '&7&oResurss'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Iztur 2.5x lielāku ātrumu.'
+  name: '&fUzlabotas aktivatora sliedes'
   type:
   - '&7&oMašīna'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Iztur 2.5x lielāku ātrumu.'
+  name: '&fUzlabotas detektora sliedes'
   type:
   - '&7&oMašīna'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Iztur 2.5x lielāku ātrumu.'
+  name: '&fUzlabotas darbināmās sliedes'
   type:
   - '&7&oMašīna'
 BOOSTED_RAIL:
+  description:
+  - '&7Iztur 2.5x lielāku ātrumu.'
+  name: '&fUzlabotas sliedes'
   type:
   - '&7&oMašīna'
 BUCKET_OF_BLOOD:
+  name: '&cAsins spainis'
   type:
   - '&7&oResurss'
 CELESTIAL_SHARD:
+  description:
+  - '&7Izgatavošanas materiāls'
+  - '&7Iemests altārī, tas atiestatīs uzdevumu...'
+  name: '&eDebesu lauska'
   type:
   - '&7&oResurss'
 CELESTIAL_SWORD:
+  name: '&eDebesu zobens'
+  stats:
+  - '&7Dievišķais trieciens II'
+  - '&7Bruņu caursišana V'
   type:
   - '&7&oIerocis'
 CHUNK_LOADER:
+  description:
+  - '&7Notur gabalu ielādētu.'
+  name: '&bGabalu ielādētājs'
   type:
   - '&7&oMašīna'
 COMPRESSED_SPONGE:
+  name: '&fSaspiests sūklis'
   type:
   - '&7&oResurss'
 CURSED_RABBIT_PAW:
+  name: '&cNolādēta truša ķepa'
   type:
   - '&7&oResurss'
 CURSED_SHARD:
+  description:
+  - '&7Izgatavošanas materiāls'
+  - '&7Iemests altārī, tas atiestatīs uzdevumu...'
+  name: '&cNolādētā lauska'
   type:
   - '&7&oResurss'
 CURSED_SWORD:
+  description:
+  - '&7Apmulsina ienaidniekus. Palielina bojājumu.'
+  - '&7Var negatīvi ietekmēt nēsātāju.'
+  name: '&cNolādētais zobens'
+  stats:
+  - '&7Dzīvības zagšana I'
+  - '&7Bruņu caursišana I'
   type:
   - '&7&oIerocis'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oResurss'
 DEMONIC_INGOT:
+  name: '&cDēmonisks lietnis'
   type:
   - '&7&oResurss'
 DEMONIC_PLATE:
+  name: '&cDēmoniska plāksne'
   type:
   - '&7&oResurss'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Radi elli.'
+  name: '&4Elektriskais uguns zizlis'
   stats:
   - '&8⇨ &e⚡ &7100 J buferis'
   type:
   - '&7&oRīks'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Uguns, uguns, uguns!'
+  name: '&4Elektriskais uguns zizlis &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J buferis'
   type:
   - '&7&oRīks'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Pārstrādā zelta putekļus zelta lietņos.'
+  name: '&bElektriskā zelta rafinētava'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMašīna'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Jāj uz vēja.'
+  name: '&bElektriskais vēja zizlis'
   stats:
   - '&8⇨ &e⚡ &7100 J buferis'
   type:
   - '&7&oRīks'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Bojājums III'
+  - '&7Dzīvības zagšana II'
+  - '&7Bruņu caursišana II'
+  - '&7Pārdziedināšana'
   type:
   - '&7&oIerocis'
 EQUANIMOUS_GEM:
+  name: '&aLīdzsvara dārgakmens'
   type:
   - '&7&oResurss'
 FIERY_LEGGINGS:
+  name: '&cUgunīgās bikses'
+  stats:
+  - '&7Uguns aura II'
   type:
   - '&7&oBruņas'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Izgatavošanas materiāls'
+  name: '&fUgunīgo bikšu karkass'
   type:
   - '&7&oResurss'
 FILL_WAND:
+  name: '&eAizpildīšanas zizlis'
   stats:
   - '&8⇨ &e⚡ &71000 J buferis'
   type:
   - '&7&oRīks'
+  usage:
+  - '&7Atlasi stūra punktus ar pozīcijas atlasītāju.'
+  - '&7Shift un labais klikšķis, lai izvēlētos materiālu.'
+  - '&7Labais klikšķis, lai aizpildītu apgabalu.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Darbināts tas rada aizsargbarjeru'
+  - '&7ar 32 bloku rādiusu.'
+  - '&7Atgriezīsies iepriekšējā veidā, kad atslēgts vai salauzts'
+  name: '&4Spēka lauka kupols'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMašīna'
 FORCEFIELD_ENGINE:
+  name: '&fSpēka lauka dzinējs'
   type:
   - '&7&oResurss'
 FORCEFIELD_STABILIZER:
+  name: '&fSpēka lauka stabilizators'
   type:
   - '&7&oResurss'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Netverams bloks.'
+  name: '&fSpoku bloks: &6%mob%'
   type:
   - '&7&oIerīce'
 GHOST_BLOCK_REMOVER:
+  name: '&eSpoku bloku noņēmējs'
   type:
   - '&7&oRīks'
+  usage:
+  - '&7Labais klikšķis, lai noņemtu spoku bloku.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cBezgalvainā jātnieka radīšanas ola'
   type:
   - '&7&oDažādi'
 HEALING_BOW:
+  description:
+  - '&8Beidzot atbalsta ierocis.'
+  name: '&4Dziedinošais loks'
+  stats:
+  - '&cDziedināšana II'
   type:
   - '&7&oIerocis'
 HELMET_FRAME:
+  description:
+  - '&7Izgatavošanas materiāls'
+  name: '&fŪdens ķiveres karkass'
   type:
   - '&7&oResurss'
 HUMAN_SKULL:
+  name: '&cCilvēka galvaskauss'
   type:
   - '&7&oResurss'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Apvieno to ar rīku uzlabošanas kalvē, lai rīku uzlabotu.'
+  name: '&aUzlabošanas kodols'
   type:
   - '&7&oResurss'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Izmanto, lai uzlabotu Slimefun rīkus, ieročus un bruņas.'
+  name: '&bUzlabošanas kalve'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMašīna'
 LIGHT_BOOTS:
+  name: '&eVieglie zābaki'
+  stats:
+  - '&7Lēciens I'
+  - '&7Ātrums I'
+  - '&7Viegls'
   type:
   - '&7&oBruņas'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Izgatavošanas materiāls'
+  name: '&fVieglo zābaku karkass'
   type:
   - '&7&oResurss'
 MAGIC_LUMP_4:
+  name: '&6Maģiskais gabals &7- &eIV'
+  stats:
+  - '&c&oLīmenis: IV'
   type:
   - '&7&oResurss'
 MAGIC_LUMP_5:
+  name: '&6Maģiskais gabals &7- &eV'
+  stats:
+  - '&c&oLīmenis: V'
   type:
   - '&7&oResurss'
 MAGMA_ESSENCE:
+  name: '&cMagmas esence'
   type:
   - '&7&oResurss'
 NUCLEAR_SALT:
+  name: '&aKodolsāls'
   stats:
   - '&a☢&7 Radiācijas līmenis: &cĻOTI AUGSTS'
   type:
   - '&7&oResurss'
 PARROT_FEATHER:
+  name: '&aPapagaiļa spalva'
   type:
   - '&7&oResurss'
 PIXIE_DUST:
+  name: '&eFeju putekļi'
+  stats:
+  - '&7Spēks IV'
   type:
   - '&7&oĒdiens'
 PIXIE_QUEEN_HEART:
+  name: '&4Feju karalienes sirds'
   type:
   - '&7&oResurss'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aFeju karalienes radīšanas ola'
   type:
   - '&7&oDažādi'
 POLAR_FOX_HIDE:
+  name: '&fPolārlapsas āda'
   type:
   - '&7&oResurss'
 POSEIDONS_BLESSING:
+  name: '&bPoseidona svētība'
   type:
   - '&7&oResurss'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Var noķert īpašus priekšmetus.'
+  name: '&bPoseidona makšķere'
+  stats:
+  - '&7Poseidona svētība'
   type:
   - '&7&oRīks'
 POSITION_SELECTOR:
+  name: '&ePozīcijas atlasītājs'
   stats:
   - '&8⇨ &e⚡ &7200 J buferis'
   type:
   - '&7&oRīks'
+  usage:
+  - '&7Kreisais klikšķis uz bloka, lai atlasītu primāro pozīciju.'
+  - '&7Labais klikšķis uz bloka, lai atlasītu sekundāro pozīciju.'
 POTION_MIXER:
+  description:
+  - '&7Izmanto dziru maisīšanai.'
+  name: '&bDziru maisītājs'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMašīna'
 PURE_BONE_DUST:
+  name: '&bTīri kaulu putekļi'
   type:
   - '&7&oResurss'
 PURIFIED_BONE:
+  name: '&bAttīrīts kauls'
   type:
   - '&7&oResurss'
 REINFORCED_STRING:
+  name: '&bPastiprināta aukla'
   type:
   - '&7&oResurss'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Ļauj vadīt spēka lauka kupolu no attāluma.'
+  name: '&cTālvadības pults'
   stats:
   - '&8⇨ &e⚡ &71000 J buferis'
   type:
   - '&7&oRīks'
+  usage:
+  - '&7Piesaisti to ar Shift + labo klikšķi.'
 RESISTANT_CHESTPLATE:
+  name: '&aIzturīgās krūšu bruņas'
+  stats:
+  - '&7Izturība I'
+  - '&7Reģenerācija I'
   type:
   - '&7&oBruņas'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Izgatavošanas materiāls'
+  name: '&fIzturīgo krūšu bruņu karkass'
   type:
   - '&7&oResurss'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Izmanto kā upurēšanas altāra daļu.'
+  name: '&fUpurēšanas melnakmens ķieģeļi'
   type:
   - '&7&oMašīna'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Izmanto kā upurēšanas altāra daļu.'
+  name: '&fUpurēšanas melnakmens ķieģeļu kāpnes'
   type:
   - '&7&oMašīna'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Izmanto kā upurēšanas altāra daļu.'
+  name: '&fUpurēšanas melnakmens ķieģeļu siena'
   type:
   - '&7&oMašīna'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Izmanto kā upurēšanas altāra daļu.'
+  name: '&fUpurēšanas paklājs'
   type:
   - '&7&oMašīna'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Izmanto kā upurēšanas altāra daļu.'
+  name: '&fUpurēšanas dvēseļu lāpa'
   type:
   - '&7&oMašīna'
 SPONGE_WAND:
+  name: '&eSūkļa zizlis'
   stats:
   - '&8⇨ &e⚡ &72000 J buferis'
   type:
   - '&7&oRīks'
+  usage:
+  - '&7Atlasi stūra punktus ar pozīcijas atlasītāju.'
+  - '&7Labais klikšķis, lai noņemtu ūdeni un lavu.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Stabils materiāls.'
+  name: '&bStabilizēts kvēlojošais bloks'
   type:
   - '&7&oResurss'
 SWEETENED_SWEET_INGOT:
+  name: '&eSaldināts saldais lietnis'
   type:
   - '&7&oResurss'
 SWEET_INGOT:
+  name: '&eSaldais lietnis'
   type:
   - '&7&oResurss'
 TROPICAL_FISH_SCALE:
+  name: '&bTropu zivs zvīņa'
   type:
   - '&7&oResurss'
 UNBREAKABLE_RUNE:
+  name: '&7Senā rūna &8&l[&2&lNesalaužama&8&l]'
   type:
   - '&7&oDažādi'
+  usage:
+  - '&eNomet šo rūnu uz nomesta priekšmeta, lai'
+  - '&epadarītu to &2nesalaužamu'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cNesvēts Wither skeleta kauls'
   type:
   - '&7&oResurss'
 VILE_PUMPKIN:
+  name: '&cNelietīgais ķirbis'
   type:
   - '&7&oResurss'
 VILE_SEEDS:
+  name: '&cNelietīgās sēklas'
+  stats:
+  - '&7Veselības pieaugums V'
   type:
   - '&7&oĒdiens'
 WIRELESS_TRANSMITTER:
+  name: '&fBezvadu raidītājs'
   type:
   - '&7&oResurss'
