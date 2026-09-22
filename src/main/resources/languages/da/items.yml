@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Skade III'
+  - '&7Rustningsgennemtrængning II'
   type:
   - '&7&oVåben'
 AQUATIC_HELMET:
+  name: '&bAkvatisk hjelm'
+  stats:
+  - '&7Vandånding'
+  - '&7Mørkesyn'
   type:
   - '&7&oRustning'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bAkvatisk netheritbarre'
   type:
   - '&7&oRessource'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Fjerner torne fra sødbærbuske.'
+  name: '&eBeskærer til sødbærbuske'
   type:
   - '&7&oVærktøj'
 BLOOD:
+  name: '&cBlod'
   type:
   - '&7&oRessource'
 BLOOD_INFUSED_SKULL:
+  name: '&cBlodgennemvædet kranie'
   type:
   - '&7&oRessource'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Understøtter 2.5x hastigheden.'
+  name: '&fForstærket aktiveringsskinne'
   type:
   - '&7&oMaskine'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Understøtter 2.5x hastigheden.'
+  name: '&fForstærket detektorskinne'
   type:
   - '&7&oMaskine'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Understøtter 2.5x hastigheden.'
+  name: '&fForstærket drivskinne'
   type:
   - '&7&oMaskine'
 BOOSTED_RAIL:
+  description:
+  - '&7Understøtter 2.5x hastigheden.'
+  name: '&fForstærket skinne'
   type:
   - '&7&oMaskine'
 BUCKET_OF_BLOOD:
+  name: '&cSpand med blod'
   type:
   - '&7&oRessource'
 CELESTIAL_SHARD:
+  description:
+  - '&7Fremstillingsmateriale'
+  - '&7Nulstiller en opgave, når den kastes i et alter...'
+  name: '&eHimmelsk skår'
   type:
   - '&7&oRessource'
 CELESTIAL_SWORD:
+  name: '&eHimmelsk sværd'
+  stats:
+  - '&7Guddommeligt slag II'
+  - '&7Rustningsgennembrud V'
   type:
   - '&7&oVåben'
 CHUNK_LOADER:
+  description:
+  - '&7Holder chunken indlæst.'
+  name: '&bChunkindlæser'
   type:
   - '&7&oMaskine'
 COMPRESSED_SPONGE:
+  name: '&fKomprimeret svamp'
   type:
   - '&7&oRessource'
 CURSED_RABBIT_PAW:
+  name: '&cForbandet kaninpote'
   type:
   - '&7&oRessource'
 CURSED_SHARD:
+  description:
+  - '&7Fremstillingsmateriale'
+  - '&7Nulstiller en opgave, når den kastes i et alter...'
+  name: '&cForbandet skår'
   type:
   - '&7&oRessource'
 CURSED_SWORD:
+  description:
+  - '&7Forvirrer fjender. Øger skaden.'
+  - '&7Kan påvirke bæreren negativt.'
+  name: '&cForbandet sværd'
+  stats:
+  - '&7Livstyveri I'
+  - '&7Rustningsgennembrud I'
   type:
   - '&7&oVåben'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oRessource'
 DEMONIC_INGOT:
+  name: '&cDæmonisk barre'
   type:
   - '&7&oRessource'
 DEMONIC_PLATE:
+  name: '&cDæmonisk plade'
   type:
   - '&7&oRessource'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Skab et flammehav.'
+  name: '&4Elektrisk ildstav'
   stats:
   - '&8⇨ &e⚡ &7100 J buffer'
   type:
   - '&7&oVærktøj'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Ild, ild, ild!'
+  name: '&4Elektrisk ildstav &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J buffer'
   type:
   - '&7&oVærktøj'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Raffinerer guldstøv til guldbarrer.'
+  name: '&bElektrisk guldraffinaderi'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMaskine'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Rid på vinden.'
+  name: '&bElektrisk vindstav'
   stats:
   - '&8⇨ &e⚡ &7100 J buffer'
   type:
   - '&7&oVærktøj'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Skade III'
+  - '&7Livstyveri II'
+  - '&7Rustningsgennembrud II'
+  - '&7Overhelbredelse'
   type:
   - '&7&oVåben'
 EQUANIMOUS_GEM:
+  name: '&aSindsrolig ædelsten'
   type:
   - '&7&oRessource'
 FIERY_LEGGINGS:
+  name: '&cFlammende bukser'
+  stats:
+  - '&7Ildaura II'
   type:
   - '&7&oRustning'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Fremstillingsmateriale'
+  name: '&fRamme til flammende bukser'
   type:
   - '&7&oRessource'
 FILL_WAND:
+  name: '&eFyldestav'
   stats:
   - '&8⇨ &e⚡ &71000 J buffer'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&7Vælg hjørnepunkter med positionsvælgeren.'
+  - '&7Shift + højreklik for at vælge materiale.'
+  - '&7Højreklik for at fylde et område.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Skaber en beskyttende barriere, når den har strøm,'
+  - '&7med en radius på 32 blokke.'
+  - '&7Vender tilbage når strømmen forsvinder eller den brydes'
+  name: '&4Kraftfeltkuppel'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMaskine'
 FORCEFIELD_ENGINE:
+  name: '&fKraftfeltmotor'
   type:
   - '&7&oRessource'
 FORCEFIELD_STABILIZER:
+  name: '&fKraftfeltstabilisator'
   type:
   - '&7&oRessource'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7En uhåndgribelig blok.'
+  name: '&fSpøgelsesblok: &6%mob%'
   type:
   - '&7&oGadget'
 GHOST_BLOCK_REMOVER:
+  name: '&eSpøgelsesblokfjerner'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&7Højreklik for at fjerne en spøgelsesblok.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cSpawn-æg til hovedløs rytter'
   type:
   - '&7&oDiverse'
 HEALING_BOW:
+  description:
+  - '&8Endelig et støttevåben.'
+  name: '&4Helbredende bue'
+  stats:
+  - '&cHelbredelse II'
   type:
   - '&7&oVåben'
 HELMET_FRAME:
+  description:
+  - '&7Fremstillingsmateriale'
+  name: '&fRamme til akvatisk hjelm'
   type:
   - '&7&oRessource'
 HUMAN_SKULL:
+  name: '&cMenneskekranie'
   type:
   - '&7&oRessource'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Kombiner den med et værktøj i forbedringssmedjen for at forbedre det.'
+  name: '&aForbedringskerne'
   type:
   - '&7&oRessource'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Bruges til at forbedre Slimefun-værktøj, -våben og -rustning.'
+  name: '&bForbedringssmedje'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskine'
 LIGHT_BOOTS:
+  name: '&eLette støvler'
+  stats:
+  - '&7Spring I'
+  - '&7Hastighed I'
+  - '&7Letvægt'
   type:
   - '&7&oRustning'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Fremstillingsmateriale'
+  name: '&fRamme til lette støvler'
   type:
   - '&7&oRessource'
 MAGIC_LUMP_4:
+  name: '&6Magisk klump &7- &eIV'
+  stats:
+  - '&c&oTrin: IV'
   type:
   - '&7&oRessource'
 MAGIC_LUMP_5:
+  name: '&6Magisk klump &7- &eV'
+  stats:
+  - '&c&oTrin: V'
   type:
   - '&7&oRessource'
 MAGMA_ESSENCE:
+  name: '&cMagmaessens'
   type:
   - '&7&oRessource'
 NUCLEAR_SALT:
+  name: '&aNukleart salt'
   stats:
   - '&a☢&7 Strålingsniveau: &cMEGET HØJT'
   type:
   - '&7&oRessource'
 PARROT_FEATHER:
+  name: '&aPapegøjefjer'
   type:
   - '&7&oRessource'
 PIXIE_DUST:
+  name: '&eAlfestøv'
+  stats:
+  - '&7Styrke IV'
   type:
   - '&7&oMad'
 PIXIE_QUEEN_HEART:
+  name: '&4Alfedronningens hjerte'
   type:
   - '&7&oRessource'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aSpawn-æg til alfedronning'
   type:
   - '&7&oDiverse'
 POLAR_FOX_HIDE:
+  name: '&fPolarræveskind'
   type:
   - '&7&oRessource'
 POSEIDONS_BLESSING:
+  name: '&bPoseidons velsignelse'
   type:
   - '&7&oRessource'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Kan fange særlige genstande.'
+  name: '&bPoseidons fiskestang'
+  stats:
+  - '&7Poseidons velsignelse'
   type:
   - '&7&oVærktøj'
 POSITION_SELECTOR:
+  name: '&ePositionsvælger'
   stats:
   - '&8⇨ &e⚡ &7200 J buffer'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&7Venstreklik på en blok for at vælge den primære position.'
+  - '&7Højreklik på en blok for at vælge den sekundære position.'
 POTION_MIXER:
+  description:
+  - '&7Bruges til at blande eliksirer.'
+  name: '&bEliksirblander'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMaskine'
 PURE_BONE_DUST:
+  name: '&bRent knoglestøv'
   type:
   - '&7&oRessource'
 PURIFIED_BONE:
+  name: '&bRenset knogle'
   type:
   - '&7&oRessource'
 REINFORCED_STRING:
+  name: '&bForstærket snor'
   type:
   - '&7&oRessource'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Lader dig styre din kraftfeltkuppel på afstand.'
+  name: '&cFjernbetjening'
   stats:
   - '&8⇨ &e⚡ &71000 J buffer'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&7Bind den med Shift + højreklik.'
 RESISTANT_CHESTPLATE:
+  name: '&aModstandsdygtig brystplade'
+  stats:
+  - '&7Modstandskraft I'
+  - '&7Regeneration I'
   type:
   - '&7&oRustning'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Fremstillingsmateriale'
+  name: '&fRamme til modstandsdygtig brystplade'
   type:
   - '&7&oRessource'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Bruges som en del af offeralteret.'
+  name: '&fOffersortstensmursten'
   type:
   - '&7&oMaskine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Bruges som en del af offeralteret.'
+  name: '&fOffersortstenstrappe'
   type:
   - '&7&oMaskine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Bruges som en del af offeralteret.'
+  name: '&fOffersortstensmur'
   type:
   - '&7&oMaskine'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Bruges som en del af offeralteret.'
+  name: '&fOffermåtte'
   type:
   - '&7&oMaskine'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Bruges som en del af offeralteret.'
+  name: '&fOffersjælefakkel'
   type:
   - '&7&oMaskine'
 SPONGE_WAND:
+  name: '&eSvampestav'
   stats:
   - '&8⇨ &e⚡ &72000 J buffer'
   type:
   - '&7&oVærktøj'
+  usage:
+  - '&7Vælg hjørnepunkter med positionsvælgeren.'
+  - '&7Højreklik for at fjerne vand og lava.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Et stabilt materiale.'
+  name: '&bStabiliseret glohed blok'
   type:
   - '&7&oRessource'
 SWEETENED_SWEET_INGOT:
+  name: '&eSødet sød barre'
   type:
   - '&7&oRessource'
 SWEET_INGOT:
+  name: '&eSød barre'
   type:
   - '&7&oRessource'
 TROPICAL_FISH_SCALE:
+  name: '&bTropefiskeskæl'
   type:
   - '&7&oRessource'
 UNBREAKABLE_RUNE:
+  name: '&7Ældgammel rune &8&l[&2&lUbrydelig&8&l]'
   type:
   - '&7&oDiverse'
+  usage:
+  - '&eSmid denne rune på en tabt genstand for at'
+  - '&egøre den &2ubrydelig'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cUhellig witherskeletknogle'
   type:
   - '&7&oRessource'
 VILE_PUMPKIN:
+  name: '&cModbydeligt græskar'
   type:
   - '&7&oRessource'
 VILE_SEEDS:
+  name: '&cModbydelige frø'
+  stats:
+  - '&7Helbredsforøgelse V'
   type:
   - '&7&oMad'
 WIRELESS_TRANSMITTER:
+  name: '&fTrådløs sender'
   type:
   - '&7&oRessource'
