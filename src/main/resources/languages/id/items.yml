@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Kerusakan III'
+  - '&7Penusuk Zirah II'
   type:
   - '&7&oSenjata'
 AQUATIC_HELMET:
+  name: '&bHelm Akuatik'
+  stats:
+  - '&7Napas Dalam Air'
+  - '&7Penglihatan Gelap'
   type:
   - '&7&oBaju Zirah'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bBatangan Netherite Akuatik'
   type:
   - '&7&oSumber Daya'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Menghilangkan duri dari semak beri manis.'
+  name: '&ePemangkas Semak Beri Manis'
   type:
   - '&7&oAlat'
 BLOOD:
+  name: '&cDarah'
   type:
   - '&7&oSumber Daya'
 BLOOD_INFUSED_SKULL:
+  name: '&cTengkorak Berlumur Darah'
   type:
   - '&7&oSumber Daya'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Mendukung kecepatan 2.5x lipat.'
+  name: '&fRel Pengaktif Terdorong'
   type:
   - '&7&oMesin'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Mendukung kecepatan 2.5x lipat.'
+  name: '&fRel Pendeteksi Terdorong'
   type:
   - '&7&oMesin'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Mendukung kecepatan 2.5x lipat.'
+  name: '&fRel Bertenaga Terdorong'
   type:
   - '&7&oMesin'
 BOOSTED_RAIL:
+  description:
+  - '&7Mendukung kecepatan 2.5x lipat.'
+  name: '&fRel Terdorong'
   type:
   - '&7&oMesin'
 BUCKET_OF_BLOOD:
+  name: '&cEmber Darah'
   type:
   - '&7&oSumber Daya'
 CELESTIAL_SHARD:
+  description:
+  - '&7Bahan Kerajinan'
+  - '&7Akan mengatur ulang sebuah Misi bila dilempar ke dalam Altar...'
+  name: '&eSerpihan Surgawi'
   type:
   - '&7&oSumber Daya'
 CELESTIAL_SWORD:
+  name: '&ePedang Surgawi'
+  stats:
+  - '&7Hantaman Ilahi II'
+  - '&7Penembusan Zirah V'
   type:
   - '&7&oSenjata'
 CHUNK_LOADER:
+  description:
+  - '&7Menjaga bongkah tetap termuat.'
+  name: '&bPemuat Bongkah'
   type:
   - '&7&oMesin'
 COMPRESSED_SPONGE:
+  name: '&fSpons Terkompresi'
   type:
   - '&7&oSumber Daya'
 CURSED_RABBIT_PAW:
+  name: '&cCakar Kelinci Terkutuk'
   type:
   - '&7&oSumber Daya'
 CURSED_SHARD:
+  description:
+  - '&7Bahan Kerajinan'
+  - '&7Akan mengatur ulang sebuah Misi bila dilempar ke dalam Altar...'
+  name: '&cSerpihan Terkutuk'
   type:
   - '&7&oSumber Daya'
 CURSED_SWORD:
+  description:
+  - '&7Membingungkan musuh. Menambah kerusakan.'
+  - '&7Bisa berdampak buruk pada pemakainya.'
+  name: '&cPedang Terkutuk'
+  stats:
+  - '&7Curi Nyawa I'
+  - '&7Penembusan Zirah I'
   type:
   - '&7&oSenjata'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oSumber Daya'
 DEMONIC_INGOT:
+  name: '&cBatangan Iblis'
   type:
   - '&7&oSumber Daya'
 DEMONIC_PLATE:
+  name: '&cPelat Iblis'
   type:
   - '&7&oSumber Daya'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Ciptakan lautan api.'
+  name: '&4Tongkat Api Listrik'
   stats:
   - '&8⇨ &e⚡ &7100 J Buffer'
   type:
   - '&7&oAlat'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Api, api, api!'
+  name: '&4Tongkat Api Listrik &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Buffer'
   type:
   - '&7&oAlat'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Memurnikan Serbuk Emas menjadi batangan emas.'
+  name: '&bPemurni Emas Listrik'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMesin'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Menunggangi angin.'
+  name: '&bTongkat Angin Listrik'
   stats:
   - '&8⇨ &e⚡ &7100 J Buffer'
   type:
   - '&7&oAlat'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Kerusakan III'
+  - '&7Curi Nyawa II'
+  - '&7Penembusan Zirah II'
+  - '&7Penyembuhan Berlebih'
   type:
   - '&7&oSenjata'
 EQUANIMOUS_GEM:
+  name: '&aPermata Berimbang'
   type:
   - '&7&oSumber Daya'
 FIERY_LEGGINGS:
+  name: '&cCelana Zirah Berapi'
+  stats:
+  - '&7Aura Api II'
   type:
   - '&7&oBaju Zirah'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Bahan Kerajinan'
+  name: '&fRangka Celana Zirah Berapi'
   type:
   - '&7&oSumber Daya'
 FILL_WAND:
+  name: '&eTongkat Pengisi'
   stats:
   - '&8⇨ &e⚡ &71000 J Buffer'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Pilih titik sudut dengan Pemilih Posisi.'
+  - '&7Shift klik kanan untuk memilih bahan.'
+  - '&7Klik kanan untuk mengisi sebuah area.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Saat bertenaga, menciptakan penghalang pelindung'
+  - '&7dengan radius 32 blok.'
+  - '&7Akan kembali semula bila daya putus atau rusak'
+  name: '&4Kubah Medan Gaya'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMesin'
 FORCEFIELD_ENGINE:
+  name: '&fMesin Penggerak Medan Gaya'
   type:
   - '&7&oSumber Daya'
 FORCEFIELD_STABILIZER:
+  name: '&fPenstabil Medan Gaya'
   type:
   - '&7&oSumber Daya'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Blok yang tak berwujud.'
+  name: '&fBlok Hantu: &6%mob%'
   type:
   - '&7&oGadget'
 GHOST_BLOCK_REMOVER:
+  name: '&ePenghapus Blok Hantu'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Klik kanan untuk menghapus Blok Hantu.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cTelur Pemunculan Penunggang Kuda Tanpa Kepala'
   type:
   - '&7&oLainnya'
 HEALING_BOW:
+  description:
+  - '&8Akhirnya sebuah senjata pendukung.'
+  name: '&4Busur Penyembuh'
+  stats:
+  - '&cPenyembuhan II'
   type:
   - '&7&oSenjata'
 HELMET_FRAME:
+  description:
+  - '&7Bahan Kerajinan'
+  name: '&fRangka Helm Akuatik'
   type:
   - '&7&oSumber Daya'
 HUMAN_SKULL:
+  name: '&cTengkorak Manusia'
   type:
   - '&7&oSumber Daya'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Gabungkan dengan alat di Tempa Penyempurnaan untuk menyempurnakannya.'
+  name: '&aInti Penyempurnaan'
   type:
   - '&7&oSumber Daya'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Digunakan untuk menyempurnakan alat, senjata, dan zirah Slimefun.'
+  name: '&bTempa Penyempurnaan'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMesin'
 LIGHT_BOOTS:
+  name: '&eSepatu Bot Ringan'
+  stats:
+  - '&7Lompat I'
+  - '&7Kecepatan I'
+  - '&7Ringan'
   type:
   - '&7&oBaju Zirah'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Bahan Kerajinan'
+  name: '&fRangka Sepatu Bot Ringan'
   type:
   - '&7&oSumber Daya'
 MAGIC_LUMP_4:
+  name: '&6Bongkah Ajaib &7- &eIV'
+  stats:
+  - '&c&oTingkat: IV'
   type:
   - '&7&oSumber Daya'
 MAGIC_LUMP_5:
+  name: '&6Bongkah Ajaib &7- &eV'
+  stats:
+  - '&c&oTingkat: V'
   type:
   - '&7&oSumber Daya'
 MAGMA_ESSENCE:
+  name: '&cEsensi Magma'
   type:
   - '&7&oSumber Daya'
 NUCLEAR_SALT:
+  name: '&aGaram Nuklir'
   stats:
   - '&a☢&7 Tingkat radiasi: &cSANGAT TINGGI'
   type:
   - '&7&oSumber Daya'
 PARROT_FEATHER:
+  name: '&aBulu Burung Beo'
   type:
   - '&7&oSumber Daya'
 PIXIE_DUST:
+  name: '&eSerbuk Peri'
+  stats:
+  - '&7Kekuatan IV'
   type:
   - '&7&oMakanan'
 PIXIE_QUEEN_HEART:
+  name: '&4Jantung Ratu Peri'
   type:
   - '&7&oSumber Daya'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aTelur Pemunculan Ratu Peri'
   type:
   - '&7&oLainnya'
 POLAR_FOX_HIDE:
+  name: '&fKulit Rubah Kutub'
   type:
   - '&7&oSumber Daya'
 POSEIDONS_BLESSING:
+  name: '&bBerkah Poseidon'
   type:
   - '&7&oSumber Daya'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Bisa menangkap item istimewa.'
+  name: '&bJoran Pancing Poseidon'
+  stats:
+  - '&7Berkah Poseidon'
   type:
   - '&7&oAlat'
 POSITION_SELECTOR:
+  name: '&ePemilih Posisi'
   stats:
   - '&8⇨ &e⚡ &7200 J Buffer'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Klik kiri sebuah blok untuk memilih posisi utama.'
+  - '&7Klik kanan sebuah blok untuk memilih posisi kedua.'
 POTION_MIXER:
+  description:
+  - '&7Digunakan untuk mencampur ramuan.'
+  name: '&bPencampur Ramuan'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMesin'
 PURE_BONE_DUST:
+  name: '&bSerbuk Tulang Murni'
   type:
   - '&7&oSumber Daya'
 PURIFIED_BONE:
+  name: '&bTulang Termurnikan'
   type:
   - '&7&oSumber Daya'
 REINFORCED_STRING:
+  name: '&bBenang Diperkuat'
   type:
   - '&7&oSumber Daya'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Memungkinkan Anda mengendalikan Kubah Medan Gaya dari kejauhan.'
+  name: '&cPengendali Jarak Jauh'
   stats:
   - '&8⇨ &e⚡ &71000 J Buffer'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Ikat dengan Shift + Klik Kanan.'
 RESISTANT_CHESTPLATE:
+  name: '&aZirah Dada Tangguh'
+  stats:
+  - '&7Ketahanan I'
+  - '&7Regenerasi I'
   type:
   - '&7&oBaju Zirah'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Bahan Kerajinan'
+  name: '&fRangka Zirah Dada Tangguh'
   type:
   - '&7&oSumber Daya'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Digunakan sebagai bagian dari Altar Kurban.'
+  name: '&fBata Blackstone Kurban'
   type:
   - '&7&oMesin'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Digunakan sebagai bagian dari Altar Kurban.'
+  name: '&fTangga Bata Blackstone Kurban'
   type:
   - '&7&oMesin'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Digunakan sebagai bagian dari Altar Kurban.'
+  name: '&fDinding Bata Blackstone Kurban'
   type:
   - '&7&oMesin'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Digunakan sebagai bagian dari Altar Kurban.'
+  name: '&fTikar Kurban'
   type:
   - '&7&oMesin'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Digunakan sebagai bagian dari Altar Kurban.'
+  name: '&fObor Jiwa Kurban'
   type:
   - '&7&oMesin'
 SPONGE_WAND:
+  name: '&eTongkat Spons'
   stats:
   - '&8⇨ &e⚡ &72000 J Buffer'
   type:
   - '&7&oAlat'
+  usage:
+  - '&7Pilih titik sudut dengan Pemilih Posisi.'
+  - '&7Klik kanan untuk menghilangkan Air dan Lava.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Bahan yang stabil.'
+  name: '&bBlok Membara Terstabilkan'
   type:
   - '&7&oSumber Daya'
 SWEETENED_SWEET_INGOT:
+  name: '&eBatangan Manis Termaniskan'
   type:
   - '&7&oSumber Daya'
 SWEET_INGOT:
+  name: '&eBatangan Manis'
   type:
   - '&7&oSumber Daya'
 TROPICAL_FISH_SCALE:
+  name: '&bSisik Ikan Tropis'
   type:
   - '&7&oSumber Daya'
 UNBREAKABLE_RUNE:
+  name: '&7Rune Kuno &8&l[&2&lTak Terpatahkan&8&l]'
   type:
   - '&7&oLainnya'
+  usage:
+  - '&eJatuhkan rune ini ke atas item yang terjatuh untuk'
+  - '&emembuatnya &2tak terpatahkan'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cTulang Kerangka Wither Tak Suci'
   type:
   - '&7&oSumber Daya'
 VILE_PUMPKIN:
+  name: '&cLabu Keji'
   type:
   - '&7&oSumber Daya'
 VILE_SEEDS:
+  name: '&cBenih Keji'
+  stats:
+  - '&7Dorongan Nyawa V'
   type:
   - '&7&oMakanan'
 WIRELESS_TRANSMITTER:
+  name: '&fPemancar Nirkabel'
   type:
   - '&7&oSumber Daya'
