@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Dano III'
+  - '&7Perfuração de Armadura II'
   type:
   - '&7&oArma'
 AQUATIC_HELMET:
+  name: '&bCapacete Aquático'
+  stats:
+  - '&7Respiração Aquática'
+  - '&7Visão Noturna'
   type:
   - '&7&oArmadura'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bLingote de Netherite Aquático'
   type:
   - '&7&oRecurso'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Remove os espinhos dos arbustos de bagas doces.'
+  name: '&eAparador de Arbustos de Bagas Doces'
   type:
   - '&7&oFerramenta'
 BLOOD:
+  name: '&cSangue'
   type:
   - '&7&oRecurso'
 BLOOD_INFUSED_SKULL:
+  name: '&cCrânio Infundido de Sangue'
   type:
   - '&7&oRecurso'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Suporta 2.5x a velocidade.'
+  name: '&fCarril Ativador Reforçado'
   type:
   - '&7&oMáquina'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Suporta 2.5x a velocidade.'
+  name: '&fCarril Detetor Reforçado'
   type:
   - '&7&oMáquina'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Suporta 2.5x a velocidade.'
+  name: '&fCarril Elétrico Reforçado'
   type:
   - '&7&oMáquina'
 BOOSTED_RAIL:
+  description:
+  - '&7Suporta 2.5x a velocidade.'
+  name: '&fCarril Reforçado'
   type:
   - '&7&oMáquina'
 BUCKET_OF_BLOOD:
+  name: '&cBalde de Sangue'
   type:
   - '&7&oRecurso'
 CELESTIAL_SHARD:
+  description:
+  - '&7Material de fabrico'
+  - '&7Reinicia uma Missão quando atirado para um Altar...'
+  name: '&eFragmento Celestial'
   type:
   - '&7&oRecurso'
 CELESTIAL_SWORD:
+  name: '&eEspada Celestial'
+  stats:
+  - '&7Golpe Divino II'
+  - '&7Penetração de Armadura V'
   type:
   - '&7&oArma'
 CHUNK_LOADER:
+  description:
+  - '&7Mantém o chunk carregado.'
+  name: '&bCarregador de Chunks'
   type:
   - '&7&oMáquina'
 COMPRESSED_SPONGE:
+  name: '&fEsponja Comprimida'
   type:
   - '&7&oRecurso'
 CURSED_RABBIT_PAW:
+  name: '&cPata de Coelho Amaldiçoada'
   type:
   - '&7&oRecurso'
 CURSED_SHARD:
+  description:
+  - '&7Material de fabrico'
+  - '&7Reinicia uma Missão quando atirado para um Altar...'
+  name: '&cFragmento Amaldiçoado'
   type:
   - '&7&oRecurso'
 CURSED_SWORD:
+  description:
+  - '&7Confunde os inimigos. Aumenta o dano.'
+  - '&7Pode afetar negativamente quem a empunha.'
+  name: '&cEspada Amaldiçoada'
+  stats:
+  - '&7Roubo de Vida I'
+  - '&7Penetração de Armadura I'
   type:
   - '&7&oArma'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oRecurso'
 DEMONIC_INGOT:
+  name: '&cLingote Demoníaco'
   type:
   - '&7&oRecurso'
 DEMONIC_PLATE:
+  name: '&cPlaca Demoníaca'
   type:
   - '&7&oRecurso'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Cria um inferno.'
+  name: '&4Cajado Elétrico do Fogo'
   stats:
   - '&8⇨ &e⚡ &7Buffer de 100 J'
   type:
   - '&7&oFerramenta'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Fogo, fogo, fogo!'
+  name: '&4Cajado Elétrico do Fogo &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7Buffer de 200 J'
   type:
   - '&7&oFerramenta'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Refina pó de ouro em lingotes de ouro.'
+  name: '&bRefinaria Elétrica de Ouro'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMáquina'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Cavalga o vento.'
+  name: '&bCajado Elétrico do Vento'
   stats:
   - '&8⇨ &e⚡ &7Buffer de 100 J'
   type:
   - '&7&oFerramenta'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Dano III'
+  - '&7Roubo de Vida II'
+  - '&7Penetração de Armadura II'
+  - '&7Sobrecura'
   type:
   - '&7&oArma'
 EQUANIMOUS_GEM:
+  name: '&aGema Equânime'
   type:
   - '&7&oRecurso'
 FIERY_LEGGINGS:
+  name: '&cCalças Flamejantes'
+  stats:
+  - '&7Aura de Fogo II'
   type:
   - '&7&oArmadura'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Material de fabrico'
+  name: '&fEstrutura de Calças Flamejantes'
   type:
   - '&7&oRecurso'
 FILL_WAND:
+  name: '&eVarinha de Preenchimento'
   stats:
   - '&8⇨ &e⚡ &7Buffer de 1000 J'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&7Seleciona os cantos com o Seletor de Posição.'
+  - '&7Shift + clique direito para selecionar o material.'
+  - '&7Clique direito para preencher uma área.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Quando alimentada, cria uma barreira protetora'
+  - '&7com um raio de 32 blocos.'
+  - '&7Volta ao normal ao ficar sem energia ou ao ser partido'
+  name: '&4Cúpula de Campo de Força'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMáquina'
 FORCEFIELD_ENGINE:
+  name: '&fMotor de Campo de Força'
   type:
   - '&7&oRecurso'
 FORCEFIELD_STABILIZER:
+  name: '&fEstabilizador de Campo de Força'
   type:
   - '&7&oRecurso'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Um bloco intangível.'
+  name: '&fBloco Fantasma: &6%mob%'
   type:
   - '&7&oAcessório'
 GHOST_BLOCK_REMOVER:
+  name: '&eRemovedor de Blocos Fantasma'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&7Clique direito para remover um Bloco Fantasma.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cOvo de Invocação do Cavaleiro Sem Cabeça'
   type:
   - '&7&oDiverso'
 HEALING_BOW:
+  description:
+  - '&8Finalmente uma arma de suporte.'
+  name: '&4Arco de Cura'
+  stats:
+  - '&cCura II'
   type:
   - '&7&oArma'
 HELMET_FRAME:
+  description:
+  - '&7Material de fabrico'
+  name: '&fEstrutura de Capacete Aquático'
   type:
   - '&7&oRecurso'
 HUMAN_SKULL:
+  name: '&cCrânio Humano'
   type:
   - '&7&oRecurso'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Combina-o com uma ferramenta na Forja de Melhoramento para a melhorar.'
+  name: '&aNúcleo de Melhoramento'
   type:
   - '&7&oRecurso'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Usada para melhorar ferramentas, armas e armaduras do Slimefun.'
+  name: '&bForja de Melhoramento'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMáquina'
 LIGHT_BOOTS:
+  name: '&eBotas Leves'
+  stats:
+  - '&7Salto I'
+  - '&7Velocidade I'
+  - '&7Leveza'
   type:
   - '&7&oArmadura'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Material de fabrico'
+  name: '&fEstrutura de Botas Leves'
   type:
   - '&7&oRecurso'
 MAGIC_LUMP_4:
+  name: '&6Pepita Mágica &7- &eIV'
+  stats:
+  - '&c&oNível: IV'
   type:
   - '&7&oRecurso'
 MAGIC_LUMP_5:
+  name: '&6Pepita Mágica &7- &eV'
+  stats:
+  - '&c&oNível: V'
   type:
   - '&7&oRecurso'
 MAGMA_ESSENCE:
+  name: '&cEssência de Magma'
   type:
   - '&7&oRecurso'
 NUCLEAR_SALT:
+  name: '&aSal Nuclear'
   stats:
   - '&a☢&7 Nível de radiação: &cMUITO ALTO'
   type:
   - '&7&oRecurso'
 PARROT_FEATHER:
+  name: '&aPena de Papagaio'
   type:
   - '&7&oRecurso'
 PIXIE_DUST:
+  name: '&ePó de Fada'
+  stats:
+  - '&7Força IV'
   type:
   - '&7&oComida'
 PIXIE_QUEEN_HEART:
+  name: '&4Coração da Rainha das Fadas'
   type:
   - '&7&oRecurso'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aOvo de Invocação da Rainha das Fadas'
   type:
   - '&7&oDiverso'
 POLAR_FOX_HIDE:
+  name: '&fPele de Raposa Polar'
   type:
   - '&7&oRecurso'
 POSEIDONS_BLESSING:
+  name: '&bBênção de Poseidon'
   type:
   - '&7&oRecurso'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Consegue apanhar itens especiais.'
+  name: '&bCana de Pesca de Poseidon'
+  stats:
+  - '&7Bênção de Poseidon'
   type:
   - '&7&oFerramenta'
 POSITION_SELECTOR:
+  name: '&eSeletor de Posição'
   stats:
   - '&8⇨ &e⚡ &7Buffer de 200 J'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&7Clique esquerdo num bloco para selecionar a posição primária.'
+  - '&7Clique direito num bloco para selecionar a posição secundária.'
 POTION_MIXER:
+  description:
+  - '&7Usado para misturar poções.'
+  name: '&bMisturador de Poções'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMáquina'
 PURE_BONE_DUST:
+  name: '&bPó de Osso Puro'
   type:
   - '&7&oRecurso'
 PURIFIED_BONE:
+  name: '&bOsso Purificado'
   type:
   - '&7&oRecurso'
 REINFORCED_STRING:
+  name: '&bCorda Reforçada'
   type:
   - '&7&oRecurso'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Permite-te controlar a tua Cúpula de Campo de Força à distância.'
+  name: '&cControlador Remoto'
   stats:
   - '&8⇨ &e⚡ &7Buffer de 1000 J'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&7Liga-o com Shift + Clique Direito.'
 RESISTANT_CHESTPLATE:
+  name: '&aPeitoral Resistente'
+  stats:
+  - '&7Resistência I'
+  - '&7Regeneração I'
   type:
   - '&7&oArmadura'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Material de fabrico'
+  name: '&fEstrutura de Peitoral Resistente'
   type:
   - '&7&oRecurso'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Usado como parte do Altar Sacrificial.'
+  name: '&fTijolos de Pedra Negra Sacrificiais'
   type:
   - '&7&oMáquina'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Usado como parte do Altar Sacrificial.'
+  name: '&fEscadas de Tijolos de Pedra Negra Sacrificiais'
   type:
   - '&7&oMáquina'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Usado como parte do Altar Sacrificial.'
+  name: '&fMuro de Tijolos de Pedra Negra Sacrificial'
   type:
   - '&7&oMáquina'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Usado como parte do Altar Sacrificial.'
+  name: '&fTapete Sacrificial'
   type:
   - '&7&oMáquina'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Usado como parte do Altar Sacrificial.'
+  name: '&fTocha de Almas Sacrificial'
   type:
   - '&7&oMáquina'
 SPONGE_WAND:
+  name: '&eVarinha de Esponja'
   stats:
   - '&8⇨ &e⚡ &7Buffer de 2000 J'
   type:
   - '&7&oFerramenta'
+  usage:
+  - '&7Seleciona os cantos com o Seletor de Posição.'
+  - '&7Clique direito para remover Água e Lava.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Um material estável.'
+  name: '&bBloco Escaldante Estabilizado'
   type:
   - '&7&oRecurso'
 SWEETENED_SWEET_INGOT:
+  name: '&eLingote Doce Adoçado'
   type:
   - '&7&oRecurso'
 SWEET_INGOT:
+  name: '&eLingote Doce'
   type:
   - '&7&oRecurso'
 TROPICAL_FISH_SCALE:
+  name: '&bEscama de Peixe Tropical'
   type:
   - '&7&oRecurso'
 UNBREAKABLE_RUNE:
+  name: '&7Runa Antiga &8&l[&2&lInquebrável&8&l]'
   type:
   - '&7&oDiverso'
+  usage:
+  - '&eLarga esta runa sobre um item largado para'
+  - '&eo tornar &2inquebrável'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cOsso Profano de Esqueleto Wither'
   type:
   - '&7&oRecurso'
 VILE_PUMPKIN:
+  name: '&cAbóbora Vil'
   type:
   - '&7&oRecurso'
 VILE_SEEDS:
+  name: '&cSementes Vis'
+  stats:
+  - '&7Aumento de Vida V'
   type:
   - '&7&oComida'
 WIRELESS_TRANSMITTER:
+  name: '&fTransmissor Sem Fios'
   type:
   - '&7&oRecurso'
