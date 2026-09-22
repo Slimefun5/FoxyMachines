@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Skade III'
+  - '&7Wapenrustingdeurboring II'
   type:
   - '&7&oWapen'
 AQUATIC_HELMET:
+  name: '&bAkwatiese Helm'
+  stats:
+  - '&7Waterasemhaling'
+  - '&7Nagsig'
   type:
   - '&7&oWapenrusting'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bAkwatiese Netherietstaaf'
   type:
   - '&7&oHulpbron'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Verwyder dorings van soetbessiestruike.'
+  name: '&eSoetbessiestruik-Snoeier'
   type:
   - '&7&oGereedskap'
 BLOOD:
+  name: '&cBloed'
   type:
   - '&7&oHulpbron'
 BLOOD_INFUSED_SKULL:
+  name: '&cBloedgedrenkte Skedel'
   type:
   - '&7&oHulpbron'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Ondersteun 2.5x die spoed.'
+  name: '&fVersnelde Aktiveerderspoor'
   type:
   - '&7&oMasjien'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Ondersteun 2.5x die spoed.'
+  name: '&fVersnelde Verklikkerspoor'
   type:
   - '&7&oMasjien'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Ondersteun 2.5x die spoed.'
+  name: '&fVersnelde Aangedrewe Spoor'
   type:
   - '&7&oMasjien'
 BOOSTED_RAIL:
+  description:
+  - '&7Ondersteun 2.5x die spoed.'
+  name: '&fVersnelde Spoor'
   type:
   - '&7&oMasjien'
 BUCKET_OF_BLOOD:
+  name: '&cEmmer Bloed'
   type:
   - '&7&oHulpbron'
 CELESTIAL_SHARD:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  - '&7Sal ''n Soektog herstel wanneer dit in ''n Altaar gegooi word...'
+  name: '&eHemelse Skerf'
   type:
   - '&7&oHulpbron'
 CELESTIAL_SWORD:
+  name: '&eHemelse Swaard'
+  stats:
+  - '&7Goddelike Slag II'
+  - '&7Wapenrustingdeurdringing V'
   type:
   - '&7&oWapen'
 CHUNK_LOADER:
+  description:
+  - '&7Hou die brok gelaai.'
+  name: '&bBroklaaier'
   type:
   - '&7&oMasjien'
 COMPRESSED_SPONGE:
+  name: '&fSaamgeperste Spons'
   type:
   - '&7&oHulpbron'
 CURSED_RABBIT_PAW:
+  name: '&cVervloekte Konynpoot'
   type:
   - '&7&oHulpbron'
 CURSED_SHARD:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  - '&7Sal ''n Soektog herstel wanneer dit in ''n Altaar gegooi word...'
+  name: '&cVervloekte Skerf'
   type:
   - '&7&oHulpbron'
 CURSED_SWORD:
+  description:
+  - '&7Verwar vyande. Verhoog skade.'
+  - '&7Kan die draer negatief beïnvloed.'
+  name: '&cVervloekte Swaard'
+  stats:
+  - '&7Lewensteel I'
+  - '&7Wapenrustingdeurdringing I'
   type:
   - '&7&oWapen'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oHulpbron'
 DEMONIC_INGOT:
+  name: '&cDemoniese Staaf'
   type:
   - '&7&oHulpbron'
 DEMONIC_PLATE:
+  name: '&cDemoniese Plaat'
   type:
   - '&7&oHulpbron'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Skep ''n vuurhel.'
+  name: '&4Elektriese Vuurstaf'
   stats:
   - '&8⇨ &e⚡ &7100 J Buffer'
   type:
   - '&7&oGereedskap'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Vuur, vuur, vuur!'
+  name: '&4Elektriese Vuurstaf &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Buffer'
   type:
   - '&7&oGereedskap'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Verfyn goudstof tot goudstawe.'
+  name: '&bElektriese Goudraffinadery'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMasjien'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Ry op die wind.'
+  name: '&bElektriese Windstaf'
   stats:
   - '&8⇨ &e⚡ &7100 J Buffer'
   type:
   - '&7&oGereedskap'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Skade III'
+  - '&7Lewensteel II'
+  - '&7Wapenrustingdeurdringing II'
+  - '&7Oorgenesing'
   type:
   - '&7&oWapen'
 EQUANIMOUS_GEM:
+  name: '&aGelykmoedige Edelsteen'
   type:
   - '&7&oHulpbron'
 FIERY_LEGGINGS:
+  name: '&cVurige Beenbeskermers'
+  stats:
+  - '&7Vuuraura II'
   type:
   - '&7&oWapenrusting'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  name: '&fVurige Beenbeskermersraam'
   type:
   - '&7&oHulpbron'
 FILL_WAND:
+  name: '&eVulstaf'
   stats:
   - '&8⇨ &e⚡ &71000 J Buffer'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&7Kies hoekpunte met die Posisiekieser.'
+  - '&7Shift-regsklik om die materiaal te kies.'
+  - '&7Regsklik om ''n gebied te vul.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Wanneer dit aangedryf word, skep dit ''n beskermende versperring'
+  - '&7met ''n 32-blok radius.'
+  - '&7Keer terug sodra die krag af is of dit gebreek word'
+  name: '&4Kragveldkoepel'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMasjien'
 FORCEFIELD_ENGINE:
+  name: '&fKragveldenjin'
   type:
   - '&7&oHulpbron'
 FORCEFIELD_STABILIZER:
+  name: '&fKragveldstabiliseerder'
   type:
   - '&7&oHulpbron'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7''n Ontasbare blok.'
+  name: '&fSpookblok: &6%mob%'
   type:
   - '&7&oToestel'
 GHOST_BLOCK_REMOVER:
+  name: '&eSpookblokverwyderaar'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&7Regsklik om ''n Spookblok te verwyder.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cKoplose Ruiter-Voortbringeier'
   type:
   - '&7&oAllerlei'
 HEALING_BOW:
+  description:
+  - '&8Uiteindelik ''n ondersteuningswapen.'
+  name: '&4Genesingsboog'
+  stats:
+  - '&cGenesing II'
   type:
   - '&7&oWapen'
 HELMET_FRAME:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  name: '&fAkwatiese Helmraam'
   type:
   - '&7&oHulpbron'
 HUMAN_SKULL:
+  name: '&cMenslike Skedel'
   type:
   - '&7&oHulpbron'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Kombineer dit met ''n werktuig in die Verbeteringsmidse om dit te verbeter.'
+  name: '&aVerbeteringskern'
   type:
   - '&7&oHulpbron'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Word gebruik om Slimefun-werktuie, wapens en wapenrusting te verbeter.'
+  name: '&bVerbeteringsmidse'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMasjien'
 LIGHT_BOOTS:
+  name: '&eLigte Stewels'
+  stats:
+  - '&7Sprong I'
+  - '&7Spoed I'
+  - '&7Liggewig'
   type:
   - '&7&oWapenrusting'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  name: '&fLigte Stewelsraam'
   type:
   - '&7&oHulpbron'
 MAGIC_LUMP_4:
+  name: '&6Magiese Klont &7- &eIV'
+  stats:
+  - '&c&oVlak: IV'
   type:
   - '&7&oHulpbron'
 MAGIC_LUMP_5:
+  name: '&6Magiese Klont &7- &eV'
+  stats:
+  - '&c&oVlak: V'
   type:
   - '&7&oHulpbron'
 MAGMA_ESSENCE:
+  name: '&cMagma-Essens'
   type:
   - '&7&oHulpbron'
 NUCLEAR_SALT:
+  name: '&aKernsout'
   stats:
   - '&a☢&7 Bestralingsvlak: &cBAIE HOOG'
   type:
   - '&7&oHulpbron'
 PARROT_FEATHER:
+  name: '&aPapegaaiveer'
   type:
   - '&7&oHulpbron'
 PIXIE_DUST:
+  name: '&eFeestof'
+  stats:
+  - '&7Krag IV'
   type:
   - '&7&oKos'
 PIXIE_QUEEN_HEART:
+  name: '&4Feekoningin-Hart'
   type:
   - '&7&oHulpbron'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aFeekoningin-Voortbringeier'
   type:
   - '&7&oAllerlei'
 POLAR_FOX_HIDE:
+  name: '&fPoolvosvel'
   type:
   - '&7&oHulpbron'
 POSEIDONS_BLESSING:
+  name: '&bPoseidon se Seën'
   type:
   - '&7&oHulpbron'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Kan spesiale items vang.'
+  name: '&bPoseidon se Visstok'
+  stats:
+  - '&7Poseidon se Seën'
   type:
   - '&7&oGereedskap'
 POSITION_SELECTOR:
+  name: '&ePosisiekieser'
   stats:
   - '&8⇨ &e⚡ &7200 J Buffer'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&7Linksklik ''n blok om die primêre posisie te kies.'
+  - '&7Regsklik ''n blok om die sekondêre posisie te kies.'
 POTION_MIXER:
+  description:
+  - '&7Word gebruik om toordranke te meng.'
+  name: '&bToordrankmenger'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMasjien'
 PURE_BONE_DUST:
+  name: '&bSuiwer Beenstof'
   type:
   - '&7&oHulpbron'
 PURIFIED_BONE:
+  name: '&bGesuiwerde Been'
   type:
   - '&7&oHulpbron'
 REINFORCED_STRING:
+  name: '&bVersterkte Garing'
   type:
   - '&7&oHulpbron'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Laat jou toe om jou Kragveldkoepel van ''n afstand af te beheer.'
+  name: '&cAfstandbeheerder'
   stats:
   - '&8⇨ &e⚡ &71000 J Buffer'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&7Bind dit met Shift + Regsklik.'
 RESISTANT_CHESTPLATE:
+  name: '&aWeerstandbiedende Borsplaat'
+  stats:
+  - '&7Weerstand I'
+  - '&7Herstel I'
   type:
   - '&7&oWapenrusting'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  name: '&fWeerstandbiedende Borsplaatraam'
   type:
   - '&7&oHulpbron'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Word gebruik as deel van die Offeraltaar.'
+  name: '&fOffer-Swartklipbakstene'
   type:
   - '&7&oMasjien'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Word gebruik as deel van die Offeraltaar.'
+  name: '&fOffer-Swartklipbaksteentrap'
   type:
   - '&7&oMasjien'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Word gebruik as deel van die Offeraltaar.'
+  name: '&fOffer-Swartklipbaksteenmuur'
   type:
   - '&7&oMasjien'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Word gebruik as deel van die Offeraltaar.'
+  name: '&fOffermat'
   type:
   - '&7&oMasjien'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Word gebruik as deel van die Offeraltaar.'
+  name: '&fOffer-Sielfakkel'
   type:
   - '&7&oMasjien'
 SPONGE_WAND:
+  name: '&eSponsstaf'
   stats:
   - '&8⇨ &e⚡ &72000 J Buffer'
   type:
   - '&7&oGereedskap'
+  usage:
+  - '&7Kies hoekpunte met die Posisiekieser.'
+  - '&7Regsklik om Water en Lawa te verwyder.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7''n Stabiele materiaal.'
+  name: '&bGestabiliseerde Blaartrekkende Blok'
   type:
   - '&7&oHulpbron'
 SWEETENED_SWEET_INGOT:
+  name: '&eVersoete Soet Staaf'
   type:
   - '&7&oHulpbron'
 SWEET_INGOT:
+  name: '&eSoet Staaf'
   type:
   - '&7&oHulpbron'
 TROPICAL_FISH_SCALE:
+  name: '&bTropiese Visskub'
   type:
   - '&7&oHulpbron'
 UNBREAKABLE_RUNE:
+  name: '&7Antieke Rune &8&l[&2&lOnbreekbaar&8&l]'
   type:
   - '&7&oAllerlei'
+  usage:
+  - '&eLaat val hierdie rune op ''n gevalle item om'
+  - '&edit &2onbreekbaar te maak'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cOnheilige Wither-Geraamtebeen'
   type:
   - '&7&oHulpbron'
 VILE_PUMPKIN:
+  name: '&cSnode Pampoen'
   type:
   - '&7&oHulpbron'
 VILE_SEEDS:
+  name: '&cSnode Sade'
+  stats:
+  - '&7Gesondheidshupstoot V'
   type:
   - '&7&oKos'
 WIRELESS_TRANSMITTER:
+  name: '&fDraadlose Sender'
   type:
   - '&7&oHulpbron'
