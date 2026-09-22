@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Skade III'
+  - '&7Rustningsgjennomboring II'
   type:
   - '&7&oVåpen'
 AQUATIC_HELMET:
+  name: '&bAkvatisk hjelm'
+  stats:
+  - '&7Vannpusting'
+  - '&7Mørkesyn'
   type:
   - '&7&oRustning'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bAkvatisk Netherite-barre'
   type:
   - '&7&oRessurs'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Fjerner torner fra søtbærbusker.'
+  name: '&eSøtbærbusktrimmer'
   type:
   - '&7&oVerktøy'
 BLOOD:
+  name: '&cBlod'
   type:
   - '&7&oRessurs'
 BLOOD_INFUSED_SKULL:
+  name: '&cBlodinfusert skalle'
   type:
   - '&7&oRessurs'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Støtter 2.5x hastigheten.'
+  name: '&fForsterket aktivatorskinne'
   type:
   - '&7&oMaskin'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Støtter 2.5x hastigheten.'
+  name: '&fForsterket detektorskinne'
   type:
   - '&7&oMaskin'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Støtter 2.5x hastigheten.'
+  name: '&fForsterket drevet skinne'
   type:
   - '&7&oMaskin'
 BOOSTED_RAIL:
+  description:
+  - '&7Støtter 2.5x hastigheten.'
+  name: '&fForsterket skinne'
   type:
   - '&7&oMaskin'
 BUCKET_OF_BLOOD:
+  name: '&cBøtte med blod'
   type:
   - '&7&oRessurs'
 CELESTIAL_SHARD:
+  description:
+  - '&7Håndverksmateriale'
+  - '&7Nullstiller et oppdrag når den kastes i et alter ...'
+  name: '&eHimmelsk skår'
   type:
   - '&7&oRessurs'
 CELESTIAL_SWORD:
+  name: '&eHimmelsk sverd'
+  stats:
+  - '&7Guddommelig slag II'
+  - '&7Rustningsgjennomtrenging V'
   type:
   - '&7&oVåpen'
 CHUNK_LOADER:
+  description:
+  - '&7Holder området lastet.'
+  name: '&bOmrådelaster'
   type:
   - '&7&oMaskin'
 COMPRESSED_SPONGE:
+  name: '&fKomprimert svamp'
   type:
   - '&7&oRessurs'
 CURSED_RABBIT_PAW:
+  name: '&cForbannet kaninlabb'
   type:
   - '&7&oRessurs'
 CURSED_SHARD:
+  description:
+  - '&7Håndverksmateriale'
+  - '&7Nullstiller et oppdrag når den kastes i et alter ...'
+  name: '&cForbannet skår'
   type:
   - '&7&oRessurs'
 CURSED_SWORD:
+  description:
+  - '&7Forvirrer fiender. Øker skaden.'
+  - '&7Kan påvirke bæreren negativt.'
+  name: '&cForbannet sverd'
+  stats:
+  - '&7Livstyveri I'
+  - '&7Rustningsgjennomtrenging I'
   type:
   - '&7&oVåpen'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oRessurs'
 DEMONIC_INGOT:
+  name: '&cDemonisk barre'
   type:
   - '&7&oRessurs'
 DEMONIC_PLATE:
+  name: '&cDemonisk plate'
   type:
   - '&7&oRessurs'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Skap et inferno.'
+  name: '&4Elektrisk ildstav'
   stats:
   - '&8⇨ &e⚡ &7100 J buffer'
   type:
   - '&7&oVerktøy'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Ild, ild, ild!'
+  name: '&4Elektrisk ildstav &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J buffer'
   type:
   - '&7&oVerktøy'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Raffinerer gullstøv til gullbarrer.'
+  name: '&bElektrisk gullraffineri'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMaskin'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Ri på vinden.'
+  name: '&bElektrisk vindstav'
   stats:
   - '&8⇨ &e⚡ &7100 J buffer'
   type:
   - '&7&oVerktøy'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Skade III'
+  - '&7Livstyveri II'
+  - '&7Rustningsgjennomtrenging II'
+  - '&7Overhelbredelse'
   type:
   - '&7&oVåpen'
 EQUANIMOUS_GEM:
+  name: '&aSinnsrolig edelsten'
   type:
   - '&7&oRessurs'
 FIERY_LEGGINGS:
+  name: '&cBrennende bukser'
+  stats:
+  - '&7Ildaura II'
   type:
   - '&7&oRustning'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Håndverksmateriale'
+  name: '&fRamme til brennende bukser'
   type:
   - '&7&oRessurs'
 FILL_WAND:
+  name: '&eFyllestav'
   stats:
   - '&8⇨ &e⚡ &71000 J buffer'
   type:
   - '&7&oVerktøy'
+  usage:
+  - '&7Velg hjørnepunkter med posisjonsvelgeren.'
+  - '&7Shift + høyreklikk for å velge materiale.'
+  - '&7Høyreklikk for å fylle et område.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Når den har kraft, lager den en beskyttende barriere'
+  - '&7med en radius på 32 blokker.'
+  - '&7Går tilbake når strømmen tas bort eller den brytes'
+  name: '&4Kraftfeltkuppel'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMaskin'
 FORCEFIELD_ENGINE:
+  name: '&fKraftfeltmotor'
   type:
   - '&7&oRessurs'
 FORCEFIELD_STABILIZER:
+  name: '&fKraftfeltstabilisator'
   type:
   - '&7&oRessurs'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7En ugripelig blokk.'
+  name: '&fSpøkelsesblokk: &6%mob%'
   type:
   - '&7&oDings'
 GHOST_BLOCK_REMOVER:
+  name: '&eSpøkelsesblokkfjerner'
   type:
   - '&7&oVerktøy'
+  usage:
+  - '&7Høyreklikk for å fjerne en spøkelsesblokk.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cGyteegg for hodeløs rytter'
   type:
   - '&7&oDiverse'
 HEALING_BOW:
+  description:
+  - '&8Endelig et støttevåpen.'
+  name: '&4Helbredende bue'
+  stats:
+  - '&cHelbredelse II'
   type:
   - '&7&oVåpen'
 HELMET_FRAME:
+  description:
+  - '&7Håndverksmateriale'
+  name: '&fRamme til akvatisk hjelm'
   type:
   - '&7&oRessurs'
 HUMAN_SKULL:
+  name: '&cMenneskeskalle'
   type:
   - '&7&oRessurs'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Kombiner den med et verktøy i forbedringssmien for å forbedre det.'
+  name: '&aForbedringskjerne'
   type:
   - '&7&oRessurs'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Brukes til å forbedre verktøy, våpen og rustning fra Slimefun.'
+  name: '&bForbedringssmie'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskin'
 LIGHT_BOOTS:
+  name: '&eLette støvler'
+  stats:
+  - '&7Hopp I'
+  - '&7Hastighet I'
+  - '&7Lettvekt'
   type:
   - '&7&oRustning'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Håndverksmateriale'
+  name: '&fRamme til lette støvler'
   type:
   - '&7&oRessurs'
 MAGIC_LUMP_4:
+  name: '&6Magisk klump &7- &eIV'
+  stats:
+  - '&c&oNivå: IV'
   type:
   - '&7&oRessurs'
 MAGIC_LUMP_5:
+  name: '&6Magisk klump &7- &eV'
+  stats:
+  - '&c&oNivå: V'
   type:
   - '&7&oRessurs'
 MAGMA_ESSENCE:
+  name: '&cMagmaessens'
   type:
   - '&7&oRessurs'
 NUCLEAR_SALT:
+  name: '&aKjernefysisk salt'
   stats:
   - '&a☢&7 Strålingsnivå: &cSVÆRT HØY'
   type:
   - '&7&oRessurs'
 PARROT_FEATHER:
+  name: '&aPapegøyefjær'
   type:
   - '&7&oRessurs'
 PIXIE_DUST:
+  name: '&eFestøv'
+  stats:
+  - '&7Styrke IV'
   type:
   - '&7&oMat'
 PIXIE_QUEEN_HEART:
+  name: '&4Fedronningens hjerte'
   type:
   - '&7&oRessurs'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aGyteegg for fedronning'
   type:
   - '&7&oDiverse'
 POLAR_FOX_HIDE:
+  name: '&fPolarrevskinn'
   type:
   - '&7&oRessurs'
 POSEIDONS_BLESSING:
+  name: '&bPoseidons velsignelse'
   type:
   - '&7&oRessurs'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Kan fange spesielle gjenstander.'
+  name: '&bPoseidons fiskestang'
+  stats:
+  - '&7Poseidons velsignelse'
   type:
   - '&7&oVerktøy'
 POSITION_SELECTOR:
+  name: '&ePosisjonsvelger'
   stats:
   - '&8⇨ &e⚡ &7200 J buffer'
   type:
   - '&7&oVerktøy'
+  usage:
+  - '&7Venstreklikk en blokk for å velge primærposisjon.'
+  - '&7Høyreklikk en blokk for å velge sekundærposisjon.'
 POTION_MIXER:
+  description:
+  - '&7Brukes til å blande trylledrikker.'
+  name: '&bTrylledrikkmikser'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMaskin'
 PURE_BONE_DUST:
+  name: '&bRent beinstøv'
   type:
   - '&7&oRessurs'
 PURIFIED_BONE:
+  name: '&bRenset bein'
   type:
   - '&7&oRessurs'
 REINFORCED_STRING:
+  name: '&bForsterket tråd'
   type:
   - '&7&oRessurs'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Lar deg styre kraftfeltkuppelen din på avstand.'
+  name: '&cFjernkontroller'
   stats:
   - '&8⇨ &e⚡ &71000 J buffer'
   type:
   - '&7&oVerktøy'
+  usage:
+  - '&7Koble den med Shift + høyreklikk.'
 RESISTANT_CHESTPLATE:
+  name: '&aMotstandsdyktig brystplate'
+  stats:
+  - '&7Motstand I'
+  - '&7Regenerering I'
   type:
   - '&7&oRustning'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Håndverksmateriale'
+  name: '&fRamme til motstandsdyktig brystplate'
   type:
   - '&7&oRessurs'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Brukes som en del av offeralteret.'
+  name: '&fOffermurstein av svartstein'
   type:
   - '&7&oMaskin'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Brukes som en del av offeralteret.'
+  name: '&fOffertrapp av svartsteinsmurstein'
   type:
   - '&7&oMaskin'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Brukes som en del av offeralteret.'
+  name: '&fOffermur av svartsteinsmurstein'
   type:
   - '&7&oMaskin'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Brukes som en del av offeralteret.'
+  name: '&fOffermatte'
   type:
   - '&7&oMaskin'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Brukes som en del av offeralteret.'
+  name: '&fOffersjelefakkel'
   type:
   - '&7&oMaskin'
 SPONGE_WAND:
+  name: '&eSvampstav'
   stats:
   - '&8⇨ &e⚡ &72000 J buffer'
   type:
   - '&7&oVerktøy'
+  usage:
+  - '&7Velg hjørnepunkter med posisjonsvelgeren.'
+  - '&7Høyreklikk for å fjerne vann og lava.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Et stabilt materiale.'
+  name: '&bStabilisert glohet blokk'
   type:
   - '&7&oRessurs'
 SWEETENED_SWEET_INGOT:
+  name: '&eSøtet søt barre'
   type:
   - '&7&oRessurs'
 SWEET_INGOT:
+  name: '&eSøt barre'
   type:
   - '&7&oRessurs'
 TROPICAL_FISH_SCALE:
+  name: '&bTropefiskeskjell'
   type:
   - '&7&oRessurs'
 UNBREAKABLE_RUNE:
+  name: '&7Eldgammel rune &8&l[&2&lUknuselig&8&l]'
   type:
   - '&7&oDiverse'
+  usage:
+  - '&eSlipp denne runen på en sluppet gjenstand for å'
+  - '&egjøre den &2uknuselig'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cUhellig Wither-skjelettbein'
   type:
   - '&7&oRessurs'
 VILE_PUMPKIN:
+  name: '&cAvskyelig gresskar'
   type:
   - '&7&oRessurs'
 VILE_SEEDS:
+  name: '&cAvskyelige frø'
+  stats:
+  - '&7Helsebonus V'
   type:
   - '&7&oMat'
 WIRELESS_TRANSMITTER:
+  name: '&fTrådløs sender'
   type:
   - '&7&oRessurs'
