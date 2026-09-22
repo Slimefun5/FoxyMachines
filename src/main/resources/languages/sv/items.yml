@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Skada III'
+  - '&7Rustningsgenombrott II'
   type:
   - '&7&oVapen'
 AQUATIC_HELMET:
+  name: '&bAkvatisk hjälm'
+  stats:
+  - '&7Vattenandning'
+  - '&7Mörkerseende'
   type:
   - '&7&oRustning'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bAkvatisk netherittacka'
   type:
   - '&7&oRåmaterial'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Tar bort taggarna från sötbärsbuskar.'
+  name: '&eBeskärare för sötbärsbuskar'
   type:
   - '&7&oVerktyg'
 BLOOD:
+  name: '&cBlod'
   type:
   - '&7&oRåmaterial'
 BLOOD_INFUSED_SKULL:
+  name: '&cBlodindränkt skalle'
   type:
   - '&7&oRåmaterial'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Klarar 2.5x hastigheten.'
+  name: '&fUppsnabbad aktiveringsräls'
   type:
   - '&7&oMaskin'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Klarar 2.5x hastigheten.'
+  name: '&fUppsnabbad detektorräls'
   type:
   - '&7&oMaskin'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Klarar 2.5x hastigheten.'
+  name: '&fUppsnabbad drivräls'
   type:
   - '&7&oMaskin'
 BOOSTED_RAIL:
+  description:
+  - '&7Klarar 2.5x hastigheten.'
+  name: '&fUppsnabbad räls'
   type:
   - '&7&oMaskin'
 BUCKET_OF_BLOOD:
+  name: '&cHink med blod'
   type:
   - '&7&oRåmaterial'
 CELESTIAL_SHARD:
+  description:
+  - '&7Tillverkningsmaterial'
+  - '&7Återställer ett uppdrag när den kastas i ett altare...'
+  name: '&eHimmelsk skärva'
   type:
   - '&7&oRåmaterial'
 CELESTIAL_SWORD:
+  name: '&eHimmelskt svärd'
+  stats:
+  - '&7Gudomligt slag II'
+  - '&7Rustningsgenomträngning V'
   type:
   - '&7&oVapen'
 CHUNK_LOADER:
+  description:
+  - '&7Håller chunken laddad.'
+  name: '&bChunkladdare'
   type:
   - '&7&oMaskin'
 COMPRESSED_SPONGE:
+  name: '&fKomprimerad svamp'
   type:
   - '&7&oRåmaterial'
 CURSED_RABBIT_PAW:
+  name: '&cFörbannad kaninfot'
   type:
   - '&7&oRåmaterial'
 CURSED_SHARD:
+  description:
+  - '&7Tillverkningsmaterial'
+  - '&7Återställer ett uppdrag när den kastas i ett altare...'
+  name: '&cFörbannad skärva'
   type:
   - '&7&oRåmaterial'
 CURSED_SWORD:
+  description:
+  - '&7Förvirrar fiender. Ökar skadan.'
+  - '&7Kan påverka bäraren negativt.'
+  name: '&cFörbannat svärd'
+  stats:
+  - '&7Livsstöld I'
+  - '&7Rustningsgenomträngning I'
   type:
   - '&7&oVapen'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oRåmaterial'
 DEMONIC_INGOT:
+  name: '&cDemonisk tacka'
   type:
   - '&7&oRåmaterial'
 DEMONIC_PLATE:
+  name: '&cDemonisk platta'
   type:
   - '&7&oRåmaterial'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Skapa ett inferno.'
+  name: '&4Elektrisk eldstav'
   stats:
   - '&8⇨ &e⚡ &7100 J Buffert'
   type:
   - '&7&oVerktyg'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Eld, eld, eld!'
+  name: '&4Elektrisk eldstav &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Buffert'
   type:
   - '&7&oVerktyg'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Förädlar gulddamm till guldtackor.'
+  name: '&bElektriskt guldraffinaderi'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMaskin'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Rid på vinden.'
+  name: '&bElektrisk vindstav'
   stats:
   - '&8⇨ &e⚡ &7100 J Buffert'
   type:
   - '&7&oVerktyg'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Skada III'
+  - '&7Livsstöld II'
+  - '&7Rustningsgenomträngning II'
+  - '&7Överhelning'
   type:
   - '&7&oVapen'
 EQUANIMOUS_GEM:
+  name: '&aJämnmodig ädelsten'
   type:
   - '&7&oRåmaterial'
 FIERY_LEGGINGS:
+  name: '&cEldiga benskydd'
+  stats:
+  - '&7Eldaura II'
   type:
   - '&7&oRustning'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Tillverkningsmaterial'
+  name: '&fRam till eldiga benskydd'
   type:
   - '&7&oRåmaterial'
 FILL_WAND:
+  name: '&eFyllnadsstav'
   stats:
   - '&8⇨ &e⚡ &71000 J Buffert'
   type:
   - '&7&oVerktyg'
+  usage:
+  - '&7Välj hörnpunkter med positionsväljaren.'
+  - '&7Shift + högerklick för att välja material.'
+  - '&7Högerklicka för att fylla ett område.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Skapar när den är driven en skyddande barriär'
+  - '&7med en radie på 32 block.'
+  - '&7Återgår när strömmen bryts eller den förstörs'
+  name: '&4Kraftfältskupol'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMaskin'
 FORCEFIELD_ENGINE:
+  name: '&fKraftfältsmotor'
   type:
   - '&7&oRåmaterial'
 FORCEFIELD_STABILIZER:
+  name: '&fKraftfältsstabilisator'
   type:
   - '&7&oRåmaterial'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Ett ogripbart block.'
+  name: '&fSpökblock: &6%mob%'
   type:
   - '&7&oPryl'
 GHOST_BLOCK_REMOVER:
+  name: '&eSpökblocksborttagare'
   type:
   - '&7&oVerktyg'
+  usage:
+  - '&7Högerklicka för att ta bort ett spökblock.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cFramkallningsägg för huvudlös ryttare'
   type:
   - '&7&oDiverse'
 HEALING_BOW:
+  description:
+  - '&8Äntligen ett stödvapen.'
+  name: '&4Helande båge'
+  stats:
+  - '&cHelande II'
   type:
   - '&7&oVapen'
 HELMET_FRAME:
+  description:
+  - '&7Tillverkningsmaterial'
+  name: '&fRam till akvatisk hjälm'
   type:
   - '&7&oRåmaterial'
 HUMAN_SKULL:
+  name: '&cMänniskoskalle'
   type:
   - '&7&oRåmaterial'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Kombinera den med ett verktyg i förbättringssmedjan för att förbättra det.'
+  name: '&aFörbättringskärna'
   type:
   - '&7&oRåmaterial'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Används för att förbättra Slimefuns verktyg, vapen och rustning.'
+  name: '&bFörbättringssmedja'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaskin'
 LIGHT_BOOTS:
+  name: '&eLätta stövlar'
+  stats:
+  - '&7Hopp I'
+  - '&7Hastighet I'
+  - '&7Lättviktig'
   type:
   - '&7&oRustning'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Tillverkningsmaterial'
+  name: '&fRam till lätta stövlar'
   type:
   - '&7&oRåmaterial'
 MAGIC_LUMP_4:
+  name: '&6Magisk klump &7- &eIV'
+  stats:
+  - '&c&oNivå: IV'
   type:
   - '&7&oRåmaterial'
 MAGIC_LUMP_5:
+  name: '&6Magisk klump &7- &eV'
+  stats:
+  - '&c&oNivå: V'
   type:
   - '&7&oRåmaterial'
 MAGMA_ESSENCE:
+  name: '&cMagmaessens'
   type:
   - '&7&oRåmaterial'
 NUCLEAR_SALT:
+  name: '&aKärnsalt'
   stats:
   - '&a☢&7 Strålningsnivå: &cMYCKET HÖG'
   type:
   - '&7&oRåmaterial'
 PARROT_FEATHER:
+  name: '&aPapegojfjäder'
   type:
   - '&7&oRåmaterial'
 PIXIE_DUST:
+  name: '&eÄlvstoft'
+  stats:
+  - '&7Styrka IV'
   type:
   - '&7&oMat'
 PIXIE_QUEEN_HEART:
+  name: '&4Älvdrottningens hjärta'
   type:
   - '&7&oRåmaterial'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aFramkallningsägg för älvdrottning'
   type:
   - '&7&oDiverse'
 POLAR_FOX_HIDE:
+  name: '&fPolarrävsskinn'
   type:
   - '&7&oRåmaterial'
 POSEIDONS_BLESSING:
+  name: '&bPoseidons välsignelse'
   type:
   - '&7&oRåmaterial'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Kan fånga särskilda föremål.'
+  name: '&bPoseidons fiskespö'
+  stats:
+  - '&7Poseidons välsignelse'
   type:
   - '&7&oVerktyg'
 POSITION_SELECTOR:
+  name: '&ePositionsväljare'
   stats:
   - '&8⇨ &e⚡ &7200 J Buffert'
   type:
   - '&7&oVerktyg'
+  usage:
+  - '&7Vänsterklicka på ett block för att välja primär position.'
+  - '&7Högerklicka på ett block för att välja sekundär position.'
 POTION_MIXER:
+  description:
+  - '&7Används för att blanda drycker.'
+  name: '&bDryckesblandare'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMaskin'
 PURE_BONE_DUST:
+  name: '&bRent bendamm'
   type:
   - '&7&oRåmaterial'
 PURIFIED_BONE:
+  name: '&bRenat ben'
   type:
   - '&7&oRåmaterial'
 REINFORCED_STRING:
+  name: '&bFörstärkt tråd'
   type:
   - '&7&oRåmaterial'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Låter dig styra din kraftfältskupol på avstånd.'
+  name: '&cFjärrstyrning'
   stats:
   - '&8⇨ &e⚡ &71000 J Buffert'
   type:
   - '&7&oVerktyg'
+  usage:
+  - '&7Bind den med Shift + högerklick.'
 RESISTANT_CHESTPLATE:
+  name: '&aMotståndskraftig bröstplåt'
+  stats:
+  - '&7Motstånd I'
+  - '&7Regenerering I'
   type:
   - '&7&oRustning'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Tillverkningsmaterial'
+  name: '&fRam till motståndskraftig bröstplåt'
   type:
   - '&7&oRåmaterial'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Används som en del av offeraltaret.'
+  name: '&fOffersvartstenstegel'
   type:
   - '&7&oMaskin'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Används som en del av offeraltaret.'
+  name: '&fOffersvartstenstegeltrappa'
   type:
   - '&7&oMaskin'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Används som en del av offeraltaret.'
+  name: '&fOffersvartstenstegelmur'
   type:
   - '&7&oMaskin'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Används som en del av offeraltaret.'
+  name: '&fOffermatta'
   type:
   - '&7&oMaskin'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Används som en del av offeraltaret.'
+  name: '&fOffersjälsfackla'
   type:
   - '&7&oMaskin'
 SPONGE_WAND:
+  name: '&eSvampstav'
   stats:
   - '&8⇨ &e⚡ &72000 J Buffert'
   type:
   - '&7&oVerktyg'
+  usage:
+  - '&7Välj hörnpunkter med positionsväljaren.'
+  - '&7Högerklicka för att ta bort vatten och lava.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Ett stabilt material.'
+  name: '&bStabiliserat glödhett block'
   type:
   - '&7&oRåmaterial'
 SWEETENED_SWEET_INGOT:
+  name: '&eSötad ljuv tacka'
   type:
   - '&7&oRåmaterial'
 SWEET_INGOT:
+  name: '&eLjuv tacka'
   type:
   - '&7&oRåmaterial'
 TROPICAL_FISH_SCALE:
+  name: '&bTropiskt fiskfjäll'
   type:
   - '&7&oRåmaterial'
 UNBREAKABLE_RUNE:
+  name: '&7Uråldrig runa &8&l[&2&lOförstörbar&8&l]'
   type:
   - '&7&oDiverse'
+  usage:
+  - '&eSläpp denna runa på ett tappat föremål för att'
+  - '&egöra det &2oförstörbart'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cOheligt Wither-skelettben'
   type:
   - '&7&oRåmaterial'
 VILE_PUMPKIN:
+  name: '&cVidrig pumpa'
   type:
   - '&7&oRåmaterial'
 VILE_SEEDS:
+  name: '&cVidriga frön'
+  stats:
+  - '&7Hälsoökning V'
   type:
   - '&7&oMat'
 WIRELESS_TRANSMITTER:
+  name: '&fTrådlös sändare'
   type:
   - '&7&oRåmaterial'
