@@ -1,112 +1,203 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Schade III'
+  - '&7Harnasdoordringing II'
   type:
   - '&7&oWapen'
 AQUATIC_HELMET:
+  name: '&bAquatische Helm'
+  stats:
+  - '&7Wateradem'
+  - '&7Nachtzicht'
   type:
   - '&7&oWapenrusting'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bAquatische Netherietstaaf'
   type:
   - '&7&oGrondstof'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Verwijdert doornen van zoetebessenstruiken.'
+  name: '&eZoetebessenstruiksnoeier'
   type:
   - '&7&oGereedschap'
 BLOOD:
+  name: '&cBloed'
   type:
   - '&7&oGrondstof'
 BLOOD_INFUSED_SKULL:
+  name: '&cMet Bloed Doordrenkte Schedel'
   type:
   - '&7&oGrondstof'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Ondersteunt 2.5x de snelheid.'
+  name: '&fVersnelde Activatorrails'
   type:
   - '&7&oMachine'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Ondersteunt 2.5x de snelheid.'
+  name: '&fVersnelde Detectorrails'
   type:
   - '&7&oMachine'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Ondersteunt 2.5x de snelheid.'
+  name: '&fVersnelde Aangedreven Rails'
   type:
   - '&7&oMachine'
 BOOSTED_RAIL:
+  description:
+  - '&7Ondersteunt 2.5x de snelheid.'
+  name: '&fVersnelde Rails'
   type:
   - '&7&oMachine'
 BUCKET_OF_BLOOD:
+  name: '&cEmmer Bloed'
   type:
   - '&7&oGrondstof'
 CELESTIAL_SHARD:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  - '&7Zet een Opdracht terug wanneer hij in een Altaar wordt gegooid...'
+  name: '&eHemelse Scherf'
   type:
   - '&7&oGrondstof'
 CELESTIAL_SWORD:
+  name: '&eHemels Zwaard'
+  stats:
+  - '&7Goddelijke Verdelging II'
+  - '&7Harnasdoorboring V'
   type:
   - '&7&oWapen'
 CHUNK_LOADER:
+  description:
+  - '&7Houdt de chunk geladen.'
+  name: '&bChunklader'
   type:
   - '&7&oMachine'
 COMPRESSED_SPONGE:
+  name: '&fSamengeperste Spons'
   type:
   - '&7&oGrondstof'
 CURSED_RABBIT_PAW:
+  name: '&cVervloekte Konijnenpoot'
   type:
   - '&7&oGrondstof'
 CURSED_SHARD:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  - '&7Zet een Opdracht terug wanneer hij in een Altaar wordt gegooid...'
+  name: '&cVervloekte Scherf'
   type:
   - '&7&oGrondstof'
 CURSED_SWORD:
+  description:
+  - '&7Verwart vijanden. Verhoogt schade.'
+  - '&7Kan de drager negatief beïnvloeden.'
+  name: '&cVervloekt Zwaard'
+  stats:
+  - '&7Levensroof I'
+  - '&7Harnasdoorboring I'
   type:
   - '&7&oWapen'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oGrondstof'
 DEMONIC_INGOT:
+  name: '&cDemonische Staaf'
   type:
   - '&7&oGrondstof'
 DEMONIC_PLATE:
+  name: '&cDemonische Plaat'
   type:
   - '&7&oGrondstof'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Ontketen een vuurzee.'
+  name: '&4Elektrische Vuurstaf'
   stats:
   - '&8⇨ &e⚡ &7100 J Buffer'
   type:
   - '&7&oGereedschap'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Vuur, vuur, vuur!'
+  name: '&4Elektrische Vuurstaf &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Buffer'
   type:
   - '&7&oGereedschap'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Raffineert goudpoeder tot goudstaven.'
+  name: '&bElektrische Goudraffinaderij'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMachine'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Rijd op de wind.'
+  name: '&bElektrische Windstaf'
   stats:
   - '&8⇨ &e⚡ &7100 J Buffer'
   type:
   - '&7&oGereedschap'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Schade III'
+  - '&7Levensroof II'
+  - '&7Harnasdoorboring II'
+  - '&7Overgenezing'
   type:
   - '&7&oWapen'
 EQUANIMOUS_GEM:
+  name: '&aGelijkmoedige Edelsteen'
   type:
   - '&7&oGrondstof'
 FIERY_LEGGINGS:
+  name: '&cVurige Broek'
+  stats:
+  - '&7Vuuraura II'
   type:
   - '&7&oWapenrusting'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  name: '&fFrame voor Vurige Broek'
   type:
   - '&7&oGrondstof'
 FILL_WAND:
+  name: '&eVulstaf'
   stats:
   - '&8⇨ &e⚡ &71000 J Buffer'
   type:
   - '&7&oGereedschap'
+  usage:
+  - '&7Kies hoekpunten met de Positiekiezer.'
+  - '&7Shift rechtsklik om een materiaal te kiezen.'
+  - '&7Rechtsklik om een gebied te vullen.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Als hij stroom heeft, creëert hij een beschermende'
+  - '&7barrière met een straal van 32 blokken.'
+  - '&7Keert terug zodra de stroom wegvalt of het kapot is'
+  name: '&4Krachtveldkoepel'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMachine'
 FORCEFIELD_ENGINE:
+  name: '&fKrachtveldmotor'
   type:
   - '&7&oGrondstof'
 FORCEFIELD_STABILIZER:
+  name: '&fKrachtveldstabilisator'
   type:
   - '&7&oGrondstof'
 GHOST_BLOCK_%MOB%:
@@ -116,143 +207,248 @@ GHOST_BLOCK_%MOB%:
   type:
   - '&7&oGadget'
 GHOST_BLOCK_REMOVER:
+  name: '&eSpookblokverwijderaar'
   type:
   - '&7&oGereedschap'
+  usage:
+  - '&7Rechtsklik om een Spookblok te verwijderen.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cSpawnei van de Hoofdloze Ruiter'
   type:
   - '&7&oOverig'
 HEALING_BOW:
+  description:
+  - '&8Eindelijk een ondersteuningswapen.'
+  name: '&4Genezende Boog'
+  stats:
+  - '&cGenezing II'
   type:
   - '&7&oWapen'
 HELMET_FRAME:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  name: '&fFrame voor Aquatische Helm'
   type:
   - '&7&oGrondstof'
 HUMAN_SKULL:
+  name: '&cMensenschedel'
   type:
   - '&7&oGrondstof'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Combineer hem met gereedschap in de Verbetersmederij om het te verbeteren.'
+  name: '&aVerbeterkern'
   type:
   - '&7&oGrondstof'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Gebruikt om Slimefun-gereedschap, wapens en harnassen te verbeteren.'
+  name: '&bVerbetersmederij'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMachine'
 LIGHT_BOOTS:
+  name: '&eLichte Laarzen'
+  stats:
+  - '&7Sprong I'
+  - '&7Snelheid I'
+  - '&7Lichtgewicht'
   type:
   - '&7&oWapenrusting'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  name: '&fFrame voor Lichte Laarzen'
   type:
   - '&7&oGrondstof'
 MAGIC_LUMP_4:
+  name: '&6Magische Klomp &7- &eIV'
+  stats:
+  - '&c&oRang: IV'
   type:
   - '&7&oGrondstof'
 MAGIC_LUMP_5:
+  name: '&6Magische Klomp &7- &eV'
+  stats:
+  - '&c&oRang: V'
   type:
   - '&7&oGrondstof'
 MAGMA_ESSENCE:
+  name: '&cMagma-essentie'
   type:
   - '&7&oGrondstof'
 NUCLEAR_SALT:
+  name: '&aNucleair Zout'
   stats:
   - '&a☢&7 Stralingsniveau: &cZEER HOOG'
   type:
   - '&7&oGrondstof'
 PARROT_FEATHER:
+  name: '&aPapegaaienveer'
   type:
   - '&7&oGrondstof'
 PIXIE_DUST:
+  name: '&eElfjespoeder'
+  stats:
+  - '&7Kracht IV'
   type:
   - '&7&oVoedsel'
 PIXIE_QUEEN_HEART:
+  name: '&4Hart van de Elfjeskoningin'
   type:
   - '&7&oGrondstof'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aSpawnei van de Elfjeskoningin'
   type:
   - '&7&oOverig'
 POLAR_FOX_HIDE:
+  name: '&fPoolvossenvacht'
   type:
   - '&7&oGrondstof'
 POSEIDONS_BLESSING:
+  name: '&bPoseidons Zegen'
   type:
   - '&7&oGrondstof'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Kan speciale items vangen.'
+  name: '&bPoseidons Hengel'
+  stats:
+  - '&7Poseidons Zegen'
   type:
   - '&7&oGereedschap'
 POSITION_SELECTOR:
+  name: '&ePositiekiezer'
   stats:
   - '&8⇨ &e⚡ &7200 J Buffer'
   type:
   - '&7&oGereedschap'
+  usage:
+  - '&7Linksklik op een blok om de primaire positie te kiezen.'
+  - '&7Rechtsklik op een blok om de secundaire positie te kiezen.'
 POTION_MIXER:
+  description:
+  - '&7Gebruikt om drankjes te mengen.'
+  name: '&bDrankjesmenger'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMachine'
 PURE_BONE_DUST:
+  name: '&bZuiver Beenderpoeder'
   type:
   - '&7&oGrondstof'
 PURIFIED_BONE:
+  name: '&bGezuiverd Bot'
   type:
   - '&7&oGrondstof'
 REINFORCED_STRING:
+  name: '&bVersterkt Touw'
   type:
   - '&7&oGrondstof'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Stelt je in staat je Krachtveldkoepel op afstand te bedienen.'
+  name: '&cAfstandsbediening'
   stats:
   - '&8⇨ &e⚡ &71000 J Buffer'
   type:
   - '&7&oGereedschap'
+  usage:
+  - '&7Bind hem met Shift + Rechtsklik.'
 RESISTANT_CHESTPLATE:
+  name: '&aWeerstandige Borstplaat'
+  stats:
+  - '&7Weerstand I'
+  - '&7Regeneratie I'
   type:
   - '&7&oWapenrusting'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Vervaardigingsmateriaal'
+  name: '&fFrame voor Weerstandige Borstplaat'
   type:
   - '&7&oGrondstof'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Gebruikt als onderdeel van het Offeraltaar.'
+  name: '&fOfferstenen van Zwartsteen'
   type:
   - '&7&oMachine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Gebruikt als onderdeel van het Offeraltaar.'
+  name: '&fOffertrap van Zwartsteen'
   type:
   - '&7&oMachine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Gebruikt als onderdeel van het Offeraltaar.'
+  name: '&fOffermuur van Zwartsteen'
   type:
   - '&7&oMachine'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Gebruikt als onderdeel van het Offeraltaar.'
+  name: '&fOffermat'
   type:
   - '&7&oMachine'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Gebruikt als onderdeel van het Offeraltaar.'
+  name: '&fOfferzielfakkel'
   type:
   - '&7&oMachine'
 SPONGE_WAND:
+  name: '&eSponsstaf'
   stats:
   - '&8⇨ &e⚡ &72000 J Buffer'
   type:
   - '&7&oGereedschap'
+  usage:
+  - '&7Kies hoekpunten met de Positiekiezer.'
+  - '&7Rechtsklik om Water en Lava te verwijderen.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Een stabiel materiaal.'
+  name: '&bGestabiliseerd Blaartrekkend Blok'
   type:
   - '&7&oGrondstof'
 SWEETENED_SWEET_INGOT:
+  name: '&eGezoete Zoete Staaf'
   type:
   - '&7&oGrondstof'
 SWEET_INGOT:
+  name: '&eZoete Staaf'
   type:
   - '&7&oGrondstof'
 TROPICAL_FISH_SCALE:
+  name: '&bTropische Visschub'
   type:
   - '&7&oGrondstof'
 UNBREAKABLE_RUNE:
+  name: '&7Oeroude Rune &8&l[&2&lOnbreekbaar&8&l]'
   type:
   - '&7&oOverig'
+  usage:
+  - '&eLaat deze rune op een gevallen item vallen om'
+  - '&ehet &2onbreekbaar te maken'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cOnheilig Witherskeletbot'
   type:
   - '&7&oGrondstof'
 VILE_PUMPKIN:
+  name: '&cSnode Pompoen'
   type:
   - '&7&oGrondstof'
 VILE_SEEDS:
+  name: '&cSnode Zaden'
+  stats:
+  - '&7Levensboost V'
   type:
   - '&7&oVoedsel'
 WIRELESS_TRANSMITTER:
+  name: '&fDraadloze Zender'
   type:
   - '&7&oGrondstof'
