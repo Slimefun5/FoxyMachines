@@ -1,112 +1,203 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Obrażenia III'
+  - '&7Przebijanie zbroi II'
   type:
   - '&7&oBroń'
 AQUATIC_HELMET:
+  name: '&bWodny hełm'
+  stats:
+  - '&7Oddychanie pod wodą'
+  - '&7Widzenie w ciemności'
   type:
   - '&7&oZbroja'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bWodna sztabka netherytu'
   type:
   - '&7&oSurowiec'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Usuwa kolce z krzewów słodkich jagód.'
+  name: '&ePrzycinarka do krzewów słodkich jagód'
   type:
   - '&7&oNarzędzie'
 BLOOD:
+  name: '&cKrew'
   type:
   - '&7&oSurowiec'
 BLOOD_INFUSED_SKULL:
+  name: '&cCzaszka nasączona krwią'
   type:
   - '&7&oSurowiec'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Obsługuje 2.5x większą prędkość.'
+  name: '&fWzmocniona szyna aktywacyjna'
   type:
   - '&7&oMaszyna'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Obsługuje 2.5x większą prędkość.'
+  name: '&fWzmocniona szyna z czujnikiem'
   type:
   - '&7&oMaszyna'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Obsługuje 2.5x większą prędkość.'
+  name: '&fWzmocniona szyna zasilana'
   type:
   - '&7&oMaszyna'
 BOOSTED_RAIL:
+  description:
+  - '&7Obsługuje 2.5x większą prędkość.'
+  name: '&fWzmocniona szyna'
   type:
   - '&7&oMaszyna'
 BUCKET_OF_BLOOD:
+  name: '&cWiadro krwi'
   type:
   - '&7&oSurowiec'
 CELESTIAL_SHARD:
+  description:
+  - '&7Materiał rzemieślniczy'
+  - '&7Wrzucony do Ołtarza zresetuje Zadanie...'
+  name: '&eNiebiański odłamek'
   type:
   - '&7&oSurowiec'
 CELESTIAL_SWORD:
+  name: '&eNiebiański miecz'
+  stats:
+  - '&7Boski pogromca II'
+  - '&7Przebicie zbroi V'
   type:
   - '&7&oBroń'
 CHUNK_LOADER:
+  description:
+  - '&7Utrzymuje chunk wczytany.'
+  name: '&bWczytywacz chunków'
   type:
   - '&7&oMaszyna'
 COMPRESSED_SPONGE:
+  name: '&fSprasowana gąbka'
   type:
   - '&7&oSurowiec'
 CURSED_RABBIT_PAW:
+  name: '&cPrzeklęta łapka królika'
   type:
   - '&7&oSurowiec'
 CURSED_SHARD:
+  description:
+  - '&7Materiał rzemieślniczy'
+  - '&7Wrzucony do Ołtarza zresetuje Zadanie...'
+  name: '&cPrzeklęty odłamek'
   type:
   - '&7&oSurowiec'
 CURSED_SWORD:
+  description:
+  - '&7Dezorientuje wrogów. Zwiększa obrażenia.'
+  - '&7Może zaszkodzić dzierżącemu.'
+  name: '&cPrzeklęty miecz'
+  stats:
+  - '&7Kradzież życia I'
+  - '&7Przebicie zbroi I'
   type:
   - '&7&oBroń'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oSurowiec'
 DEMONIC_INGOT:
+  name: '&cDemoniczna sztabka'
   type:
   - '&7&oSurowiec'
 DEMONIC_PLATE:
+  name: '&cDemoniczna płyta'
   type:
   - '&7&oSurowiec'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Stwórz piekło.'
+  name: '&4Elektryczna laska ognia'
   stats:
   - '&8⇨ &e⚡ &7100 J Bufora'
   type:
   - '&7&oNarzędzie'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Ogień, ogień, ogień!'
+  name: '&4Elektryczna laska ognia &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Bufora'
   type:
   - '&7&oNarzędzie'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Rafinuje pył złota na sztabki złota.'
+  name: '&bElektryczna rafineria złota'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMaszyna'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Poszybuj na wietrze.'
+  name: '&bElektryczna laska wiatru'
   stats:
   - '&8⇨ &e⚡ &7100 J Bufora'
   type:
   - '&7&oNarzędzie'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Obrażenia III'
+  - '&7Kradzież życia II'
+  - '&7Przebicie zbroi II'
+  - '&7Nadleczenie'
   type:
   - '&7&oBroń'
 EQUANIMOUS_GEM:
+  name: '&aKlejnot równowagi'
   type:
   - '&7&oSurowiec'
 FIERY_LEGGINGS:
+  name: '&cOgniste spodnie'
+  stats:
+  - '&7Aura ognia II'
   type:
   - '&7&oZbroja'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Materiał rzemieślniczy'
+  name: '&fRama ognistych spodni'
   type:
   - '&7&oSurowiec'
 FILL_WAND:
+  name: '&eRóżdżka wypełniania'
   stats:
   - '&8⇨ &e⚡ &71000 J Bufora'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&7Wybierz narożniki Wyznacznikiem pozycji.'
+  - '&7Shift i kliknij prawym, aby wybrać materiał.'
+  - '&7Kliknij prawym, aby wypełnić obszar.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Zasilona tworzy ochronną barierę'
+  - '&7o promieniu 32 bloków.'
+  - '&7Wróci do poprzedniej postaci po odcięciu zasilania lub rozbiciu'
+  name: '&4Kopuła pola siłowego'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMaszyna'
 FORCEFIELD_ENGINE:
+  name: '&fSilnik pola siłowego'
   type:
   - '&7&oSurowiec'
 FORCEFIELD_STABILIZER:
+  name: '&fStabilizator pola siłowego'
   type:
   - '&7&oSurowiec'
 GHOST_BLOCK_%MOB%:
@@ -116,143 +207,248 @@ GHOST_BLOCK_%MOB%:
   type:
   - '&7&oGadzet'
 GHOST_BLOCK_REMOVER:
+  name: '&eUsuwacz duchów bloków'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&7Kliknij prawym, aby usunąć ducha bloku.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cJajo przyzywające Bezgłowego Jeźdźca'
   type:
   - '&7&oRóżne'
 HEALING_BOW:
+  description:
+  - '&8Wreszcie broń wsparcia.'
+  name: '&4Leczący łuk'
+  stats:
+  - '&cLeczenie II'
   type:
   - '&7&oBroń'
 HELMET_FRAME:
+  description:
+  - '&7Materiał rzemieślniczy'
+  name: '&fRama wodnego hełmu'
   type:
   - '&7&oSurowiec'
 HUMAN_SKULL:
+  name: '&cLudzka czaszka'
   type:
   - '&7&oSurowiec'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Połącz go z narzędziem w Kuźni ulepszeń, aby je ulepszyć.'
+  name: '&aRdzeń ulepszeń'
   type:
   - '&7&oSurowiec'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Służy do ulepszania narzędzi, broni i zbroi Slimefun.'
+  name: '&bKuźnia ulepszeń'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaszyna'
 LIGHT_BOOTS:
+  name: '&eLekkie buty'
+  stats:
+  - '&7Skok I'
+  - '&7Prędkość I'
+  - '&7Lekkość'
   type:
   - '&7&oZbroja'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Materiał rzemieślniczy'
+  name: '&fRama lekkich butów'
   type:
   - '&7&oSurowiec'
 MAGIC_LUMP_4:
+  name: '&6Magiczna grudka &7- &eIV'
+  stats:
+  - '&c&oPoziom: IV'
   type:
   - '&7&oSurowiec'
 MAGIC_LUMP_5:
+  name: '&6Magiczna grudka &7- &eV'
+  stats:
+  - '&c&oPoziom: V'
   type:
   - '&7&oSurowiec'
 MAGMA_ESSENCE:
+  name: '&cEsencja magmy'
   type:
   - '&7&oSurowiec'
 NUCLEAR_SALT:
+  name: '&aSól jądrowa'
   stats:
   - '&a☢&7 Poziom promieniowania: &cBARDZO WYSOKI'
   type:
   - '&7&oSurowiec'
 PARROT_FEATHER:
+  name: '&aPióro papugi'
   type:
   - '&7&oSurowiec'
 PIXIE_DUST:
+  name: '&ePyłek wróżek'
+  stats:
+  - '&7Siła IV'
   type:
   - '&7&oJedzenie'
 PIXIE_QUEEN_HEART:
+  name: '&4Serce Królowej Wróżek'
   type:
   - '&7&oSurowiec'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aJajo przyzywające Królową Wróżek'
   type:
   - '&7&oRóżne'
 POLAR_FOX_HIDE:
+  name: '&fSkóra polarnego lisa'
   type:
   - '&7&oSurowiec'
 POSEIDONS_BLESSING:
+  name: '&bBłogosławieństwo Posejdona'
   type:
   - '&7&oSurowiec'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Może łowić specjalne przedmioty.'
+  name: '&bWędka Posejdona'
+  stats:
+  - '&7Błogosławieństwo Posejdona'
   type:
   - '&7&oNarzędzie'
 POSITION_SELECTOR:
+  name: '&eWyznacznik pozycji'
   stats:
   - '&8⇨ &e⚡ &7200 J Bufora'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&7Kliknij lewym blok, aby wybrać pierwszą pozycję.'
+  - '&7Kliknij prawym blok, aby wybrać drugą pozycję.'
 POTION_MIXER:
+  description:
+  - '&7Służy do mieszania mikstur.'
+  name: '&bMieszalnik mikstur'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMaszyna'
 PURE_BONE_DUST:
+  name: '&bCzysty pył kostny'
   type:
   - '&7&oSurowiec'
 PURIFIED_BONE:
+  name: '&bOczyszczona kość'
   type:
   - '&7&oSurowiec'
 REINFORCED_STRING:
+  name: '&bWzmocniona nić'
   type:
   - '&7&oSurowiec'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Pozwala sterować Kopułą pola siłowego z oddali.'
+  name: '&cZdalny sterownik'
   stats:
   - '&8⇨ &e⚡ &71000 J Bufora'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&7Powiąż go, używając Shift + kliknięcia prawym.'
 RESISTANT_CHESTPLATE:
+  name: '&aOdporny napierśnik'
+  stats:
+  - '&7Odporność I'
+  - '&7Regeneracja I'
   type:
   - '&7&oZbroja'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Materiał rzemieślniczy'
+  name: '&fRama odpornego napierśnika'
   type:
   - '&7&oSurowiec'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Używane jako część Ofiarnego ołtarza.'
+  name: '&fOfiarne cegły z czerni'
   type:
   - '&7&oMaszyna'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Używane jako część Ofiarnego ołtarza.'
+  name: '&fOfiarne schody z cegieł z czerni'
   type:
   - '&7&oMaszyna'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Używane jako część Ofiarnego ołtarza.'
+  name: '&fOfiarny murek z cegieł z czerni'
   type:
   - '&7&oMaszyna'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Używane jako część Ofiarnego ołtarza.'
+  name: '&fOfiarna mata'
   type:
   - '&7&oMaszyna'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Używane jako część Ofiarnego ołtarza.'
+  name: '&fOfiarna pochodnia dusz'
   type:
   - '&7&oMaszyna'
 SPONGE_WAND:
+  name: '&eRóżdżka gąbki'
   stats:
   - '&8⇨ &e⚡ &72000 J Bufora'
   type:
   - '&7&oNarzędzie'
+  usage:
+  - '&7Wybierz narożniki Wyznacznikiem pozycji.'
+  - '&7Kliknij prawym, aby usunąć wodę i lawę.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Stabilny materiał.'
+  name: '&bUstabilizowany blok pęcherzowy'
   type:
   - '&7&oSurowiec'
 SWEETENED_SWEET_INGOT:
+  name: '&eDosłodzona słodka sztabka'
   type:
   - '&7&oSurowiec'
 SWEET_INGOT:
+  name: '&eSłodka sztabka'
   type:
   - '&7&oSurowiec'
 TROPICAL_FISH_SCALE:
+  name: '&bŁuska tropikalnej ryby'
   type:
   - '&7&oSurowiec'
 UNBREAKABLE_RUNE:
+  name: '&7Starożytna runa &8&l[&2&lNiezniszczalność&8&l]'
   type:
   - '&7&oRóżne'
+  usage:
+  - '&eUpuść tę runę na porzucony przedmiot,'
+  - '&eaby uczynić go &2niezniszczalnym'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cBezbożna kość szkieleta Wither'
   type:
   - '&7&oSurowiec'
 VILE_PUMPKIN:
+  name: '&cPlugawa dynia'
   type:
   - '&7&oSurowiec'
 VILE_SEEDS:
+  name: '&cPlugawe nasiona'
+  stats:
+  - '&7Wzmocnienie zdrowia V'
   type:
   - '&7&oJedzenie'
 WIRELESS_TRANSMITTER:
+  name: '&fNadajnik bezprzewodowy'
   type:
   - '&7&oSurowiec'
