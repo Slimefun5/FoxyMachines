@@ -1,112 +1,203 @@
 ACRI_ARCUM:
+  name: '&e阿克里·阿库姆'
+  stats:
+  - '&7伤害 III'
+  - '&7破甲 II'
   type:
   - '&7&o武器'
 AQUATIC_HELMET:
+  name: '&b水生头盔'
+  stats:
+  - '&7水下呼吸'
+  - '&7黑暗视觉'
   type:
   - '&7&o护甲'
 AQUATIC_NETHERITE_INGOT:
+  name: '&b水生下界合金锭'
   type:
   - '&7&o资源'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7去除甜浆果灌木上的荆刺。'
+  name: '&e甜浆果灌木修剪器'
   type:
   - '&7&o工具'
 BLOOD:
+  name: '&c鲜血'
   type:
   - '&7&o资源'
 BLOOD_INFUSED_SKULL:
+  name: '&c注血头骨'
   type:
   - '&7&o资源'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7支持 2.5 倍速度。'
+  name: '&f加速激活铁轨'
   type:
   - '&7&o机器'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7支持 2.5 倍速度。'
+  name: '&f加速探测铁轨'
   type:
   - '&7&o机器'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7支持 2.5 倍速度。'
+  name: '&f加速动力铁轨'
   type:
   - '&7&o机器'
 BOOSTED_RAIL:
+  description:
+  - '&7支持 2.5 倍速度。'
+  name: '&f加速铁轨'
   type:
   - '&7&o机器'
 BUCKET_OF_BLOOD:
+  name: '&c血桶'
   type:
   - '&7&o资源'
 CELESTIAL_SHARD:
+  description:
+  - '&7合成材料'
+  - '&7投入祭坛时会重置一项任务...'
+  name: '&e天界碎片'
   type:
   - '&7&o资源'
 CELESTIAL_SWORD:
+  name: '&e天界之剑'
+  stats:
+  - '&7神圣制裁 II'
+  - '&7护甲穿透 V'
   type:
   - '&7&o武器'
 CHUNK_LOADER:
+  description:
+  - '&7保持区块处于加载状态。'
+  name: '&b区块加载器'
   type:
   - '&7&o机器'
 COMPRESSED_SPONGE:
+  name: '&f压缩海绵'
   type:
   - '&7&o资源'
 CURSED_RABBIT_PAW:
+  name: '&c诅咒兔爪'
   type:
   - '&7&o资源'
 CURSED_SHARD:
+  description:
+  - '&7合成材料'
+  - '&7投入祭坛时会重置一项任务...'
+  name: '&c诅咒碎片'
   type:
   - '&7&o资源'
 CURSED_SWORD:
+  description:
+  - '&7使敌人陷入混乱。提升伤害。'
+  - '&7可能对持有者产生负面影响。'
+  name: '&c诅咒之剑'
+  stats:
+  - '&7生命吸取 I'
+  - '&7护甲穿透 I'
   type:
   - '&7&o武器'
 DAMIENIUM:
+  name: '&a达米安金'
   type:
   - '&7&o资源'
 DEMONIC_INGOT:
+  name: '&c恶魔锭'
   type:
   - '&7&o资源'
 DEMONIC_PLATE:
+  name: '&c恶魔板'
   type:
   - '&7&o资源'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7制造烈焰地狱。'
+  name: '&4电动火之法杖'
   stats:
   - '&8⇨ &e⚡ &7100 J 缓冲'
   type:
   - '&7&o工具'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7火, 火, 火!'
+  name: '&4电动火之法杖 &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J 缓冲'
   type:
   - '&7&o工具'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7将金粉精炼成金锭。'
+  name: '&b电力黄金精炼机'
   stats:
   - '&8⇨ &e⚡ &736 J/秒'
   type:
   - '&7&o机器'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7御风而行。'
+  name: '&b电动风之法杖'
   stats:
   - '&8⇨ &e⚡ &7100 J 缓冲'
   type:
   - '&7&o工具'
 ELUCIDATOR:
+  name: '&b阐释者'
+  stats:
+  - '&7伤害 III'
+  - '&7生命吸取 II'
+  - '&7护甲穿透 II'
+  - '&7超量治疗'
   type:
   - '&7&o武器'
 EQUANIMOUS_GEM:
+  name: '&a平衡宝石'
   type:
   - '&7&o资源'
 FIERY_LEGGINGS:
+  name: '&c炽焰护腿'
+  stats:
+  - '&7火焰光环 II'
   type:
   - '&7&o护甲'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7合成材料'
+  name: '&f炽焰护腿框架'
   type:
   - '&7&o资源'
 FILL_WAND:
+  name: '&e填充魔杖'
   stats:
   - '&8⇨ &e⚡ &71000 J 缓冲'
   type:
   - '&7&o工具'
+  usage:
+  - '&7用位置选择器选取角点。'
+  - '&7潜行右键点击以选择材料。'
+  - '&7右键点击以填充区域。'
 FORCEFIELD_DOME:
+  description:
+  - '&7通电时会生成一道防护屏障,'
+  - '&7半径为 32 格方块。'
+  - '&7一旦断电或损坏就会还原'
+  name: '&4力场穹顶'
   stats:
   - '&8⇨ &e⚡ &76000 J/秒'
   type:
   - '&7&o机器'
 FORCEFIELD_ENGINE:
+  name: '&f力场引擎'
   type:
   - '&7&o资源'
 FORCEFIELD_STABILIZER:
+  name: '&f力场稳定器'
   type:
   - '&7&o资源'
 GHOST_BLOCK_%MOB%:
@@ -116,143 +207,248 @@ GHOST_BLOCK_%MOB%:
   type:
   - '&7&o小玩意'
 GHOST_BLOCK_REMOVER:
+  name: '&e幽灵方块清除器'
   type:
   - '&7&o工具'
+  usage:
+  - '&7右键点击可移除幽灵方块。'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&c无头骑士刷怪蛋'
   type:
   - '&7&o杂项'
 HEALING_BOW:
+  description:
+  - '&8终于有一件辅助武器了。'
+  name: '&4治疗弓'
+  stats:
+  - '&c治疗 II'
   type:
   - '&7&o武器'
 HELMET_FRAME:
+  description:
+  - '&7合成材料'
+  name: '&f水生头盔框架'
   type:
   - '&7&o资源'
 HUMAN_SKULL:
+  name: '&c人类头骨'
   type:
   - '&7&o资源'
 IMPROVEMENT_CORE:
+  description:
+  - '&7在强化锻造台中与工具结合即可强化该工具。'
+  name: '&a强化核心'
   type:
   - '&7&o资源'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7用于强化 Slimefun 的工具、武器和盔甲。'
+  name: '&b强化锻造台'
   stats:
   - '&8⇨ &e⚡ &7128 J/秒'
   type:
   - '&7&o机器'
 LIGHT_BOOTS:
+  name: '&e轻盈靴子'
+  stats:
+  - '&7跳跃 I'
+  - '&7速度 I'
+  - '&7轻量'
   type:
   - '&7&o护甲'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7合成材料'
+  name: '&f轻盈靴子框架'
   type:
   - '&7&o资源'
 MAGIC_LUMP_4:
+  name: '&6魔法块 &7- &eIV'
+  stats:
+  - '&c&o等级: IV'
   type:
   - '&7&o资源'
 MAGIC_LUMP_5:
+  name: '&6魔法块 &7- &eV'
+  stats:
+  - '&c&o等级: V'
   type:
   - '&7&o资源'
 MAGMA_ESSENCE:
+  name: '&c岩浆精华'
   type:
   - '&7&o资源'
 NUCLEAR_SALT:
+  name: '&a核盐'
   stats:
   - '&a☢&7 辐射等级: &c极高'
   type:
   - '&7&o资源'
 PARROT_FEATHER:
+  name: '&a鹦鹉羽毛'
   type:
   - '&7&o资源'
 PIXIE_DUST:
+  name: '&e精灵粉末'
+  stats:
+  - '&7力量 IV'
   type:
   - '&7&o食物'
 PIXIE_QUEEN_HEART:
+  name: '&4精灵女王之心'
   type:
   - '&7&o资源'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&a精灵女王刷怪蛋'
   type:
   - '&7&o杂项'
 POLAR_FOX_HIDE:
+  name: '&f极地狐皮'
   type:
   - '&7&o资源'
 POSEIDONS_BLESSING:
+  name: '&b波塞冬的祝福'
   type:
   - '&7&o资源'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7可以钓到特殊物品。'
+  name: '&b波塞冬的钓鱼竿'
+  stats:
+  - '&7波塞冬的祝福'
   type:
   - '&7&o工具'
 POSITION_SELECTOR:
+  name: '&e位置选择器'
   stats:
   - '&8⇨ &e⚡ &7200 J 缓冲'
   type:
   - '&7&o工具'
+  usage:
+  - '&7左键点击方块以选择第一位置。'
+  - '&7右键点击方块以选择第二位置。'
 POTION_MIXER:
+  description:
+  - '&7用于混合药水。'
+  name: '&b药水混合器'
   stats:
   - '&8⇨ &e⚡ &728 J/秒'
   type:
   - '&7&o机器'
 PURE_BONE_DUST:
+  name: '&b纯净骨粉'
   type:
   - '&7&o资源'
 PURIFIED_BONE:
+  name: '&b净化骨头'
   type:
   - '&7&o资源'
 REINFORCED_STRING:
+  name: '&b强化线'
   type:
   - '&7&o资源'
 REMOTE_CONTROLLER:
+  description:
+  - '&7允许你远程控制自己的力场穹顶。'
+  name: '&c遥控器'
   stats:
   - '&8⇨ &e⚡ &71000 J 缓冲'
   type:
   - '&7&o工具'
+  usage:
+  - '&7使用潜行 + 右键点击进行绑定。'
 RESISTANT_CHESTPLATE:
+  name: '&a抗性胸甲'
+  stats:
+  - '&7抗性 I'
+  - '&7生命恢复 I'
   type:
   - '&7&o护甲'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7合成材料'
+  name: '&f抗性胸甲框架'
   type:
   - '&7&o资源'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7用作献祭祭坛的一部分。'
+  name: '&f献祭黑石砖'
   type:
   - '&7&o机器'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7用作献祭祭坛的一部分。'
+  name: '&f献祭黑石砖楼梯'
   type:
   - '&7&o机器'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7用作献祭祭坛的一部分。'
+  name: '&f献祭黑石砖墙'
   type:
   - '&7&o机器'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7用作献祭祭坛的一部分。'
+  name: '&f献祭垫'
   type:
   - '&7&o机器'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7用作献祭祭坛的一部分。'
+  name: '&f献祭灵魂火把'
   type:
   - '&7&o机器'
 SPONGE_WAND:
+  name: '&e海绵魔杖'
   stats:
   - '&8⇨ &e⚡ &72000 J 缓冲'
   type:
   - '&7&o工具'
+  usage:
+  - '&7用位置选择器选取角点。'
+  - '&7右键点击以移除水和岩浆。'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7一种稳定的材料。'
+  name: '&b稳定化炙热方块'
   type:
   - '&7&o资源'
 SWEETENED_SWEET_INGOT:
+  name: '&e加甜甜蜜锭'
   type:
   - '&7&o资源'
 SWEET_INGOT:
+  name: '&e甜蜜锭'
   type:
   - '&7&o资源'
 TROPICAL_FISH_SCALE:
+  name: '&b热带鱼鳞'
   type:
   - '&7&o资源'
 UNBREAKABLE_RUNE:
+  name: '&7远古符文 &8&l[&2&l不可破坏&8&l]'
   type:
   - '&7&o杂项'
+  usage:
+  - '&e将此符文丢到掉落的物品上, 即可'
+  - '&e使其&2不可破坏'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&c邪秽凋灵骷髅骨'
   type:
   - '&7&o资源'
 VILE_PUMPKIN:
+  name: '&c邪恶南瓜'
   type:
   - '&7&o资源'
 VILE_SEEDS:
+  name: '&c邪恶种子'
+  stats:
+  - '&7生命提升 V'
   type:
   - '&7&o食物'
 WIRELESS_TRANSMITTER:
+  name: '&f无线发射器'
   type:
   - '&7&o资源'
