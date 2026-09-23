@@ -1,112 +1,203 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Schaden III'
+  - '&7Rüstungsbrechend II'
   type:
   - '&7&oWaffe'
 AQUATIC_HELMET:
+  name: '&bAquatischer Helm'
+  stats:
+  - '&7Wasseratmung'
+  - '&7Nachtsicht'
   type:
   - '&7&oRüstung'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bAquatischer Netheritbarren'
   type:
   - '&7&oRohstoff'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Entfernt Dornen von Süßbeerensträuchern.'
+  name: '&eSüßbeerenstrauch-Stutzer'
   type:
   - '&7&oWerkzeug'
 BLOOD:
+  name: '&cBlut'
   type:
   - '&7&oRohstoff'
 BLOOD_INFUSED_SKULL:
+  name: '&cBlutdurchtränkter Schädel'
   type:
   - '&7&oRohstoff'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Unterstützt die 2.5-fache Geschwindigkeit.'
+  name: '&fVerstärkte Aktivierungsschiene'
   type:
   - '&7&oMaschine'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Unterstützt die 2.5-fache Geschwindigkeit.'
+  name: '&fVerstärkte Sensorschiene'
   type:
   - '&7&oMaschine'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Unterstützt die 2.5-fache Geschwindigkeit.'
+  name: '&fVerstärkte Antriebsschiene'
   type:
   - '&7&oMaschine'
 BOOSTED_RAIL:
+  description:
+  - '&7Unterstützt die 2.5-fache Geschwindigkeit.'
+  name: '&fVerstärkte Schiene'
   type:
   - '&7&oMaschine'
 BUCKET_OF_BLOOD:
+  name: '&cEimer Blut'
   type:
   - '&7&oRohstoff'
 CELESTIAL_SHARD:
+  description:
+  - '&7Herstellungsmaterial'
+  - '&7Setzt eine Quest zurück, wenn sie in einen Altar geworfen wird...'
+  name: '&eHimmlische Scherbe'
   type:
   - '&7&oRohstoff'
 CELESTIAL_SWORD:
+  name: '&eHimmlisches Schwert'
+  stats:
+  - '&7Göttlicher Bann II'
+  - '&7Rüstungsdurchdringung V'
   type:
   - '&7&oWaffe'
 CHUNK_LOADER:
+  description:
+  - '&7Hält den Chunk geladen.'
+  name: '&bChunk-Lader'
   type:
   - '&7&oMaschine'
 COMPRESSED_SPONGE:
+  name: '&fKomprimierter Schwamm'
   type:
   - '&7&oRohstoff'
 CURSED_RABBIT_PAW:
+  name: '&cVerfluchte Hasenpfote'
   type:
   - '&7&oRohstoff'
 CURSED_SHARD:
+  description:
+  - '&7Herstellungsmaterial'
+  - '&7Setzt eine Quest zurück, wenn sie in einen Altar geworfen wird...'
+  name: '&cVerfluchte Scherbe'
   type:
   - '&7&oRohstoff'
 CURSED_SWORD:
+  description:
+  - '&7Verwirrt Feinde. Erhöht den Schaden.'
+  - '&7Kann dem Träger schaden.'
+  name: '&cVerfluchtes Schwert'
+  stats:
+  - '&7Lebensraub I'
+  - '&7Rüstungsdurchdringung I'
   type:
   - '&7&oWaffe'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oRohstoff'
 DEMONIC_INGOT:
+  name: '&cDämonischer Barren'
   type:
   - '&7&oRohstoff'
 DEMONIC_PLATE:
+  name: '&cDämonische Platte'
   type:
   - '&7&oRohstoff'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Entfessle ein Inferno.'
+  name: '&4Elektrischer Feuerstab'
   stats:
   - '&8⇨ &e⚡ &7100 J Puffer'
   type:
   - '&7&oWerkzeug'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Feuer, Feuer, Feuer!'
+  name: '&4Elektrischer Feuerstab &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Puffer'
   type:
   - '&7&oWerkzeug'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Raffiniert Goldstaub zu Goldbarren.'
+  name: '&bElektrische Goldraffinerie'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMaschine'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Reite auf dem Wind.'
+  name: '&bElektrischer Windstab'
   stats:
   - '&8⇨ &e⚡ &7100 J Puffer'
   type:
   - '&7&oWerkzeug'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Schaden III'
+  - '&7Lebensraub II'
+  - '&7Rüstungsdurchdringung II'
+  - '&7Überheilung'
   type:
   - '&7&oWaffe'
 EQUANIMOUS_GEM:
+  name: '&aGleichmütiger Edelstein'
   type:
   - '&7&oRohstoff'
 FIERY_LEGGINGS:
+  name: '&cFeurige Hose'
+  stats:
+  - '&7Feueraura II'
   type:
   - '&7&oRüstung'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Herstellungsmaterial'
+  name: '&fRahmen für Feurige Hose'
   type:
   - '&7&oRohstoff'
 FILL_WAND:
+  name: '&eFüllstab'
   stats:
   - '&8⇨ &e⚡ &71000 J Puffer'
   type:
   - '&7&oWerkzeug'
+  usage:
+  - '&7Wähle die Eckpunkte mit dem Positionswähler.'
+  - '&7Shift-Rechtsklick, um das Material zu wählen.'
+  - '&7Rechtsklick, um einen Bereich zu füllen.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Erzeugt, wenn angetrieben, eine Schutzbarriere'
+  - '&7mit einem Radius von 32 Blöcken.'
+  - '&7Kehrt zurück, sobald die Energie fehlt oder er zerstört wird'
+  name: '&4Kraftfeldkuppel'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMaschine'
 FORCEFIELD_ENGINE:
+  name: '&fKraftfeldmotor'
   type:
   - '&7&oRohstoff'
 FORCEFIELD_STABILIZER:
+  name: '&fKraftfeldstabilisator'
   type:
   - '&7&oRohstoff'
 GHOST_BLOCK_%MOB%:
@@ -116,143 +207,248 @@ GHOST_BLOCK_%MOB%:
   type:
   - '&7&oGadget'
 GHOST_BLOCK_REMOVER:
+  name: '&eGeisterblock-Entferner'
   type:
   - '&7&oWerkzeug'
+  usage:
+  - '&7Rechtsklick, um einen Geisterblock zu entfernen.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cSpawn-Ei des Kopflosen Reiters'
   type:
   - '&7&oSonstiges'
 HEALING_BOW:
+  description:
+  - '&8Endlich eine Unterstützungswaffe.'
+  name: '&4Heilbogen'
+  stats:
+  - '&cHeilung II'
   type:
   - '&7&oWaffe'
 HELMET_FRAME:
+  description:
+  - '&7Herstellungsmaterial'
+  name: '&fRahmen für Aquatischen Helm'
   type:
   - '&7&oRohstoff'
 HUMAN_SKULL:
+  name: '&cMenschenschädel'
   type:
   - '&7&oRohstoff'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Kombiniere ihn in der Verbesserungsschmiede mit einem Werkzeug, um es zu verbessern.'
+  name: '&aVerbesserungskern'
   type:
   - '&7&oRohstoff'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Zum Verbessern von Slimefun-Werkzeugen, -Waffen und -Rüstungen.'
+  name: '&bVerbesserungsschmiede'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMaschine'
 LIGHT_BOOTS:
+  name: '&eLeichte Stiefel'
+  stats:
+  - '&7Sprungkraft I'
+  - '&7Geschwindigkeit I'
+  - '&7Leichtgewichtig'
   type:
   - '&7&oRüstung'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Herstellungsmaterial'
+  name: '&fRahmen für Leichte Stiefel'
   type:
   - '&7&oRohstoff'
 MAGIC_LUMP_4:
+  name: '&6Magischer Klumpen &7- &eIV'
+  stats:
+  - '&c&oStufe: IV'
   type:
   - '&7&oRohstoff'
 MAGIC_LUMP_5:
+  name: '&6Magischer Klumpen &7- &eV'
+  stats:
+  - '&c&oStufe: V'
   type:
   - '&7&oRohstoff'
 MAGMA_ESSENCE:
+  name: '&cMagma-Essenz'
   type:
   - '&7&oRohstoff'
 NUCLEAR_SALT:
+  name: '&aNuklearsalz'
   stats:
   - '&a☢&7 Strahlungslevel: &cSEHR HOCH'
   type:
   - '&7&oRohstoff'
 PARROT_FEATHER:
+  name: '&aPapageienfeder'
   type:
   - '&7&oRohstoff'
 PIXIE_DUST:
+  name: '&eElfenstaub'
+  stats:
+  - '&7Stärke IV'
   type:
   - '&7&oNahrung'
 PIXIE_QUEEN_HEART:
+  name: '&4Herz der Elfenkönigin'
   type:
   - '&7&oRohstoff'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aSpawn-Ei der Elfenkönigin'
   type:
   - '&7&oSonstiges'
 POLAR_FOX_HIDE:
+  name: '&fPolarfuchsfell'
   type:
   - '&7&oRohstoff'
 POSEIDONS_BLESSING:
+  name: '&bPoseidons Segen'
   type:
   - '&7&oRohstoff'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Kann besondere Gegenstände fangen.'
+  name: '&bPoseidons Angel'
+  stats:
+  - '&7Poseidons Segen'
   type:
   - '&7&oWerkzeug'
 POSITION_SELECTOR:
+  name: '&ePositionswähler'
   stats:
   - '&8⇨ &e⚡ &7200 J Puffer'
   type:
   - '&7&oWerkzeug'
+  usage:
+  - '&7Linksklick auf einen Block wählt die erste Position.'
+  - '&7Rechtsklick auf einen Block wählt die zweite Position.'
 POTION_MIXER:
+  description:
+  - '&7Zum Mischen von Tränken.'
+  name: '&bTrankmischer'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMaschine'
 PURE_BONE_DUST:
+  name: '&bReiner Knochenstaub'
   type:
   - '&7&oRohstoff'
 PURIFIED_BONE:
+  name: '&bGereinigter Knochen'
   type:
   - '&7&oRohstoff'
 REINFORCED_STRING:
+  name: '&bVerstärkter Faden'
   type:
   - '&7&oRohstoff'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Ermöglicht es dir, deine Kraftfeldkuppel aus der Ferne zu steuern.'
+  name: '&cFernsteuerung'
   stats:
   - '&8⇨ &e⚡ &71000 J Puffer'
   type:
   - '&7&oWerkzeug'
+  usage:
+  - '&7Binde sie mit Shift + Rechtsklick.'
 RESISTANT_CHESTPLATE:
+  name: '&aWiderstandsfähiger Brustpanzer'
+  stats:
+  - '&7Resistenz I'
+  - '&7Regeneration I'
   type:
   - '&7&oRüstung'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Herstellungsmaterial'
+  name: '&fRahmen für Widerstandsfähigen Brustpanzer'
   type:
   - '&7&oRohstoff'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Wird als Teil des Opferaltars verwendet.'
+  name: '&fOpfer-Schwarzsteinziegel'
   type:
   - '&7&oMaschine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Wird als Teil des Opferaltars verwendet.'
+  name: '&fOpfer-Schwarzsteinziegeltreppe'
   type:
   - '&7&oMaschine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Wird als Teil des Opferaltars verwendet.'
+  name: '&fOpfer-Schwarzsteinziegelmauer'
   type:
   - '&7&oMaschine'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Wird als Teil des Opferaltars verwendet.'
+  name: '&fOpfermatte'
   type:
   - '&7&oMaschine'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Wird als Teil des Opferaltars verwendet.'
+  name: '&fOpfer-Seelenfackel'
   type:
   - '&7&oMaschine'
 SPONGE_WAND:
+  name: '&eSchwammstab'
   stats:
   - '&8⇨ &e⚡ &72000 J Puffer'
   type:
   - '&7&oWerkzeug'
+  usage:
+  - '&7Wähle die Eckpunkte mit dem Positionswähler.'
+  - '&7Rechtsklick, um Wasser und Lava zu entfernen.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Ein stabiles Material.'
+  name: '&bStabilisierter Glühender Block'
   type:
   - '&7&oRohstoff'
 SWEETENED_SWEET_INGOT:
+  name: '&eGesüßter Süßer Barren'
   type:
   - '&7&oRohstoff'
 SWEET_INGOT:
+  name: '&eSüßer Barren'
   type:
   - '&7&oRohstoff'
 TROPICAL_FISH_SCALE:
+  name: '&bTropenfischschuppe'
   type:
   - '&7&oRohstoff'
 UNBREAKABLE_RUNE:
+  name: '&7Antike Rune &8&l[&2&lUnzerbrechlich&8&l]'
   type:
   - '&7&oSonstiges'
+  usage:
+  - '&eWirf diese Rune auf einen fallengelassenen Gegenstand, um'
+  - '&eihn &2unzerbrechlich zu machen'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cUnheiliger Witherskelett-Knochen'
   type:
   - '&7&oRohstoff'
 VILE_PUMPKIN:
+  name: '&cAbscheulicher Kürbis'
   type:
   - '&7&oRohstoff'
 VILE_SEEDS:
+  name: '&cAbscheuliche Samen'
+  stats:
+  - '&7Extraherzen V'
   type:
   - '&7&oNahrung'
 WIRELESS_TRANSMITTER:
+  name: '&fKabelloser Sender'
   type:
   - '&7&oRohstoff'
