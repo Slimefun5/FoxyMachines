@@ -7,7 +7,7 @@ plugins {
 group = "me.gallowsdove"
 description = "FoxyMachines is a Slimefun addon that adds tools, machines, items, armor, weapons, bosses and more!"
 
-apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/stable/slimefun-addon.gradle")
+apply(from = "https://raw.githubusercontent.com/Slimefun5/gradle/main/slimefun-addon.gradle")
 
 dependencies {
     githubImplementation("Slimefun5:InfinityLib:v1.3.13")
