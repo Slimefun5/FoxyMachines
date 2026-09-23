@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Hasar III'
+  - '&7Zırh Delici II'
   type:
   - '&7&oSilah'
 AQUATIC_HELMET:
+  name: '&bSucul Kask'
+  stats:
+  - '&7Su Altında Nefes Alma'
+  - '&7Karanlıkta Görme'
   type:
   - '&7&oZırh'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bSucul Netherit Külçesi'
   type:
   - '&7&oKaynak'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Tatlı yemiş çalılarındaki dikenleri temizler.'
+  name: '&eTatlı Yemiş Çalısı Budayıcısı'
   type:
   - '&7&oAlet'
 BLOOD:
+  name: '&cKan'
   type:
   - '&7&oKaynak'
 BLOOD_INFUSED_SKULL:
+  name: '&cKanla Dolu Kafatası'
   type:
   - '&7&oKaynak'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&72.5 kat hızı destekler.'
+  name: '&fHızlandırılmış Etkinleştirici Ray'
   type:
   - '&7&oMakine'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&72.5 kat hızı destekler.'
+  name: '&fHızlandırılmış Dedektör Rayı'
   type:
   - '&7&oMakine'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&72.5 kat hızı destekler.'
+  name: '&fHızlandırılmış Güçlü Ray'
   type:
   - '&7&oMakine'
 BOOSTED_RAIL:
+  description:
+  - '&72.5 kat hızı destekler.'
+  name: '&fHızlandırılmış Ray'
   type:
   - '&7&oMakine'
 BUCKET_OF_BLOOD:
+  name: '&cKan Kovası'
   type:
   - '&7&oKaynak'
 CELESTIAL_SHARD:
+  description:
+  - '&7Üretim Malzemesi'
+  - '&7Bir Sunağa atıldığında bir Görevi sıfırlar...'
+  name: '&eGöksel Parça'
   type:
   - '&7&oKaynak'
 CELESTIAL_SWORD:
+  name: '&eGöksel Kılıç'
+  stats:
+  - '&7İlahi Darbe II'
+  - '&7Zırh Delme V'
   type:
   - '&7&oSilah'
 CHUNK_LOADER:
+  description:
+  - '&7Öbeği yüklü tutar.'
+  name: '&bÖbek Yükleyici'
   type:
   - '&7&oMakine'
 COMPRESSED_SPONGE:
+  name: '&fSıkıştırılmış Sünger'
   type:
   - '&7&oKaynak'
 CURSED_RABBIT_PAW:
+  name: '&cLanetli Tavşan Pençesi'
   type:
   - '&7&oKaynak'
 CURSED_SHARD:
+  description:
+  - '&7Üretim Malzemesi'
+  - '&7Bir Sunağa atıldığında bir Görevi sıfırlar...'
+  name: '&cLanetli Parça'
   type:
   - '&7&oKaynak'
 CURSED_SWORD:
+  description:
+  - '&7Düşmanları şaşırtır. Hasarı artırır.'
+  - '&7Kullananı olumsuz etkileyebilir.'
+  name: '&cLanetli Kılıç'
+  stats:
+  - '&7Can Çalma I'
+  - '&7Zırh Delme I'
   type:
   - '&7&oSilah'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oKaynak'
 DEMONIC_INGOT:
+  name: '&cŞeytani Külçe'
   type:
   - '&7&oKaynak'
 DEMONIC_PLATE:
+  name: '&cŞeytani Plaka'
   type:
   - '&7&oKaynak'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Cehennem yarat.'
+  name: '&4Elektrikli Ateş Asası'
   stats:
   - '&8⇨ &e⚡ &7100 J Tampon'
   type:
   - '&7&oAlet'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Ateş, ateş, ateş!'
+  name: '&4Elektrikli Ateş Asası &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Tampon'
   type:
   - '&7&oAlet'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Altın tozunu altın külçeye rafine eder.'
+  name: '&bElektrikli Altın Rafinerisi'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMakine'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Rüzgara bin.'
+  name: '&bElektrikli Rüzgar Asası'
   stats:
   - '&8⇨ &e⚡ &7100 J Tampon'
   type:
   - '&7&oAlet'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Hasar III'
+  - '&7Can Çalma II'
+  - '&7Zırh Delme II'
+  - '&7Aşırı İyileşme'
   type:
   - '&7&oSilah'
 EQUANIMOUS_GEM:
+  name: '&aDingin Mücevher'
   type:
   - '&7&oKaynak'
 FIERY_LEGGINGS:
+  name: '&cAlevli Pantolon'
+  stats:
+  - '&7Ateş Aurası II'
   type:
   - '&7&oZırh'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Üretim Malzemesi'
+  name: '&fAlevli Pantolon İskeleti'
   type:
   - '&7&oKaynak'
 FILL_WAND:
+  name: '&eDoldurma Asası'
   stats:
   - '&8⇨ &e⚡ &71000 J Tampon'
   type:
   - '&7&oAlet'
+  usage:
+  - '&7Köşe noktalarını Konum Seçici ile seç.'
+  - '&7Malzeme seçmek için shift ile sağ tıkla.'
+  - '&7Bir alanı doldurmak için sağ tıkla.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Güç verildiğinde koruyucu bir bariyer oluşturur,'
+  - '&732 blokluk bir yarıçapla.'
+  - '&7Güç kesilince veya kırılınca geri döner'
+  name: '&4Güç Alanı Kubbesi'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMakine'
 FORCEFIELD_ENGINE:
+  name: '&fGüç Alanı Motoru'
   type:
   - '&7&oKaynak'
 FORCEFIELD_STABILIZER:
+  name: '&fGüç Alanı Dengeleyicisi'
   type:
   - '&7&oKaynak'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Elle tutulamayan bir blok.'
+  name: '&fHayalet Blok: &6%mob%'
   type:
   - '&7&oCihaz'
 GHOST_BLOCK_REMOVER:
+  name: '&eHayalet Blok Sökücü'
   type:
   - '&7&oAlet'
+  usage:
+  - '&7Bir Hayalet Bloğu kaldırmak için sağ tıkla.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cBaşsız Süvari Doğurma Yumurtası'
   type:
   - '&7&oÇeşitli'
 HEALING_BOW:
+  description:
+  - '&8Nihayet bir destek silahı.'
+  name: '&4İyileştirme Yayı'
+  stats:
+  - '&cİyileştirme II'
   type:
   - '&7&oSilah'
 HELMET_FRAME:
+  description:
+  - '&7Üretim Malzemesi'
+  name: '&fSucul Kask İskeleti'
   type:
   - '&7&oKaynak'
 HUMAN_SKULL:
+  name: '&cİnsan Kafatası'
   type:
   - '&7&oKaynak'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Geliştirmek için Geliştirme Ocağında bir aletle birleştir.'
+  name: '&aGeliştirme Çekirdeği'
   type:
   - '&7&oKaynak'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Slimefun aletlerini, silahlarını ve zırhlarını geliştirmek için kullanılır.'
+  name: '&bGeliştirme Ocağı'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakine'
 LIGHT_BOOTS:
+  name: '&eHafif Botlar'
+  stats:
+  - '&7Zıplama I'
+  - '&7Hız I'
+  - '&7Hafiflik'
   type:
   - '&7&oZırh'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Üretim Malzemesi'
+  name: '&fHafif Bot İskeleti'
   type:
   - '&7&oKaynak'
 MAGIC_LUMP_4:
+  name: '&6Büyülü Topak &7- &eIV'
+  stats:
+  - '&c&oKademe: IV'
   type:
   - '&7&oKaynak'
 MAGIC_LUMP_5:
+  name: '&6Büyülü Topak &7- &eV'
+  stats:
+  - '&c&oKademe: V'
   type:
   - '&7&oKaynak'
 MAGMA_ESSENCE:
+  name: '&cMagma Özü'
   type:
   - '&7&oKaynak'
 NUCLEAR_SALT:
+  name: '&aNükleer Tuz'
   stats:
   - '&a☢&7 Radyasyon seviyesi: &cÇOK YÜKSEK'
   type:
   - '&7&oKaynak'
 PARROT_FEATHER:
+  name: '&aPapağan Tüyü'
   type:
   - '&7&oKaynak'
 PIXIE_DUST:
+  name: '&ePeri Tozu'
+  stats:
+  - '&7Güç IV'
   type:
   - '&7&oYiyecek'
 PIXIE_QUEEN_HEART:
+  name: '&4Peri Kraliçesi Kalbi'
   type:
   - '&7&oKaynak'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aPeri Kraliçesi Doğurma Yumurtası'
   type:
   - '&7&oÇeşitli'
 POLAR_FOX_HIDE:
+  name: '&fKutup Tilkisi Postu'
   type:
   - '&7&oKaynak'
 POSEIDONS_BLESSING:
+  name: '&bPoseidon''un Kutsaması'
   type:
   - '&7&oKaynak'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Özel eşyalar yakalayabilir.'
+  name: '&bPoseidon''un Olta Kamışı'
+  stats:
+  - '&7Poseidon''un Kutsaması'
   type:
   - '&7&oAlet'
 POSITION_SELECTOR:
+  name: '&eKonum Seçici'
   stats:
   - '&8⇨ &e⚡ &7200 J Tampon'
   type:
   - '&7&oAlet'
+  usage:
+  - '&7Birincil konumu seçmek için bir bloğa sol tıkla.'
+  - '&7İkincil konumu seçmek için bir bloğa sağ tıkla.'
 POTION_MIXER:
+  description:
+  - '&7İksirleri karıştırmak için kullanılır.'
+  name: '&bİksir Karıştırıcı'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMakine'
 PURE_BONE_DUST:
+  name: '&bSaf Kemik Tozu'
   type:
   - '&7&oKaynak'
 PURIFIED_BONE:
+  name: '&bArındırılmış Kemik'
   type:
   - '&7&oKaynak'
 REINFORCED_STRING:
+  name: '&bTakviyeli İp'
   type:
   - '&7&oKaynak'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Güç Alanı Kubbeni uzaktan yönetmeni sağlar.'
+  name: '&cUzaktan Kumanda'
   stats:
   - '&8⇨ &e⚡ &71000 J Tampon'
   type:
   - '&7&oAlet'
+  usage:
+  - '&7Shift + Sağ Tık ile bağla.'
 RESISTANT_CHESTPLATE:
+  name: '&aDirençli Göğüslük'
+  stats:
+  - '&7Direnç I'
+  - '&7Yenilenme I'
   type:
   - '&7&oZırh'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Üretim Malzemesi'
+  name: '&fDirençli Göğüslük İskeleti'
   type:
   - '&7&oKaynak'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Kurban Sunağının bir parçası olarak kullanılır.'
+  name: '&fKurban Karataşı Tuğlaları'
   type:
   - '&7&oMakine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Kurban Sunağının bir parçası olarak kullanılır.'
+  name: '&fKurban Karataşı Tuğla Merdiveni'
   type:
   - '&7&oMakine'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Kurban Sunağının bir parçası olarak kullanılır.'
+  name: '&fKurban Karataşı Tuğla Duvarı'
   type:
   - '&7&oMakine'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Kurban Sunağının bir parçası olarak kullanılır.'
+  name: '&fKurban Matı'
   type:
   - '&7&oMakine'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Kurban Sunağının bir parçası olarak kullanılır.'
+  name: '&fKurban Ruh Meşalesi'
   type:
   - '&7&oMakine'
 SPONGE_WAND:
+  name: '&eSünger Asası'
   stats:
   - '&8⇨ &e⚡ &72000 J Tampon'
   type:
   - '&7&oAlet'
+  usage:
+  - '&7Köşe noktalarını Konum Seçici ile seç.'
+  - '&7Suyu ve Lavı kaldırmak için sağ tıkla.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Kararlı bir malzeme.'
+  name: '&bDengelenmiş Kavurucu Blok'
   type:
   - '&7&oKaynak'
 SWEETENED_SWEET_INGOT:
+  name: '&eTatlandırılmış Tatlı Külçe'
   type:
   - '&7&oKaynak'
 SWEET_INGOT:
+  name: '&eTatlı Külçe'
   type:
   - '&7&oKaynak'
 TROPICAL_FISH_SCALE:
+  name: '&bTropikal Balık Pulu'
   type:
   - '&7&oKaynak'
 UNBREAKABLE_RUNE:
+  name: '&7Kadim Rün &8&l[&2&lKırılmaz&8&l]'
   type:
   - '&7&oÇeşitli'
+  usage:
+  - '&eBu rünü düşmüş bir eşyanın üzerine bırak,'
+  - '&eonu &2kırılmaz yap'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cKutsanmamış Wither İskeleti Kemiği'
   type:
   - '&7&oKaynak'
 VILE_PUMPKIN:
+  name: '&cİğrenç Balkabağı'
   type:
   - '&7&oKaynak'
 VILE_SEEDS:
+  name: '&cİğrenç Tohumlar'
+  stats:
+  - '&7Can Artışı V'
   type:
   - '&7&oYiyecek'
 WIRELESS_TRANSMITTER:
+  name: '&fKablosuz Verici'
   type:
   - '&7&oKaynak'
