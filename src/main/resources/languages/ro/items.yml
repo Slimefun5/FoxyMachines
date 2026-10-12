@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Daune III'
+  - '&7Străpungere de Armură II'
   type:
   - '&7&oArmă'
 AQUATIC_HELMET:
+  name: '&bCască Acvatică'
+  stats:
+  - '&7Respirație Subacvatică'
+  - '&7Vedere Nocturnă'
   type:
   - '&7&oArmură'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bLingou de Netherite Acvatic'
   type:
   - '&7&oResursă'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Elimină spinii de pe tufele cu fructe dulci.'
+  name: '&eTunzător de Tufe cu Fructe Dulci'
   type:
   - '&7&oUnealtă'
 BLOOD:
+  name: '&cSânge'
   type:
   - '&7&oResursă'
 BLOOD_INFUSED_SKULL:
+  name: '&cCraniu Infuzat cu Sânge'
   type:
   - '&7&oResursă'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Suportă o viteză de 2.5x.'
+  name: '&fȘină de Activare Accelerată'
   type:
   - '&7&oMașină'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Suportă o viteză de 2.5x.'
+  name: '&fȘină de Detectare Accelerată'
   type:
   - '&7&oMașină'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Suportă o viteză de 2.5x.'
+  name: '&fȘină Alimentată Accelerată'
   type:
   - '&7&oMașină'
 BOOSTED_RAIL:
+  description:
+  - '&7Suportă o viteză de 2.5x.'
+  name: '&fȘină Accelerată'
   type:
   - '&7&oMașină'
 BUCKET_OF_BLOOD:
+  name: '&cGăleată de Sânge'
   type:
   - '&7&oResursă'
 CELESTIAL_SHARD:
+  description:
+  - '&7Material de fabricare'
+  - '&7Va reseta o Misiune când este aruncat într-un Altar...'
+  name: '&eFragment Celest'
   type:
   - '&7&oResursă'
 CELESTIAL_SWORD:
+  name: '&eSabie Celestă'
+  stats:
+  - '&7Lovitură Divină II'
+  - '&7Penetrare de Armură V'
   type:
   - '&7&oArmă'
 CHUNK_LOADER:
+  description:
+  - '&7Menține chunk-ul încărcat.'
+  name: '&bÎncărcător de Chunk-uri'
   type:
   - '&7&oMașină'
 COMPRESSED_SPONGE:
+  name: '&fBurete Comprimat'
   type:
   - '&7&oResursă'
 CURSED_RABBIT_PAW:
+  name: '&cLabă de Iepure Blestemată'
   type:
   - '&7&oResursă'
 CURSED_SHARD:
+  description:
+  - '&7Material de fabricare'
+  - '&7Va reseta o Misiune când este aruncat într-un Altar...'
+  name: '&cFragment Blestemat'
   type:
   - '&7&oResursă'
 CURSED_SWORD:
+  description:
+  - '&7Zăpăcește dușmanii. Crește daunele.'
+  - '&7Poate afecta negativ purtătorul.'
+  name: '&cSabie Blestemată'
+  stats:
+  - '&7Furt de Viață I'
+  - '&7Penetrare de Armură I'
   type:
   - '&7&oArmă'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oResursă'
 DEMONIC_INGOT:
+  name: '&cLingou Demonic'
   type:
   - '&7&oResursă'
 DEMONIC_PLATE:
+  name: '&cPlacă Demonică'
   type:
   - '&7&oResursă'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Creează un infern.'
+  name: '&4Baston Electric al Focului'
   stats:
   - '&8⇨ &e⚡ &7100 J Tampon'
   type:
   - '&7&oUnealtă'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Foc, foc, foc!'
+  name: '&4Baston Electric al Focului &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Tampon'
   type:
   - '&7&oUnealtă'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Rafinează Praful de Aur în lingouri de aur.'
+  name: '&bRafinărie Electrică de Aur'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMașină'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Călărește vântul.'
+  name: '&bBaston Electric al Vântului'
   stats:
   - '&8⇨ &e⚡ &7100 J Tampon'
   type:
   - '&7&oUnealtă'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Daune III'
+  - '&7Furt de Viață II'
+  - '&7Penetrare de Armură II'
+  - '&7Supravindecare'
   type:
   - '&7&oArmă'
 EQUANIMOUS_GEM:
+  name: '&aNestemată a Echilibrului'
   type:
   - '&7&oResursă'
 FIERY_LEGGINGS:
+  name: '&cJambiere Înflăcărate'
+  stats:
+  - '&7Aură de Foc II'
   type:
   - '&7&oArmură'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Material de fabricare'
+  name: '&fCadru de Jambiere Înflăcărate'
   type:
   - '&7&oResursă'
 FILL_WAND:
+  name: '&eBaghetă de Umplere'
   stats:
   - '&8⇨ &e⚡ &71000 J Tampon'
   type:
   - '&7&oUnealtă'
+  usage:
+  - '&7Selectează punctele de colț cu Selectorul de Poziție.'
+  - '&7Shift plus clic dreapta pentru a selecta materialul.'
+  - '&7Clic dreapta pentru a umple o zonă.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Când este alimentată, creează o barieră protectoare'
+  - '&7cu o rază de 32 de blocuri.'
+  - '&7Revine la normal când nu mai e alimentat sau e spart'
+  name: '&4Cupolă de Câmp de Forță'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMașină'
 FORCEFIELD_ENGINE:
+  name: '&fMotor de Câmp de Forță'
   type:
   - '&7&oResursă'
 FORCEFIELD_STABILIZER:
+  name: '&fStabilizator de Câmp de Forță'
   type:
   - '&7&oResursă'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Un bloc intangibil.'
+  name: '&fBloc Fantomă: &6%mob%'
   type:
   - '&7&oGadget'
 GHOST_BLOCK_REMOVER:
+  name: '&eEliminator de Blocuri Fantomă'
   type:
   - '&7&oUnealtă'
+  usage:
+  - '&7Clic dreapta pentru a elimina un Bloc Fantomă.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cOu de Invocare al Călărețului fără Cap'
   type:
   - '&7&oDiverse'
 HEALING_BOW:
+  description:
+  - '&8În sfârșit o armă de suport.'
+  name: '&4Arc de Vindecare'
+  stats:
+  - '&cVindecare II'
   type:
   - '&7&oArmă'
 HELMET_FRAME:
+  description:
+  - '&7Material de fabricare'
+  name: '&fCadru de Cască Acvatică'
   type:
   - '&7&oResursă'
 HUMAN_SKULL:
+  name: '&cCraniu Uman'
   type:
   - '&7&oResursă'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Combină-l cu o unealtă în Forja de Îmbunătățire pentru a o îmbunătăți.'
+  name: '&aNucleu de Îmbunătățire'
   type:
   - '&7&oResursă'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Folosită pentru a îmbunătăți uneltele, armele și armurile Slimefun.'
+  name: '&bForjă de Îmbunătățire'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMașină'
 LIGHT_BOOTS:
+  name: '&eCizme Ușoare'
+  stats:
+  - '&7Săritură I'
+  - '&7Viteză I'
+  - '&7Ușor'
   type:
   - '&7&oArmură'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Material de fabricare'
+  name: '&fCadru de Cizme Ușoare'
   type:
   - '&7&oResursă'
 MAGIC_LUMP_4:
+  name: '&6Bulgăre Magic &7- &eIV'
+  stats:
+  - '&c&oNivel: IV'
   type:
   - '&7&oResursă'
 MAGIC_LUMP_5:
+  name: '&6Bulgăre Magic &7- &eV'
+  stats:
+  - '&c&oNivel: V'
   type:
   - '&7&oResursă'
 MAGMA_ESSENCE:
+  name: '&cEsență de Magmă'
   type:
   - '&7&oResursă'
 NUCLEAR_SALT:
+  name: '&aSare Nucleară'
   stats:
   - '&a☢&7 Nivel de radiație: &cFOARTE RIDICAT'
   type:
   - '&7&oResursă'
 PARROT_FEATHER:
+  name: '&aPană de Papagal'
   type:
   - '&7&oResursă'
 PIXIE_DUST:
+  name: '&ePraf de Zână'
+  stats:
+  - '&7Putere IV'
   type:
   - '&7&oMâncare'
 PIXIE_QUEEN_HEART:
+  name: '&4Inimă de Regină a Zânelor'
   type:
   - '&7&oResursă'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aOu de Invocare al Reginei Zânelor'
   type:
   - '&7&oDiverse'
 POLAR_FOX_HIDE:
+  name: '&fBlană de Vulpe Polară'
   type:
   - '&7&oResursă'
 POSEIDONS_BLESSING:
+  name: '&bBinecuvântarea lui Poseidon'
   type:
   - '&7&oResursă'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Poate prinde obiecte speciale.'
+  name: '&bUndița lui Poseidon'
+  stats:
+  - '&7Binecuvântarea lui Poseidon'
   type:
   - '&7&oUnealtă'
 POSITION_SELECTOR:
+  name: '&eSelector de Poziție'
   stats:
   - '&8⇨ &e⚡ &7200 J Tampon'
   type:
   - '&7&oUnealtă'
+  usage:
+  - '&7Clic stânga pe un bloc pentru a selecta poziția primară.'
+  - '&7Clic dreapta pe un bloc pentru a selecta poziția secundară.'
 POTION_MIXER:
+  description:
+  - '&7Folosit pentru a amesteca poțiuni.'
+  name: '&bMixer de Poțiuni'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMașină'
 PURE_BONE_DUST:
+  name: '&bPraf de Os Pur'
   type:
   - '&7&oResursă'
 PURIFIED_BONE:
+  name: '&bOs Purificat'
   type:
   - '&7&oResursă'
 REINFORCED_STRING:
+  name: '&bFir Întărit'
   type:
   - '&7&oResursă'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Îți permite să controlezi Cupola de Câmp de Forță de la distanță.'
+  name: '&cTelecomandă'
   stats:
   - '&8⇨ &e⚡ &71000 J Tampon'
   type:
   - '&7&oUnealtă'
+  usage:
+  - '&7Leagă-o cu Shift + Clic dreapta.'
 RESISTANT_CHESTPLATE:
+  name: '&aPlatoșă Rezistentă'
+  stats:
+  - '&7Rezistență I'
+  - '&7Regenerare I'
   type:
   - '&7&oArmură'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Material de fabricare'
+  name: '&fCadru de Platoșă Rezistentă'
   type:
   - '&7&oResursă'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Folosite ca parte a Altarului de Sacrificiu.'
+  name: '&fCărămizi de Blackstone de Sacrificiu'
   type:
   - '&7&oMașină'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Folosite ca parte a Altarului de Sacrificiu.'
+  name: '&fScări de Cărămizi de Blackstone de Sacrificiu'
   type:
   - '&7&oMașină'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Folosite ca parte a Altarului de Sacrificiu.'
+  name: '&fZid de Cărămizi de Blackstone de Sacrificiu'
   type:
   - '&7&oMașină'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Folosite ca parte a Altarului de Sacrificiu.'
+  name: '&fCovoraș de Sacrificiu'
   type:
   - '&7&oMașină'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Folosite ca parte a Altarului de Sacrificiu.'
+  name: '&fTorță a Sufletelor de Sacrificiu'
   type:
   - '&7&oMașină'
 SPONGE_WAND:
+  name: '&eBaghetă de Burete'
   stats:
   - '&8⇨ &e⚡ &72000 J Tampon'
   type:
   - '&7&oUnealtă'
+  usage:
+  - '&7Selectează punctele de colț cu Selectorul de Poziție.'
+  - '&7Clic dreapta pentru a elimina Apa și Lava.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Un material stabil.'
+  name: '&bBloc Incandescent Stabilizat'
   type:
   - '&7&oResursă'
 SWEETENED_SWEET_INGOT:
+  name: '&eLingou Dulce Îndulcit'
   type:
   - '&7&oResursă'
 SWEET_INGOT:
+  name: '&eLingou Dulce'
   type:
   - '&7&oResursă'
 TROPICAL_FISH_SCALE:
+  name: '&bSolz de Pește Tropical'
   type:
   - '&7&oResursă'
 UNBREAKABLE_RUNE:
+  name: '&7Rună Antică &8&l[&2&lIndestructibilă&8&l]'
   type:
   - '&7&oDiverse'
+  usage:
+  - '&eAruncă această rună pe un obiect aruncat pentru'
+  - '&ea-l face &2indestructibil'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cOs Nesfânt de Schelet Wither'
   type:
   - '&7&oResursă'
 VILE_PUMPKIN:
+  name: '&cDovleac Scârbos'
   type:
   - '&7&oResursă'
 VILE_SEEDS:
+  name: '&cSemințe Scârboase'
+  stats:
+  - '&7Spor de Viață V'
   type:
   - '&7&oMâncare'
 WIRELESS_TRANSMITTER:
+  name: '&fTransmițător Fără fir'
   type:
   - '&7&oResursă'
