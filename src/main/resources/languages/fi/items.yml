@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Vahinko III'
+  - '&7Haarniskan lävistys II'
   type:
   - '&7&oAse'
 AQUATIC_HELMET:
+  name: '&bVesikypärä'
+  stats:
+  - '&7Vedenalainen hengitys'
+  - '&7Pimeänäkö'
   type:
   - '&7&oPanssari'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bVesinetheriittiharkko'
   type:
   - '&7&oResurssi'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Poistaa piikit makeamarjapensaista.'
+  name: '&eMakeamarjapensaan leikkuri'
   type:
   - '&7&oTyökalu'
 BLOOD:
+  name: '&cVeri'
   type:
   - '&7&oResurssi'
 BLOOD_INFUSED_SKULL:
+  name: '&cVeren kyllästämä kallo'
   type:
   - '&7&oResurssi'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Tukee 2.5x nopeutta.'
+  name: '&fTehostettu aktivointikisko'
   type:
   - '&7&oKone'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Tukee 2.5x nopeutta.'
+  name: '&fTehostettu tunnistuskisko'
   type:
   - '&7&oKone'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Tukee 2.5x nopeutta.'
+  name: '&fTehostettu virroitettu kisko'
   type:
   - '&7&oKone'
 BOOSTED_RAIL:
+  description:
+  - '&7Tukee 2.5x nopeutta.'
+  name: '&fTehostettu kisko'
   type:
   - '&7&oKone'
 BUCKET_OF_BLOOD:
+  name: '&cVerisanko'
   type:
   - '&7&oResurssi'
 CELESTIAL_SHARD:
+  description:
+  - '&7Valmistusmateriaali'
+  - '&7Nollaa tehtävän, kun se heitetään alttariin...'
+  name: '&eTaivaallinen siru'
   type:
   - '&7&oResurssi'
 CELESTIAL_SWORD:
+  name: '&eTaivaallinen miekka'
+  stats:
+  - '&7Jumalallinen isku II'
+  - '&7Haarniskan läpäisy V'
   type:
   - '&7&oAse'
 CHUNK_LOADER:
+  description:
+  - '&7Pitää lohkon ladattuna.'
+  name: '&bLohkonlataaja'
   type:
   - '&7&oKone'
 COMPRESSED_SPONGE:
+  name: '&fPuristettu sieni'
   type:
   - '&7&oResurssi'
 CURSED_RABBIT_PAW:
+  name: '&cKirottu jäniksen jalka'
   type:
   - '&7&oResurssi'
 CURSED_SHARD:
+  description:
+  - '&7Valmistusmateriaali'
+  - '&7Nollaa tehtävän, kun se heitetään alttariin...'
+  name: '&cKirottu siru'
   type:
   - '&7&oResurssi'
 CURSED_SWORD:
+  description:
+  - '&7Sekoittaa viholliset. Kasvattaa vahinkoa.'
+  - '&7Voi vaikuttaa kielteisesti kantajaan.'
+  name: '&cKirottu miekka'
+  stats:
+  - '&7Elämänimu I'
+  - '&7Haarniskan läpäisy I'
   type:
   - '&7&oAse'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oResurssi'
 DEMONIC_INGOT:
+  name: '&cDemoninen harkko'
   type:
   - '&7&oResurssi'
 DEMONIC_PLATE:
+  name: '&cDemoninen levy'
   type:
   - '&7&oResurssi'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Luo tulimeri.'
+  name: '&4Sähköinen tulisauva'
   stats:
   - '&8⇨ &e⚡ &7100 J puskuri'
   type:
   - '&7&oTyökalu'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Tulta, tulta, tulta!'
+  name: '&4Sähköinen tulisauva &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J puskuri'
   type:
   - '&7&oTyökalu'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Jalostaa kultapölyn kultaharkoiksi.'
+  name: '&bSähköinen kultajalostamo'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oKone'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Matkaa tuulen mukana.'
+  name: '&bSähköinen tuulisauva'
   stats:
   - '&8⇨ &e⚡ &7100 J puskuri'
   type:
   - '&7&oTyökalu'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Vahinko III'
+  - '&7Elämänimu II'
+  - '&7Haarniskan läpäisy II'
+  - '&7Yliparannus'
   type:
   - '&7&oAse'
 EQUANIMOUS_GEM:
+  name: '&aTyyni jalokivi'
   type:
   - '&7&oResurssi'
 FIERY_LEGGINGS:
+  name: '&cTuliset housut'
+  stats:
+  - '&7Tuliaura II'
   type:
   - '&7&oPanssari'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Valmistusmateriaali'
+  name: '&fTulisten housujen runko'
   type:
   - '&7&oResurssi'
 FILL_WAND:
+  name: '&eTäyttösauva'
   stats:
   - '&8⇨ &e⚡ &71000 J puskuri'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&7Valitse kulmapisteet sijainnin valitsimella.'
+  - '&7Shift + oikea napsautus valitsee materiaalin.'
+  - '&7Napsauta oikealla täyttääksesi alueen.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Virroitettuna luo suojaavan esteen'
+  - '&7jonka säde on 32 palikkaa.'
+  - '&7Palautuu, kun virta katkeaa tai se rikotaan'
+  name: '&4Voimakenttäkupoli'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oKone'
 FORCEFIELD_ENGINE:
+  name: '&fVoimakenttämoottori'
   type:
   - '&7&oResurssi'
 FORCEFIELD_STABILIZER:
+  name: '&fVoimakenttävakain'
   type:
   - '&7&oResurssi'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Aineeton palikka.'
+  name: '&fHaamupalikka: &6%mob%'
   type:
   - '&7&oGadgetti'
 GHOST_BLOCK_REMOVER:
+  name: '&eHaamupalikan poistaja'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&7Napsauta oikealla poistaaksesi haamupalikan.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cPäättömän ratsumiehen kutsumuna'
   type:
   - '&7&oSekalainen'
 HEALING_BOW:
+  description:
+  - '&8Vihdoin tukiase.'
+  name: '&4Parantava jousi'
+  stats:
+  - '&cParannus II'
   type:
   - '&7&oAse'
 HELMET_FRAME:
+  description:
+  - '&7Valmistusmateriaali'
+  name: '&fVesikypärän runko'
   type:
   - '&7&oResurssi'
 HUMAN_SKULL:
+  name: '&cIhmisen kallo'
   type:
   - '&7&oResurssi'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Yhdistä se työkaluun parannuspajassa parantaaksesi sitä.'
+  name: '&aParannusydin'
   type:
   - '&7&oResurssi'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Käytetään Slimefunin työkalujen, aseiden ja haarniskojen parantamiseen.'
+  name: '&bParannuspaja'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oKone'
 LIGHT_BOOTS:
+  name: '&eKevyet saappaat'
+  stats:
+  - '&7Hyppy I'
+  - '&7Nopeus I'
+  - '&7Kevytrakenteinen'
   type:
   - '&7&oPanssari'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Valmistusmateriaali'
+  name: '&fKevyiden saappaiden runko'
   type:
   - '&7&oResurssi'
 MAGIC_LUMP_4:
+  name: '&6Maaginen kappale &7- &eIV'
+  stats:
+  - '&c&oTaso: IV'
   type:
   - '&7&oResurssi'
 MAGIC_LUMP_5:
+  name: '&6Maaginen kappale &7- &eV'
+  stats:
+  - '&c&oTaso: V'
   type:
   - '&7&oResurssi'
 MAGMA_ESSENCE:
+  name: '&cMagmaessenssi'
   type:
   - '&7&oResurssi'
 NUCLEAR_SALT:
+  name: '&aYdinsuola'
   stats:
   - '&a☢&7 Säteilytaso: &cERITTÄIN KORKEA'
   type:
   - '&7&oResurssi'
 PARROT_FEATHER:
+  name: '&aPapukaijan sulka'
   type:
   - '&7&oResurssi'
 PIXIE_DUST:
+  name: '&eKeijupöly'
+  stats:
+  - '&7Voima IV'
   type:
   - '&7&oRuoka'
 PIXIE_QUEEN_HEART:
+  name: '&4Keijukuningattaren sydän'
   type:
   - '&7&oResurssi'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aKeijukuningattaren kutsumuna'
   type:
   - '&7&oSekalainen'
 POLAR_FOX_HIDE:
+  name: '&fNapaketun nahka'
   type:
   - '&7&oResurssi'
 POSEIDONS_BLESSING:
+  name: '&bPoseidonin siunaus'
   type:
   - '&7&oResurssi'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Voi pyydystää erikoisesineitä.'
+  name: '&bPoseidonin vapa'
+  stats:
+  - '&7Poseidonin siunaus'
   type:
   - '&7&oTyökalu'
 POSITION_SELECTOR:
+  name: '&eSijainnin valitsin'
   stats:
   - '&8⇨ &e⚡ &7200 J puskuri'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&7Napsauta palikkaa vasemmalla valitaksesi ensisijaisen sijainnin.'
+  - '&7Napsauta palikkaa oikealla valitaksesi toissijaisen sijainnin.'
 POTION_MIXER:
+  description:
+  - '&7Käytetään juomien sekoittamiseen.'
+  name: '&bJuomasekoitin'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oKone'
 PURE_BONE_DUST:
+  name: '&bPuhdas luupöly'
   type:
   - '&7&oResurssi'
 PURIFIED_BONE:
+  name: '&bPuhdistettu luu'
   type:
   - '&7&oResurssi'
 REINFORCED_STRING:
+  name: '&bVahvistettu lanka'
   type:
   - '&7&oResurssi'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Mahdollistaa voimakenttäkupolin ohjaamisen etäältä.'
+  name: '&cKaukosäädin'
   stats:
   - '&8⇨ &e⚡ &71000 J puskuri'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&7Sido se Shift + oikealla napsautuksella.'
 RESISTANT_CHESTPLATE:
+  name: '&aVastustuskykyinen rintapanssari'
+  stats:
+  - '&7Vastustuskyky I'
+  - '&7Uusiutuminen I'
   type:
   - '&7&oPanssari'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Valmistusmateriaali'
+  name: '&fVastustuskykyisen rintapanssarin runko'
   type:
   - '&7&oResurssi'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Käytetään uhrialttarin osana.'
+  name: '&fUhrimustakivitiilet'
   type:
   - '&7&oKone'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Käytetään uhrialttarin osana.'
+  name: '&fUhrimustakivitiiliportaat'
   type:
   - '&7&oKone'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Käytetään uhrialttarin osana.'
+  name: '&fUhrimustakivitiilimuuri'
   type:
   - '&7&oKone'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Käytetään uhrialttarin osana.'
+  name: '&fUhrimatto'
   type:
   - '&7&oKone'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Käytetään uhrialttarin osana.'
+  name: '&fUhrisielusoihtu'
   type:
   - '&7&oKone'
 SPONGE_WAND:
+  name: '&eSienisauva'
   stats:
   - '&8⇨ &e⚡ &72000 J puskuri'
   type:
   - '&7&oTyökalu'
+  usage:
+  - '&7Valitse kulmapisteet sijainnin valitsimella.'
+  - '&7Napsauta oikealla poistaaksesi veden ja laavan.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Vakaa materiaali.'
+  name: '&bVakautettu polttava palikka'
   type:
   - '&7&oResurssi'
 SWEETENED_SWEET_INGOT:
+  name: '&eMakeutettu makea harkko'
   type:
   - '&7&oResurssi'
 SWEET_INGOT:
+  name: '&eMakea harkko'
   type:
   - '&7&oResurssi'
 TROPICAL_FISH_SCALE:
+  name: '&bTrooppisen kalan suomu'
   type:
   - '&7&oResurssi'
 UNBREAKABLE_RUNE:
+  name: '&7Muinainen riimu &8&l[&2&lRikkoutumaton&8&l]'
   type:
   - '&7&oSekalainen'
+  usage:
+  - '&ePudota tämä riimu pudotetun esineen päälle'
+  - '&etehdäksesi siitä &2rikkoutumattoman'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cEpäpyhä Wither-luurangon luu'
   type:
   - '&7&oResurssi'
 VILE_PUMPKIN:
+  name: '&cIljettävä kurpitsa'
   type:
   - '&7&oResurssi'
 VILE_SEEDS:
+  name: '&cIljettävät siemenet'
+  stats:
+  - '&7Terveystehostus V'
   type:
   - '&7&oRuoka'
 WIRELESS_TRANSMITTER:
+  name: '&fLangaton lähetin'
   type:
   - '&7&oResurssi'
