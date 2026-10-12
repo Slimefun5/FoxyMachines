@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eأكري أركوم'
+  stats:
+  - '&7ضرر III'
+  - '&7ثقب الدروع II'
   type:
   - '&7&oسلاح'
 AQUATIC_HELMET:
+  name: '&bخوذة مائية'
+  stats:
+  - '&7التنفس تحت الماء'
+  - '&7رؤية في الظلام'
   type:
   - '&7&oدرع'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bسبيكة نيثرايت مائية'
   type:
   - '&7&oمورد'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7يزيل الأشواك من شجيرات التوت الحلو.'
+  name: '&eمُقلّم شجيرات التوت الحلو'
   type:
   - '&7&oأداة'
 BLOOD:
+  name: '&cدم'
   type:
   - '&7&oمورد'
 BLOOD_INFUSED_SKULL:
+  name: '&cجمجمة مشبعة بالدم'
   type:
   - '&7&oمورد'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7تدعم 2.5x من السرعة.'
+  name: '&fسكة تنشيط مُسرّعة'
   type:
   - '&7&oآلة'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7تدعم 2.5x من السرعة.'
+  name: '&fسكة كشف مُسرّعة'
   type:
   - '&7&oآلة'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7تدعم 2.5x من السرعة.'
+  name: '&fسكة مُسرّعة مزوّدة بالطاقة'
   type:
   - '&7&oآلة'
 BOOSTED_RAIL:
+  description:
+  - '&7تدعم 2.5x من السرعة.'
+  name: '&fسكة مُسرّعة'
   type:
   - '&7&oآلة'
 BUCKET_OF_BLOOD:
+  name: '&cدلو دم'
   type:
   - '&7&oمورد'
 CELESTIAL_SHARD:
+  description:
+  - '&7مادة صناعة'
+  - '&7ستعيد ضبط مهمة عند إلقائها في مذبح...'
+  name: '&eشظية سماوية'
   type:
   - '&7&oمورد'
 CELESTIAL_SWORD:
+  name: '&eسيف سماوي'
+  stats:
+  - '&7صعقة إلهية II'
+  - '&7اختراق الدروع V'
   type:
   - '&7&oسلاح'
 CHUNK_LOADER:
+  description:
+  - '&7يُبقي القطاع مُحمّلًا.'
+  name: '&bمُحمّل القطاع'
   type:
   - '&7&oآلة'
 COMPRESSED_SPONGE:
+  name: '&fإسفنج مضغوط'
   type:
   - '&7&oمورد'
 CURSED_RABBIT_PAW:
+  name: '&cكف أرنب ملعون'
   type:
   - '&7&oمورد'
 CURSED_SHARD:
+  description:
+  - '&7مادة صناعة'
+  - '&7ستعيد ضبط مهمة عند إلقائها في مذبح...'
+  name: '&cشظية ملعونة'
   type:
   - '&7&oمورد'
 CURSED_SWORD:
+  description:
+  - '&7يُربك الأعداء. ويزيد الضرر.'
+  - '&7قد يؤثّر سلبًا على حامله.'
+  name: '&cسيف ملعون'
+  stats:
+  - '&7سرقة الحياة I'
+  - '&7اختراق الدروع I'
   type:
   - '&7&oسلاح'
 DAMIENIUM:
+  name: '&aداميينيوم'
   type:
   - '&7&oمورد'
 DEMONIC_INGOT:
+  name: '&cسبيكة شيطانية'
   type:
   - '&7&oمورد'
 DEMONIC_PLATE:
+  name: '&cصفيحة شيطانية'
   type:
   - '&7&oمورد'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7أشعل جحيمًا.'
+  name: '&4عصا النار الكهربائية'
   stats:
   - '&8⇨ &e⚡ &7مخزن 100 جول'
   type:
   - '&7&oأداة'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7نار، نار، نار!'
+  name: '&4عصا النار الكهربائية &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7مخزن 200 جول'
   type:
   - '&7&oأداة'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7تُنقّي غبار الذهب إلى سبائك ذهب.'
+  name: '&bمصفاة الذهب الكهربائية'
   stats:
   - '&8⇨ &e⚡ &736 جول/ث'
   type:
   - '&7&oآلة'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7اركب الريح.'
+  name: '&bعصا الريح الكهربائية'
   stats:
   - '&8⇨ &e⚡ &7مخزن 100 جول'
   type:
   - '&7&oأداة'
 ELUCIDATOR:
+  name: '&bإلوسيديتور'
+  stats:
+  - '&7ضرر III'
+  - '&7سرقة الحياة II'
+  - '&7اختراق الدروع II'
+  - '&7شفاء مُفرط'
   type:
   - '&7&oسلاح'
 EQUANIMOUS_GEM:
+  name: '&aجوهرة الاتزان'
   type:
   - '&7&oمورد'
 FIERY_LEGGINGS:
+  name: '&cبنطال ناري'
+  stats:
+  - '&7هالة نار II'
   type:
   - '&7&oدرع'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7مادة صناعة'
+  name: '&fإطار البنطال الناري'
   type:
   - '&7&oمورد'
 FILL_WAND:
+  name: '&eعصا التعبئة'
   stats:
   - '&8⇨ &e⚡ &7مخزن 1000 جول'
   type:
   - '&7&oأداة'
+  usage:
+  - '&7حدّد نقاط الأركان بمُحدّد الموضع.'
+  - '&7شِفت + الأيمن لتحديد المادة.'
+  - '&7انقر بالزر الأيمن لتعبئة منطقة.'
 FORCEFIELD_DOME:
+  description:
+  - '&7عند تزويدها بالطاقة، تنشئ حاجزًا واقيًا'
+  - '&7بنطاق 32 كتلة.'
+  - '&7يعود إلى حالته عند انقطاع الطاقة أو كسره'
+  name: '&4قبة مجال القوة'
   stats:
   - '&8⇨ &e⚡ &76000 جول/ث'
   type:
   - '&7&oآلة'
 FORCEFIELD_ENGINE:
+  name: '&fمحرّك مجال القوة'
   type:
   - '&7&oمورد'
 FORCEFIELD_STABILIZER:
+  name: '&fمُثبّت مجال القوة'
   type:
   - '&7&oمورد'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7كتلة غير ملموسة.'
+  name: '&fكتلة شبح: &6%mob%'
   type:
   - '&7&oجهاز'
 GHOST_BLOCK_REMOVER:
+  name: '&eمُزيل كتل الأشباح'
   type:
   - '&7&oأداة'
+  usage:
+  - '&7انقر بالزر الأيمن لإزالة كتلة شبح.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cبيضة استدعاء الفارس المقطوع الرأس'
   type:
   - '&7&oمتنوع'
 HEALING_BOW:
+  description:
+  - '&8أخيرًا سلاح دعم.'
+  name: '&4قوس الشفاء'
+  stats:
+  - '&cشفاء II'
   type:
   - '&7&oسلاح'
 HELMET_FRAME:
+  description:
+  - '&7مادة صناعة'
+  name: '&fإطار الخوذة المائية'
   type:
   - '&7&oمورد'
 HUMAN_SKULL:
+  name: '&cجمجمة بشرية'
   type:
   - '&7&oمورد'
 IMPROVEMENT_CORE:
+  description:
+  - '&7اجمعها مع أداة في مصهر التحسين لتحسينها.'
+  name: '&aنواة التحسين'
   type:
   - '&7&oمورد'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7يُستخدم لتحسين أدوات Slimefun وأسلحتها ودروعها.'
+  name: '&bمصهر التحسين'
   stats:
   - '&8⇨ &e⚡ &7128 جول/ث'
   type:
   - '&7&oآلة'
 LIGHT_BOOTS:
+  name: '&eحذاء خفيف'
+  stats:
+  - '&7قفز I'
+  - '&7سرعة I'
+  - '&7خفيف الوزن'
   type:
   - '&7&oدرع'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7مادة صناعة'
+  name: '&fإطار الحذاء الخفيف'
   type:
   - '&7&oمورد'
 MAGIC_LUMP_4:
+  name: '&6كتلة سحرية &7- &eIV'
+  stats:
+  - '&c&oالرتبة: IV'
   type:
   - '&7&oمورد'
 MAGIC_LUMP_5:
+  name: '&6كتلة سحرية &7- &eV'
+  stats:
+  - '&c&oالرتبة: V'
   type:
   - '&7&oمورد'
 MAGMA_ESSENCE:
+  name: '&cجوهر الحمم'
   type:
   - '&7&oمورد'
 NUCLEAR_SALT:
+  name: '&aملح نووي'
   stats:
   - '&a☢&7 مستوى الإشعاع: &cمرتفع جدا'
   type:
   - '&7&oمورد'
 PARROT_FEATHER:
+  name: '&aريشة ببغاء'
   type:
   - '&7&oمورد'
 PIXIE_DUST:
+  name: '&eغبار الجنيّات'
+  stats:
+  - '&7قوة IV'
   type:
   - '&7&oطعام'
 PIXIE_QUEEN_HEART:
+  name: '&4قلب ملكة الجنيّات'
   type:
   - '&7&oمورد'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aبيضة استدعاء ملكة الجنيّات'
   type:
   - '&7&oمتنوع'
 POLAR_FOX_HIDE:
+  name: '&fجلد الثعلب القطبي'
   type:
   - '&7&oمورد'
 POSEIDONS_BLESSING:
+  name: '&bبركة بوسيدون'
   type:
   - '&7&oمورد'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7تستطيع اصطياد عناصر خاصة.'
+  name: '&bصنارة بوسيدون'
+  stats:
+  - '&7بركة بوسيدون'
   type:
   - '&7&oأداة'
 POSITION_SELECTOR:
+  name: '&eمُحدّد الموضع'
   stats:
   - '&8⇨ &e⚡ &7مخزن 200 جول'
   type:
   - '&7&oأداة'
+  usage:
+  - '&7انقر بالزر الأيسر على كتلة لتحديد الموضع الأول.'
+  - '&7انقر بالزر الأيمن على كتلة لتحديد الموضع الثاني.'
 POTION_MIXER:
+  description:
+  - '&7يُستخدم لخلط الجرعات.'
+  name: '&bخلّاط الجرعات'
   stats:
   - '&8⇨ &e⚡ &728 جول/ث'
   type:
   - '&7&oآلة'
 PURE_BONE_DUST:
+  name: '&bغبار عظم نقي'
   type:
   - '&7&oمورد'
 PURIFIED_BONE:
+  name: '&bعظم مُنقّى'
   type:
   - '&7&oمورد'
 REINFORCED_STRING:
+  name: '&bخيط معزّز'
   type:
   - '&7&oمورد'
 REMOTE_CONTROLLER:
+  description:
+  - '&7يسمح لك بالتحكم في قبة مجال القوة من بعيد.'
+  name: '&cمتحكّم بعيد'
   stats:
   - '&8⇨ &e⚡ &7مخزن 1000 جول'
   type:
   - '&7&oأداة'
+  usage:
+  - '&7اربطه باستخدام شِفت + الأيمن.'
 RESISTANT_CHESTPLATE:
+  name: '&aصدرية مقاومة'
+  stats:
+  - '&7مقاومة I'
+  - '&7تجدّد I'
   type:
   - '&7&oدرع'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7مادة صناعة'
+  name: '&fإطار الصدرية المقاومة'
   type:
   - '&7&oمورد'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7يُستخدم كجزء من المذبح القرباني.'
+  name: '&fطوب الحجر الأسود القرباني'
   type:
   - '&7&oآلة'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7يُستخدم كجزء من المذبح القرباني.'
+  name: '&fدرج طوب الحجر الأسود القرباني'
   type:
   - '&7&oآلة'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7يُستخدم كجزء من المذبح القرباني.'
+  name: '&fجدار طوب الحجر الأسود القرباني'
   type:
   - '&7&oآلة'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7يُستخدم كجزء من المذبح القرباني.'
+  name: '&fبساط قرباني'
   type:
   - '&7&oآلة'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7يُستخدم كجزء من المذبح القرباني.'
+  name: '&fشعلة الروح القربانية'
   type:
   - '&7&oآلة'
 SPONGE_WAND:
+  name: '&eعصا الإسفنج'
   stats:
   - '&8⇨ &e⚡ &7مخزن 2000 جول'
   type:
   - '&7&oأداة'
+  usage:
+  - '&7حدّد نقاط الأركان بمُحدّد الموضع.'
+  - '&7انقر بالزر الأيمن لإزالة الماء والحمم.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7مادة مستقرة.'
+  name: '&bكتلة ملتهبة مُستقرة'
   type:
   - '&7&oمورد'
 SWEETENED_SWEET_INGOT:
+  name: '&eسبيكة حلوة مُحلّاة'
   type:
   - '&7&oمورد'
 SWEET_INGOT:
+  name: '&eسبيكة حلوة'
   type:
   - '&7&oمورد'
 TROPICAL_FISH_SCALE:
+  name: '&bحرشفة سمكة استوائية'
   type:
   - '&7&oمورد'
 UNBREAKABLE_RUNE:
+  name: '&7رونة قديمة &8&l[&2&lغير قابلة للكسر&8&l]'
   type:
   - '&7&oمتنوع'
+  usage:
+  - '&eأسقط هذه الرونة على عنصر مُلقى كي'
+  - '&eتجعله &2غير قابل للكسر'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cعظم هيكل ويثر دنس'
   type:
   - '&7&oمورد'
 VILE_PUMPKIN:
+  name: '&cيقطين خبيث'
   type:
   - '&7&oمورد'
 VILE_SEEDS:
+  name: '&cبذور خبيثة'
+  stats:
+  - '&7تعزيز الصحة V'
   type:
   - '&7&oطعام'
 WIRELESS_TRANSMITTER:
+  name: '&fمُرسل لاسلكي'
   type:
   - '&7&oمورد'
