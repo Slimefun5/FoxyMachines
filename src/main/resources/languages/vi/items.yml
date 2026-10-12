@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Sát thương III'
+  - '&7Đâm xuyên Giáp II'
   type:
   - '&7&oVũ Khí'
 AQUATIC_HELMET:
+  name: '&bMũ Thủy sinh'
+  stats:
+  - '&7Hô hấp dưới Nước'
+  - '&7Tầm nhìn trong Tối'
   type:
   - '&7&oGiáp'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bThỏi Netherite Thủy sinh'
   type:
   - '&7&oTài Nguyên'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Loại bỏ gai khỏi bụi cây mâm xôi ngọt.'
+  name: '&eMáy tỉa Bụi cây Mâm xôi Ngọt'
   type:
   - '&7&oDụng Cụ'
 BLOOD:
+  name: '&cMáu'
   type:
   - '&7&oTài Nguyên'
 BLOOD_INFUSED_SKULL:
+  name: '&cSọ Tẩm Máu'
   type:
   - '&7&oTài Nguyên'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Hỗ trợ tốc độ 2.5x.'
+  name: '&fĐường ray Kích hoạt Tăng cường'
   type:
   - '&7&oMáy Móc'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Hỗ trợ tốc độ 2.5x.'
+  name: '&fĐường ray Cảm biến Tăng cường'
   type:
   - '&7&oMáy Móc'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Hỗ trợ tốc độ 2.5x.'
+  name: '&fĐường ray Cấp điện Tăng cường'
   type:
   - '&7&oMáy Móc'
 BOOSTED_RAIL:
+  description:
+  - '&7Hỗ trợ tốc độ 2.5x.'
+  name: '&fĐường ray Tăng cường'
   type:
   - '&7&oMáy Móc'
 BUCKET_OF_BLOOD:
+  name: '&cXô Máu'
   type:
   - '&7&oTài Nguyên'
 CELESTIAL_SHARD:
+  description:
+  - '&7Nguyên liệu chế tạo'
+  - '&7Sẽ đặt lại một Nhiệm vụ khi ném vào một Bàn thờ...'
+  name: '&eMảnh Thiên giới'
   type:
   - '&7&oTài Nguyên'
 CELESTIAL_SWORD:
+  name: '&eKiếm Thiên giới'
+  stats:
+  - '&7Giáng phạt Thần thánh II'
+  - '&7Xuyên Giáp V'
   type:
   - '&7&oVũ Khí'
 CHUNK_LOADER:
+  description:
+  - '&7Giữ cho vùng luôn được tải.'
+  name: '&bMáy tải Vùng'
   type:
   - '&7&oMáy Móc'
 COMPRESSED_SPONGE:
+  name: '&fBọt biển Nén'
   type:
   - '&7&oTài Nguyên'
 CURSED_RABBIT_PAW:
+  name: '&cChân Thỏ Bị nguyền'
   type:
   - '&7&oTài Nguyên'
 CURSED_SHARD:
+  description:
+  - '&7Nguyên liệu chế tạo'
+  - '&7Sẽ đặt lại một Nhiệm vụ khi ném vào một Bàn thờ...'
+  name: '&cMảnh Bị nguyền'
   type:
   - '&7&oTài Nguyên'
 CURSED_SWORD:
+  description:
+  - '&7Gây hoang mang cho địch. Tăng sát thương.'
+  - '&7Có thể gây hại cho chính người dùng.'
+  name: '&cKiếm Bị nguyền'
+  stats:
+  - '&7Hút Sinh lực I'
+  - '&7Xuyên Giáp I'
   type:
   - '&7&oVũ Khí'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oTài Nguyên'
 DEMONIC_INGOT:
+  name: '&cThỏi Quỷ'
   type:
   - '&7&oTài Nguyên'
 DEMONIC_PLATE:
+  name: '&cTấm Quỷ'
   type:
   - '&7&oTài Nguyên'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Tạo ra biển lửa.'
+  name: '&4Gậy Lửa Điện'
   stats:
   - '&8⇨ &e⚡ &7100 J Bộ Đệm'
   type:
   - '&7&oDụng Cụ'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Lửa, lửa, lửa!'
+  name: '&4Gậy Lửa Điện &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Bộ Đệm'
   type:
   - '&7&oDụng Cụ'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Tinh luyện bột vàng thành thỏi vàng.'
+  name: '&bXưởng tinh luyện Vàng Điện'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMáy Móc'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Cưỡi trên ngọn gió.'
+  name: '&bGậy Gió Điện'
   stats:
   - '&8⇨ &e⚡ &7100 J Bộ Đệm'
   type:
   - '&7&oDụng Cụ'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Sát thương III'
+  - '&7Hút Sinh lực II'
+  - '&7Xuyên Giáp II'
+  - '&7Hồi phục Vượt mức'
   type:
   - '&7&oVũ Khí'
 EQUANIMOUS_GEM:
+  name: '&aĐá quý Thanh thản'
   type:
   - '&7&oTài Nguyên'
 FIERY_LEGGINGS:
+  name: '&cQuần giáp Rực lửa'
+  stats:
+  - '&7Hào quang Lửa II'
   type:
   - '&7&oGiáp'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Nguyên liệu chế tạo'
+  name: '&fKhung Quần giáp Rực lửa'
   type:
   - '&7&oTài Nguyên'
 FILL_WAND:
+  name: '&eGậy Lấp'
   stats:
   - '&8⇨ &e⚡ &71000 J Bộ Đệm'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&7Chọn các điểm góc bằng Bộ chọn Vị trí.'
+  - '&7Shift chuột phải để chọn nguyên liệu.'
+  - '&7Chuột phải để lấp một khu vực.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Khi được cấp điện, tạo ra một hàng rào bảo vệ'
+  - '&7với bán kính 32 khối.'
+  - '&7Sẽ trở lại khi mất điện hoặc bị phá'
+  name: '&4Vòm Trường lực'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMáy Móc'
 FORCEFIELD_ENGINE:
+  name: '&fĐộng cơ Trường lực'
   type:
   - '&7&oTài Nguyên'
 FORCEFIELD_STABILIZER:
+  name: '&fBộ ổn định Trường lực'
   type:
   - '&7&oTài Nguyên'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Một khối vô hình.'
+  name: '&fKhối Bóng ma: &6%mob%'
   type:
   - '&7&oThiết Bị'
 GHOST_BLOCK_REMOVER:
+  name: '&eMáy gỡ Khối Bóng ma'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&7Chuột phải để gỡ một Khối Bóng ma.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cTrứng Sinh sản Kỵ sĩ Không đầu'
   type:
   - '&7&oLinh Tinh'
 HEALING_BOW:
+  description:
+  - '&8Cuối cùng cũng có một vũ khí hỗ trợ.'
+  name: '&4Cung Hồi phục'
+  stats:
+  - '&cHồi phục II'
   type:
   - '&7&oVũ Khí'
 HELMET_FRAME:
+  description:
+  - '&7Nguyên liệu chế tạo'
+  name: '&fKhung Mũ Thủy sinh'
   type:
   - '&7&oTài Nguyên'
 HUMAN_SKULL:
+  name: '&cSọ Người'
   type:
   - '&7&oTài Nguyên'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Kết hợp nó với một công cụ trong Lò rèn Cải tiến để cải tiến công cụ đó.'
+  name: '&aLõi Cải tiến'
   type:
   - '&7&oTài Nguyên'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Dùng để cải tiến công cụ, vũ khí và giáp Slimefun.'
+  name: '&bLò rèn Cải tiến'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMáy Móc'
 LIGHT_BOOTS:
+  name: '&eGiày Nhẹ'
+  stats:
+  - '&7Nhảy I'
+  - '&7Tốc độ I'
+  - '&7Nhẹ nhàng'
   type:
   - '&7&oGiáp'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Nguyên liệu chế tạo'
+  name: '&fKhung Giày Nhẹ'
   type:
   - '&7&oTài Nguyên'
 MAGIC_LUMP_4:
+  name: '&6Cục Phép thuật &7- &eIV'
+  stats:
+  - '&c&oBậc: IV'
   type:
   - '&7&oTài Nguyên'
 MAGIC_LUMP_5:
+  name: '&6Cục Phép thuật &7- &eV'
+  stats:
+  - '&c&oBậc: V'
   type:
   - '&7&oTài Nguyên'
 MAGMA_ESSENCE:
+  name: '&cTinh chất Magma'
   type:
   - '&7&oTài Nguyên'
 NUCLEAR_SALT:
+  name: '&aMuối Hạt nhân'
   stats:
   - '&a☢&7 Mức Phóng Xạ: &cRẤT CAO'
   type:
   - '&7&oTài Nguyên'
 PARROT_FEATHER:
+  name: '&aLông Vũ Vẹt'
   type:
   - '&7&oTài Nguyên'
 PIXIE_DUST:
+  name: '&eBột Tiên'
+  stats:
+  - '&7Sức mạnh IV'
   type:
   - '&7&oThức Ăn'
 PIXIE_QUEEN_HEART:
+  name: '&4Tim Nữ hoàng Tiên'
   type:
   - '&7&oTài Nguyên'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aTrứng Sinh sản Nữ hoàng Tiên'
   type:
   - '&7&oLinh Tinh'
 POLAR_FOX_HIDE:
+  name: '&fDa Cáo Bắc cực'
   type:
   - '&7&oTài Nguyên'
 POSEIDONS_BLESSING:
+  name: '&bPhước lành của Poseidon'
   type:
   - '&7&oTài Nguyên'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Có thể câu được vật phẩm đặc biệt.'
+  name: '&bCần câu của Poseidon'
+  stats:
+  - '&7Phước lành của Poseidon'
   type:
   - '&7&oDụng Cụ'
 POSITION_SELECTOR:
+  name: '&eBộ chọn Vị trí'
   stats:
   - '&8⇨ &e⚡ &7200 J Bộ Đệm'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&7Chuột trái vào một khối để chọn vị trí thứ nhất.'
+  - '&7Chuột phải vào một khối để chọn vị trí thứ hai.'
 POTION_MIXER:
+  description:
+  - '&7Dùng để pha thuốc.'
+  name: '&bMáy pha Thuốc'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMáy Móc'
 PURE_BONE_DUST:
+  name: '&bBột Xương Tinh khiết'
   type:
   - '&7&oTài Nguyên'
 PURIFIED_BONE:
+  name: '&bXương Thanh tẩy'
   type:
   - '&7&oTài Nguyên'
 REINFORCED_STRING:
+  name: '&bDây Gia cố'
   type:
   - '&7&oTài Nguyên'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Cho phép bạn điều khiển Vòm Trường lực của bạn từ xa.'
+  name: '&cBộ điều khiển Từ xa'
   stats:
   - '&8⇨ &e⚡ &71000 J Bộ Đệm'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&7Liên kết nó bằng Shift + Chuột phải.'
 RESISTANT_CHESTPLATE:
+  name: '&aÁo giáp Kháng lực'
+  stats:
+  - '&7Kháng Sát thương I'
+  - '&7Tái tạo I'
   type:
   - '&7&oGiáp'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Nguyên liệu chế tạo'
+  name: '&fKhung Áo giáp Kháng lực'
   type:
   - '&7&oTài Nguyên'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Dùng làm một phần của Bàn thờ Hiến tế.'
+  name: '&fGạch Đá đen Hiến tế'
   type:
   - '&7&oMáy Móc'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Dùng làm một phần của Bàn thờ Hiến tế.'
+  name: '&fBậc thang Gạch Đá đen Hiến tế'
   type:
   - '&7&oMáy Móc'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Dùng làm một phần của Bàn thờ Hiến tế.'
+  name: '&fTường Gạch Đá đen Hiến tế'
   type:
   - '&7&oMáy Móc'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Dùng làm một phần của Bàn thờ Hiến tế.'
+  name: '&fThảm Hiến tế'
   type:
   - '&7&oMáy Móc'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Dùng làm một phần của Bàn thờ Hiến tế.'
+  name: '&fĐuốc Linh hồn Hiến tế'
   type:
   - '&7&oMáy Móc'
 SPONGE_WAND:
+  name: '&eGậy Bọt biển'
   stats:
   - '&8⇨ &e⚡ &72000 J Bộ Đệm'
   type:
   - '&7&oDụng Cụ'
+  usage:
+  - '&7Chọn các điểm góc bằng Bộ chọn Vị trí.'
+  - '&7Chuột phải để loại bỏ Nước và Dung nham.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Một nguyên liệu ổn định.'
+  name: '&bKhối Rực cháy Ổn định'
   type:
   - '&7&oTài Nguyên'
 SWEETENED_SWEET_INGOT:
+  name: '&eThỏi Ngọt ngào Tẩm ngọt'
   type:
   - '&7&oTài Nguyên'
 SWEET_INGOT:
+  name: '&eThỏi Ngọt ngào'
   type:
   - '&7&oTài Nguyên'
 TROPICAL_FISH_SCALE:
+  name: '&bVảy Cá Nhiệt đới'
   type:
   - '&7&oTài Nguyên'
 UNBREAKABLE_RUNE:
+  name: '&7Phù văn Cổ đại &8&l[&2&lBất hoại&8&l]'
   type:
   - '&7&oLinh Tinh'
+  usage:
+  - '&eThả phù văn này lên một vật phẩm đã rơi để'
+  - '&elàm nó &2bất hoại'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cXương Bộ xương Wither Tà ác'
   type:
   - '&7&oTài Nguyên'
 VILE_PUMPKIN:
+  name: '&cBí ngô Hiểm độc'
   type:
   - '&7&oTài Nguyên'
 VILE_SEEDS:
+  name: '&cHạt giống Hiểm độc'
+  stats:
+  - '&7Tăng Sinh lực V'
   type:
   - '&7&oThức Ăn'
 WIRELESS_TRANSMITTER:
+  name: '&fBộ phát Không dây'
   type:
   - '&7&oTài Nguyên'
