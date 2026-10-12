@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eاکری آرکوم'
+  stats:
+  - '&7آسیب III'
+  - '&7سوراخ‌کنندگی زره II'
   type:
   - '&7&oسلاح'
 AQUATIC_HELMET:
+  name: '&bکلاه‌خود آبی'
+  stats:
+  - '&7تنفس زیر آب'
+  - '&7دید در تاریکی'
   type:
   - '&7&oزره'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bشمش نترایت آبی'
   type:
   - '&7&oمنبع'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7خارها را از بوته‌های توت شیرین برمی‌دارد.'
+  name: '&eپیرایشگر بوته توت شیرین'
   type:
   - '&7&oابزار'
 BLOOD:
+  name: '&cخون'
   type:
   - '&7&oمنبع'
 BLOOD_INFUSED_SKULL:
+  name: '&cجمجمه آکنده از خون'
   type:
   - '&7&oمنبع'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7تا 2.5x سرعت را پشتیبانی می‌کند.'
+  name: '&fریل فعال‌ساز پرشتاب'
   type:
   - '&7&oماشین'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7تا 2.5x سرعت را پشتیبانی می‌کند.'
+  name: '&fریل حس‌گر پرشتاب'
   type:
   - '&7&oماشین'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7تا 2.5x سرعت را پشتیبانی می‌کند.'
+  name: '&fریل نیرودار پرشتاب'
   type:
   - '&7&oماشین'
 BOOSTED_RAIL:
+  description:
+  - '&7تا 2.5x سرعت را پشتیبانی می‌کند.'
+  name: '&fریل پرشتاب'
   type:
   - '&7&oماشین'
 BUCKET_OF_BLOOD:
+  name: '&cسطل خون'
   type:
   - '&7&oمنبع'
 CELESTIAL_SHARD:
+  description:
+  - '&7مواد ساخت'
+  - '&7اگر در محراب انداخته شود، یک ماموریت را از نو آغاز می‌کند...'
+  name: '&eخرده آسمانی'
   type:
   - '&7&oمنبع'
 CELESTIAL_SWORD:
+  name: '&eشمشیر آسمانی'
+  stats:
+  - '&7ضربهٔ الهی II'
+  - '&7نفوذ در زره V'
   type:
   - '&7&oسلاح'
 CHUNK_LOADER:
+  description:
+  - '&7چانک را بارگذاری‌شده نگه می‌دارد.'
+  name: '&bبارگذار چانک'
   type:
   - '&7&oماشین'
 COMPRESSED_SPONGE:
+  name: '&fاسفنج فشرده'
   type:
   - '&7&oمنبع'
 CURSED_RABBIT_PAW:
+  name: '&cپنجه خرگوش نفرین‌شده'
   type:
   - '&7&oمنبع'
 CURSED_SHARD:
+  description:
+  - '&7مواد ساخت'
+  - '&7اگر در محراب انداخته شود، یک ماموریت را از نو آغاز می‌کند...'
+  name: '&cخرده نفرین‌شده'
   type:
   - '&7&oمنبع'
 CURSED_SWORD:
+  description:
+  - '&7دشمنان را گیج می‌کند. آسیب را بیشتر می‌کند.'
+  - '&7می‌تواند بر دارنده اثر بد بگذارد.'
+  name: '&cشمشیر نفرین‌شده'
+  stats:
+  - '&7دزدی جان I'
+  - '&7نفوذ در زره I'
   type:
   - '&7&oسلاح'
 DAMIENIUM:
+  name: '&aدامینیوم'
   type:
   - '&7&oمنبع'
 DEMONIC_INGOT:
+  name: '&cشمش اهریمنی'
   type:
   - '&7&oمنبع'
 DEMONIC_PLATE:
+  name: '&cصفحه اهریمنی'
   type:
   - '&7&oمنبع'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7دوزخ بسازید.'
+  name: '&4عصای آتش برقی'
   stats:
   - '&8⇨ &e⚡ &7بافر 100 ژول'
   type:
   - '&7&oابزار'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7آتش، آتش، آتش!'
+  name: '&4عصای آتش برقی &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7بافر 200 ژول'
   type:
   - '&7&oابزار'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7گرد طلا را به شمش طلا تصفیه می‌کند.'
+  name: '&bتصفیه‌خانه برقی طلا'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oماشین'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7بر باد سوار شوید.'
+  name: '&bعصای بادی برقی'
   stats:
   - '&8⇨ &e⚡ &7بافر 100 ژول'
   type:
   - '&7&oابزار'
 ELUCIDATOR:
+  name: '&bالوسیدیتور'
+  stats:
+  - '&7آسیب III'
+  - '&7دزدی جان II'
+  - '&7نفوذ در زره II'
+  - '&7فراشفا'
   type:
   - '&7&oسلاح'
 EQUANIMOUS_GEM:
+  name: '&aگوهر آرام‌دل'
   type:
   - '&7&oمنبع'
 FIERY_LEGGINGS:
+  name: '&cساق‌پوش آتشین'
+  stats:
+  - '&7هاله آتش II'
   type:
   - '&7&oزره'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7مواد ساخت'
+  name: '&fقاب ساق‌پوش آتشین'
   type:
   - '&7&oمنبع'
 FILL_WAND:
+  name: '&eعصای پرکردن'
   stats:
   - '&8⇨ &e⚡ &7بافر 1000 ژول'
   type:
   - '&7&oابزار'
+  usage:
+  - '&7نقاط گوشه را با انتخابگر موقعیت برگزینید.'
+  - '&7شیفت + کلیک راست برای انتخاب ماده.'
+  - '&7کلیک راست برای پر کردن یک ناحیه.'
 FORCEFIELD_DOME:
+  description:
+  - '&7وقتی نیرودار باشد، سدی محافظ می‌سازد'
+  - '&7با شعاع 32 بلوک.'
+  - '&7با قطع نیرو یا شکستن به حالت نخست برمی‌گردد'
+  name: '&4گنبد میدان نیرو'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oماشین'
 FORCEFIELD_ENGINE:
+  name: '&fموتور میدان نیرو'
   type:
   - '&7&oمنبع'
 FORCEFIELD_STABILIZER:
+  name: '&fپایدارساز میدان نیرو'
   type:
   - '&7&oمنبع'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7یک بلوک ناملموس.'
+  name: '&fبلوک روح: &6%mob%'
   type:
   - '&7&oابزارک'
 GHOST_BLOCK_REMOVER:
+  name: '&eحذف‌کننده بلوک روح'
   type:
   - '&7&oابزار'
+  usage:
+  - '&7کلیک راست برای حذف بلوک روح.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cتخم احضار سوارکار بی‌سر'
   type:
   - '&7&oمتفرقه'
 HEALING_BOW:
+  description:
+  - '&8سرانجام یک سلاح پشتیبان.'
+  name: '&4کمان شفابخش'
+  stats:
+  - '&cشفا II'
   type:
   - '&7&oسلاح'
 HELMET_FRAME:
+  description:
+  - '&7مواد ساخت'
+  name: '&fقاب کلاه‌خود آبی'
   type:
   - '&7&oمنبع'
 HUMAN_SKULL:
+  name: '&cجمجمه انسان'
   type:
   - '&7&oمنبع'
 IMPROVEMENT_CORE:
+  description:
+  - '&7آن را با یک ابزار در آهنگری بهبود ترکیب کنید تا بهتر شود.'
+  name: '&aهسته بهبود'
   type:
   - '&7&oمنبع'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7برای بهبود ابزارها، سلاح‌ها و زره Slimefun به کار می‌رود.'
+  name: '&bآهنگری بهبود'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oماشین'
 LIGHT_BOOTS:
+  name: '&eچکمه سبک'
+  stats:
+  - '&7جهش I'
+  - '&7سرعت I'
+  - '&7سبک‌وزن'
   type:
   - '&7&oزره'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7مواد ساخت'
+  name: '&fقاب چکمه سبک'
   type:
   - '&7&oمنبع'
 MAGIC_LUMP_4:
+  name: '&6تکه جادویی &7- &eIV'
+  stats:
+  - '&c&oرده: IV'
   type:
   - '&7&oمنبع'
 MAGIC_LUMP_5:
+  name: '&6تکه جادویی &7- &eV'
+  stats:
+  - '&c&oرده: V'
   type:
   - '&7&oمنبع'
 MAGMA_ESSENCE:
+  name: '&cجوهر گدازه'
   type:
   - '&7&oمنبع'
 NUCLEAR_SALT:
+  name: '&aنمک هسته‌ای'
   stats:
   - '&a☢&7 سطح تشعشع: &cبسیار بالا'
   type:
   - '&7&oمنبع'
 PARROT_FEATHER:
+  name: '&aپر طوطی'
   type:
   - '&7&oمنبع'
 PIXIE_DUST:
+  name: '&eگرد پری'
+  stats:
+  - '&7قدرت IV'
   type:
   - '&7&oخوراکی'
 PIXIE_QUEEN_HEART:
+  name: '&4قلب ملکه پری'
   type:
   - '&7&oمنبع'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aتخم احضار ملکه پری'
   type:
   - '&7&oمتفرقه'
 POLAR_FOX_HIDE:
+  name: '&fپوست روباه قطبی'
   type:
   - '&7&oمنبع'
 POSEIDONS_BLESSING:
+  name: '&bبرکت پوزیدون'
   type:
   - '&7&oمنبع'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7می‌تواند آیتم‌های ویژه بگیرد.'
+  name: '&bچوب ماهیگیری پوزیدون'
+  stats:
+  - '&7برکت پوزیدون'
   type:
   - '&7&oابزار'
 POSITION_SELECTOR:
+  name: '&eانتخابگر موقعیت'
   stats:
   - '&8⇨ &e⚡ &7بافر 200 ژول'
   type:
   - '&7&oابزار'
+  usage:
+  - '&7کلیک چپ روی بلوک برای انتخاب موقعیت نخست.'
+  - '&7کلیک راست روی بلوک برای انتخاب موقعیت دوم.'
 POTION_MIXER:
+  description:
+  - '&7برای مخلوط کردن معجون‌ها به کار می‌رود.'
+  name: '&bمخلوط‌کن معجون'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oماشین'
 PURE_BONE_DUST:
+  name: '&bگرد استخوان خالص'
   type:
   - '&7&oمنبع'
 PURIFIED_BONE:
+  name: '&bاستخوان پاک‌شده'
   type:
   - '&7&oمنبع'
 REINFORCED_STRING:
+  name: '&bریسمان تقویت‌شده'
   type:
   - '&7&oمنبع'
 REMOTE_CONTROLLER:
+  description:
+  - '&7اجازه می‌دهد گنبد میدان نیروی خود را از دور کنترل کنید.'
+  name: '&cکنترلگر از دور'
   stats:
   - '&8⇨ &e⚡ &7بافر 1000 ژول'
   type:
   - '&7&oابزار'
+  usage:
+  - '&7با شیفت + کلیک راست آن را پیوند دهید.'
 RESISTANT_CHESTPLATE:
+  name: '&aسینه‌پوش مقاوم'
+  stats:
+  - '&7مقاومت I'
+  - '&7بازسازی I'
   type:
   - '&7&oزره'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7مواد ساخت'
+  name: '&fقاب سینه‌پوش مقاوم'
   type:
   - '&7&oمنبع'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7به‌عنوان بخشی از محراب قربانی به کار می‌رود.'
+  name: '&fآجرهای سنگ سیاه قربانی'
   type:
   - '&7&oماشین'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7به‌عنوان بخشی از محراب قربانی به کار می‌رود.'
+  name: '&fپله آجر سنگ سیاه قربانی'
   type:
   - '&7&oماشین'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7به‌عنوان بخشی از محراب قربانی به کار می‌رود.'
+  name: '&fدیوار آجر سنگ سیاه قربانی'
   type:
   - '&7&oماشین'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7به‌عنوان بخشی از محراب قربانی به کار می‌رود.'
+  name: '&fزیرانداز قربانی'
   type:
   - '&7&oماشین'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7به‌عنوان بخشی از محراب قربانی به کار می‌رود.'
+  name: '&fمشعل روح قربانی'
   type:
   - '&7&oماشین'
 SPONGE_WAND:
+  name: '&eعصای اسفنج'
   stats:
   - '&8⇨ &e⚡ &7بافر 2000 ژول'
   type:
   - '&7&oابزار'
+  usage:
+  - '&7نقاط گوشه را با انتخابگر موقعیت برگزینید.'
+  - '&7کلیک راست برای برداشتن آب و گدازه.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7یک مادهٔ پایدار.'
+  name: '&bبلوک تاول‌زن پایدارشده'
   type:
   - '&7&oمنبع'
 SWEETENED_SWEET_INGOT:
+  name: '&eشمش شیرین شیرین‌شده'
   type:
   - '&7&oمنبع'
 SWEET_INGOT:
+  name: '&eشمش شیرین'
   type:
   - '&7&oمنبع'
 TROPICAL_FISH_SCALE:
+  name: '&bفلس ماهی گرمسیری'
   type:
   - '&7&oمنبع'
 UNBREAKABLE_RUNE:
+  name: '&7رون باستانی &8&l[&2&lنشکن&8&l]'
   type:
   - '&7&oمتفرقه'
+  usage:
+  - '&eاین رون را روی آیتم افتاده بیندازید تا'
+  - '&eآن را بکنید &2نشکن'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cاستخوان ناپاک اسکلت ویتر'
   type:
   - '&7&oمنبع'
 VILE_PUMPKIN:
+  name: '&cکدوی پلید'
   type:
   - '&7&oمنبع'
 VILE_SEEDS:
+  name: '&cدانه‌های پلید'
+  stats:
+  - '&7افزایش سلامتی V'
   type:
   - '&7&oخوراکی'
 WIRELESS_TRANSMITTER:
+  name: '&fفرستنده بی‌سیم'
   type:
   - '&7&oمنبع'
