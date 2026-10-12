@@ -1,0 +1,89 @@
+wand:
+  material-set: "재료가 다음으로 설정되었습니다: %material%"
+  material-not-usable: "사용할 수 없습니다: %material%, 채우기 지팡이로는"
+  select-material: "Shift + 우클릭으로 건축 재료를 선택하세요!"
+  not-enough-energy: "아이템에 그럴 에너지가 부족합니다!"
+  energy-needed: "필요한 에너지: %energy%"
+  not-enough-materials: "인벤토리에 재료가 부족합니다!"
+  material-count: "현재 아이템: %current% 필요: %needed%"
+  select-both-positions: "위치 선택기로 두 위치를 모두 선택하세요!"
+  area-too-big: "선택한 영역이 너무 큽니다!"
+  no-valid-locations: "선택한 지점에 대해 유효한 위치를 찾을 수 없습니다!"
+
+commands:
+  usage: "사용법: /%usage%"
+  custom-mobs-unsupported: "이 Minecraft 버전에서는 사용자 지정 몹이 지원되지 않습니다."
+  killed-entities: "%count%개의 엔티티를 제거했습니다"
+  hold-a-sword: "퀘스트를 보려면 %cursed% 또는 %celestial%을 들고 있어야 합니다."
+
+rune:
+  item-unbreakable: "아이템이 이제 내구성 무한입니다."
+  item-not-unbreakable: "아이템을 내구성 무한으로 만들 수 없었습니다"
+  item-disallowed: "이 아이템은 내구성 무한으로 만들 수 없습니다!"
+
+dome:
+  activated: "돔이 활성화되었습니다."
+  deactivated: "돔이 비활성화되었습니다."
+  not-enough-energy: "에너지가 부족합니다."
+  cooldown: "돔을 다시 활성화하려면 최소 10초를 기다려야 합니다."
+  no-teleport: "돔으로는 순간이동할 수 없습니다!"
+
+remote:
+  bound: "역장 돔이 이제 원격 제어기에 연결되었습니다."
+  must-bind-dome: "이것은 역장 돔 블록에 연결해야 합니다."
+  charge-first: "먼저 원격 제어기를 충전하세요."
+  dome-not-found: "이 원격 제어기에 연결된 역장을 찾을 수 없습니다."
+  bind-first: "먼저 Shift + 우클릭으로 이 아이템을 연결하세요!"
+
+berry-bush:
+  already-trimmed: "이 열매 관목은 이미 전정되었습니다!"
+
+ghost-block:
+  no-permission: "여기에 이것을 설치할 권한이 없습니다!"
+  unsupported: "유령 블록은 Minecraft 1.14 이상이 필요합니다."
+
+altar:
+  activated: "희생 제단이 활성화되었습니다."
+  finish-first: "제단을 완성하고 이 블록을 다시 클릭하여 활성화하세요."
+  not-finished: "제단이 완성되지 않았습니다!"
+  broken: "제단이 파괴되었습니다!"
+  piece-broken: "제단의 일부가 파괴되었습니다. 수리하고 다시 활성화하세요!"
+
+quest:
+  check-first: "먼저 %command%(으)로 퀘스트를 확인해야 합니다!"
+  reset: "진행 중인 퀘스트를 초기화했습니다!"
+  sword-pleased: "%item%이(가) 만족했습니다."
+  cursed-lines:
+    - "%entity%을(를) 죽이고 싶군, 참 맛있겠어!"
+    - "%entity%을(를) 가져와, 당장!"
+    - "분명 네가 %entity%을(를) 베는 걸 도울 수 있을 거야."
+    - "피를 원해....  %entity%의 피를."
+    - "%entity%의 간이 필요해."
+    - "%entity%의 피가 맛있다고 들었어..."
+    - "%entity%의 심장, 흐음..."
+    - "%entity%의 살점을 위해서라면 신조차 베어버리겠어."
+    - "하루 종일 %entity%을(를) 삼킬 수 있을 것 같아."
+    - "너무 오래 기다렸어. %entity%을(를) 죽이기엔 너무 오래, 아니면 하루."
+    - "%entity%의 피가 흐를 것이다"
+    - "내 저주가 %entity%의 영혼을 삼킬 것이다"
+  celestial-lines:
+    - "나는 모든 존재를 사랑한다... %entity%만은 빼고, 그것들은 증오한다."
+    - "모든 생명은 균형을 이뤄야 한다. 그래서 %entity%을(를) 죽여야 한다."
+    - "나는 천상의 존재이지만 검이기도 하다. 자, %entity%을(를) 가져오라."
+    - "미안하지만, %entity%을(를) 가져와 주시오. 질문은 없다."
+    - "천상의 검은 천상의 희생을 요구한다. %entity% 하나를."
+    - "내 다음 희생자는 %entity%이어야 한다. 신의 뜻대로."
+    - "그리고 다음 차례는 ... %entity%!"
+    - "신은 %entity%의 죽음을 원한다."
+    - "신과 명예를 위해, 가서 %entity%을(를) 베어라."
+    - "가라, 저 %entity%을(를) 잡아라! 정의를 위하여!"
+    - "별들이 정렬했다. 내 칼날에 죽을 %entity%이(가) 또렷이 보인다"
+
+chunk-loader:
+  already-loaded: "이 청크는 이미 로드되어 있습니다!"
+  limit-reached: "청크 로더를 최대 개수만큼 이미 설치했습니다: %max%"
+  gps-complexity: "청크 로더를 하나 더 설치하는 데 필요한 GPS 네트워크 복잡도가 %current%/%required%입니다."
+
+position-selector:
+  primary-set: "첫 번째 위치를 %location%(으)로 설정했습니다"
+  secondary-set: "두 번째 위치를 %location%(으)로 설정했습니다"

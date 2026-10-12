@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiaal gestel op: %material%"
+  material-not-usable: "Kan nie gebruik nie: %material%, met die vulstaf"
+  select-material: "Kies 'n boumateriaal met Shift + Regsklik!"
+  not-enough-energy: "Jou item het nie genoeg energie daarvoor nie!"
+  energy-needed: "Energie benodig: %energy%"
+  not-enough-materials: "Daar is nie genoeg materiaal in jou voorraad nie!"
+  material-count: "Huidige items: %current% Benodig: %needed%"
+  select-both-positions: "Kies asseblief albei posisies met die Posisiekieser!"
+  area-too-big: "Die gekose gebied is te groot!"
+  no-valid-locations: "Geen geldige posisies gevind vir die gekose punte nie!"
+
+commands:
+  usage: "Gebruik: /%usage%"
+  custom-mobs-unsupported: "Eie wesens word nie op hierdie Minecraft-weergawe ondersteun nie."
+  killed-entities: "%count% entiteite doodgemaak"
+  hold-a-sword: "Jy moet die %cursed% of die %celestial% vashou om jou opdrag te sien."
+
+rune:
+  item-unbreakable: "Jou item is nou onbreekbaar."
+  item-not-unbreakable: "Jou item kon nie onbreekbaar gemaak word nie"
+  item-disallowed: "Jy kan nie hierdie item onbreekbaar maak nie!"
+
+dome:
+  activated: "Die koepel is geaktiveer."
+  deactivated: "Die koepel is gedeaktiveer."
+  not-enough-energy: "Jy het nie genoeg energie nie."
+  cooldown: "Jy moet minstens 10 sekondes wag voordat jy die koepel weer aktiveer."
+  no-teleport: "Jy kan nie na 'n koepel teleporteer nie!"
+
+remote:
+  bound: "Die Kragveldkoepel is nou aan die afstandbeheerder gekoppel."
+  must-bind-dome: "Jy moet dit aan 'n Kragveldkoepel-blok koppel."
+  charge-first: "Laai eers jou afstandbeheerder."
+  dome-not-found: "Die kragveld wat aan hierdie afstandbeheerder behoort is nie gevind nie."
+  bind-first: "Koppel hierdie item eers met Shift + Regsklik!"
+
+berry-bush:
+  already-trimmed: "Hierdie bessiestruik is al gesnoei!"
+
+ghost-block:
+  no-permission: "Jy het nie toestemming om dit hier te plaas nie!"
+  unsupported: "Spookblokke vereis Minecraft 1.14 of nuwer."
+
+altar:
+  activated: "Die Offeraltaar is geaktiveer."
+  finish-first: "Voltooi jou altaar en klik weer op hierdie blok om dit te aktiveer."
+  not-finished: "Die altaar is nie klaar nie!"
+  broken: "Die altaar is vernietig!"
+  piece-broken: "'n Deel van die altaar is vernietig, herstel dit asseblief en aktiveer dit weer!"
+
+quest:
+  check-first: "Jy moet eers jou opdrag met %command% nagaan!"
+  reset: "Aktiewe opdrag teruggestel!"
+  sword-pleased: "%item% is tevrede."
+  cursed-lines:
+    - "Ek sou graag 'n %entity% doodmaak, so smaaklik!"
+    - "Gee my 'n %entity%, nou!"
+    - "Jy kan my sekerlik help om 'n %entity% te verslaan."
+    - "Ek wil bloed hê....  %entity%-bloed."
+    - "Ek het 'n lewer van 'n %entity% nodig."
+    - "Ek het gehoor dat %entity%-bloed smaaklik is..."
+    - "%entity%-hart, hmmm..."
+    - "Ek sou God self verslaan vir 'n bietjie %entity%-vleis."
+    - "Ek kon 'n hele dag lank 'n %entity% verslind."
+    - "Ek het te lank gewag. Te lank of 'n dag om 'n %entity% dood te maak."
+    - "Die bloed van die %entity% sal vergiet word"
+    - "My vloek sal die siel van die %entity% verslind"
+  celestial-lines:
+    - "Ek is lief vir alle wesens... behalwe %entity%, daardie haat ek."
+    - "Alle lewe moet in balans wees, daarom moet ek 'n %entity% doodmaak."
+    - "Ek is hemels, maar ek is ook 'n swaard. Bring my nou 'n %entity%."
+    - "Ek is jammer, maar bring my asseblief 'n %entity%. Geen vrae nie."
+    - "'n Hemelse swaard vereis 'n hemelse offer. 'n %entity%."
+    - "My volgende slagoffer behoort 'n %entity% te wees, net soos God dit bedoel het."
+    - "En die volgende in die ry is ... %entity%!"
+    - "God wil 'n %entity% dood hê."
+    - "Vir God en eer, gaan verslaan 'n %entity%."
+    - "Gaan, vang daardie %entity%! Vir die geregtigheid!"
+    - "Die sterre het in lyn gekom. Ek sien duidelik die %entity% wat deur my lem sal sterf"
+
+chunk-loader:
+  already-loaded: "Hierdie brok is al gelaai!"
+  limit-reached: "Die maksimum aantal broklaaiers is al geplaas: %max%"
+  gps-complexity: "Jy het %current%/%required% GPS-netwerkkompleksiteit wat nodig is om nog 'n Broklaaier te plaas."
+
+position-selector:
+  primary-set: "Primêre posisie gestel op %location%"
+  secondary-set: "Sekondêre posisie gestel op %location%"

@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiál nastaven na: %material%"
+  material-not-usable: "Nelze použít: %material%, s plnicí hůlkou"
+  select-material: "Vyber stavební materiál pomocí Shift + Pravého kliknutí!"
+  not-enough-energy: "Tvůj předmět na to nemá dost energie!"
+  energy-needed: "Potřebná energie: %energy%"
+  not-enough-materials: "V tvém inventáři není dost materiálu!"
+  material-count: "Aktuální předměty: %current% Potřeba: %needed%"
+  select-both-positions: "Vyber prosím obě pozice pomocí Voliče pozice!"
+  area-too-big: "Vybraná oblast je příliš velká!"
+  no-valid-locations: "Pro vybrané body nebyly nalezeny žádné platné pozice!"
+
+commands:
+  usage: "Použití: /%usage%"
+  custom-mobs-unsupported: "Vlastní mobové nejsou v této verzi Minecraftu podporováni."
+  killed-entities: "Zabito %count% entit"
+  hold-a-sword: "Abys viděl svůj úkol, musíš držet %cursed% nebo %celestial%."
+
+rune:
+  item-unbreakable: "Tvůj předmět je nyní nezničitelný."
+  item-not-unbreakable: "Tvůj předmět nebylo možné učinit nezničitelným"
+  item-disallowed: "Tento předmět nemůžeš učinit nezničitelným!"
+
+dome:
+  activated: "Kupole byla aktivována."
+  deactivated: "Kupole byla deaktivována."
+  not-enough-energy: "Nemáš dost energie."
+  cooldown: "Musíš počkat alespoň 10 sekund, než kupoli znovu aktivuješ."
+  no-teleport: "Ke kupoli se nemůžeš teleportovat!"
+
+remote:
+  bound: "Kupole silového pole je nyní spojena s dálkovým ovladačem."
+  must-bind-dome: "Musíš to spojit s blokem Kupole silového pole."
+  charge-first: "Nejprve nabij svůj dálkový ovladač."
+  dome-not-found: "Silové pole patřící k tomuto dálkovému ovladači nebylo nalezeno."
+  bind-first: "Nejprve spoj tento předmět pomocí Shift + Pravého kliknutí!"
+
+berry-bush:
+  already-trimmed: "Tento bobulový keř je už zastřižený!"
+
+ghost-block:
+  no-permission: "Nemáš oprávnění to sem postavit!"
+  unsupported: "Bloky duchů vyžadují Minecraft 1.14 nebo novější."
+
+altar:
+  activated: "Obětní oltář byl aktivován."
+  finish-first: "Dokonči svůj oltář a klikni na tento blok znovu, abys ho aktivoval."
+  not-finished: "Oltář není dokončený!"
+  broken: "Oltář byl zničen!"
+  piece-broken: "Část oltáře byla zničena, oprav ji prosím a aktivuj ho znovu!"
+
+quest:
+  check-first: "Nejprve by sis měl zkontrolovat svůj úkol pomocí %command%!"
+  reset: "Aktivní úkol byl resetován!"
+  sword-pleased: "%item% je potěšen."
+  cursed-lines:
+    - "Rád bych zabil %entity%, tak chutné!"
+    - "Dej mi %entity%, hned!"
+    - "Určitě mi můžeš pomoci skolit %entity%."
+    - "Chci krev....  krev %entity%."
+    - "Potřebuji játra %entity%."
+    - "Slyšel jsem, že krev %entity% je chutná..."
+    - "Srdce %entity%, hmmm..."
+    - "Skolil bych i samotného Boha za trochu masa %entity%."
+    - "Mohl bych požírat %entity% celý den."
+    - "Čekal jsem příliš dlouho. Příliš dlouho nebo den na to zabít %entity%."
+    - "Krev %entity% bude prolita"
+    - "Moje prokletí pohltí duši %entity%"
+  celestial-lines:
+    - "Miluji všechny bytosti... kromě %entity%, ty nenávidím."
+    - "Veškerý život musí být v rovnováze, proto musím zabít %entity%."
+    - "Jsem nebeský, ale jsem také meč. Teď mi přines %entity%."
+    - "Je mi líto, ale přines mi prosím %entity%. Žádné otázky."
+    - "Nebeský meč vyžaduje nebeskou oběť. %entity%."
+    - "Mou další obětí by měl být %entity%, přesně jak Bůh zamýšlel."
+    - "A další na řadě je ... %entity%!"
+    - "Bůh chce %entity% mrtvého."
+    - "Za Boha a čest, jdi skolit %entity%."
+    - "Běž, dostaň toho %entity%! Za spravedlnost!"
+    - "Hvězdy se spojily. Jasně vidím %entity%, který zahyne mým ostřím"
+
+chunk-loader:
+  already-loaded: "Tento chunk je už načtený!"
+  limit-reached: "Maximální počet načítačů chunků už byl postaven: %max%"
+  gps-complexity: "Máš %current%/%required% složitosti GPS sítě potřebné k postavení dalšího Načítače chunků."
+
+position-selector:
+  primary-set: "První pozice nastavena na %location%"
+  secondary-set: "Druhá pozice nastavena na %location%"

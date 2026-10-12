@@ -1,0 +1,89 @@
+wand:
+  material-set: "Bahan diatur ke: %material%"
+  material-not-usable: "Tidak bisa digunakan: %material%, dengan tongkat pengisi"
+  select-material: "Pilih bahan bangunan dengan Shift + Klik Kanan!"
+  not-enough-energy: "Itemmu tidak punya cukup energi untuk itu!"
+  energy-needed: "Energi yang dibutuhkan: %energy%"
+  not-enough-materials: "Bahan di inventarismu tidak cukup!"
+  material-count: "Item saat ini: %current% Dibutuhkan: %needed%"
+  select-both-positions: "Silakan pilih kedua posisi dengan Pemilih Posisi!"
+  area-too-big: "Area yang dipilih terlalu besar!"
+  no-valid-locations: "Tidak ada posisi valid yang ditemukan untuk titik yang dipilih!"
+
+commands:
+  usage: "Penggunaan: /%usage%"
+  custom-mobs-unsupported: "Mob kustom tidak didukung pada versi Minecraft ini."
+  killed-entities: "%count% entitas dibunuh"
+  hold-a-sword: "Kamu harus memegang %cursed% atau %celestial% untuk melihat misimu."
+
+rune:
+  item-unbreakable: "Itemmu sekarang tidak bisa rusak."
+  item-not-unbreakable: "Itemmu tidak bisa dibuat tidak bisa rusak"
+  item-disallowed: "Kamu tidak bisa membuat item ini tidak bisa rusak!"
+
+dome:
+  activated: "Kubah telah diaktifkan."
+  deactivated: "Kubah telah dimatikan."
+  not-enough-energy: "Energimu tidak cukup."
+  cooldown: "Kamu harus menunggu setidaknya 10 detik sebelum mengaktifkan kubah lagi."
+  no-teleport: "Kamu tidak bisa berteleportasi ke kubah!"
+
+remote:
+  bound: "Kubah Medan Gaya sekarang terhubung ke pengendali jarak jauh."
+  must-bind-dome: "Kamu harus menghubungkan ini ke blok Kubah Medan Gaya."
+  charge-first: "Isi dulu daya pengendali jarak jauhmu."
+  dome-not-found: "Medan gaya milik pengendali jarak jauh ini tidak ditemukan."
+  bind-first: "Hubungkan dulu item ini dengan Shift + Klik Kanan!"
+
+berry-bush:
+  already-trimmed: "Semak beri ini sudah dipangkas!"
+
+ghost-block:
+  no-permission: "Kamu tidak punya izin untuk meletakkan ini di sini!"
+  unsupported: "Blok Hantu membutuhkan Minecraft 1.14 atau lebih baru."
+
+altar:
+  activated: "Altar Kurban telah diaktifkan."
+  finish-first: "Selesaikan altarmu dan klik blok ini lagi untuk mengaktifkannya."
+  not-finished: "Altarnya belum selesai!"
+  broken: "Altarnya telah hancur!"
+  piece-broken: "Sebagian altar telah hancur, perbaiki dan aktifkan lagi!"
+
+quest:
+  check-first: "Kamu sebaiknya memeriksa misimu dengan %command% dulu!"
+  reset: "Misi aktif telah direset!"
+  sword-pleased: "%item% merasa senang."
+  cursed-lines:
+    - "Aku ingin sekali membunuh %entity%, sungguh lezat!"
+    - "Berikan aku %entity%, sekarang!"
+    - "Tentu kamu bisa membantuku membantai %entity%."
+    - "Aku mau darah....  darah %entity%."
+    - "Aku butuh hati %entity%."
+    - "Aku dengar darah %entity% itu lezat..."
+    - "Jantung %entity%, hmmm..."
+    - "Aku akan membantai Tuhan sendiri demi sedikit daging %entity%."
+    - "Aku bisa melahap %entity% sepanjang hari."
+    - "Aku sudah menunggu terlalu lama. Terlalu lama atau sehari untuk membunuh %entity%."
+    - "Darah %entity% akan tertumpah"
+    - "Kutukanku akan melahap jiwa %entity%"
+  celestial-lines:
+    - "Aku mencintai semua makhluk... kecuali %entity%, mereka kubenci."
+    - "Semua kehidupan harus seimbang, itulah mengapa aku perlu membunuh %entity%."
+    - "Aku surgawi, tapi aku juga sebuah pedang. Sekarang bawakan aku %entity%."
+    - "Maaf, tapi tolong bawakan aku %entity%. Tanpa bertanya."
+    - "Pedang surgawi menuntut kurban surgawi. Seekor %entity%."
+    - "Korban berikutku seharusnya %entity%, tepat seperti kehendak Tuhan."
+    - "Dan yang berikutnya adalah ... %entity%!"
+    - "Tuhan ingin %entity% mati."
+    - "Demi Tuhan dan kehormatan, pergi bantai %entity%."
+    - "Pergi, tangkap %entity% itu! Demi keadilan!"
+    - "Bintang-bintang telah sejajar. Aku melihat jelas %entity% yang akan mati oleh bilahku"
+
+chunk-loader:
+  already-loaded: "Bongkah ini sudah dimuat!"
+  limit-reached: "Jumlah maksimum pemuat bongkah sudah diletakkan: %max%"
+  gps-complexity: "Kamu punya %current%/%required% kompleksitas jaringan GPS yang dibutuhkan untuk meletakkan Pemuat Bongkah lainnya."
+
+position-selector:
+  primary-set: "Posisi utama diatur ke %location%"
+  secondary-set: "Posisi kedua diatur ke %location%"

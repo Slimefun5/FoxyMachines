@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiał ustawiony na: %material%"
+  material-not-usable: "Nie można użyć: %material%, z różdżką wypełniającą"
+  select-material: "Wybierz materiał budowlany za pomocą Shift + Prawy przycisk myszy!"
+  not-enough-energy: "Twój przedmiot nie ma na to wystarczającej energii!"
+  energy-needed: "Wymagana energia: %energy%"
+  not-enough-materials: "Nie masz wystarczająco materiałów w ekwipunku!"
+  material-count: "Obecne przedmioty: %current% Potrzebne: %needed%"
+  select-both-positions: "Wybierz obie pozycje za pomocą Wyznacznika pozycji!"
+  area-too-big: "Wybrany obszar jest za duży!"
+  no-valid-locations: "Nie znaleziono prawidłowych pozycji dla wybranych punktów!"
+
+commands:
+  usage: "Użycie: /%usage%"
+  custom-mobs-unsupported: "Własne moby nie są obsługiwane w tej wersji Minecrafta."
+  killed-entities: "Zabito %count% istot"
+  hold-a-sword: "Musisz trzymać %cursed% lub %celestial%, aby zobaczyć swoje zadanie."
+
+rune:
+  item-unbreakable: "Twój przedmiot jest teraz niezniszczalny."
+  item-not-unbreakable: "Twój przedmiot nie mógł zostać uczyniony niezniszczalnym"
+  item-disallowed: "Nie możesz uczynić tego przedmiotu niezniszczalnym!"
+
+dome:
+  activated: "Kopuła została aktywowana."
+  deactivated: "Kopuła została dezaktywowana."
+  not-enough-energy: "Nie masz wystarczającej energii."
+  cooldown: "Musisz odczekać co najmniej 10 sekund przed ponowną aktywacją kopuły."
+  no-teleport: "Nie możesz teleportować się do kopuły!"
+
+remote:
+  bound: "Kopuła pola siłowego jest teraz powiązana ze zdalnym sterownikiem."
+  must-bind-dome: "Musisz powiązać to z blokiem Kopuły pola siłowego."
+  charge-first: "Najpierw naładuj swój zdalny sterownik."
+  dome-not-found: "Nie znaleziono pola siłowego należącego do tego zdalnego sterownika."
+  bind-first: "Najpierw powiąż ten przedmiot za pomocą Shift + Prawy przycisk myszy!"
+
+berry-bush:
+  already-trimmed: "Ten krzew jagodowy jest już przycięty!"
+
+ghost-block:
+  no-permission: "Nie masz uprawnień, aby to tutaj postawić!"
+  unsupported: "Bloki duchów wymagają Minecrafta 1.14 lub nowszego."
+
+altar:
+  activated: "Ołtarz ofiarny został aktywowany."
+  finish-first: "Ukończ swój ołtarz i kliknij ten blok ponownie, aby go aktywować."
+  not-finished: "Ołtarz nie jest ukończony!"
+  broken: "Ołtarz został zniszczony!"
+  piece-broken: "Część ołtarza została zniszczona, napraw ją i aktywuj go ponownie!"
+
+quest:
+  check-first: "Najpierw sprawdź swoje zadanie za pomocą %command%!"
+  reset: "Aktywne zadanie zostało zresetowane!"
+  sword-pleased: "%item% jest zadowolony."
+  cursed-lines:
+    - "Chciałbym zabić %entity%, taki smaczny!"
+    - "Daj mi %entity%, natychmiast!"
+    - "Pewnie możesz mi pomóc zgładzić %entity%."
+    - "Chcę krwi....  krwi %entity%."
+    - "Potrzebuję wątroby %entity%."
+    - "Słyszałem, że krew %entity% jest smaczna..."
+    - "Serce %entity%, hmmm..."
+    - "Zgładziłbym samego Boga za trochę mięsa %entity%."
+    - "Mógłbym pożerać %entity% cały dzień."
+    - "Czekałem zbyt długo. Zbyt długo albo dzień, by zabić %entity%."
+    - "Krew %entity% zostanie rozlana"
+    - "Moja klątwa pożre duszę %entity%"
+  celestial-lines:
+    - "Kocham wszystkie istoty... z wyjątkiem %entity%, tych nienawidzę."
+    - "Całe życie musi być w równowadze, dlatego muszę zabić %entity%."
+    - "Jestem niebiański, ale jestem też mieczem. A teraz przynieś mi %entity%."
+    - "Przykro mi, ale przynieś mi %entity%. Bez pytań."
+    - "Niebiański miecz wymaga niebiańskiej ofiary. %entity%."
+    - "Moją następną ofiarą powinien być %entity%, tak jak Bóg zamierzył."
+    - "A następny w kolejce jest ... %entity%!"
+    - "Bóg chce śmierci %entity%."
+    - "Dla Boga i honoru, idź zgładzić %entity%."
+    - "Idź, dorwij tego %entity%! Dla sprawiedliwości!"
+    - "Gwiazdy się ułożyły. Widzę wyraźnie %entity%, który zginie od mojej klingi"
+
+chunk-loader:
+  already-loaded: "Ten chunk jest już wczytany!"
+  limit-reached: "Maksymalna liczba wczytywaczy chunków została już postawiona: %max%"
+  gps-complexity: "Masz %current%/%required% złożoności sieci GPS wymaganej do postawienia kolejnego Wczytywacza chunków."
+
+position-selector:
+  primary-set: "Pozycja podstawowa ustawiona na %location%"
+  secondary-set: "Pozycja dodatkowa ustawiona na %location%"

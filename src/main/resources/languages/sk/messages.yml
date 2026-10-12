@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiál nastavený na: %material%"
+  material-not-usable: "Nedá sa použiť: %material%, s plniacou paličkou"
+  select-material: "Vyber stavebný materiál pomocou Shift + Pravého kliknutia!"
+  not-enough-energy: "Tvoj predmet na to nemá dosť energie!"
+  energy-needed: "Potrebná energia: %energy%"
+  not-enough-materials: "V tvojom inventári nie je dosť materiálu!"
+  material-count: "Aktuálne predmety: %current% Potrebné: %needed%"
+  select-both-positions: "Vyber prosím obe pozície pomocou Vyberača pozícií!"
+  area-too-big: "Vybraná oblasť je príliš veľká!"
+  no-valid-locations: "Pre vybrané body sa nenašli žiadne platné pozície!"
+
+commands:
+  usage: "Použitie: /%usage%"
+  custom-mobs-unsupported: "Vlastné moby nie sú v tejto verzii Minecraftu podporované."
+  killed-entities: "Zabitých %count% entít"
+  hold-a-sword: "Aby si videl svoju úlohu, musíš držať %cursed% alebo %celestial%."
+
+rune:
+  item-unbreakable: "Tvoj predmet je teraz nezničiteľný."
+  item-not-unbreakable: "Tvoj predmet sa nepodarilo urobiť nezničiteľným"
+  item-disallowed: "Tento predmet nemôžeš urobiť nezničiteľným!"
+
+dome:
+  activated: "Kupola bola aktivovaná."
+  deactivated: "Kupola bola deaktivovaná."
+  not-enough-energy: "Nemáš dosť energie."
+  cooldown: "Musíš počkať aspoň 10 sekúnd, kým kupolu znova aktivuješ."
+  no-teleport: "Ku kupole sa nemôžeš teleportovať!"
+
+remote:
+  bound: "Kupola silového poľa je teraz spojená s diaľkovým ovládačom."
+  must-bind-dome: "Musíš to spojiť s blokom Kupoly silového poľa."
+  charge-first: "Najprv nabi svoj diaľkový ovládač."
+  dome-not-found: "Silové pole patriace k tomuto diaľkovému ovládaču sa nenašlo."
+  bind-first: "Najprv spoj tento predmet pomocou Shift + Pravého kliknutia!"
+
+berry-bush:
+  already-trimmed: "Tento bobuľový krík je už ostrihaný!"
+
+ghost-block:
+  no-permission: "Nemáš oprávnenie to sem položiť!"
+  unsupported: "Bloky duchov vyžadujú Minecraft 1.14 alebo novší."
+
+altar:
+  activated: "Obetný oltár bol aktivovaný."
+  finish-first: "Dokonči svoj oltár a klikni na tento blok znova, aby si ho aktivoval."
+  not-finished: "Oltár nie je dokončený!"
+  broken: "Oltár bol zničený!"
+  piece-broken: "Časť oltára bola zničená, oprav ju prosím a aktivuj ho znova!"
+
+quest:
+  check-first: "Najprv by si si mal skontrolovať svoju úlohu pomocou %command%!"
+  reset: "Aktívna úloha bola resetovaná!"
+  sword-pleased: "%item% je potešený."
+  cursed-lines:
+    - "Rád by som zabil %entity%, také chutné!"
+    - "Daj mi %entity%, hneď!"
+    - "Určite mi môžeš pomôcť zabiť %entity%."
+    - "Chcem krv....  krv %entity%."
+    - "Potrebujem pečeň %entity%."
+    - "Vraj je krv %entity% chutná..."
+    - "Srdce %entity%, hmmm..."
+    - "Zabil by som aj samotného Boha za trochu mäsa %entity%."
+    - "Mohol by som požierať %entity% celý deň."
+    - "Čakal som príliš dlho. Príliš dlho alebo deň na to, aby som zabil %entity%."
+    - "Krv %entity% bude preliata"
+    - "Moje prekliatie pohltí dušu %entity%"
+  celestial-lines:
+    - "Milujem všetky bytosti... okrem %entity%, tie nenávidím."
+    - "Všetok život musí byť v rovnováhe, preto musím zabiť %entity%."
+    - "Som nebeský, ale som aj meč. Teraz mi prines %entity%."
+    - "Je mi to ľúto, ale prines mi prosím %entity%. Žiadne otázky."
+    - "Nebeský meč vyžaduje nebeskú obeť. %entity%."
+    - "Mojou ďalšou obeťou by mal byť %entity%, presne ako Boh zamýšľal."
+    - "A ďalší na rade je ... %entity%!"
+    - "Boh chce %entity% mŕtveho."
+    - "Za Boha a česť, choď zabiť %entity%."
+    - "Choď, dostaň toho %entity%! Za spravodlivosť!"
+    - "Hviezdy sa spojili. Jasne vidím %entity%, ktorý zahynie mojím ostrím"
+
+chunk-loader:
+  already-loaded: "Tento chunk je už načítaný!"
+  limit-reached: "Maximálny počet načítavačov chunkov už bol položený: %max%"
+  gps-complexity: "Máš %current%/%required% zložitosti GPS siete potrebnej na položenie ďalšieho Načítavača chunkov."
+
+position-selector:
+  primary-set: "Prvá pozícia nastavená na %location%"
+  secondary-set: "Druhá pozícia nastavená na %location%"

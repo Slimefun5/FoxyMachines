@@ -1,0 +1,89 @@
+wand:
+  material-set: "材料已設為：%material%"
+  material-not-usable: "無法使用：%material%，不能用於填充魔杖"
+  select-material: "請用 Shift + 右鍵選擇一種建築材料！"
+  not-enough-energy: "你的物品沒有足夠的能量來做這件事！"
+  energy-needed: "所需能量：%energy%"
+  not-enough-materials: "你的物品欄中材料不足！"
+  material-count: "目前物品：%current% 需要：%needed%"
+  select-both-positions: "請用位置選擇器選擇兩個位置！"
+  area-too-big: "所選區域太大了！"
+  no-valid-locations: "在所選的點位中沒有找到有效位置！"
+
+commands:
+  usage: "用法：/%usage%"
+  custom-mobs-unsupported: "此 Minecraft 版本不支援自訂生物。"
+  killed-entities: "已清除 %count% 個實體"
+  hold-a-sword: "你需要手持%cursed%或%celestial%才能查看你的任務。"
+
+rune:
+  item-unbreakable: "你的物品現在堅不可破了。"
+  item-not-unbreakable: "無法讓你的物品變得堅不可破"
+  item-disallowed: "你無法讓這件物品變得堅不可破！"
+
+dome:
+  activated: "圓頂已啟動。"
+  deactivated: "圓頂已關閉。"
+  not-enough-energy: "你的能量不足。"
+  cooldown: "你必須等待至少 10 秒才能再次啟動圓頂。"
+  no-teleport: "你無法傳送到圓頂！"
+
+remote:
+  bound: "力場圓頂現已綁定到遙控器。"
+  must-bind-dome: "你必須將其綁定到力場圓頂方塊上。"
+  charge-first: "請先為你的遙控器充能。"
+  dome-not-found: "未找到屬於該遙控器的力場。"
+  bind-first: "請先用 Shift + 右鍵綁定這件物品！"
+
+berry-bush:
+  already-trimmed: "這叢莓果灌木已經修剪過了！"
+
+ghost-block:
+  no-permission: "你沒有權限在這裡放置它！"
+  unsupported: "幽靈方塊需要 Minecraft 1.14 或更新版本。"
+
+altar:
+  activated: "獻祭祭壇已啟動。"
+  finish-first: "請完成你的祭壇，然後再次點擊此方塊來啟動它。"
+  not-finished: "祭壇尚未完成！"
+  broken: "祭壇已被破壞！"
+  piece-broken: "祭壇的一部分被破壞了，請修復它並重新啟動！"
+
+quest:
+  check-first: "你應該先用 %command% 查看你的任務！"
+  reset: "已重設目前任務！"
+  sword-pleased: "%item%很滿意。"
+  cursed-lines:
+    - "我很想殺一隻%entity%，真是美味！"
+    - "給我一隻%entity%，馬上！"
+    - "你一定能幫我斬殺一隻%entity%。"
+    - "我想要血....  %entity%的血。"
+    - "我需要一副%entity%的肝。"
+    - "我聽說%entity%的血很美味……"
+    - "%entity%的心臟，嗯……"
+    - "為了一點%entity%的血肉，我連神都願意斬殺。"
+    - "我能整天吞食%entity%。"
+    - "我等得太久了。要殺一隻%entity%，太久了，或者說一天。"
+    - "%entity%的血必將流淌"
+    - "我的詛咒將吞噬%entity%的靈魂"
+  celestial-lines:
+    - "我愛世間萬物……除了%entity%，那些我憎惡。"
+    - "萬物生靈都須平衡，所以我必須殺死一隻%entity%。"
+    - "我屬於天界，但我也是一把劍。現在，去為我帶來一隻%entity%。"
+    - "抱歉，但請為我帶來一隻%entity%。別問為什麼。"
+    - "天界之劍需要天界的獻祭。一隻%entity%。"
+    - "我的下一個犧牲者應是%entity%，正如神所意願。"
+    - "下一個輪到的是……%entity%！"
+    - "神要一隻%entity%死去。"
+    - "為了神與榮耀，去斬殺一隻%entity%。"
+    - "去吧，抓住那隻%entity%！為了正義！"
+    - "群星已然連成一線。我清楚地看見那隻將死於我劍下的%entity%"
+
+chunk-loader:
+  already-loaded: "此區塊已被載入！"
+  limit-reached: "已放置最大數量的區塊載入器：%max%"
+  gps-complexity: "你擁有 %current%/%required% 的 GPS 網路複雜度，這是再放置一個區塊載入器所需的。"
+
+position-selector:
+  primary-set: "第一個位置已設為 %location%"
+  secondary-set: "第二個位置已設為 %location%"

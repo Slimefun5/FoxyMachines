@@ -1,0 +1,89 @@
+wand:
+  material-set: "Anyag beállítva: %material%"
+  material-not-usable: "Nem használható: %material%, a kitöltő pálcával"
+  select-material: "Válassz építőanyagot Shift + Jobb klikk segítségével!"
+  not-enough-energy: "A tárgyadnak nincs ehhez elég energiája!"
+  energy-needed: "Szükséges energia: %energy%"
+  not-enough-materials: "Nincs elég anyag a felszerelésedben!"
+  material-count: "Jelenlegi tárgyak: %current% Szükséges: %needed%"
+  select-both-positions: "Kérlek, válaszd ki mindkét pozíciót a Pozíció Kiválasztóval!"
+  area-too-big: "A kiválasztott terület túl nagy!"
+  no-valid-locations: "A kiválasztott pontokhoz nem találtunk érvényes pozíciót!"
+
+commands:
+  usage: "Használat: /%usage%"
+  custom-mobs-unsupported: "Az egyéni mobok nem támogatottak ezen a Minecraft verzión."
+  killed-entities: "%count% entitás megölve"
+  hold-a-sword: "A küldetésed megtekintéséhez az %cursed% vagy az %celestial% kell a kezedben."
+
+rune:
+  item-unbreakable: "A tárgyad most már törhetetlen."
+  item-not-unbreakable: "A tárgyadat nem lehetett törhetetlenné tenni"
+  item-disallowed: "Ezt a tárgyat nem teheted törhetetlenné!"
+
+dome:
+  activated: "A kupola aktiválva."
+  deactivated: "A kupola deaktiválva."
+  not-enough-energy: "Nincs elég energiád."
+  cooldown: "Legalább 10 másodpercet várnod kell, mielőtt újra aktiválod a kupolát."
+  no-teleport: "Nem teleportálhatsz kupolához!"
+
+remote:
+  bound: "Az Erőtér Kupola most hozzá van kötve a Távvezérlőhöz."
+  must-bind-dome: "Ezt egy Erőtér Kupola blokkhoz kell kötnöd."
+  charge-first: "Először töltsd fel a Távvezérlődet."
+  dome-not-found: "Az ehhez a Távvezérlőhöz tartozó erőtér nem található."
+  bind-first: "Először kösd hozzá ezt a tárgyat Shift + Jobb klikk segítségével!"
+
+berry-bush:
+  already-trimmed: "Ez a bogyós bokor már meg van nyesve!"
+
+ghost-block:
+  no-permission: "Nincs engedélyed ezt itt lehelyezni!"
+  unsupported: "A Szellemblokkok Minecraft 1.14 vagy újabb verziót igényelnek."
+
+altar:
+  activated: "Az Áldozati Oltár aktiválva."
+  finish-first: "Fejezd be az oltárodat, és kattints újra erre a blokkra az aktiválásához."
+  not-finished: "Az oltár nincs befejezve!"
+  broken: "Az oltár elpusztult!"
+  piece-broken: "Az oltár egy része elpusztult, kérlek javítsd meg és aktiváld újra!"
+
+quest:
+  check-first: "Először ellenőrizd a küldetésedet a %command% paranccsal!"
+  reset: "Aktív küldetés visszaállítva!"
+  sword-pleased: "%item% elégedett."
+  cursed-lines:
+    - "Szívesen megölnék egy %entity%-t, olyan ízletes!"
+    - "Adj nekem egy %entity%-t, most!"
+    - "Biztosan segíthetsz nekem leteríteni egy %entity%-t."
+    - "Vért akarok....  %entity% vért."
+    - "Szükségem van egy %entity% májára."
+    - "Azt hallottam, hogy a %entity% vére ízletes..."
+    - "%entity% szív, hmmm..."
+    - "Magát Istent is leterítenék egy kis %entity% húsért."
+    - "Egész nap tudnék egy %entity%-t falni."
+    - "Túl sokáig vártam. Túl sokáig vagy egy napig, hogy megöljek egy %entity%-t."
+    - "A %entity% vére ki lesz ontva"
+    - "Az átkom felfalja a %entity% lelkét"
+  celestial-lines:
+    - "Szeretek minden élőlényt... kivéve a %entity%-t, azokat gyűlölöm."
+    - "Minden életnek egyensúlyban kell lennie, ezért kell megölnöm egy %entity%-t."
+    - "Égi vagyok, de kard is vagyok. Most pedig hozz nekem egy %entity%-t."
+    - "Sajnálom, de kérlek hozz nekem egy %entity%-t. Kérdések nélkül."
+    - "Az égi kard égi áldozatot kíván. Egy %entity%-t."
+    - "A következő áldozatom egy %entity% legyen, pontosan ahogy Isten akarta."
+    - "És a következő a sorban ... %entity%!"
+    - "Isten egy %entity% halálát akarja."
+    - "Istenért és a becsületért, menj és teríts le egy %entity%-t."
+    - "Menj, kapd el azt a %entity%-t! Az igazságért!"
+    - "A csillagok egy vonalba kerültek. Tisztán látom a %entity%-t, amely a kardom által hal meg"
+
+chunk-loader:
+  already-loaded: "Ez a chunk már be van töltve!"
+  limit-reached: "A chunk betöltők maximális száma már le van helyezve: %max%"
+  gps-complexity: "%current%/%required% GPS hálózati komplexitásod van, ami egy újabb Chunk Betöltő lehelyezéséhez kell."
+
+position-selector:
+  primary-set: "Elsődleges pozíció beállítva: %location%"
+  secondary-set: "Másodlagos pozíció beállítva: %location%"

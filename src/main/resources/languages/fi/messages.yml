@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiaali asetettu: %material%"
+  material-not-usable: "Ei voi käyttää: %material%, täyttösauvalla"
+  select-material: "Valitse rakennusmateriaali painamalla Shift + Hiiren oikea!"
+  not-enough-energy: "Esineessäsi ei ole tarpeeksi energiaa siihen!"
+  energy-needed: "Tarvittava energia: %energy%"
+  not-enough-materials: "Tavaraluettelossasi ei ole tarpeeksi materiaaleja!"
+  material-count: "Nykyiset esineet: %current% Tarvitaan: %needed%"
+  select-both-positions: "Valitse molemmat sijainnit Sijainnin valitsimella!"
+  area-too-big: "Valittu alue on liian suuri!"
+  no-valid-locations: "Valituille pisteille ei löytynyt kelvollisia sijainteja!"
+
+commands:
+  usage: "Käyttö: /%usage%"
+  custom-mobs-unsupported: "Omia mobeja ei tueta tässä Minecraft-versiossa."
+  killed-entities: "Tapettiin %count% olentoa"
+  hold-a-sword: "Sinun täytyy pitää kädessäsi %cursed% tai %celestial% nähdäksesi tehtäväsi."
+
+rune:
+  item-unbreakable: "Esineesi on nyt särkymätön."
+  item-not-unbreakable: "Esineestäsi ei voitu tehdä särkymätöntä"
+  item-disallowed: "Et voi tehdä tästä esineestä särkymätöntä!"
+
+dome:
+  activated: "Kupoli on aktivoitu."
+  deactivated: "Kupoli on poistettu käytöstä."
+  not-enough-energy: "Sinulla ei ole tarpeeksi energiaa."
+  cooldown: "Sinun täytyy odottaa vähintään 10 sekuntia, ennen kuin aktivoit kupolin uudelleen."
+  no-teleport: "Et voi teleportata kupoliin!"
+
+remote:
+  bound: "Voimakenttäkupoli on nyt liitetty kaukosäätimeen."
+  must-bind-dome: "Tämä täytyy liittää Voimakenttäkupoli-lohkoon."
+  charge-first: "Lataa ensin kaukosäätimesi."
+  dome-not-found: "Tähän kaukosäätimeen liitettyä voimakenttää ei löytynyt."
+  bind-first: "Liitä tämä esine ensin painamalla Shift + Hiiren oikea!"
+
+berry-bush:
+  already-trimmed: "Tämä marjapensas on jo leikattu!"
+
+ghost-block:
+  no-permission: "Sinulla ei ole oikeuksia asettaa tätä tähän!"
+  unsupported: "Haamulohkot vaativat Minecraft 1.14 tai uudemman."
+
+altar:
+  activated: "Uhrialttari on aktivoitu."
+  finish-first: "Viimeistele alttarisi ja napsauta tätä lohkoa uudelleen aktivoidaksesi sen."
+  not-finished: "Alttari ei ole valmis!"
+  broken: "Alttari on tuhottu!"
+  piece-broken: "Osa alttarista on tuhottu, korjaa se ja aktivoi alttari uudelleen!"
+
+quest:
+  check-first: "Tarkista ensin tehtäväsi komennolla %command%!"
+  reset: "Aktiivinen tehtävä nollattu!"
+  sword-pleased: "%item% on tyytyväinen."
+  cursed-lines:
+    - "Haluaisin tappaa %entity%, niin herkullista!"
+    - "Anna minulle %entity%, heti!"
+    - "Varmasti voit auttaa minua kaatamaan %entity%."
+    - "Haluan verta....  %entity%-verta."
+    - "Tarvitsen %entity%-maksan."
+    - "Olen kuullut, että %entity%-veri on herkullista..."
+    - "%entity%-sydän, hmmm..."
+    - "Kaataisin Jumalan itsensä hieman %entity%-lihan vuoksi."
+    - "Voisin ahmia %entity% koko päivän."
+    - "Olen odottanut liian kauan. Liian kauan tai päivän tappaakseni %entity%."
+    - "%entity%:n veri vuodatetaan"
+    - "Kiroukseni ahmii %entity%:n sielun"
+  celestial-lines:
+    - "Rakastan kaikkia olentoja... paitsi %entity%, niitä vihaan."
+    - "Kaiken elämän täytyy olla tasapainossa, siksi minun täytyy tappaa %entity%."
+    - "Olen taivaallinen, mutta olen myös miekka. Hae minulle nyt %entity%."
+    - "Olen pahoillani, mutta hae minulle %entity%. Ei kysymyksiä."
+    - "Taivaallinen miekka vaatii taivaallisen uhrin. %entity%."
+    - "Seuraava uhrini on %entity%, juuri niin kuin Jumala tarkoitti."
+    - "Ja seuraava jonossa on ... %entity%!"
+    - "Jumala haluaa %entity% kuolleena."
+    - "Jumalan ja kunnian puolesta, mene kaatamaan %entity%."
+    - "Mene, nappaa se %entity%! Oikeuden puolesta!"
+    - "Tähdet ovat asettuneet linjaan. Näen selvästi %entity%, joka kuolee miekkani alla"
+
+chunk-loader:
+  already-loaded: "Tämä lohko on jo ladattu!"
+  limit-reached: "Lohkonlataajien enimmäismäärä on jo asetettu: %max%"
+  gps-complexity: "Sinulla on %current%/%required% GPS-verkon monimutkaisuutta, jota tarvitaan toisen Lohkonlataajan asettamiseen."
+
+position-selector:
+  primary-set: "Ensisijainen sijainti asetettu: %location%"
+  secondary-set: "Toissijainen sijainti asetettu: %location%"

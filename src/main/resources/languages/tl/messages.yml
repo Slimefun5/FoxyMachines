@@ -1,0 +1,89 @@
+wand:
+  material-set: "Itinakda ang materyal sa: %material%"
+  material-not-usable: "Hindi magagamit: %material%, sa pamumunong pantapal"
+  select-material: "Pumili ng materyales na pantayo sa pamamagitan ng Shift + Kanang Klik!"
+  not-enough-energy: "Kulang ang enerhiya ng aytem mo para diyan!"
+  energy-needed: "Kailangang enerhiya: %energy%"
+  not-enough-materials: "Kulang ang materyales sa imbentaryo mo!"
+  material-count: "Kasalukuyang aytem: %current% Kailangan: %needed%"
+  select-both-positions: "Pumili ng dalawang posisyon gamit ang Pampili ng Posisyon!"
+  area-too-big: "Masyadong malaki ang napiling lugar!"
+  no-valid-locations: "Walang tamang posisyong nakita para sa mga napiling punto!"
+
+commands:
+  usage: "Paggamit: /%usage%"
+  custom-mobs-unsupported: "Hindi suportado ang mga pasadyang nilalang sa bersyong ito ng Minecraft."
+  killed-entities: "Napatay ang %count% nilalang"
+  hold-a-sword: "Kailangan mong hawakan ang %cursed% o ang %celestial% para matingnan ang misyon mo."
+
+rune:
+  item-unbreakable: "Hindi na nababasag ang aytem mo."
+  item-not-unbreakable: "Hindi nagawang hindi nababasag ang aytem mo"
+  item-disallowed: "Hindi mo magagawang hindi nababasag ang aytem na ito!"
+
+dome:
+  activated: "Naaktibo ang simboryo."
+  deactivated: "Nadeaktibo ang simboryo."
+  not-enough-energy: "Kulang ang enerhiya mo."
+  cooldown: "Kailangan mong maghintay ng hindi bababa sa 10 segundo bago aktibohin muli ang simboryo."
+  no-teleport: "Hindi ka makakateleport sa isang simboryo!"
+
+remote:
+  bound: "Nakaugnay na ang Simboryo ng Puwersang Panangga sa malayuang kontrolador."
+  must-bind-dome: "Kailangan mong iugnay ito sa isang blokeng Simboryo ng Puwersang Panangga."
+  charge-first: "I-charge muna ang malayuang kontrolador mo."
+  dome-not-found: "Hindi nakita ang puwersang pananggang pag-aari ng malayuang kontrolador na ito."
+  bind-first: "Iugnay muna ang aytem na ito sa pamamagitan ng Shift + Kanang Klik!"
+
+berry-bush:
+  already-trimmed: "Natabas na ang palumpong ng berry na ito!"
+
+ghost-block:
+  no-permission: "Wala kang pahintulot na ilagay ito dito!"
+  unsupported: "Kailangan ng mga Blokeng Multo ang Minecraft 1.14 o mas bago."
+
+altar:
+  activated: "Naaktibo ang Dambanang Pang-alay."
+  finish-first: "Tapusin ang dambana mo at i-klik muli ang blokeng ito para aktibohin ito."
+  not-finished: "Hindi pa tapos ang dambana!"
+  broken: "Nawasak ang dambana!"
+  piece-broken: "Nawasak ang bahagi ng dambana, kumpunihin ito at aktibohin muli!"
+
+quest:
+  check-first: "Dapat mong tingnan muna ang misyon mo gamit ang %command%!"
+  reset: "Nareset ang aktibong misyon!"
+  sword-pleased: "Nasiyahan ang %item%."
+  cursed-lines:
+    - "Gustong-gusto kong pumatay ng %entity%, napakasarap!"
+    - "Bigyan mo ako ng %entity%, ngayon na!"
+    - "Tiyak na matutulungan mo akong patayin ang isang %entity%."
+    - "Dugo ang gusto ko....  dugo ng %entity%."
+    - "Kailangan ko ng atay ng %entity%."
+    - "Nabalitaan kong masarap ang dugo ng %entity%..."
+    - "Puso ng %entity%, hmmm..."
+    - "Papatayin ko kahit ang Diyos mismo para sa kaunting laman ng %entity%."
+    - "Kayang-kaya kong lamunin ang isang %entity% buong araw."
+    - "Napakatagal na akong naghintay. Napakatagal o isang araw para patayin ang isang %entity%."
+    - "Dadanak ang dugo ng %entity%"
+    - "Lalamunin ng sumpa ko ang kaluluwa ng %entity%"
+  celestial-lines:
+    - "Mahal ko ang lahat ng nilalang... maliban sa %entity%, kinasusuklaman ko ang mga iyon."
+    - "Dapat balanse ang lahat ng buhay, kaya kailangan kong pumatay ng %entity%."
+    - "Makalangit ako, ngunit espada rin ako. Ngayon, dalhan mo ako ng %entity%."
+    - "Ikinalulungkot ko, ngunit dalhan mo ako ng %entity%. Walang tanong."
+    - "Ang espadang makalangit ay humihingi ng alay na makalangit. Isang %entity%."
+    - "Dapat na %entity% ang susunod kong biktima, gaya ng nais ng Diyos."
+    - "At ang susunod sa pila ay ... %entity%!"
+    - "Nais ng Diyos na mamatay ang isang %entity%."
+    - "Para sa Diyos at karangalan, patayin ang isang %entity%."
+    - "Sige, hulihin mo ang %entity% na iyon! Para sa katarungan!"
+    - "Nakahanay na ang mga bituin. Malinaw kong nakikita ang %entity% na mamamatay sa talim ko"
+
+chunk-loader:
+  already-loaded: "Nakakarga na ang tipak na ito!"
+  limit-reached: "Nailagay na ang pinakamaraming tagakarga ng tipak: %max%"
+  gps-complexity: "Mayroon kang %current%/%required% kaguluhan ng network ng GPS na kailangan para makalagay ng isa pang Tagakarga ng Tipak."
+
+position-selector:
+  primary-set: "Itinakda ang pangunahing posisyon sa %location%"
+  secondary-set: "Itinakda ang pangalawang posisyon sa %location%"

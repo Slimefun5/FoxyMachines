@@ -1,0 +1,89 @@
+wand:
+  material-set: "Medžiaga nustatyta į: %material%"
+  material-not-usable: "Negalima naudoti: %material%, su užpildymo lazdele"
+  select-material: "Pasirink statybinę medžiagą su Shift + Dešiniu paspaudimu!"
+  not-enough-energy: "Tavo daiktas tam neturi pakankamai energijos!"
+  energy-needed: "Reikalinga energija: %energy%"
+  not-enough-materials: "Tavo inventoriuje nepakanka medžiagų!"
+  material-count: "Dabartiniai daiktai: %current% Reikia: %needed%"
+  select-both-positions: "Pasirink abi pozicijas su Pozicijos parinkikliu!"
+  area-too-big: "Pasirinkta sritis per didelė!"
+  no-valid-locations: "Pasirinktiems taškams nerasta tinkamų pozicijų!"
+
+commands:
+  usage: "Naudojimas: /%usage%"
+  custom-mobs-unsupported: "Savi padarai nepalaikomi šioje Minecraft versijoje."
+  killed-entities: "Nužudyta %count% būtybių"
+  hold-a-sword: "Kad pamatytum savo užduotį, turi laikyti %cursed% arba %celestial%."
+
+rune:
+  item-unbreakable: "Tavo daiktas dabar nesulaužomas."
+  item-not-unbreakable: "Tavo daikto nepavyko padaryti nesulaužomo"
+  item-disallowed: "Negali padaryti šio daikto nesulaužomo!"
+
+dome:
+  activated: "Kupolas aktyvuotas."
+  deactivated: "Kupolas išjungtas."
+  not-enough-energy: "Neturi pakankamai energijos."
+  cooldown: "Prieš vėl aktyvuodamas kupolą turi palaukti bent 10 sekundžių."
+  no-teleport: "Negali teleportuotis prie kupolo!"
+
+remote:
+  bound: "Jėgos lauko kupolas dabar susietas su nuotoliniu valdikliu."
+  must-bind-dome: "Tai turi susieti su Jėgos lauko kupolo bloku."
+  charge-first: "Pirma įkrauk savo nuotolinį valdiklį."
+  dome-not-found: "Jėgos laukas, priklausantis šiam nuotoliniam valdikliui, nerastas."
+  bind-first: "Pirma susiek šį daiktą su Shift + Dešiniu paspaudimu!"
+
+berry-bush:
+  already-trimmed: "Šis uogų krūmas jau nugenėtas!"
+
+ghost-block:
+  no-permission: "Neturi teisės čia to padėti!"
+  unsupported: "Vaiduokliški blokai reikalauja Minecraft 1.14 ar naujesnės versijos."
+
+altar:
+  activated: "Aukojimo altorius aktyvuotas."
+  finish-first: "Pabaik savo altorių ir paspausk šį bloką dar kartą, kad jį aktyvuotum."
+  not-finished: "Altorius nebaigtas!"
+  broken: "Altorius sugriautas!"
+  piece-broken: "Dalis altoriaus sugriauta, prašome ją sutaisyti ir vėl jį aktyvuoti!"
+
+quest:
+  check-first: "Pirma turėtum pasitikrinti savo užduotį su %command%!"
+  reset: "Aktyvi užduotis atstatyta!"
+  sword-pleased: "%item% patenkintas."
+  cursed-lines:
+    - "Mielai nužudyčiau %entity%, toks gardus!"
+    - "Duok man %entity%, tuojau pat!"
+    - "Tikrai gali man padėti nudobti %entity%."
+    - "Noriu kraujo....  %entity% kraujo."
+    - "Man reikia %entity% kepenų."
+    - "Girdėjau, kad %entity% kraujas gardus..."
+    - "%entity% širdis, hmmm..."
+    - "Nudobčiau patį Dievą dėl truputį %entity% mėsos."
+    - "Galėčiau visą dieną gurkšnoti %entity%."
+    - "Laukiau per ilgai. Per ilgai ar dieną, kad nužudyčiau %entity%."
+    - "%entity% kraujas bus pralietas"
+    - "Mano prakeikimas sunaikins %entity% sielą"
+  celestial-lines:
+    - "Myliu visas būtybes... išskyrus %entity%, jų nekenčiu."
+    - "Visa gyvybė turi būti pusiausvyroje, todėl man reikia nužudyti %entity%."
+    - "Esu dangiškas, bet taip pat esu kardas. Dabar atnešk man %entity%."
+    - "Atsiprašau, bet prašau atnešk man %entity%. Be klausimų."
+    - "Dangiškas kardas reikalauja dangiškos aukos. %entity%."
+    - "Mano kita auka turėtų būti %entity%, kaip Dievas ir norėjo."
+    - "O kitas eilėje yra ... %entity%!"
+    - "Dievas nori %entity% mirties."
+    - "Dėl Dievo ir garbės, eik nudobk %entity%."
+    - "Eik, pagauk tą %entity%! Dėl teisingumo!"
+    - "Žvaigždės susilygino. Aiškiai matau %entity%, kuris mirs nuo mano ašmenų"
+
+chunk-loader:
+  already-loaded: "Ši sritis jau įkelta!"
+  limit-reached: "Didžiausias srities įkėliklių skaičius jau padėtas: %max%"
+  gps-complexity: "Turi %current%/%required% GPS tinklo sudėtingumo, reikalingo dar vienam Srities įkėlikliui padėti."
+
+position-selector:
+  primary-set: "Pirminė pozicija nustatyta į %location%"
+  secondary-set: "Antrinė pozicija nustatyta į %location%"

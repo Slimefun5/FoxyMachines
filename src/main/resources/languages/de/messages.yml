@@ -1,0 +1,89 @@
+wand:
+  material-set: "Material gesetzt auf: %material%"
+  material-not-usable: "Nicht verwendbar: %material%, mit dem Füllstab"
+  select-material: "Wähle mit Shift + Rechtsklick ein Baumaterial aus!"
+  not-enough-energy: "Dein Gegenstand hat dafür nicht genug Energie!"
+  energy-needed: "Benötigte Energie: %energy%"
+  not-enough-materials: "Du hast nicht genug Material im Inventar!"
+  material-count: "Vorhandene Gegenstände: %current% Benötigt: %needed%"
+  select-both-positions: "Wähle beide Positionen mit dem Positionswähler aus!"
+  area-too-big: "Der gewählte Bereich ist zu groß!"
+  no-valid-locations: "Für die gewählten Punkte wurden keine gültigen Positionen gefunden!"
+
+commands:
+  usage: "Verwendung: /%usage%"
+  custom-mobs-unsupported: "Eigene Mobs werden auf dieser Minecraft-Version nicht unterstützt."
+  killed-entities: "%count% Entitäten getötet"
+  hold-a-sword: "Du musst das %cursed% oder das %celestial% in der Hand halten, um deine Aufgabe zu sehen."
+
+rune:
+  item-unbreakable: "Dein Gegenstand ist jetzt unzerbrechlich."
+  item-not-unbreakable: "Dein Gegenstand konnte nicht unzerbrechlich gemacht werden"
+  item-disallowed: "Du kannst diesen Gegenstand nicht unzerbrechlich machen!"
+
+dome:
+  activated: "Die Kuppel wurde aktiviert."
+  deactivated: "Die Kuppel wurde deaktiviert."
+  not-enough-energy: "Du hast nicht genug Energie."
+  cooldown: "Du musst mindestens 10 Sekunden warten, bevor du die Kuppel erneut aktivierst."
+  no-teleport: "Du kannst dich nicht zu einer Kuppel teleportieren!"
+
+remote:
+  bound: "Die Kraftfeldkuppel ist jetzt mit der Fernsteuerung verbunden."
+  must-bind-dome: "Du musst dies mit einem Kraftfeldkuppel-Block verbinden."
+  charge-first: "Lade zuerst deine Fernsteuerung auf."
+  dome-not-found: "Das Kraftfeld dieser Fernsteuerung wurde nicht gefunden."
+  bind-first: "Verbinde diesen Gegenstand zuerst mit Shift + Rechtsklick!"
+
+berry-bush:
+  already-trimmed: "Dieser Beerenstrauch ist bereits gestutzt!"
+
+ghost-block:
+  no-permission: "Du hast nicht die Rechte, dies hier zu platzieren!"
+  unsupported: "Geisterblöcke benötigen Minecraft 1.14 oder neuer."
+
+altar:
+  activated: "Der Opferaltar wurde aktiviert."
+  finish-first: "Stelle deinen Altar fertig und klicke diesen Block erneut an, um ihn zu aktivieren."
+  not-finished: "Der Altar ist nicht fertig!"
+  broken: "Der Altar wurde zerstört!"
+  piece-broken: "Ein Teil des Altars wurde zerstört, bitte repariere und aktiviere ihn erneut!"
+
+quest:
+  check-first: "Du solltest zuerst mit %command% deine Aufgabe prüfen!"
+  reset: "Aktive Aufgabe zurückgesetzt!"
+  sword-pleased: "%item% ist erfreut."
+  cursed-lines:
+    - "Ich würde gerne einen %entity% töten, so lecker!"
+    - "Gib mir einen %entity%, sofort!"
+    - "Sicher kannst du mir helfen, einen %entity% zu erschlagen."
+    - "Ich will Blut....  %entity%-Blut."
+    - "Ich brauche die Leber eines %entity%."
+    - "Ich habe gehört, dass %entity%-Blut lecker ist..."
+    - "%entity%-Herz, hmmm..."
+    - "Ich würde Gott selbst erschlagen für etwas %entity%-Fleisch."
+    - "Ich könnte einen ganzen Tag lang einen %entity% verschlingen."
+    - "Ich habe zu lange gewartet. Zu lange oder einen Tag, um einen %entity% zu töten."
+    - "Das Blut des %entity% soll vergossen werden"
+    - "Mein Fluch soll die Seele des %entity% verschlingen"
+  celestial-lines:
+    - "Ich liebe alle Wesen... außer %entity%, die hasse ich."
+    - "Alles Leben muss im Gleichgewicht sein, deshalb muss ich einen %entity% töten."
+    - "Ich bin himmlisch, aber ich bin auch ein Schwert. Hol mir jetzt einen %entity%."
+    - "Es tut mir leid, aber hol mir bitte einen %entity%. Keine Fragen."
+    - "Ein himmlisches Schwert verlangt ein himmlisches Opfer. Einen %entity%."
+    - "Mein nächstes Opfer sollte %entity% sein, genau wie Gott es wollte."
+    - "Und der Nächste in der Reihe ist ... %entity%!"
+    - "Gott will einen %entity% tot sehen."
+    - "Für Gott und Ehre, erschlage einen %entity%."
+    - "Los, hol dir diesen %entity%! Für die Gerechtigkeit!"
+    - "Die Sterne stehen günstig. Ich sehe deutlich den %entity%, der durch meine Klinge sterben wird"
+
+chunk-loader:
+  already-loaded: "Dieser Chunk ist bereits geladen!"
+  limit-reached: "Maximale Anzahl an Chunk-Ladern bereits platziert: %max%"
+  gps-complexity: "Du hast %current%/%required% GPS-Netzwerk-Komplexität, die benötigt wird, um einen weiteren Chunk-Lader zu platzieren."
+
+position-selector:
+  primary-set: "Erste Position gesetzt auf %location%"
+  secondary-set: "Zweite Position gesetzt auf %location%"

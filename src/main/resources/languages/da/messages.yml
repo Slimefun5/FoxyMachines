@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiale sat til: %material%"
+  material-not-usable: "Kan ikke bruge: %material%, med fyldestaven"
+  select-material: "Vælg et byggemateriale med Shift + Højreklik!"
+  not-enough-energy: "Din genstand har ikke nok energi til det!"
+  energy-needed: "Nødvendig energi: %energy%"
+  not-enough-materials: "Der er ikke nok materialer i dit inventar!"
+  material-count: "Nuværende genstande: %current% Nødvendige: %needed%"
+  select-both-positions: "Vælg venligst begge positioner med Positionsvælgeren!"
+  area-too-big: "Det valgte område er for stort!"
+  no-valid-locations: "Der blev ikke fundet gyldige positioner for de valgte punkter!"
+
+commands:
+  usage: "Brug: /%usage%"
+  custom-mobs-unsupported: "Tilpassede mobs understøttes ikke på denne Minecraft-version."
+  killed-entities: "Dræbte %count% enheder"
+  hold-a-sword: "Du skal holde %cursed% eller %celestial% for at se din opgave."
+
+rune:
+  item-unbreakable: "Din genstand er nu ubrydelig."
+  item-not-unbreakable: "Din genstand kunne ikke gøres ubrydelig"
+  item-disallowed: "Du kan ikke gøre denne genstand ubrydelig!"
+
+dome:
+  activated: "Kuplen er blevet aktiveret."
+  deactivated: "Kuplen er blevet deaktiveret."
+  not-enough-energy: "Du har ikke nok energi."
+  cooldown: "Du skal vente mindst 10 sekunder, før du aktiverer kuplen igen."
+  no-teleport: "Du kan ikke teleportere til en kuppel!"
+
+remote:
+  bound: "Kraftfeltkuplen er nu bundet til fjernbetjeningen."
+  must-bind-dome: "Du skal binde dette til en Kraftfeltkuppel-blok."
+  charge-first: "Oplad din fjernbetjening først."
+  dome-not-found: "Kraftfeltet, der tilhører denne fjernbetjening, blev ikke fundet."
+  bind-first: "Bind denne genstand først med Shift + Højreklik!"
+
+berry-bush:
+  already-trimmed: "Denne bærbusk er allerede beskåret!"
+
+ghost-block:
+  no-permission: "Du har ikke tilladelse til at placere dette her!"
+  unsupported: "Spøgelsesblokke kræver Minecraft 1.14 eller nyere."
+
+altar:
+  activated: "Offeralteret er blevet aktiveret."
+  finish-first: "Færdiggør dit alter og klik på denne blok igen for at aktivere det."
+  not-finished: "Alteret er ikke færdigt!"
+  broken: "Alteret er blevet ødelagt!"
+  piece-broken: "En del af alteret er blevet ødelagt, reparer den og aktiver det igen!"
+
+quest:
+  check-first: "Du bør først se din opgave med %command%!"
+  reset: "Aktiv opgave nulstillet!"
+  sword-pleased: "%item% er tilfreds."
+  cursed-lines:
+    - "Jeg ville elske at dræbe en %entity%, så lækkert!"
+    - "Giv mig en %entity%, nu!"
+    - "Du kan sikkert hjælpe mig med at nedlægge en %entity%."
+    - "Jeg vil have blod....  %entity%-blod."
+    - "Jeg har brug for en lever fra en %entity%."
+    - "Jeg har hørt, at %entity%-blod er lækkert..."
+    - "%entity%-hjerte, hmmm..."
+    - "Jeg ville nedlægge Gud selv for noget %entity%-kød."
+    - "Jeg kunne fortære en %entity% hele dagen."
+    - "Jeg har ventet for længe. For længe eller en dag på at dræbe en %entity%."
+    - "%entity%s blod skal udgydes"
+    - "Min forbandelse skal fortære %entity%s sjæl"
+  celestial-lines:
+    - "Jeg elsker alle væsner... undtagen %entity%, dem hader jeg."
+    - "Alt liv skal være i balance, derfor må jeg dræbe en %entity%."
+    - "Jeg er himmelsk, men jeg er også et sværd. Hent mig nu en %entity%."
+    - "Det er jeg ked af, men hent mig venligst en %entity%. Ingen spørgsmål."
+    - "Et himmelsk sværd kræver et himmelsk offer. En %entity%."
+    - "Mit næste offer bør være en %entity%, præcis som Gud havde tænkt."
+    - "Og den næste i rækken er ... %entity%!"
+    - "Gud vil se en %entity% død."
+    - "For Gud og ære, gå og nedlæg en %entity%."
+    - "Afsted, fang den %entity%! For retfærdigheden!"
+    - "Stjernerne står på linje. Jeg kan tydeligt se den %entity%, der skal dø for min klinge"
+
+chunk-loader:
+  already-loaded: "Denne chunk er allerede indlæst!"
+  limit-reached: "Det maksimale antal chunkindlæsere er allerede placeret: %max%"
+  gps-complexity: "Du har %current%/%required% GPS-netværkskompleksitet, som kræves for at placere endnu en Chunkindlæser."
+
+position-selector:
+  primary-set: "Primær position sat til %location%"
+  secondary-set: "Sekundær position sat til %location%"

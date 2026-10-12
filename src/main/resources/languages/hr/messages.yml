@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materijal postavljen na: %material%"
+  material-not-usable: "Nije moguće koristiti: %material%, s palicom za popunjavanje"
+  select-material: "Odaberi građevni materijal pomoću Shift + Desni klik!"
+  not-enough-energy: "Tvoj predmet nema dovoljno energije za to!"
+  energy-needed: "Potrebna energija: %energy%"
+  not-enough-materials: "U tvojem inventaru nema dovoljno materijala!"
+  material-count: "Trenutni predmeti: %current% Potrebno: %needed%"
+  select-both-positions: "Odaberi obje pozicije pomoću Odabirnika pozicije!"
+  area-too-big: "Odabrano područje je preveliko!"
+  no-valid-locations: "Za odabrane točke nisu nađene važeće pozicije!"
+
+commands:
+  usage: "Upotreba: /%usage%"
+  custom-mobs-unsupported: "Prilagođeni mobovi nisu podržani na ovoj verziji Minecrafta."
+  killed-entities: "Ubijeno %count% bića"
+  hold-a-sword: "Moraš držati %cursed% ili %celestial% da bi vidio svoj zadatak."
+
+rune:
+  item-unbreakable: "Tvoj predmet je sada neuništiv."
+  item-not-unbreakable: "Tvoj predmet nije mogao postati neuništiv"
+  item-disallowed: "Ne možeš učiniti ovaj predmet neuništivim!"
+
+dome:
+  activated: "Kupola je aktivirana."
+  deactivated: "Kupola je deaktivirana."
+  not-enough-energy: "Nemaš dovoljno energije."
+  cooldown: "Moraš čekati najmanje 10 sekundi prije ponovnog aktiviranja kupole."
+  no-teleport: "Ne možeš se teleportirati do kupole!"
+
+remote:
+  bound: "Kupola silnog polja je sada povezana s daljinskim upravljačem."
+  must-bind-dome: "Moraš to povezati s blokom Kupole silnog polja."
+  charge-first: "Prvo napuni svoj daljinski upravljač."
+  dome-not-found: "Silno polje koje pripada ovom daljinskom upravljaču nije nađeno."
+  bind-first: "Prvo poveži ovaj predmet pomoću Shift + Desni klik!"
+
+berry-bush:
+  already-trimmed: "Ovaj grm bobica je već obrezan!"
+
+ghost-block:
+  no-permission: "Nemaš dopuštenje postaviti to ovdje!"
+  unsupported: "Blokovi duhovi zahtijevaju Minecraft 1.14 ili noviji."
+
+altar:
+  activated: "Žrtveni oltar je aktiviran."
+  finish-first: "Dovrši svoj oltar i ponovno klikni na ovaj blok da ga aktiviraš."
+  not-finished: "Oltar nije dovršen!"
+  broken: "Oltar je uništen!"
+  piece-broken: "Dio oltara je uništen, popravi ga i ponovno ga aktiviraj!"
+
+quest:
+  check-first: "Prvo bi trebao provjeriti svoj zadatak pomoću %command%!"
+  reset: "Aktivni zadatak je poništen!"
+  sword-pleased: "%item% je zadovoljan."
+  cursed-lines:
+    - "Htio bih ubiti %entity%, tako ukusno!"
+    - "Daj mi %entity%, odmah!"
+    - "Sigurno mi možeš pomoći ubiti %entity%."
+    - "Želim krv....  krv %entity%."
+    - "Potrebna mi je jetra %entity%."
+    - "Čuo sam da je krv %entity% ukusna..."
+    - "Srce %entity%, hmmm..."
+    - "Ubio bih i samog Boga za malo mesa %entity%."
+    - "Mogao bih proždirati %entity% cijeli dan."
+    - "Čekao sam predugo. Predugo ili dan da ubijem %entity%."
+    - "Krv %entity% bit će prolivena"
+    - "Moje prokletstvo proždrijet će dušu %entity%"
+  celestial-lines:
+    - "Ljubim sva bića... osim %entity%, njih mrzim."
+    - "Sav život mora biti u ravnoteži, zato moram ubiti %entity%."
+    - "Nebeski sam, ali sam i mač. Sada mi donesi %entity%."
+    - "Žao mi je, ali donesi mi %entity%, molim te. Bez pitanja."
+    - "Nebeski mač zahtijeva nebesku žrtvu. %entity%."
+    - "Moja sljedeća žrtva trebala bi biti %entity%, baš kako je Bog namjeravao."
+    - "A sljedeći na redu je ... %entity%!"
+    - "Bog želi %entity% mrtvog."
+    - "Za Boga i čast, idi ubiti %entity%."
+    - "Idi, dohvati tog %entity%! Za pravdu!"
+    - "Zvijezde su se poravnale. Jasno vidim %entity% koji će umrijeti od moje oštrice"
+
+chunk-loader:
+  already-loaded: "Ovaj odsječak je već učitan!"
+  limit-reached: "Maksimalan broj učitavača odsječaka je već postavljen: %max%"
+  gps-complexity: "Imaš %current%/%required% složenosti GPS mreže potrebne za postavljanje još jednog Učitavača odsječaka."
+
+position-selector:
+  primary-set: "Primarna pozicija postavljena na %location%"
+  secondary-set: "Sekundarna pozicija postavljena na %location%"

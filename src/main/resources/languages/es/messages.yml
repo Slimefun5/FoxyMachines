@@ -1,0 +1,89 @@
+wand:
+  material-set: "Material establecido en: %material%"
+  material-not-usable: "No se puede usar: %material%, con la Varita de Relleno"
+  select-material: "¡Selecciona un material de construcción con Shift + Clic derecho!"
+  not-enough-energy: "¡Tu objeto no tiene suficiente energía para eso!"
+  energy-needed: "Energía necesaria: %energy%"
+  not-enough-materials: "¡No hay suficientes materiales en tu inventario!"
+  material-count: "Objetos actuales: %current% Necesarios: %needed%"
+  select-both-positions: "¡Selecciona ambas posiciones con el Selector de Posición!"
+  area-too-big: "¡El área seleccionada es demasiado grande!"
+  no-valid-locations: "¡No se encontraron posiciones válidas con los puntos seleccionados!"
+
+commands:
+  usage: "Uso: /%usage%"
+  custom-mobs-unsupported: "Los mobs personalizados no son compatibles con esta versión de Minecraft."
+  killed-entities: "%count% entidades eliminadas"
+  hold-a-sword: "Debes tener en la mano la %cursed% o la %celestial% para ver tu misión."
+
+rune:
+  item-unbreakable: "Tu objeto ahora es irrompible."
+  item-not-unbreakable: "Tu objeto no se pudo hacer irrompible"
+  item-disallowed: "¡No puedes hacer irrompible este objeto!"
+
+dome:
+  activated: "La cúpula ha sido activada."
+  deactivated: "La cúpula ha sido desactivada."
+  not-enough-energy: "No tienes suficiente energía."
+  cooldown: "Debes esperar al menos 10 segundos antes de activar la cúpula de nuevo."
+  no-teleport: "¡No puedes teletransportarte a una cúpula!"
+
+remote:
+  bound: "La Cúpula de Campo de Fuerza ahora está vinculada al Controlador Remoto."
+  must-bind-dome: "Debes vincular esto a un bloque de Cúpula de Campo de Fuerza."
+  charge-first: "Carga primero tu Controlador Remoto."
+  dome-not-found: "No se encontró el campo de fuerza que pertenece a este Controlador Remoto."
+  bind-first: "¡Vincula primero este objeto con Shift + Clic derecho!"
+
+berry-bush:
+  already-trimmed: "¡Este arbusto de bayas ya está podado!"
+
+ghost-block:
+  no-permission: "¡No tienes permiso para colocar esto aquí!"
+  unsupported: "Los Bloques Fantasma requieren Minecraft 1.14 o posterior."
+
+altar:
+  activated: "El Altar de Sacrificios ha sido activado."
+  finish-first: "Termina tu altar y haz clic en este bloque de nuevo para activarlo."
+  not-finished: "¡El altar no está terminado!"
+  broken: "¡El altar ha sido destruido!"
+  piece-broken: "¡Una parte del altar ha sido destruida, repárala y actívalo de nuevo!"
+
+quest:
+  check-first: "¡Primero deberías consultar tu misión con %command%!"
+  reset: "¡Misión activa reiniciada!"
+  sword-pleased: "%item% está complacida."
+  cursed-lines:
+    - "¡Me encantaría matar a un %entity%, qué sabroso!"
+    - "¡Dame un %entity%, ahora!"
+    - "Seguro que puedes ayudarme a matar a un %entity%."
+    - "Quiero sangre....  sangre de %entity%."
+    - "Necesito un hígado de %entity%."
+    - "He oído que la sangre de %entity% es sabrosa..."
+    - "Corazón de %entity%, hmmm..."
+    - "Mataría a Dios mismo por un poco de carne de %entity%."
+    - "Podría estar devorando un %entity% todo el día."
+    - "He esperado demasiado. Demasiado o un día para matar a un %entity%."
+    - "La sangre del %entity% será derramada"
+    - "Mi maldición devorará el alma del %entity%"
+  celestial-lines:
+    - "Amo a todos los seres... excepto a los %entity%, a esos los odio."
+    - "Toda vida debe estar en equilibrio, por eso necesito matar a un %entity%."
+    - "Soy celestial, pero también soy una espada. Ahora tráeme un %entity%."
+    - "Lo siento, pero tráeme algo de %entity%, por favor. Sin preguntas."
+    - "Una espada celestial requiere un sacrificio celestial. Un %entity%."
+    - "Mi próxima víctima debería ser un %entity%, justo como Dios quería."
+    - "¡Y el siguiente en la lista es ... %entity%!"
+    - "Dios quiere a un %entity% muerto."
+    - "Por Dios y el honor, ve a matar a un %entity%."
+    - "¡Ve, atrapa a ese %entity%! ¡Por la justicia!"
+    - "Las estrellas se han alineado. Puedo ver claramente al %entity% que morirá por mi hoja"
+
+chunk-loader:
+  already-loaded: "¡Este chunk ya está cargado!"
+  limit-reached: "Cantidad máxima de Cargadores de Chunks ya colocados: %max%"
+  gps-complexity: "Tienes %current%/%required% de complejidad de red GPS necesaria para colocar otro Cargador de Chunks."
+
+position-selector:
+  primary-set: "Posición primaria establecida en %location%"
+  secondary-set: "Posición secundaria establecida en %location%"

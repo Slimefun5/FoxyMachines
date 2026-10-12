@@ -1,0 +1,89 @@
+wand:
+  material-set: "Đã đặt vật liệu thành: %material%"
+  material-not-usable: "Không thể dùng: %material%, với gậy lấp khối"
+  select-material: "Hãy chọn một vật liệu xây dựng bằng Shift + Chuột phải!"
+  not-enough-energy: "Vật phẩm của bạn không đủ năng lượng để làm việc đó!"
+  energy-needed: "Năng lượng cần: %energy%"
+  not-enough-materials: "Túi đồ của bạn không có đủ vật liệu!"
+  material-count: "Vật phẩm hiện có: %current% Cần: %needed%"
+  select-both-positions: "Hãy chọn cả hai vị trí bằng Bộ chọn Vị trí!"
+  area-too-big: "Vùng đã chọn quá lớn!"
+  no-valid-locations: "Không tìm thấy vị trí hợp lệ nào cho các điểm đã chọn!"
+
+commands:
+  usage: "Cách dùng: /%usage%"
+  custom-mobs-unsupported: "Sinh vật tùy chỉnh không được hỗ trợ trên phiên bản Minecraft này."
+  killed-entities: "Đã tiêu diệt %count% thực thể"
+  hold-a-sword: "Bạn phải cầm %cursed% hoặc %celestial% để xem nhiệm vụ của mình."
+
+rune:
+  item-unbreakable: "Vật phẩm của bạn giờ đã bất hoại."
+  item-not-unbreakable: "Không thể làm cho vật phẩm của bạn bất hoại"
+  item-disallowed: "Bạn không thể làm cho vật phẩm này bất hoại!"
+
+dome:
+  activated: "Vòm đã được bật."
+  deactivated: "Vòm đã được tắt."
+  not-enough-energy: "Bạn không có đủ năng lượng."
+  cooldown: "Bạn phải đợi ít nhất 10 giây trước khi bật lại vòm."
+  no-teleport: "Bạn không thể dịch chuyển đến một vòm!"
+
+remote:
+  bound: "Vòm Trường lực giờ đã được liên kết với bộ điều khiển từ xa."
+  must-bind-dome: "Bạn phải liên kết cái này với một khối Vòm Trường lực."
+  charge-first: "Hãy sạc bộ điều khiển từ xa của bạn trước."
+  dome-not-found: "Không tìm thấy trường lực thuộc bộ điều khiển từ xa này."
+  bind-first: "Hãy liên kết vật phẩm này bằng Shift + Chuột phải trước!"
+
+berry-bush:
+  already-trimmed: "Bụi cây mâm xôi này đã được tỉa rồi!"
+
+ghost-block:
+  no-permission: "Bạn không có quyền đặt cái này ở đây!"
+  unsupported: "Khối Bóng ma yêu cầu Minecraft 1.14 hoặc mới hơn."
+
+altar:
+  activated: "Bàn thờ Hiến tế đã được bật."
+  finish-first: "Hãy hoàn thành bàn thờ của bạn và nhấp lại vào khối này để bật nó."
+  not-finished: "Bàn thờ chưa hoàn thành!"
+  broken: "Bàn thờ đã bị phá hủy!"
+  piece-broken: "Một phần của bàn thờ đã bị phá hủy, hãy sửa nó và bật lại!"
+
+quest:
+  check-first: "Bạn nên xem nhiệm vụ của mình bằng %command% trước!"
+  reset: "Đã đặt lại nhiệm vụ đang làm!"
+  sword-pleased: "%item% đã hài lòng."
+  cursed-lines:
+    - "Ta rất muốn giết một %entity%, ngon làm sao!"
+    - "Đưa ta một %entity%, ngay lập tức!"
+    - "Chắc chắn ngươi có thể giúp ta hạ một %entity%."
+    - "Ta muốn máu....  máu %entity%."
+    - "Ta cần một lá gan %entity%."
+    - "Ta nghe nói máu %entity% rất ngon..."
+    - "Tim %entity%, hừmmm..."
+    - "Ta sẽ hạ cả Chúa trời vì một miếng thịt %entity%."
+    - "Ta có thể ngốn một %entity% cả ngày."
+    - "Ta đã đợi quá lâu. Quá lâu hoặc một ngày để giết một %entity%."
+    - "Máu của %entity% sẽ phải đổ"
+    - "Lời nguyền của ta sẽ ngốn trọn linh hồn %entity%"
+  celestial-lines:
+    - "Ta yêu mọi sinh vật... trừ %entity%, ta ghét chúng."
+    - "Mọi sinh mệnh phải ở trong cân bằng, vì thế ta cần giết một %entity%."
+    - "Ta thuộc thiên giới, nhưng ta cũng là một thanh kiếm. Giờ hãy mang cho ta một %entity%."
+    - "Ta xin lỗi, nhưng hãy mang cho ta một %entity%. Không hỏi gì cả."
+    - "Kiếm thiên giới đòi một vật hiến tế thiên giới. Một %entity%."
+    - "Nạn nhân tiếp theo của ta phải là một %entity%, đúng như Chúa trời định."
+    - "Và người tiếp theo trong hàng là ... %entity%!"
+    - "Chúa trời muốn một %entity% phải chết."
+    - "Vì Chúa trời và danh dự, hãy đi hạ một %entity%."
+    - "Đi đi, bắt lấy %entity% đó! Vì công lý!"
+    - "Các vì sao đã thẳng hàng. Ta thấy rõ %entity% sẽ chết dưới lưỡi kiếm của ta"
+
+chunk-loader:
+  already-loaded: "Vùng này đã được tải rồi!"
+  limit-reached: "Đã đặt tối đa số máy tải vùng: %max%"
+  gps-complexity: "Bạn có %current%/%required% độ phức tạp mạng GPS cần để đặt thêm một Máy tải Vùng."
+
+position-selector:
+  primary-set: "Đã đặt vị trí thứ nhất thành %location%"
+  secondary-set: "Đã đặt vị trí thứ hai thành %location%"

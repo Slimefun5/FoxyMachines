@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiaal ingesteld op: %material%"
+  material-not-usable: "Kan niet gebruiken: %material%, met de vulstaf"
+  select-material: "Selecteer een bouwmateriaal met Shift + Rechtsklik!"
+  not-enough-energy: "Je voorwerp heeft daar niet genoeg energie voor!"
+  energy-needed: "Benodigde energie: %energy%"
+  not-enough-materials: "Er zitten niet genoeg materialen in je inventaris!"
+  material-count: "Huidige voorwerpen: %current% Nodig: %needed%"
+  select-both-positions: "Selecteer beide posities met de Positiekiezer!"
+  area-too-big: "Het geselecteerde gebied is te groot!"
+  no-valid-locations: "Geen geldige posities gevonden voor de geselecteerde punten!"
+
+commands:
+  usage: "Gebruik: /%usage%"
+  custom-mobs-unsupported: "Aangepaste mobs worden niet ondersteund op deze Minecraft-versie."
+  killed-entities: "%count% entiteiten gedood"
+  hold-a-sword: "Je moet het %cursed% of het %celestial% in je hand houden om je opdracht te bekijken."
+
+rune:
+  item-unbreakable: "Je voorwerp is nu onbreekbaar."
+  item-not-unbreakable: "Je voorwerp kon niet onbreekbaar gemaakt worden"
+  item-disallowed: "Je kunt dit voorwerp niet onbreekbaar maken!"
+
+dome:
+  activated: "De koepel is geactiveerd."
+  deactivated: "De koepel is gedeactiveerd."
+  not-enough-energy: "Je hebt niet genoeg energie."
+  cooldown: "Je moet minstens 10 seconden wachten voordat je de koepel opnieuw activeert."
+  no-teleport: "Je kunt niet naar een koepel teleporteren!"
+
+remote:
+  bound: "De Krachtveldkoepel is nu verbonden met de Afstandsbediening."
+  must-bind-dome: "Je moet dit verbinden met een Krachtveldkoepel-blok."
+  charge-first: "Laad eerst je Afstandsbediening op."
+  dome-not-found: "Het krachtveld dat bij deze Afstandsbediening hoort is niet gevonden."
+  bind-first: "Verbind dit voorwerp eerst met Shift + Rechtsklik!"
+
+berry-bush:
+  already-trimmed: "Deze bessenstruik is al gesnoeid!"
+
+ghost-block:
+  no-permission: "Je hebt geen toestemming om dit hier te plaatsen!"
+  unsupported: "Spookblokken vereisen Minecraft 1.14 of nieuwer."
+
+altar:
+  activated: "Het Offeraltaar is geactiveerd."
+  finish-first: "Maak je altaar af en klik opnieuw op dit blok om het te activeren."
+  not-finished: "Het altaar is niet af!"
+  broken: "Het altaar is verwoest!"
+  piece-broken: "Een deel van het altaar is verwoest, repareer het en activeer het opnieuw!"
+
+quest:
+  check-first: "Je moet eerst je opdracht bekijken met %command%!"
+  reset: "Actieve opdracht teruggezet!"
+  sword-pleased: "%item% is tevreden."
+  cursed-lines:
+    - "Ik zou graag een %entity% doden, zo smakelijk!"
+    - "Geef me een %entity%, nu!"
+    - "Je kunt me zeker helpen een %entity% te verslaan."
+    - "Ik wil bloed....  %entity%-bloed."
+    - "Ik heb een lever van een %entity% nodig."
+    - "Ik heb gehoord dat %entity%-bloed smakelijk is..."
+    - "%entity%-hart, hmmm..."
+    - "Ik zou God zelf verslaan voor wat %entity%-vlees."
+    - "Ik zou een hele dag een %entity% kunnen verslinden."
+    - "Ik heb te lang gewacht. Te lang of een dag om een %entity% te doden."
+    - "Het bloed van de %entity% zal vloeien"
+    - "Mijn vloek zal de ziel van de %entity% verslinden"
+  celestial-lines:
+    - "Ik hou van alle wezens... behalve %entity%, die haat ik."
+    - "Alle leven moet in balans zijn, daarom moet ik een %entity% doden."
+    - "Ik ben hemels, maar ik ben ook een zwaard. Haal me nu een %entity%."
+    - "Het spijt me, maar haal me alsjeblieft een %entity%. Geen vragen."
+    - "Een hemels zwaard vereist een hemels offer. Een %entity%."
+    - "Mijn volgende slachtoffer moet een %entity% zijn, precies zoals God het bedoelde."
+    - "En de volgende in de rij is ... %entity%!"
+    - "God wil een %entity% dood zien."
+    - "Voor God en eer, ga een %entity% verslaan."
+    - "Ga, pak die %entity%! Voor het recht!"
+    - "De sterren staan op één lijn. Ik zie duidelijk de %entity% die door mijn kling zal sterven"
+
+chunk-loader:
+  already-loaded: "Deze chunk is al geladen!"
+  limit-reached: "Maximale aantal chunkladers is al geplaatst: %max%"
+  gps-complexity: "Je hebt %current%/%required% GPS-netwerkcomplexiteit die nodig is om nog een Chunklader te plaatsen."
+
+position-selector:
+  primary-set: "Primaire positie ingesteld op %location%"
+  secondary-set: "Secundaire positie ingesteld op %location%"

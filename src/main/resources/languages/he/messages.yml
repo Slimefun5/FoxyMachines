@@ -1,0 +1,89 @@
+wand:
+  material-set: "החומר הוגדר ל: %material%"
+  material-not-usable: "לא ניתן להשתמש: %material%, עם שרביט המילוי"
+  select-material: "בחר חומר בנייה באמצעות Shift + קליק ימני!"
+  not-enough-energy: "לפריט שלך אין מספיק אנרגיה לכך!"
+  energy-needed: "אנרגיה נדרשת: %energy%"
+  not-enough-materials: "אין מספיק חומרים במלאי שלך!"
+  material-count: "פריטים נוכחיים: %current% נדרש: %needed%"
+  select-both-positions: "אנא בחר את שני המיקומים באמצעות בוחר המיקום!"
+  area-too-big: "האזור שנבחר גדול מדי!"
+  no-valid-locations: "לא נמצאו מיקומים תקפים עבור הנקודות שנבחרו!"
+
+commands:
+  usage: "שימוש: /%usage%"
+  custom-mobs-unsupported: "יצורים מותאמים אינם נתמכים בגרסת Minecraft הזו."
+  killed-entities: "%count% ישויות נהרגו"
+  hold-a-sword: "עליך להחזיק את %cursed% או את %celestial% כדי לראות את המשימה שלך."
+
+rune:
+  item-unbreakable: "הפריט שלך הוא כעת בלתי שביר."
+  item-not-unbreakable: "לא ניתן היה להפוך את הפריט שלך לבלתי שביר"
+  item-disallowed: "אינך יכול להפוך את הפריט הזה לבלתי שביר!"
+
+dome:
+  activated: "הכיפה הופעלה."
+  deactivated: "הכיפה כובתה."
+  not-enough-energy: "אין לך מספיק אנרגיה."
+  cooldown: "עליך לחכות לפחות 10 שניות לפני הפעלת הכיפה מחדש."
+  no-teleport: "אינך יכול להתמגנט לכיפה!"
+
+remote:
+  bound: "כיפת שדה הכוח מקושרת כעת לבקר המרחוק."
+  must-bind-dome: "עליך לקשר את זה לבלוק של כיפת שדה כוח."
+  charge-first: "טען קודם את בקר המרחוק שלך."
+  dome-not-found: "שדה הכוח השייך לבקר המרחוק הזה לא נמצא."
+  bind-first: "קשר את הפריט הזה קודם באמצעות Shift + קליק ימני!"
+
+berry-bush:
+  already-trimmed: "שיח פירות היער הזה כבר נגזם!"
+
+ghost-block:
+  no-permission: "אין לך הרשאה להציב את זה כאן!"
+  unsupported: "בלוקי רפאים דורשים Minecraft 1.14 או חדש יותר."
+
+altar:
+  activated: "מזבח הקורבנות הופעל."
+  finish-first: "השלם את המזבח שלך ולחץ על הבלוק הזה שוב כדי להפעיל אותו."
+  not-finished: "המזבח אינו שלם!"
+  broken: "המזבח נהרס!"
+  piece-broken: "חלק מהמזבח נהרס, אנא תקן אותו והפעל אותו מחדש!"
+
+quest:
+  check-first: "כדאי שתבדוק קודם את המשימה שלך באמצעות %command%!"
+  reset: "המשימה הפעילה אופסה!"
+  sword-pleased: "%item% מרוצה."
+  cursed-lines:
+    - "הייתי שמח להרוג %entity%, כל כך טעים!"
+    - "תן לי %entity%, עכשיו!"
+    - "אתה בוודאי יכול לעזור לי לחסל %entity%."
+    - "אני רוצה דם....  דם של %entity%."
+    - "אני צריך כבד של %entity%."
+    - "שמעתי שדם של %entity% טעים..."
+    - "לב של %entity%, הממם..."
+    - "הייתי מחסל את האל עצמו עבור מעט בשר של %entity%."
+    - "הייתי יכול לטרוף %entity% כל היום."
+    - "חיכיתי יותר מדי זמן. יותר מדי זמן או יום כדי להרוג %entity%."
+    - "דמו של %entity% יישפך"
+    - "הקללה שלי תטרוף את נשמתו של %entity%"
+  celestial-lines:
+    - "אני אוהב את כל הברואים... חוץ מ%entity%, את אלה אני שונא."
+    - "כל החיים חייבים להיות באיזון, לכן אני צריך להרוג %entity%."
+    - "אני שמימי, אבל אני גם חרב. כעת הבא לי %entity%."
+    - "אני מצטער, אבל אנא הבא לי %entity%. בלי שאלות."
+    - "חרב שמימית דורשת קורבן שמימי. %entity%."
+    - "הקורבן הבא שלי צריך להיות %entity%, בדיוק כפי שהאל התכוון."
+    - "והבא בתור הוא ... %entity%!"
+    - "האל רוצה %entity% מת."
+    - "למען האל והכבוד, לך לחסל %entity%."
+    - "לך, תפוס את ה%entity% הזה! למען הצדק!"
+    - "הכוכבים התיישרו. אני רואה בבירור את ה%entity% שימות מלהב חרבי"
+
+chunk-loader:
+  already-loaded: "המקטע הזה כבר טעון!"
+  limit-reached: "המספר המרבי של טועני מקטעים כבר הוצב: %max%"
+  gps-complexity: "יש לך %current%/%required% מורכבות רשת GPS הנדרשת להצבת טוען מקטעים נוסף."
+
+position-selector:
+  primary-set: "המיקום הראשי הוגדר ל%location%"
+  secondary-set: "המיקום המשני הוגדר ל%location%"

@@ -1,0 +1,89 @@
+wand:
+  material-set: "Material setat pe: %material%"
+  material-not-usable: "Nu se poate folosi: %material%, cu bagheta de umplere"
+  select-material: "Selectează un material de construcție cu Shift + Clic dreapta!"
+  not-enough-energy: "Obiectul tău nu are suficientă energie pentru asta!"
+  energy-needed: "Energie necesară: %energy%"
+  not-enough-materials: "Nu ai suficiente materiale în inventar!"
+  material-count: "Obiecte actuale: %current% Necesare: %needed%"
+  select-both-positions: "Te rog selectează ambele poziții cu Selectorul de Poziție!"
+  area-too-big: "Zona selectată este prea mare!"
+  no-valid-locations: "Nu s-au găsit poziții valide pentru punctele selectate!"
+
+commands:
+  usage: "Utilizare: /%usage%"
+  custom-mobs-unsupported: "Mobii personalizați nu sunt suportați pe această versiune de Minecraft."
+  killed-entities: "%count% entități ucise"
+  hold-a-sword: "Trebuie să ții în mână %cursed% sau %celestial% pentru a vedea misiunea ta."
+
+rune:
+  item-unbreakable: "Obiectul tău este acum indestructibil."
+  item-not-unbreakable: "Obiectul tău nu a putut fi făcut indestructibil"
+  item-disallowed: "Nu poți face acest obiect indestructibil!"
+
+dome:
+  activated: "Cupola a fost activată."
+  deactivated: "Cupola a fost dezactivată."
+  not-enough-energy: "Nu ai suficientă energie."
+  cooldown: "Trebuie să aștepți cel puțin 10 secunde înainte de a activa din nou cupola."
+  no-teleport: "Nu te poți teleporta la o cupolă!"
+
+remote:
+  bound: "Cupola de Câmp de Forță este acum legată la telecomandă."
+  must-bind-dome: "Trebuie să legi asta la un bloc de Cupolă de Câmp de Forță."
+  charge-first: "Încarcă mai întâi telecomanda."
+  dome-not-found: "Câmpul de forță care aparține acestei telecomenzi nu a fost găsit."
+  bind-first: "Leagă mai întâi acest obiect cu Shift + Clic dreapta!"
+
+berry-bush:
+  already-trimmed: "Această tufă cu fructe este deja tunsă!"
+
+ghost-block:
+  no-permission: "Nu ai permisiunea să pui asta aici!"
+  unsupported: "Blocurile Fantomă necesită Minecraft 1.14 sau mai nou."
+
+altar:
+  activated: "Altarul de Sacrificiu a fost activat."
+  finish-first: "Termină altarul și apasă din nou pe acest bloc pentru a-l activa."
+  not-finished: "Altarul nu este terminat!"
+  broken: "Altarul a fost distrus!"
+  piece-broken: "O parte a altarului a fost distrusă, te rog repar-o și activează-l din nou!"
+
+quest:
+  check-first: "Ar trebui să îți verifici mai întâi misiunea cu %command%!"
+  reset: "Misiunea activă a fost resetată!"
+  sword-pleased: "%item% este mulțumită."
+  cursed-lines:
+    - "Mi-ar plăcea să ucid un %entity%, atât de gustos!"
+    - "Dă-mi un %entity%, acum!"
+    - "Sigur mă poți ajuta să dobor un %entity%."
+    - "Vreau sânge....  sânge de %entity%."
+    - "Am nevoie de un ficat de %entity%."
+    - "Am auzit că sângele de %entity% este gustos..."
+    - "Inimă de %entity%, hmmm..."
+    - "L-aș doborî pe Dumnezeu însuși pentru puțină carne de %entity%."
+    - "Aș putea devora un %entity% toată ziua."
+    - "Am așteptat prea mult. Prea mult sau o zi ca să ucid un %entity%."
+    - "Sângele %entity% va fi vărsat"
+    - "Blestemul meu va devora sufletul %entity%"
+  celestial-lines:
+    - "Iubesc toate ființele... în afară de %entity%, pe acelea le urăsc."
+    - "Toată viața trebuie să fie în echilibru, de aceea trebuie să ucid un %entity%."
+    - "Sunt celestă, dar sunt și o sabie. Acum adu-mi un %entity%."
+    - "Îmi pare rău, dar te rog adu-mi un %entity%. Fără întrebări."
+    - "O sabie celestă cere un sacrificiu celest. Un %entity%."
+    - "Următoarea mea victimă ar trebui să fie un %entity%, exact cum a vrut Dumnezeu."
+    - "Și următorul la rând este ... %entity%!"
+    - "Dumnezeu vrea un %entity% mort."
+    - "Pentru Dumnezeu și onoare, du-te și dobori un %entity%."
+    - "Du-te, prinde acel %entity%! Pentru dreptate!"
+    - "Stelele s-au aliniat. Văd clar %entity% care va muri de lama mea"
+
+chunk-loader:
+  already-loaded: "Acest chunk este deja încărcat!"
+  limit-reached: "Numărul maxim de încărcătoare de chunk-uri a fost deja plasat: %max%"
+  gps-complexity: "Ai %current%/%required% complexitate a rețelei GPS necesară pentru a plasa un alt Încărcător de Chunk-uri."
+
+position-selector:
+  primary-set: "Poziția primară setată pe %location%"
+  secondary-set: "Poziția secundară setată pe %location%"

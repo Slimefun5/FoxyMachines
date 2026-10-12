@@ -1,0 +1,89 @@
+wand:
+  material-set: "Malzeme şu şekilde ayarlandı: %material%"
+  material-not-usable: "Kullanılamaz: %material%, doldurma asasıyla"
+  select-material: "Shift + Sağ Tık ile bir yapı malzemesi seç!"
+  not-enough-energy: "Eşyanın bunun için yeterli enerjisi yok!"
+  energy-needed: "Gereken enerji: %energy%"
+  not-enough-materials: "Envanterinde yeterli malzeme yok!"
+  material-count: "Mevcut eşyalar: %current% Gereken: %needed%"
+  select-both-positions: "Lütfen her iki konumu da Konum Seçici ile seç!"
+  area-too-big: "Seçilen alan çok büyük!"
+  no-valid-locations: "Seçilen noktalar için geçerli konum bulunamadı!"
+
+commands:
+  usage: "Kullanım: /%usage%"
+  custom-mobs-unsupported: "Özel yaratıklar bu Minecraft sürümünde desteklenmiyor."
+  killed-entities: "%count% varlık öldürüldü"
+  hold-a-sword: "Görevini görmek için %cursed% ya da %celestial% tutuyor olmalısın."
+
+rune:
+  item-unbreakable: "Eşyan artık kırılmaz."
+  item-not-unbreakable: "Eşyan kırılmaz yapılamadı"
+  item-disallowed: "Bu eşyayı kırılmaz yapamazsın!"
+
+dome:
+  activated: "Kubbe etkinleştirildi."
+  deactivated: "Kubbe devre dışı bırakıldı."
+  not-enough-energy: "Yeterli enerjin yok."
+  cooldown: "Kubbeyi yeniden etkinleştirmeden önce en az 10 saniye beklemelisin."
+  no-teleport: "Bir kubbeye ışınlanamazsın!"
+
+remote:
+  bound: "Güç Alanı Kubbesi artık uzaktan kumandaya bağlı."
+  must-bind-dome: "Bunu bir Güç Alanı Kubbesi bloğuna bağlamalısın."
+  charge-first: "Önce uzaktan kumandanı şarj et."
+  dome-not-found: "Bu uzaktan kumandaya ait güç alanı bulunamadı."
+  bind-first: "Önce bu eşyayı Shift + Sağ Tık ile bağla!"
+
+berry-bush:
+  already-trimmed: "Bu yemiş çalısı zaten budanmış!"
+
+ghost-block:
+  no-permission: "Bunu buraya koyma iznin yok!"
+  unsupported: "Hayalet Bloklar Minecraft 1.14 veya daha yenisini gerektirir."
+
+altar:
+  activated: "Kurban Sunağı etkinleştirildi."
+  finish-first: "Sunağını tamamla ve etkinleştirmek için bu bloğa yeniden tıkla."
+  not-finished: "Sunak tamamlanmadı!"
+  broken: "Sunak yıkıldı!"
+  piece-broken: "Sunağın bir parçası yıkıldı, lütfen onar ve yeniden etkinleştir!"
+
+quest:
+  check-first: "Önce görevini %command% ile kontrol etmelisin!"
+  reset: "Etkin görev sıfırlandı!"
+  sword-pleased: "%item% memnun."
+  cursed-lines:
+    - "Bir %entity% öldürmeyi çok isterim, ne lezzetli!"
+    - "Bana bir %entity% ver, hemen!"
+    - "Bir %entity% katletmeme yardım edebileceğinden eminim."
+    - "Kan istiyorum....  %entity% kanı."
+    - "Bir %entity% ciğerine ihtiyacım var."
+    - "%entity% kanının lezzetli olduğunu duydum..."
+    - "%entity% kalbi, hmmm..."
+    - "Biraz %entity% eti için Tanrı'yı bile katlederdim."
+    - "Bütün gün bir %entity% yiyip bitirebilirdim."
+    - "Çok uzun bekledim. Bir %entity% öldürmek için çok uzun ya da bir gün."
+    - "%entity% kanı dökülecek"
+    - "Lanetim %entity% ruhunu yiyip bitirecek"
+  celestial-lines:
+    - "Bütün varlıkları severim... %entity% hariç, onlardan nefret ederim."
+    - "Tüm yaşam dengede olmalı, bu yüzden bir %entity% öldürmem gerek."
+    - "Göksel biriyim, ama aynı zamanda bir kılıcım. Şimdi bana bir %entity% getir."
+    - "Üzgünüm, ama lütfen bana bir %entity% getir. Soru yok."
+    - "Göksel bir kılıç göksel bir kurban ister. Bir %entity%."
+    - "Sıradaki kurbanım bir %entity% olmalı, tam da Tanrı'nın istediği gibi."
+    - "Ve sıradaki ... %entity%!"
+    - "Tanrı bir %entity% ölsün istiyor."
+    - "Tanrı ve onur için, git bir %entity% katlet."
+    - "Git, yakala şu %entity%! Adalet için!"
+    - "Yıldızlar hizalandı. Kılıcımla ölecek %entity% açıkça görüyorum"
+
+chunk-loader:
+  already-loaded: "Bu öbek zaten yüklü!"
+  limit-reached: "Azami öbek yükleyici sayısı zaten yerleştirildi: %max%"
+  gps-complexity: "Başka bir Öbek Yükleyici yerleştirmek için gereken GPS ağı karmaşıklığından %current%/%required% kadarına sahipsin."
+
+position-selector:
+  primary-set: "Birincil konum şuraya ayarlandı: %location%"
+  secondary-set: "İkincil konum şuraya ayarlandı: %location%"

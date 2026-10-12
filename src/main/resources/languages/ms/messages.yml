@@ -1,0 +1,89 @@
+wand:
+  material-set: "Bahan ditetapkan kepada: %material%"
+  material-not-usable: "Tidak boleh digunakan: %material%, dengan cota pengisi"
+  select-material: "Pilih bahan binaan dengan Shift + Klik Kanan!"
+  not-enough-energy: "Itemmu tidak mempunyai tenaga yang cukup untuk itu!"
+  energy-needed: "Tenaga diperlukan: %energy%"
+  not-enough-materials: "Bahan dalam inventorimu tidak cukup!"
+  material-count: "Item sekarang: %current% Diperlukan: %needed%"
+  select-both-positions: "Sila pilih kedua-dua kedudukan dengan Pemilih Kedudukan!"
+  area-too-big: "Kawasan yang dipilih terlalu besar!"
+  no-valid-locations: "Tiada kedudukan sah dijumpai untuk titik yang dipilih!"
+
+commands:
+  usage: "Penggunaan: /%usage%"
+  custom-mobs-unsupported: "Mob tersuai tidak disokong pada versi Minecraft ini."
+  killed-entities: "%count% entiti dibunuh"
+  hold-a-sword: "Kamu perlu memegang %cursed% atau %celestial% untuk melihat misimu."
+
+rune:
+  item-unbreakable: "Itemmu kini tidak boleh pecah."
+  item-not-unbreakable: "Itemmu tidak dapat dijadikan tidak boleh pecah"
+  item-disallowed: "Kamu tidak boleh menjadikan item ini tidak boleh pecah!"
+
+dome:
+  activated: "Kubah telah diaktifkan."
+  deactivated: "Kubah telah dimatikan."
+  not-enough-energy: "Tenagamu tidak cukup."
+  cooldown: "Kamu perlu menunggu sekurang-kurangnya 10 detik sebelum mengaktifkan kubah lagi."
+  no-teleport: "Kamu tidak boleh berteleport ke kubah!"
+
+remote:
+  bound: "Kubah Medan Daya kini terikat kepada pengawal jauh."
+  must-bind-dome: "Kamu perlu mengikat ini kepada blok Kubah Medan Daya."
+  charge-first: "Caj pengawal jauhmu dahulu."
+  dome-not-found: "Medan daya yang dimiliki pengawal jauh ini tidak dijumpai."
+  bind-first: "Ikat item ini dahulu dengan Shift + Klik Kanan!"
+
+berry-bush:
+  already-trimmed: "Pokok renek beri ini sudah dipangkas!"
+
+ghost-block:
+  no-permission: "Kamu tiada kebenaran untuk meletakkan ini di sini!"
+  unsupported: "Blok Hantu memerlukan Minecraft 1.14 atau lebih baharu."
+
+altar:
+  activated: "Altar Korban telah diaktifkan."
+  finish-first: "Siapkan altarmu dan klik blok ini lagi untuk mengaktifkannya."
+  not-finished: "Altar belum siap!"
+  broken: "Altar telah dihancurkan!"
+  piece-broken: "Sebahagian altar telah dihancurkan, sila perbaikinya dan aktifkan semula!"
+
+quest:
+  check-first: "Kamu patut menyemak misimu dengan %command% dahulu!"
+  reset: "Misi aktif telah ditetapkan semula!"
+  sword-pleased: "%item% berpuas hati."
+  cursed-lines:
+    - "Aku ingin sekali membunuh %entity%, sungguh lazat!"
+    - "Berikan aku %entity%, sekarang!"
+    - "Pasti kamu boleh membantuku membunuh %entity%."
+    - "Aku mahu darah....  darah %entity%."
+    - "Aku perlukan hati %entity%."
+    - "Aku dengar darah %entity% itu lazat..."
+    - "Jantung %entity%, hmmm..."
+    - "Aku sanggup membunuh Tuhan sendiri demi sedikit daging %entity%."
+    - "Aku boleh meratah %entity% sepanjang hari."
+    - "Aku sudah menunggu terlalu lama. Terlalu lama atau sehari untuk membunuh %entity%."
+    - "Darah %entity% akan ditumpahkan"
+    - "Sumpahanku akan meratah jiwa %entity%"
+  celestial-lines:
+    - "Aku mencintai semua makhluk... kecuali %entity%, aku membenci mereka."
+    - "Semua kehidupan perlu seimbang, itulah sebabnya aku perlu membunuh %entity%."
+    - "Aku samawi, tetapi aku juga sebilah pedang. Sekarang bawakan aku %entity%."
+    - "Maafkan aku, tetapi tolong bawakan aku %entity%. Tanpa bertanya."
+    - "Pedang samawi menuntut korban samawi. Seekor %entity%."
+    - "Korban seterusnya patut menjadi %entity%, tepat seperti kehendak Tuhan."
+    - "Dan seterusnya dalam barisan ialah ... %entity%!"
+    - "Tuhan mahu %entity% mati."
+    - "Demi Tuhan dan kehormatan, pergi bunuh %entity%."
+    - "Pergi, tangkap %entity% itu! Demi keadilan!"
+    - "Bintang-bintang telah sejajar. Aku melihat jelas %entity% yang akan mati oleh mata pedangku"
+
+chunk-loader:
+  already-loaded: "Ketulan ini sudah dimuatkan!"
+  limit-reached: "Jumlah maksimum pemuat ketulan sudah diletakkan: %max%"
+  gps-complexity: "Kamu mempunyai %current%/%required% kekompleksan rangkaian GPS yang diperlukan untuk meletakkan Pemuat Ketulan yang lain."
+
+position-selector:
+  primary-set: "Kedudukan utama ditetapkan kepada %location%"
+  secondary-set: "Kedudukan kedua ditetapkan kepada %location%"

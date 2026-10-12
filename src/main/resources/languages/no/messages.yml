@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiale satt til: %material%"
+  material-not-usable: "Kan ikke bruke: %material%, med fyllestaven"
+  select-material: "Velg et byggemateriale med Shift + Høyreklikk!"
+  not-enough-energy: "Gjenstanden din har ikke nok energi til det!"
+  energy-needed: "Nødvendig energi: %energy%"
+  not-enough-materials: "Det er ikke nok materialer i inventaret ditt!"
+  material-count: "Nåværende gjenstander: %current% Nødvendig: %needed%"
+  select-both-positions: "Velg begge posisjonene med Posisjonsvelgeren!"
+  area-too-big: "Det valgte området er for stort!"
+  no-valid-locations: "Fant ingen gyldige posisjoner for de valgte punktene!"
+
+commands:
+  usage: "Bruk: /%usage%"
+  custom-mobs-unsupported: "Egendefinerte mober støttes ikke på denne Minecraft-versjonen."
+  killed-entities: "Drepte %count% enheter"
+  hold-a-sword: "Du må holde %cursed% eller %celestial% for å se oppdraget ditt."
+
+rune:
+  item-unbreakable: "Gjenstanden din er nå uknuselig."
+  item-not-unbreakable: "Gjenstanden din kunne ikke gjøres uknuselig"
+  item-disallowed: "Du kan ikke gjøre denne gjenstanden uknuselig!"
+
+dome:
+  activated: "Kuppelen har blitt aktivert."
+  deactivated: "Kuppelen har blitt deaktivert."
+  not-enough-energy: "Du har ikke nok energi."
+  cooldown: "Du må vente minst 10 sekunder før du aktiverer kuppelen igjen."
+  no-teleport: "Du kan ikke teleportere til en kuppel!"
+
+remote:
+  bound: "Kraftfeltkuppelen er nå bundet til fjernkontrolleren."
+  must-bind-dome: "Du må binde dette til en Kraftfeltkuppel-blokk."
+  charge-first: "Lad fjernkontrolleren din først."
+  dome-not-found: "Kraftfeltet som tilhører denne fjernkontrolleren ble ikke funnet."
+  bind-first: "Bind denne gjenstanden først med Shift + Høyreklikk!"
+
+berry-bush:
+  already-trimmed: "Denne bærbusken er allerede trimmet!"
+
+ghost-block:
+  no-permission: "Du har ikke tillatelse til å plassere dette her!"
+  unsupported: "Spøkelsesblokker krever Minecraft 1.14 eller nyere."
+
+altar:
+  activated: "Offeralteret har blitt aktivert."
+  finish-first: "Fullfør alteret ditt og klikk på denne blokken igjen for å aktivere det."
+  not-finished: "Alteret er ikke ferdig!"
+  broken: "Alteret har blitt ødelagt!"
+  piece-broken: "En del av alteret har blitt ødelagt, reparer den og aktiver det igjen!"
+
+quest:
+  check-first: "Du bør først sjekke oppdraget ditt med %command%!"
+  reset: "Aktivt oppdrag tilbakestilt!"
+  sword-pleased: "%item% er tilfreds."
+  cursed-lines:
+    - "Jeg ville gjerne drepe en %entity%, så velsmakende!"
+    - "Gi meg en %entity%, nå!"
+    - "Du kan sikkert hjelpe meg å felle en %entity%."
+    - "Jeg vil ha blod....  %entity%-blod."
+    - "Jeg trenger en lever fra en %entity%."
+    - "Jeg har hørt at %entity%-blod er velsmakende..."
+    - "%entity%-hjerte, hmmm..."
+    - "Jeg ville felt Gud selv for litt %entity%-kjøtt."
+    - "Jeg kunne fortært en %entity% hele dagen."
+    - "Jeg har ventet for lenge. For lenge eller en dag på å drepe en %entity%."
+    - "%entity%s blod skal spilles"
+    - "Min forbannelse skal fortære %entity%s sjel"
+  celestial-lines:
+    - "Jeg elsker alle vesener... bortsett fra %entity%, dem hater jeg."
+    - "Alt liv må være i balanse, derfor må jeg drepe en %entity%."
+    - "Jeg er himmelsk, men jeg er også et sverd. Hent meg nå en %entity%."
+    - "Jeg er lei for det, men vennligst hent meg en %entity%. Ingen spørsmål."
+    - "Et himmelsk sverd krever et himmelsk offer. En %entity%."
+    - "Mitt neste offer bør være en %entity%, akkurat som Gud hadde tenkt."
+    - "Og den neste på listen er ... %entity%!"
+    - "Gud vil se en %entity% død."
+    - "For Gud og ære, gå og fell en %entity%."
+    - "Gå, ta den %entity%! For rettferdigheten!"
+    - "Stjernene har stilt seg på linje. Jeg ser tydelig den %entity% som skal dø for mitt blad"
+
+chunk-loader:
+  already-loaded: "Dette området er allerede lastet!"
+  limit-reached: "Maksimalt antall områdelastere er allerede plassert: %max%"
+  gps-complexity: "Du har %current%/%required% GPS-nettverkskompleksitet som kreves for å plassere en ny Områdelaster."
+
+position-selector:
+  primary-set: "Primær posisjon satt til %location%"
+  secondary-set: "Sekundær posisjon satt til %location%"

@@ -1,0 +1,89 @@
+wand:
+  material-set: "Material satt till: %material%"
+  material-not-usable: "Kan inte använda: %material%, med fyllnadsstaven"
+  select-material: "Välj ett byggmaterial med Shift + Högerklick!"
+  not-enough-energy: "Ditt föremål har inte tillräckligt med energi för det!"
+  energy-needed: "Energi som behövs: %energy%"
+  not-enough-materials: "Det finns inte tillräckligt med material i din inventarie!"
+  material-count: "Nuvarande föremål: %current% Behövs: %needed%"
+  select-both-positions: "Välj båda positionerna med Positionsväljaren!"
+  area-too-big: "Det valda området är för stort!"
+  no-valid-locations: "Inga giltiga positioner hittades för de valda punkterna!"
+
+commands:
+  usage: "Användning: /%usage%"
+  custom-mobs-unsupported: "Egna mobbar stöds inte på denna Minecraft-version."
+  killed-entities: "Dödade %count% enheter"
+  hold-a-sword: "Du måste hålla %cursed% eller %celestial% för att se ditt uppdrag."
+
+rune:
+  item-unbreakable: "Ditt föremål är nu oförstörbart."
+  item-not-unbreakable: "Ditt föremål kunde inte göras oförstörbart"
+  item-disallowed: "Du kan inte göra detta föremål oförstörbart!"
+
+dome:
+  activated: "Kupolen har aktiverats."
+  deactivated: "Kupolen har avaktiverats."
+  not-enough-energy: "Du har inte tillräckligt med energi."
+  cooldown: "Du måste vänta minst 10 sekunder innan du aktiverar kupolen igen."
+  no-teleport: "Du kan inte teleportera till en kupol!"
+
+remote:
+  bound: "Kraftfältskupolen är nu bunden till fjärrstyrningen."
+  must-bind-dome: "Du måste binda detta till ett Kraftfältskupol-block."
+  charge-first: "Ladda din fjärrstyrning först."
+  dome-not-found: "Kraftfältet som hör till denna fjärrstyrning hittades inte."
+  bind-first: "Bind detta föremål först med Shift + Högerklick!"
+
+berry-bush:
+  already-trimmed: "Denna bärbuske är redan beskuren!"
+
+ghost-block:
+  no-permission: "Du har inte tillåtelse att placera detta här!"
+  unsupported: "Spökblock kräver Minecraft 1.14 eller nyare."
+
+altar:
+  activated: "Offeraltaret har aktiverats."
+  finish-first: "Färdigställ ditt altare och klicka på detta block igen för att aktivera det."
+  not-finished: "Altaret är inte färdigt!"
+  broken: "Altaret har förstörts!"
+  piece-broken: "En del av altaret har förstörts, reparera den och aktivera det igen!"
+
+quest:
+  check-first: "Du bör först kontrollera ditt uppdrag med %command%!"
+  reset: "Aktivt uppdrag återställt!"
+  sword-pleased: "%item% är nöjt."
+  cursed-lines:
+    - "Jag skulle gärna döda en %entity%, så välsmakande!"
+    - "Ge mig en %entity%, nu!"
+    - "Du kan säkert hjälpa mig att dräpa en %entity%."
+    - "Jag vill ha blod....  %entity%-blod."
+    - "Jag behöver en lever från en %entity%."
+    - "Jag har hört att %entity%-blod är välsmakande..."
+    - "%entity%-hjärta, hmmm..."
+    - "Jag skulle dräpa Gud själv för lite %entity%-kött."
+    - "Jag skulle kunna sluka en %entity% hela dagen."
+    - "Jag har väntat för länge. För länge eller en dag för att döda en %entity%."
+    - "%entity%s blod ska spillas"
+    - "Min förbannelse ska sluka %entity%s själ"
+  celestial-lines:
+    - "Jag älskar alla varelser... utom %entity%, dem hatar jag."
+    - "Allt liv måste vara i balans, därför måste jag döda en %entity%."
+    - "Jag är himmelsk, men jag är också ett svärd. Hämta mig nu en %entity%."
+    - "Jag är ledsen, men hämta mig en %entity%, tack. Inga frågor."
+    - "Ett himmelskt svärd kräver ett himmelskt offer. En %entity%."
+    - "Mitt nästa offer bör vara en %entity%, precis som Gud avsåg."
+    - "Och nästa på tur är ... %entity%!"
+    - "Gud vill se en %entity% död."
+    - "För Gud och ära, gå och dräp en %entity%."
+    - "Gå, ta den där %entity%! För rättvisan!"
+    - "Stjärnorna har ställt sig i linje. Jag ser tydligt den %entity% som ska dö för min klinga"
+
+chunk-loader:
+  already-loaded: "Denna chunk är redan laddad!"
+  limit-reached: "Maximalt antal chunkladdare är redan placerade: %max%"
+  gps-complexity: "Du har %current%/%required% GPS-nätverkskomplexitet som behövs för att placera ytterligare en Chunkladdare."
+
+position-selector:
+  primary-set: "Primär position satt till %location%"
+  secondary-set: "Sekundär position satt till %location%"

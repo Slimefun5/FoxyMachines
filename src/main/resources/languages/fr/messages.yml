@@ -1,0 +1,89 @@
+wand:
+  material-set: "Matériau défini sur : %material%"
+  material-not-usable: "Impossible d'utiliser : %material%, avec la baguette de remplissage"
+  select-material: "Sélectionnez un matériau de construction avec Shift + Clic droit !"
+  not-enough-energy: "Votre objet n'a pas assez d'énergie pour cela !"
+  energy-needed: "Énergie nécessaire : %energy%"
+  not-enough-materials: "Il n'y a pas assez de matériaux dans votre inventaire !"
+  material-count: "Objets actuels : %current% Nécessaires : %needed%"
+  select-both-positions: "Veuillez sélectionner les deux positions avec le Sélecteur de position !"
+  area-too-big: "La zone sélectionnée est trop grande !"
+  no-valid-locations: "Aucune position valide trouvée pour les points sélectionnés !"
+
+commands:
+  usage: "Utilisation : /%usage%"
+  custom-mobs-unsupported: "Les mobs personnalisés ne sont pas pris en charge sur cette version de Minecraft."
+  killed-entities: "%count% entités tuées"
+  hold-a-sword: "Vous devez tenir l'%cursed% ou l'%celestial% pour voir votre quête."
+
+rune:
+  item-unbreakable: "Votre objet est maintenant incassable."
+  item-not-unbreakable: "Votre objet n'a pas pu être rendu incassable"
+  item-disallowed: "Vous ne pouvez pas rendre cet objet incassable !"
+
+dome:
+  activated: "Le dôme a été activé."
+  deactivated: "Le dôme a été désactivé."
+  not-enough-energy: "Vous n'avez pas assez d'énergie."
+  cooldown: "Vous devez attendre au moins 10 secondes avant de réactiver le dôme."
+  no-teleport: "Vous ne pouvez pas vous téléporter vers un dôme !"
+
+remote:
+  bound: "Le dôme de champ de force est maintenant lié au contrôleur à distance."
+  must-bind-dome: "Vous devez lier ceci à un bloc de Dôme de champ de force."
+  charge-first: "Rechargez d'abord votre contrôleur à distance."
+  dome-not-found: "Le champ de force appartenant à ce contrôleur à distance n'a pas été trouvé."
+  bind-first: "Liez d'abord cet objet avec Shift + Clic droit !"
+
+berry-bush:
+  already-trimmed: "Ce buisson de baies est déjà taillé !"
+
+ghost-block:
+  no-permission: "Vous n'avez pas la permission de placer ceci ici !"
+  unsupported: "Les blocs fantômes nécessitent Minecraft 1.14 ou plus récent."
+
+altar:
+  activated: "L'Autel sacrificiel a été activé."
+  finish-first: "Terminez votre autel et cliquez à nouveau sur ce bloc pour l'activer."
+  not-finished: "L'autel n'est pas terminé !"
+  broken: "L'autel a été détruit !"
+  piece-broken: "Une partie de l'autel a été détruite, veuillez la réparer et le réactiver !"
+
+quest:
+  check-first: "Vous devriez d'abord consulter votre quête avec %command% !"
+  reset: "Quête active réinitialisée !"
+  sword-pleased: "%item% est satisfaite."
+  cursed-lines:
+    - "J'aimerais tuer un %entity%, si savoureux !"
+    - "Donne-moi un %entity%, tout de suite !"
+    - "Tu peux sûrement m'aider à abattre un %entity%."
+    - "Je veux du sang....  du sang de %entity%."
+    - "J'ai besoin d'un foie de %entity%."
+    - "J'ai entendu dire que le sang de %entity% est savoureux..."
+    - "Un cœur de %entity%, hmmm..."
+    - "J'abattrais Dieu lui-même pour un peu de chair de %entity%."
+    - "Je pourrais dévorer un %entity% toute la journée."
+    - "J'ai attendu trop longtemps. Trop longtemps ou un jour pour tuer un %entity%."
+    - "Le sang du %entity% sera versé"
+    - "Ma malédiction dévorera l'âme du %entity%"
+  celestial-lines:
+    - "J'aime tous les êtres... sauf les %entity%, je les déteste."
+    - "Toute vie doit être en équilibre, c'est pourquoi je dois tuer un %entity%."
+    - "Je suis céleste, mais je suis aussi une épée. Maintenant, apporte-moi un %entity%."
+    - "Je suis désolée, mais apporte-moi un %entity%, s'il te plaît. Sans discuter."
+    - "Une épée céleste exige un sacrifice céleste. Un %entity%."
+    - "Ma prochaine victime devrait être un %entity%, comme Dieu l'a voulu."
+    - "Et le prochain sur la liste est ... %entity% !"
+    - "Dieu veut la mort d'un %entity%."
+    - "Pour Dieu et l'honneur, va abattre un %entity%."
+    - "Vas-y, attrape ce %entity% ! Pour la justice !"
+    - "Les étoiles se sont alignées. Je vois clairement le %entity% qui mourra sous ma lame"
+
+chunk-loader:
+  already-loaded: "Ce tronçon est déjà chargé !"
+  limit-reached: "Nombre maximal de chargeurs de tronçons déjà placés : %max%"
+  gps-complexity: "Vous avez %current%/%required% de complexité de réseau GPS nécessaire pour placer un autre Chargeur de tronçons."
+
+position-selector:
+  primary-set: "Position primaire définie sur %location%"
+  secondary-set: "Position secondaire définie sur %location%"

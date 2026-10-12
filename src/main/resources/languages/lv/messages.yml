@@ -1,0 +1,89 @@
+wand:
+  material-set: "Materiāls iestatīts uz: %material%"
+  material-not-usable: "Nevar izmantot: %material%, ar aizpildīšanas zizli"
+  select-material: "Izvēlies būvmateriālu ar Shift + Peles labo taustiņu!"
+  not-enough-energy: "Tavam priekšmetam tam nav pietiekami daudz enerģijas!"
+  energy-needed: "Nepieciešamā enerģija: %energy%"
+  not-enough-materials: "Tavā inventārā nav pietiekami daudz materiālu!"
+  material-count: "Pašreizējie priekšmeti: %current% Nepieciešams: %needed%"
+  select-both-positions: "Lūdzu, izvēlies abas pozīcijas ar Pozīcijas atlasītāju!"
+  area-too-big: "Izvēlētais apgabals ir pārāk liels!"
+  no-valid-locations: "Izvēlētajiem punktiem netika atrastas derīgas pozīcijas!"
+
+commands:
+  usage: "Lietojums: /%usage%"
+  custom-mobs-unsupported: "Pielāgotie radījumi šajā Minecraft versijā netiek atbalstīti."
+  killed-entities: "Nogalinātas %count% būtnes"
+  hold-a-sword: "Lai redzētu savu uzdevumu, tev rokā jātur %cursed% vai %celestial%."
+
+rune:
+  item-unbreakable: "Tavs priekšmets tagad ir nesalaužams."
+  item-not-unbreakable: "Tavu priekšmetu nevarēja padarīt nesalaužamu"
+  item-disallowed: "Tu nevari padarīt šo priekšmetu nesalaužamu!"
+
+dome:
+  activated: "Kupols ir aktivizēts."
+  deactivated: "Kupols ir deaktivizēts."
+  not-enough-energy: "Tev nav pietiekami daudz enerģijas."
+  cooldown: "Pirms kupola atkārtotas aktivizēšanas tev jāgaida vismaz 10 sekundes."
+  no-teleport: "Tu nevari teleportēties pie kupola!"
+
+remote:
+  bound: "Spēka lauka kupols tagad ir piesaistīts tālvadības pultij."
+  must-bind-dome: "Tev tas jāpiesaista Spēka lauka kupola blokam."
+  charge-first: "Vispirms uzlādē savu tālvadības pulti."
+  dome-not-found: "Spēka lauks, kas pieder šai tālvadības pultij, netika atrasts."
+  bind-first: "Vispirms piesaisti šo priekšmetu ar Shift + Peles labo taustiņu!"
+
+berry-bush:
+  already-trimmed: "Šis ogu krūms jau ir apgriezts!"
+
+ghost-block:
+  no-permission: "Tev nav atļaujas to šeit novietot!"
+  unsupported: "Spoku blokiem nepieciešams Minecraft 1.14 vai jaunāks."
+
+altar:
+  activated: "Upurēšanas altāris ir aktivizēts."
+  finish-first: "Pabeidz savu altāri un noklikšķini uz šī bloka vēlreiz, lai to aktivizētu."
+  not-finished: "Altāris nav pabeigts!"
+  broken: "Altāris ir sagrauts!"
+  piece-broken: "Daļa altāra ir sagrauta, lūdzu, saremontē to un aktivizē altāri vēlreiz!"
+
+quest:
+  check-first: "Vispirms tev vajadzētu pārbaudīt savu uzdevumu ar %command%!"
+  reset: "Aktīvais uzdevums atiestatīts!"
+  sword-pleased: "%item% ir apmierināts."
+  cursed-lines:
+    - "Es labprāt nogalinātu %entity%, tik gards!"
+    - "Dod man %entity%, tūlīt!"
+    - "Tu noteikti vari man palīdzēt nokaut %entity%."
+    - "Es vēlos asinis....  %entity% asinis."
+    - "Man vajag %entity% aknas."
+    - "Esmu dzirdējis, ka %entity% asinis ir gardas..."
+    - "%entity% sirds, hmmm..."
+    - "Es nokautu pašu Dievu par mazliet %entity% miesas."
+    - "Es varētu rīt %entity% visu dienu."
+    - "Esmu gaidījis pārāk ilgi. Pārāk ilgi vai dienu, lai nogalinātu %entity%."
+    - "%entity% asinis tiks izlietas"
+    - "Mans lāsts aprīs %entity% dvēseli"
+  celestial-lines:
+    - "Es mīlu visas būtnes... izņemot %entity%, tās es ienīstu."
+    - "Visai dzīvei jābūt līdzsvarā, tāpēc man jānogalina %entity%."
+    - "Es esmu debesu, bet esmu arī zobens. Tagad atnes man %entity%."
+    - "Man žēl, bet, lūdzu, atnes man %entity%. Bez jautājumiem."
+    - "Debesu zobens pieprasa debesu upuri. %entity%."
+    - "Manam nākamajam upurim jābūt %entity%, tieši tā, kā Dievs bija iecerējis."
+    - "Un nākamais rindā ir ... %entity%!"
+    - "Dievs vēlas %entity% nāvi."
+    - "Par Dievu un godu, ej nokaut %entity%."
+    - "Ej, noķer to %entity%! Taisnības labā!"
+    - "Zvaigznes ir sakārtojušās. Es skaidri redzu %entity%, kas mirs no mana asmens"
+
+chunk-loader:
+  already-loaded: "Šis gabals jau ir ielādēts!"
+  limit-reached: "Maksimālais gabalu ielādētāju skaits jau ir novietots: %max%"
+  gps-complexity: "Tev ir %current%/%required% GPS tīkla sarežģītības, kas nepieciešama vēl viena Gabalu ielādētāja novietošanai."
+
+position-selector:
+  primary-set: "Primārā pozīcija iestatīta uz %location%"
+  secondary-set: "Sekundārā pozīcija iestatīta uz %location%"
