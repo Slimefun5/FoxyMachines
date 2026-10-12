@@ -5,6 +5,7 @@ import me.gallowsdove.foxymachines.abstracts.CustomBoss;
 import me.gallowsdove.foxymachines.abstracts.CustomMob;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
 import org.bukkit.Bukkit;
+import me.gallowsdove.foxymachines.utils.Messages;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Entity;
@@ -29,13 +30,14 @@ public class KillallCommand extends SubCommand {
         Player player = (Player) sender;
 
         if (args.length != 0) {
-            sender.sendMessage(ChatColor.LIGHT_PURPLE + "Usage: /foxy killall");
+            Messages.send(sender, ChatColor.LIGHT_PURPLE, "commands.usage", "Usage: /%usage%",
+                    line -> line.replace("%usage%", "foxy killall"));
             return;
         }
 
         // Touching CustomMob/CustomBoss loads a 1.9+ boss-bar/spellcaster listener; skip on legacy servers.
         if (!CompatUtils.customMobsSupported()) {
-            player.sendMessage(ChatColor.LIGHT_PURPLE + "Custom mobs are not supported on this Minecraft version.");
+            Messages.send(player, ChatColor.LIGHT_PURPLE, "commands.custom-mobs-unsupported", "Custom mobs are not supported on this Minecraft version.");
             return;
         }
 
@@ -52,7 +54,9 @@ public class KillallCommand extends SubCommand {
 
         CustomBoss.removeBossBars();
 
-        player.sendMessage(String.format("Killed %s Entities", count));
+        int killed = count;
+        Messages.send(player, "commands.killed-entities", "Killed %count% Entities",
+                line -> line.replace("%count%", String.valueOf(killed)));
     }
 
     @Override

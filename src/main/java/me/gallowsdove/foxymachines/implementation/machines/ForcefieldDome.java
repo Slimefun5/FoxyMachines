@@ -35,6 +35,7 @@ import java.lang.reflect.Type;
 import java.util.*;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
+import me.gallowsdove.foxymachines.utils.Messages;
 
 public final class ForcefieldDome extends SlimefunItem implements EnergyNetComponent {
 
@@ -126,24 +127,24 @@ public final class ForcefieldDome extends SlimefunItem implements EnergyNetCompo
                     if (active.equals("false")) {
                         if (getCharge(b.getLocation()) >= ENERGY_CONSUMPTION) {
                             setDomeActive(b);
-                            e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "The dome has been activated.");
+                            Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "dome.activated", "The dome has been activated.");
 
                             BlockStorage.addBlockInfo(b, "cooldown", "true");
                             Scheduler.runAsync(200, () ->
                                     BlockStorage.addBlockInfo(b, "cooldown", "false"));
                         } else {
-                            e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "You don't have enough energy.");
+                            Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "dome.not-enough-energy", "You don't have enough energy.");
                         }
                     } else {
                         setDomeInactive(b);
-                        e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "The dome has been deactivated.");
+                        Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "dome.deactivated", "The dome has been deactivated.");
 
                         BlockStorage.addBlockInfo(b, "cooldown", "true");
                         Scheduler.runAsync(200, () ->
                                 BlockStorage.addBlockInfo(b, "cooldown", "false"));
                     }
                 } else {
-                    e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "You must wait at least 10 seconds before activating the dome again.");
+                    Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "dome.cooldown", "You must wait at least 10 seconds before activating the dome again.");
                 }
                 e.cancel();
             }
@@ -199,24 +200,24 @@ public final class ForcefieldDome extends SlimefunItem implements EnergyNetCompo
             if (active.equals("false")) {
                 if (getCharge(b.getLocation()) >= ENERGY_CONSUMPTION) {
                     setDomeActive(b);
-                    p.sendMessage(ChatColor.LIGHT_PURPLE + "The dome has been activated.");
+                    Messages.send(p, ChatColor.LIGHT_PURPLE, "dome.activated", "The dome has been activated.");
 
                     BlockStorage.addBlockInfo(b, "cooldown", "true");
                     Scheduler.runAsync(200, () ->
                             BlockStorage.addBlockInfo(b, "cooldown", "false"));
                 } else {
-                    p.sendMessage(ChatColor.LIGHT_PURPLE + "You don't have enough energy.");
+                    Messages.send(p, ChatColor.LIGHT_PURPLE, "dome.not-enough-energy", "You don't have enough energy.");
                 }
             } else {
                 setDomeInactive(b);
-                p.sendMessage(ChatColor.LIGHT_PURPLE + "The dome has been deactivated.");
+                Messages.send(p, ChatColor.LIGHT_PURPLE, "dome.deactivated", "The dome has been deactivated.");
 
                 BlockStorage.addBlockInfo(b, "cooldown", "true");
                 Scheduler.runAsync(200, () ->
                         BlockStorage.addBlockInfo(b, "cooldown", "false"));
             }
         } else {
-            p.sendMessage(ChatColor.LIGHT_PURPLE + "You must wait at least 10 seconds before activating the dome again.");
+            Messages.send(p, ChatColor.LIGHT_PURPLE, "dome.cooldown", "You must wait at least 10 seconds before activating the dome again.");
         }
     }
 

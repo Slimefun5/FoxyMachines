@@ -3,6 +3,7 @@ package me.gallowsdove.foxymachines.commands;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import me.gallowsdove.foxymachines.abstracts.CustomMob;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
+import me.gallowsdove.foxymachines.utils.Messages;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -24,12 +25,13 @@ public final class SummonCommand extends SubCommand {
         Player player = (Player) sender;
 
         if (args.length != 1) {
-            sender.sendMessage(ChatColor.LIGHT_PURPLE + "Usage: /foxy summon <MOB_ID>");
+            Messages.send(sender, ChatColor.LIGHT_PURPLE, "commands.usage", "Usage: /%usage%",
+                    line -> line.replace("%usage%", "foxy summon <MOB_ID>"));
             return;
         }
 
         if (!CompatUtils.customMobsSupported()) {
-            sender.sendMessage(ChatColor.LIGHT_PURPLE + "Custom mobs are not supported on this Minecraft version.");
+            Messages.send(sender, ChatColor.LIGHT_PURPLE, "commands.custom-mobs-unsupported", "Custom mobs are not supported on this Minecraft version.");
             return;
         }
 

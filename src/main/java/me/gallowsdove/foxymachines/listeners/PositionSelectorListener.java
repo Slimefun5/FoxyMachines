@@ -7,6 +7,7 @@ import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.implementation.tools.PositionSelector;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
+import me.gallowsdove.foxymachines.utils.Messages;
 import org.bukkit.ChatColor;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -27,7 +28,8 @@ public class PositionSelectorListener implements Listener {
                 Block block = e.getClickedBlock();
                 SimpleLocation loc = new SimpleLocation(block, "primary_position");
                 loc.storePersistently(player);
-                player.sendMessage(ChatColor.LIGHT_PURPLE + "Primary position set to " + loc);
+                Messages.send(player, ChatColor.LIGHT_PURPLE, "position-selector.primary-set", "Primary position set to %location%",
+                        line -> line.replace("%location%", String.valueOf(loc)));
             }
         }
     }

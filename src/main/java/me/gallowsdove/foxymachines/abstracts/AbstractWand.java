@@ -34,6 +34,7 @@ import java.util.UUID;
 import java.util.logging.Level;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
+import me.gallowsdove.foxymachines.utils.Messages;
 
 public abstract class AbstractWand extends SlimefunItem implements NotPlaceable, Rechargeable {
     private static final NamespacedKey MATERIAL_KEY = new NamespacedKey(FoxyMachines.getInstance(), "wand_material");
@@ -112,13 +113,15 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
                 String humanizedName = ChatUtils.humanize(material.toString());
                 if ((material.isBlock() && material.isSolid() && material.isOccluding() && !BLACKLIST.contains(material)) ||
                         WHITELIST.contains(material)) {
-                    player.sendMessage(ChatColor.LIGHT_PURPLE + "Material set to: " + humanizedName);
+                    Messages.send(player, ChatColor.LIGHT_PURPLE, "wand.material-set", "Material set to: %material%",
+                            line -> line.replace("%material%", humanizedName));
                     PdcCompat.setString(meta, AbstractWand.MATERIAL_KEY, material.toString());
                     updateLegacyBakedLore(meta, humanizedName);
                     itemInInventory.setItemMeta(meta);
                     setItemCharge(itemInInventory, getItemCharge(itemInInventory)); // To update it in lore
                 } else {
-                    player.sendMessage(ChatColor.RED + "Cannot use: " + humanizedName + ", with the fill wand");
+                    Messages.send(player, ChatColor.RED, "wand.material-not-usable", "Cannot use: %material%, with the fill wand",
+                            line -> line.replace("%material%", humanizedName));
                 }
             } else {
                 if (isRemoving() && !PdcCompat.has(meta, MATERIAL_KEY, "STRING")) {
@@ -133,7 +136,7 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
 
                 Inventory inventory = player.getInventory();
                 if (!PdcCompat.has(meta, MATERIAL_KEY, "STRING")) {
-                    player.sendMessage(ChatColor.RED + "Select a building material with Shift + Right Click!");
+                    Messages.send(player, ChatColor.RED, "wand.select-material", "Select a building material with Shift + Right Click!");
                     return;
                 }
                 Material material = Material.getMaterial(PdcCompat.getString(meta, MATERIAL_KEY));
@@ -152,12 +155,15 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
                             });
                         }
                     } else {
-                        player.sendMessage(ChatColor.RED + "Your item doesn't have enough energy for that!");
-                        player.sendMessage(ChatColor.RED + "Energy needed: " + getCostPerBlock() * locs.size());
+                        Messages.send(player, ChatColor.RED, "wand.not-enough-energy", "Your item doesn't have enough energy for that!");
+                        Messages.send(player, ChatColor.RED, "wand.energy-needed", "Energy needed: %energy%",
+                                line -> line.replace("%energy%", String.valueOf(getCostPerBlock() * locs.size())));
                     }
                 } else {
-                    player.sendMessage(ChatColor.RED + "There aren't enough materials in your inventory!");
-                    player.sendMessage(ChatColor.RED + "Current items: " + Utils.countItemInInventory(inventory, blocks) + " Needed: " + locs.size());
+                    Messages.send(player, ChatColor.RED, "wand.not-enough-materials", "There aren't enough materials in your inventory!");
+                    Messages.send(player, ChatColor.RED, "wand.material-count", "Current items: %current% Needed: %needed%",
+                            line -> line.replace("%current%", String.valueOf(Utils.countItemInInventory(inventory, blocks)))
+                                    .replace("%needed%", String.valueOf(locs.size())));
                 }
             }
         };
@@ -182,7 +188,7 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
         SimpleLocation loc2 = SimpleLocation.fromPersistentStorage(player, "secondary_position");
 
         if (loc1 == null || loc2 == null || !loc1.getWorldUUID().equals(loc2.getWorldUUID())) {
-            player.sendMessage(ChatColor.RED + "Please select both locations using Position Selector!");
+            Messages.send(player, ChatColor.RED, "wand.select-both-positions", "Please select both locations using Position Selector!");
             return locs;
         }
 
@@ -205,14 +211,14 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
         }
 
         if ((loc1.getX() - loc2.getX()) * (loc1.getY() - loc2.getY()) * (loc1.getZ() - loc2.getZ()) > getMaxBlocks()) {
-            player.sendMessage(ChatColor.RED + "Selected area is too big!");
+            Messages.send(player, ChatColor.RED, "wand.area-too-big", "Selected area is too big!");
             return locs;
         }
 
         World world = Bukkit.getWorld(UUID.fromString(loc1.getWorldUUID()));
 
         if (world == null) {
-            player.sendMessage(ChatColor.RED + "Please select both locations using Position Selector!");
+            Messages.send(player, ChatColor.RED, "wand.select-both-positions", "Please select both locations using Position Selector!");
             return locs;
         }
 
@@ -228,7 +234,7 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
         }
 
         if (locs.isEmpty()) {
-            player.sendMessage(ChatColor.RED + "No valid locations found given the selected points!");
+            Messages.send(player, ChatColor.RED, "wand.no-valid-locations", "No valid locations found given the selected points!");
         }
 
         return locs;

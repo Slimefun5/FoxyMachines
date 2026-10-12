@@ -21,6 +21,7 @@ import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
+import me.gallowsdove.foxymachines.utils.Messages;
 
 public class SwordListener implements Listener {
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
@@ -60,11 +61,13 @@ public class SwordListener implements Listener {
 
         if (sfItem instanceof CursedSword) {
             inventory.addItem(new SlimefunItemStack(Items.CURSED_SHARD, 1).item());
-            p.sendMessage(ChatColor.RED + "The Cursed Sword is pleased.");
+            Messages.send(p, ChatColor.RED, "quest.sword-pleased", "%item% is pleased.",
+                    line -> line.replace("%item%", Messages.itemName(p, Items.CURSED_SWORD, "The Cursed Sword")));
             Scheduler.run(20, () -> QuestUtils.sendQuestLine(p, Items.CURSED_SWORD));
         } else if (sfItem instanceof CelestialSword) {
             inventory.addItem(new SlimefunItemStack(Items.CELESTIAL_SHARD, 1).item());
-            p.sendMessage(ChatColor.YELLOW + "The Celestial Sword is pleased.");
+            Messages.send(p, ChatColor.YELLOW, "quest.sword-pleased", "%item% is pleased.",
+                    line -> line.replace("%item%", Messages.itemName(p, Items.CELESTIAL_SWORD, "The Celestial Sword")));
             Scheduler.run(20, () -> QuestUtils.sendQuestLine(p, Items.CELESTIAL_SWORD));
         }
     }

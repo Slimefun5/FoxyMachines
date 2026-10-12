@@ -5,6 +5,7 @@ import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.QuestUtils;
+import me.gallowsdove.foxymachines.utils.Messages;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -25,7 +26,8 @@ public class QuestCommand extends SubCommand {
         Player p = (Player) commandSender;
 
         if (args.length != 0) {
-            commandSender.sendMessage(ChatColor.LIGHT_PURPLE + "Usage: /foxy quest");
+            Messages.send(commandSender, ChatColor.LIGHT_PURPLE, "commands.usage", "Usage: /%usage%",
+                    line -> line.replace("%usage%", "foxy quest"));
             return;
         }
 
@@ -34,8 +36,11 @@ public class QuestCommand extends SubCommand {
         } else if (SlimefunUtils.isItemSimilar(HandCompat.getMainHand(p.getInventory()), Items.CELESTIAL_SWORD.item(), false, false)) {
             QuestUtils.sendQuestLine(p, Items.CELESTIAL_SWORD);
         } else {
-            p.sendMessage(ChatColor.LIGHT_PURPLE + "You need to be holding the " + ChatColor.RED + "Cursed Sword" +
-                    ChatColor.LIGHT_PURPLE + " or the " + ChatColor.YELLOW + "Celestial Sword" + ChatColor.LIGHT_PURPLE + " to view your quest.");
+            Messages.send(p, ChatColor.LIGHT_PURPLE, "commands.hold-a-sword",
+                    "You need to be holding the %cursed% or the %celestial% to view your quest.",
+                    line -> line
+                            .replace("%cursed%", ChatColor.RED + Messages.itemName(p, Items.CURSED_SWORD, "Cursed Sword") + ChatColor.LIGHT_PURPLE)
+                            .replace("%celestial%", ChatColor.YELLOW + Messages.itemName(p, Items.CELESTIAL_SWORD, "Celestial Sword") + ChatColor.LIGHT_PURPLE));
         }
     }
 

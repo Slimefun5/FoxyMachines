@@ -19,6 +19,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import javax.annotation.Nonnull;
 import java.util.UUID;
+import me.gallowsdove.foxymachines.utils.Messages;
 
 public class RemoteController extends SlimefunItem implements NotPlaceable, Rechargeable {
     private static final float COST = 50F;
@@ -53,9 +54,9 @@ public class RemoteController extends SlimefunItem implements NotPlaceable, Rech
 
                         loc.storePersistently(meta);
                         itemInInventory.setItemMeta(meta);
-                        e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "Forcefield dome is now bound to the remote controller.");
+                        Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "remote.bound", "Forcefield dome is now bound to the remote controller.");
                     } else {
-                        e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "You must bind this to a Forcefield Dome block.");
+                        Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "remote.must-bind-dome", "You must bind this to a Forcefield Dome block.");
                     }
                 }
             } else {
@@ -70,13 +71,13 @@ public class RemoteController extends SlimefunItem implements NotPlaceable, Rech
                         if (removeItemCharge(item, COST)) {
                             ForcefieldDome.INSTANCE.switchActive(b, e.getPlayer());
                         } else {
-                            e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "Charge your remote controller first.");
+                            Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "remote.charge-first", "Charge your remote controller first.");
                         }
                     } else {
-                        e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "Forcefield belonging to this remote control wasn't found.");
+                        Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "remote.dome-not-found", "Forcefield belonging to this remote control wasn't found.");
                     }
                 } else {
-                    e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "Bind this item with Shift + Right Click first!");
+                    Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "remote.bind-first", "Bind this item with Shift + Right Click first!");
                 }
             }
         };

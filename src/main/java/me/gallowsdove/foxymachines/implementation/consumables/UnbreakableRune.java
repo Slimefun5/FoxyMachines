@@ -10,6 +10,7 @@ import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunIte
 import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
+import me.gallowsdove.foxymachines.utils.Messages;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -110,13 +111,13 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
                         setUnbreakable(itemStack);
                         l.getWorld().dropItemNaturally(l, itemStack);
 
-                        p.sendMessage(ChatColor.LIGHT_PURPLE + "Your item is now Unbreakable.");
+                        Messages.send(p, ChatColor.LIGHT_PURPLE, "rune.item-unbreakable", "Your item is now Unbreakable.");
                     } else {
-                        p.sendMessage(ChatColor.LIGHT_PURPLE + "Your item could not be made Unbreakable");
+                        Messages.send(p, ChatColor.LIGHT_PURPLE, "rune.item-not-unbreakable", "Your item could not be made Unbreakable");
                     }
                 });
             } else {
-                p.sendMessage(ChatColor.LIGHT_PURPLE + "Your item could not be made Unbreakable");
+                Messages.send(p, ChatColor.LIGHT_PURPLE, "rune.item-not-unbreakable", "Your item could not be made Unbreakable");
             }
         }
     }
@@ -164,7 +165,7 @@ public class UnbreakableRune extends SimpleSlimefunItem<ItemDropHandler> {
         final String id = slimefunItem.getId();
         final String addon = slimefunItem.getAddon().getName();
         if (BLACKLIST.containsKey(addon) && BLACKLIST.get(addon).contains(id)) {
-            player.sendMessage(ChatColor.LIGHT_PURPLE + "You can't make this item unbreakable!");
+            Messages.send(player, ChatColor.LIGHT_PURPLE, "rune.item-disallowed", "You can't make this item unbreakable!");
             return true;
         }
         return false;

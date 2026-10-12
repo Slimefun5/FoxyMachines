@@ -11,6 +11,7 @@ import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.SimpleLocation;
+import me.gallowsdove.foxymachines.utils.Messages;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -66,7 +67,7 @@ public class BerryBushTrimmer extends SlimefunItem {
 
                     HandCompat.setMainHand(p.getInventory(), shears);
                 } else {
-                    p.sendMessage(ChatColor.LIGHT_PURPLE + "This berry bush is already trimmed!");
+                    Messages.send(p, ChatColor.LIGHT_PURPLE, "berry-bush.already-trimmed", "This berry bush is already trimmed!");
                 }
             }
 

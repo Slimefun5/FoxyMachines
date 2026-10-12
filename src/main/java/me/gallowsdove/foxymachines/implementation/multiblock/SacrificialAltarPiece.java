@@ -18,6 +18,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.List;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
+import me.gallowsdove.foxymachines.utils.Messages;
 
 public class SacrificialAltarPiece extends SlimefunItem {
     public SacrificialAltarPiece(@Nonnull SlimefunItemStack item, @Nonnull ItemStack[] recipe, int amount) {
@@ -41,7 +42,7 @@ public class SacrificialAltarPiece extends SlimefunItem {
                     if (BlockStorage.getLocationInfo(b.getLocation(), "complete") != null &&
                             BlockStorage.getLocationInfo(b.getLocation(), "complete").equals("true")) {
                         BlockStorage.addBlockInfo(b, "complete", "false");
-                        e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "Part of the altar has been broken, please repair it and reactivate it!");
+                        Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "altar.piece-broken", "Part of the altar has been broken, please repair it and reactivate it!");
                     }
                 }
 

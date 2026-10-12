@@ -19,6 +19,7 @@ import javax.annotation.Nonnull;
 import java.util.List;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
+import me.gallowsdove.foxymachines.utils.Messages;
 
 public class SacrificialAltarPressurePlate extends SlimefunItem {
     public SacrificialAltarPressurePlate() {
@@ -43,10 +44,10 @@ public class SacrificialAltarPressurePlate extends SlimefunItem {
                 Block b = e.getBlockPlaced();
                 if (isComplete(b)) {
                     BlockStorage.addBlockInfo(b, "complete", "true");
-                    e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "The Sacrificial Altar has been activated.");
+                    Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "altar.activated", "The Sacrificial Altar has been activated.");
                 } else {
                     BlockStorage.addBlockInfo(b, "complete", "false");
-                    e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "Finish your Altar and click this block again to activate it.");
+                    Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "altar.finish-first", "Finish your Altar and click this block again to activate it.");
                 }
             }
         };
@@ -58,10 +59,10 @@ public class SacrificialAltarPressurePlate extends SlimefunItem {
             if (BlockStorage.getLocationInfo(b.getLocation(), "complete").equals("false")) {
                 if (isComplete(b)) {
                     BlockStorage.addBlockInfo(b, "complete", "true");
-                    e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "The Sacrificial Altar has been activated.");
+                    Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "altar.activated", "The Sacrificial Altar has been activated.");
                 } else {
                     BlockStorage.addBlockInfo(b, "complete", "false");
-                    e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "The Altar is not finished!");
+                    Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "altar.not-finished", "The Altar is not finished!");
                 }
             }
 
@@ -75,7 +76,7 @@ public class SacrificialAltarPressurePlate extends SlimefunItem {
             public void onPlayerBreak(@Nonnull BlockBreakEvent e, @Nonnull ItemStack item, @Nonnull List<ItemStack> drops) {
                 BlockStorage.addBlockInfo(e.getBlock(), "complete", null);
                 BlockStorage.clearBlockInfo(e.getBlock());
-                e.getPlayer().sendMessage(ChatColor.LIGHT_PURPLE + "The Altar has been broken!");
+                Messages.send(e.getPlayer(), ChatColor.LIGHT_PURPLE, "altar.broken", "The Altar has been broken!");
             }
         };
     }

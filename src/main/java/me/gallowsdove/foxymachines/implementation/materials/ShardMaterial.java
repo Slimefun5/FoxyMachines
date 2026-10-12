@@ -8,6 +8,7 @@ import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunItem;
 import me.gallowsdove.foxymachines.listeners.SacrificialAltarListener;
 import me.gallowsdove.foxymachines.utils.QuestUtils;
+import me.gallowsdove.foxymachines.utils.Messages;
 import org.bukkit.ChatColor;
 import org.bukkit.inventory.ItemStack;
 
@@ -32,7 +33,8 @@ public class ShardMaterial extends SimpleSlimefunItem<ItemDropHandler> {
 
             Slimefun.runSync(() -> {
                 if (!QuestUtils.hasActiveQuest(p)) {
-                    p.sendMessage(this.color + "You should check your quest with " + ChatColor.LIGHT_PURPLE + "/foxy quest " + this.color + "first!");
+                    Messages.send(p, this.color, "quest.check-first", "You should check your quest with %command% first!",
+                            line -> line.replace("%command%", ChatColor.LIGHT_PURPLE + "/foxy quest" + this.color));
                     return;
                 }
 
@@ -40,7 +42,7 @@ public class ShardMaterial extends SimpleSlimefunItem<ItemDropHandler> {
                     return;
                 }
 
-                p.sendMessage(this.color + "Reset active quest!");
+                Messages.send(p, this.color, "quest.reset", "Reset active quest!");
                 QuestUtils.resetQuestLine(p);
                 SacrificialAltarListener.particleAnimation(item.getLocation());
 

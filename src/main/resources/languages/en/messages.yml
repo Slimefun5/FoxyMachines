@@ -1,0 +1,89 @@
+wand:
+  material-set: "Material set to: %material%"
+  material-not-usable: "Cannot use: %material%, with the fill wand"
+  select-material: "Select a building material with Shift + Right Click!"
+  not-enough-energy: "Your item doesn't have enough energy for that!"
+  energy-needed: "Energy needed: %energy%"
+  not-enough-materials: "There aren't enough materials in your inventory!"
+  material-count: "Current items: %current% Needed: %needed%"
+  select-both-positions: "Please select both locations using Position Selector!"
+  area-too-big: "Selected area is too big!"
+  no-valid-locations: "No valid locations found given the selected points!"
+
+commands:
+  usage: "Usage: /%usage%"
+  custom-mobs-unsupported: "Custom mobs are not supported on this Minecraft version."
+  killed-entities: "Killed %count% Entities"
+  hold-a-sword: "You need to be holding the %cursed% or the %celestial% to view your quest."
+
+rune:
+  item-unbreakable: "Your item is now Unbreakable."
+  item-not-unbreakable: "Your item could not be made Unbreakable"
+  item-disallowed: "You can't make this item unbreakable!"
+
+dome:
+  activated: "The dome has been activated."
+  deactivated: "The dome has been deactivated."
+  not-enough-energy: "You don't have enough energy."
+  cooldown: "You must wait at least 10 seconds before activating the dome again."
+  no-teleport: "You can't teleport to a dome!"
+
+remote:
+  bound: "Forcefield dome is now bound to the remote controller."
+  must-bind-dome: "You must bind this to a Forcefield Dome block."
+  charge-first: "Charge your remote controller first."
+  dome-not-found: "Forcefield belonging to this remote control wasn't found."
+  bind-first: "Bind this item with Shift + Right Click first!"
+
+berry-bush:
+  already-trimmed: "This berry bush is already trimmed!"
+
+ghost-block:
+  no-permission: "You don't have permission to place this here!"
+  unsupported: "Ghost Blocks require Minecraft 1.14 or newer."
+
+altar:
+  activated: "The Sacrificial Altar has been activated."
+  finish-first: "Finish your Altar and click this block again to activate it."
+  not-finished: "The Altar is not finished!"
+  broken: "The Altar has been broken!"
+  piece-broken: "Part of the altar has been broken, please repair it and reactivate it!"
+
+quest:
+  check-first: "You should check your quest with %command% first!"
+  reset: "Reset active quest!"
+  sword-pleased: "%item% is pleased."
+  cursed-lines:
+    - "I would love to kill a %entity%, so tasty!"
+    - "Give me a %entity%, now!"
+    - "Surely you can help me slay a %entity%."
+    - "I want blood....  %entity% blood."
+    - "I need a %entity% liver."
+    - "I've heard that %entity% blood is tasty..."
+    - "%entity% heart, hmmm..."
+    - "I would slay God himself for some %entity% flesh."
+    - "I could be devouring a %entity% whole day."
+    - "I've been waiting for too long. Too long or a day to kill a %entity%."
+    - "%entity%'s blood shall be spilled"
+    - "My curse shall devour %entity%'s soul"
+  celestial-lines:
+    - "I love all beings... except %entity%, I hate those."
+    - "All life must be in balance, what's why I need to kill a %entity%."
+    - "I am celestial, but I am also a sword. Now get me a %entity%."
+    - "I'm sorry, but please get me some %entity%. No questions."
+    - "Celestial sword requires a celestial sacrifice. A %entity%."
+    - "My next victim should be %entity%, just as God intended."
+    - "And the next in line is ... %entity%!"
+    - "The God wants a %entity% dead."
+    - "For God and honour, go slay a %entity%."
+    - "Go, get that %entity%! For justice!"
+    - "The stars have aligned. I can clearly see the %entity% that shall die by my blade"
+
+chunk-loader:
+  already-loaded: "This chunk is already loaded!"
+  limit-reached: "Maximum amount of chunk loaders already placed: %max%"
+  gps-complexity: "You have %current%/%required% GPS Network Complexity required to place another Chunk Loader."
+
+position-selector:
+  primary-set: "Primary position set to %location%"
+  secondary-set: "Secondary position set to %location%"

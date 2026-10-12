@@ -12,6 +12,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.protection.Interaction
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import me.gallowsdove.foxymachines.utils.CompatUtils;
+import me.gallowsdove.foxymachines.utils.Messages;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -70,7 +71,7 @@ public class GhostBlock extends SlimefunItem {
             Block b = e.getClickedBlock().get().getRelative(e.getClickedFace());
 
             if (!Slimefun.getProtectionManager().hasPermission(p, b, Interaction.PLACE_BLOCK)) {
-                p.sendMessage(ChatColor.LIGHT_PURPLE + "You don't have permission to place this here!");
+                Messages.send(p, ChatColor.LIGHT_PURPLE, "ghost-block.no-permission", "You don't have permission to place this here!");
                 return;
             }
 
@@ -81,7 +82,7 @@ public class GhostBlock extends SlimefunItem {
             // Ghost blocks rely on BlockData (1.13+) + Entity#setPersistent (1.14+). Isolate that in
             // spawnGhostBlock so BlockData is never resolved on legacy servers.
             if (!CompatUtils.ghostBlocksSupported()) {
-                p.sendMessage(ChatColor.LIGHT_PURPLE + "Ghost Blocks require Minecraft 1.14 or newer.");
+                Messages.send(p, ChatColor.LIGHT_PURPLE, "ghost-block.unsupported", "Ghost Blocks require Minecraft 1.14 or newer.");
                 return;
             }
 

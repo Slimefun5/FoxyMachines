@@ -20,6 +20,7 @@ import org.bukkit.inventory.ItemStack;
 import javax.annotation.Nonnull;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import me.gallowsdove.foxymachines.utils.MaterialCompat;
+import me.gallowsdove.foxymachines.utils.Messages;
 
 public class ChunkLoaderListener implements Listener {
     @EventHandler(ignoreCancelled = true)
@@ -38,7 +39,7 @@ public class ChunkLoaderListener implements Listener {
         Block b = e.getBlockPlaced();
         if (b.getChunk().isForceLoaded()) {
             e.setCancelled(true);
-            p.sendMessage(ChatColor.LIGHT_PURPLE + "This chunk is already loaded!");
+            Messages.send(p, ChatColor.LIGHT_PURPLE, "chunk-loader.already-loaded", "This chunk is already loaded!");
             return;
         }
 
@@ -49,7 +50,8 @@ public class ChunkLoaderListener implements Listener {
         if (!p.hasPermission("foxymachines.bypass-chunk-loader-limit")) {
             int max = cfg.getInt("max-chunk-loaders");
             if (max != 0 && max < i) {
-                p.sendMessage(ChatColor.LIGHT_PURPLE + "Maximum amount of chunk loaders already placed: " + max);
+                Messages.send(p, ChatColor.LIGHT_PURPLE, "chunk-loader.limit-reached", "Maximum amount of chunk loaders already placed: %max%",
+                        line -> line.replace("%max%", String.valueOf(max)));
                 e.setCancelled(true);
                 return;
             }
@@ -57,7 +59,9 @@ public class ChunkLoaderListener implements Listener {
         int currentComplexity = Slimefun.getGPSNetwork().getNetworkComplexity(p.getUniqueId());
         int requiredComplexity = cfg.getInt("gps-complexity-per-loader") * i;
         if (currentComplexity < requiredComplexity) {
-            p.sendMessage(ChatColor.LIGHT_PURPLE + "You have " + currentComplexity + "/" + requiredComplexity + " GPS Network Complexity required to place another Chunk Loader.");
+            Messages.send(p, ChatColor.LIGHT_PURPLE, "chunk-loader.gps-complexity", "You have %current%/%required% GPS Network Complexity required to place another Chunk Loader.",
+                    line -> line.replace("%current%", String.valueOf(currentComplexity))
+                            .replace("%required%", String.valueOf(requiredComplexity)));
             e.setCancelled(true);
             return;
         }
