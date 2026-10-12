@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eאקרי ארקום'
+  stats:
+  - '&7נזק III'
+  - '&7ניקוב שריון II'
   type:
   - '&7&oנשק'
 AQUATIC_HELMET:
+  name: '&bקסדה ימית'
+  stats:
+  - '&7נשימה תחת מים'
+  - '&7ראיית לילה'
   type:
   - '&7&oשריון'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bמטיל נתרייט ימי'
   type:
   - '&7&oמשאב'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7מסיר קוצים משיחי פירות יער מתוקים.'
+  name: '&eגוזם שיחי פירות יער מתוקים'
   type:
   - '&7&oכלי'
 BLOOD:
+  name: '&cדם'
   type:
   - '&7&oמשאב'
 BLOOD_INFUSED_SKULL:
+  name: '&cגולגולת ספוגת דם'
   type:
   - '&7&oמשאב'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7תומכת במהירות של 2.5x.'
+  name: '&fמסילת מפעיל מוגברת'
   type:
   - '&7&oמכונה'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7תומכת במהירות של 2.5x.'
+  name: '&fמסילת גלאי מוגברת'
   type:
   - '&7&oמכונה'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7תומכת במהירות של 2.5x.'
+  name: '&fמסילה מופעלת מוגברת'
   type:
   - '&7&oמכונה'
 BOOSTED_RAIL:
+  description:
+  - '&7תומכת במהירות של 2.5x.'
+  name: '&fמסילה מוגברת'
   type:
   - '&7&oמכונה'
 BUCKET_OF_BLOOD:
+  name: '&cדלי דם'
   type:
   - '&7&oמשאב'
 CELESTIAL_SHARD:
+  description:
+  - '&7חומר יצירה'
+  - '&7יאפס משימה כשיושלך אל מזבח...'
+  name: '&eרסיס שמימי'
   type:
   - '&7&oמשאב'
 CELESTIAL_SWORD:
+  name: '&eחרב שמימית'
+  stats:
+  - '&7מהלומה אלוהית II'
+  - '&7חדירת שריון V'
   type:
   - '&7&oנשק'
 CHUNK_LOADER:
+  description:
+  - '&7שומר את המקטע טעון.'
+  name: '&bטוען מקטעים'
   type:
   - '&7&oמכונה'
 COMPRESSED_SPONGE:
+  name: '&fספוג דחוס'
   type:
   - '&7&oמשאב'
 CURSED_RABBIT_PAW:
+  name: '&cכף ארנב מקוללת'
   type:
   - '&7&oמשאב'
 CURSED_SHARD:
+  description:
+  - '&7חומר יצירה'
+  - '&7יאפס משימה כשיושלך אל מזבח...'
+  name: '&cרסיס מקולל'
   type:
   - '&7&oמשאב'
 CURSED_SWORD:
+  description:
+  - '&7מבלבלת אויבים. מגבירה נזק.'
+  - '&7עלולה להשפיע לרעה על המחזיק.'
+  name: '&cחרב מקוללת'
+  stats:
+  - '&7גניבת חיים I'
+  - '&7חדירת שריון I'
   type:
   - '&7&oנשק'
 DAMIENIUM:
+  name: '&aדמיניום'
   type:
   - '&7&oמשאב'
 DEMONIC_INGOT:
+  name: '&cמטיל דמוני'
   type:
   - '&7&oמשאב'
 DEMONIC_PLATE:
+  name: '&cלוחית דמונית'
   type:
   - '&7&oמשאב'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7צור תופת.'
+  name: '&4מטה אש חשמלי'
   stats:
   - '&8⇨ &e⚡ &7מאגר 100 J'
   type:
   - '&7&oכלי'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7אש, אש, אש!'
+  name: '&4מטה אש חשמלי &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7מאגר 200 J'
   type:
   - '&7&oכלי'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7מזקקת אבקת זהב למטילי זהב.'
+  name: '&bמזקקת זהב חשמלית'
   stats:
   - '&8⇨ &e⚡ &736 J/שנייה'
   type:
   - '&7&oמכונה'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7רכב על הרוח.'
+  name: '&bמטה רוח חשמלי'
   stats:
   - '&8⇨ &e⚡ &7מאגר 100 J'
   type:
   - '&7&oכלי'
 ELUCIDATOR:
+  name: '&bאלוסידייטור'
+  stats:
+  - '&7נזק III'
+  - '&7גניבת חיים II'
+  - '&7חדירת שריון II'
+  - '&7ריפוי עודף'
   type:
   - '&7&oנשק'
 EQUANIMOUS_GEM:
+  name: '&aאבן חן שלווה'
   type:
   - '&7&oמשאב'
 FIERY_LEGGINGS:
+  name: '&cמכנסיים לוהטים'
+  stats:
+  - '&7הילת אש II'
   type:
   - '&7&oשריון'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7חומר יצירה'
+  name: '&fמסגרת מכנסיים לוהטים'
   type:
   - '&7&oמשאב'
 FILL_WAND:
+  name: '&eשרביט מילוי'
   stats:
   - '&8⇨ &e⚡ &7מאגר 1000 J'
   type:
   - '&7&oכלי'
+  usage:
+  - '&7בחר נקודות פינה בעזרת בוחר המיקום.'
+  - '&7שיפט לחיצה ימנית לבחירת חומר.'
+  - '&7לחיצה ימנית למילוי אזור.'
 FORCEFIELD_DOME:
+  description:
+  - '&7כשהיא מופעלת, יוצרת מחסום מגן'
+  - '&7ברדיוס של 32 בלוקים.'
+  - '&7יחזור לקדמותו כשיכובה או יישבר'
+  name: '&4כיפת שדה כוח'
   stats:
   - '&8⇨ &e⚡ &76000 J/שנייה'
   type:
   - '&7&oמכונה'
 FORCEFIELD_ENGINE:
+  name: '&fמנוע שדה כוח'
   type:
   - '&7&oמשאב'
 FORCEFIELD_STABILIZER:
+  name: '&fמייצב שדה כוח'
   type:
   - '&7&oמשאב'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7בלוק בלתי מוחשי.'
+  name: '&fבלוק רפאים: &6%mob%'
   type:
   - '&7&oגאדג׳ט'
 GHOST_BLOCK_REMOVER:
+  name: '&eמסיר בלוקי רפאים'
   type:
   - '&7&oכלי'
+  usage:
+  - '&7לחיצה ימנית כדי להסיר בלוק רפאים.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cביצת הטלה של הפרש חסר הראש'
   type:
   - '&7&oשונות'
 HEALING_BOW:
+  description:
+  - '&8סוף סוף נשק תמיכה.'
+  name: '&4קשת מרפאה'
+  stats:
+  - '&cריפוי II'
   type:
   - '&7&oנשק'
 HELMET_FRAME:
+  description:
+  - '&7חומר יצירה'
+  name: '&fמסגרת קסדה ימית'
   type:
   - '&7&oמשאב'
 HUMAN_SKULL:
+  name: '&cגולגולת אדם'
   type:
   - '&7&oמשאב'
 IMPROVEMENT_CORE:
+  description:
+  - '&7שלב אותה עם כלי במפחת השיפור כדי לשפר אותו.'
+  name: '&aליבת שיפור'
   type:
   - '&7&oמשאב'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7משמשת לשיפור כלים, נשקים ושריון של Slimefun.'
+  name: '&bמפחת שיפור'
   stats:
   - '&8⇨ &e⚡ &7128 J/שנייה'
   type:
   - '&7&oמכונה'
 LIGHT_BOOTS:
+  name: '&eמגפיים קלים'
+  stats:
+  - '&7ניתור I'
+  - '&7מהירות I'
+  - '&7קל משקל'
   type:
   - '&7&oשריון'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7חומר יצירה'
+  name: '&fמסגרת מגפיים קלים'
   type:
   - '&7&oמשאב'
 MAGIC_LUMP_4:
+  name: '&6גוש קסום &7- &eIV'
+  stats:
+  - '&c&oדרגה: IV'
   type:
   - '&7&oמשאב'
 MAGIC_LUMP_5:
+  name: '&6גוש קסום &7- &eV'
+  stats:
+  - '&c&oדרגה: V'
   type:
   - '&7&oמשאב'
 MAGMA_ESSENCE:
+  name: '&cתמצית מאגמה'
   type:
   - '&7&oמשאב'
 NUCLEAR_SALT:
+  name: '&aמלח גרעיני'
   stats:
   - '&a☢&7 רמת קרינה: &cגבוהה מאוד'
   type:
   - '&7&oמשאב'
 PARROT_FEATHER:
+  name: '&aנוצת תוכי'
   type:
   - '&7&oמשאב'
 PIXIE_DUST:
+  name: '&eאבק פיות'
+  stats:
+  - '&7עוצמה IV'
   type:
   - '&7&oמזון'
 PIXIE_QUEEN_HEART:
+  name: '&4לב מלכת הפיות'
   type:
   - '&7&oמשאב'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aביצת הטלה של מלכת הפיות'
   type:
   - '&7&oשונות'
 POLAR_FOX_HIDE:
+  name: '&fעור שועל קוטבי'
   type:
   - '&7&oמשאב'
 POSEIDONS_BLESSING:
+  name: '&bברכת פוסידון'
   type:
   - '&7&oמשאב'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7יכולה לתפוס פריטים מיוחדים.'
+  name: '&bחכת פוסידון'
+  stats:
+  - '&7ברכת פוסידון'
   type:
   - '&7&oכלי'
 POSITION_SELECTOR:
+  name: '&eבוחר מיקום'
   stats:
   - '&8⇨ &e⚡ &7מאגר 200 J'
   type:
   - '&7&oכלי'
+  usage:
+  - '&7לחיצה שמאלית על בלוק לבחירת המיקום הראשי.'
+  - '&7לחיצה ימנית על בלוק לבחירת המיקום המשני.'
 POTION_MIXER:
+  description:
+  - '&7משמש לערבוב שיקויים.'
+  name: '&bמערבל שיקויים'
   stats:
   - '&8⇨ &e⚡ &728 J/שנייה'
   type:
   - '&7&oמכונה'
 PURE_BONE_DUST:
+  name: '&bאבקת עצם טהורה'
   type:
   - '&7&oמשאב'
 PURIFIED_BONE:
+  name: '&bעצם מטוהרת'
   type:
   - '&7&oמשאב'
 REINFORCED_STRING:
+  name: '&bחוט מחוזק'
   type:
   - '&7&oמשאב'
 REMOTE_CONTROLLER:
+  description:
+  - '&7מאפשר לך לשלוט בכיפת שדה הכוח שלך מרחוק.'
+  name: '&cבקר מרחוק'
   stats:
   - '&8⇨ &e⚡ &7מאגר 1000 J'
   type:
   - '&7&oכלי'
+  usage:
+  - '&7קשר אותו בעזרת שיפט + לחיצה ימנית.'
 RESISTANT_CHESTPLATE:
+  name: '&aשריון חזה חסין'
+  stats:
+  - '&7חסינות I'
+  - '&7התחדשות I'
   type:
   - '&7&oשריון'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7חומר יצירה'
+  name: '&fמסגרת שריון חזה חסין'
   type:
   - '&7&oמשאב'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7משמש כחלק ממזבח קורבני.'
+  name: '&fלבני אבן שחורה קורבניות'
   type:
   - '&7&oמכונה'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7משמש כחלק ממזבח קורבני.'
+  name: '&fמדרגות לבני אבן שחורה קורבניות'
   type:
   - '&7&oמכונה'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7משמש כחלק ממזבח קורבני.'
+  name: '&fחומת לבני אבן שחורה קורבנית'
   type:
   - '&7&oמכונה'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7משמש כחלק ממזבח קורבני.'
+  name: '&fמרבד קורבני'
   type:
   - '&7&oמכונה'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7משמש כחלק ממזבח קורבני.'
+  name: '&fלפיד נשמה קורבני'
   type:
   - '&7&oמכונה'
 SPONGE_WAND:
+  name: '&eשרביט ספוג'
   stats:
   - '&8⇨ &e⚡ &7מאגר 2000 J'
   type:
   - '&7&oכלי'
+  usage:
+  - '&7בחר נקודות פינה בעזרת בוחר המיקום.'
+  - '&7לחיצה ימנית להסרת מים ולבה.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7חומר יציב.'
+  name: '&bבלוק לוהט מיוצב'
   type:
   - '&7&oמשאב'
 SWEETENED_SWEET_INGOT:
+  name: '&eמטיל מתוק ממותק'
   type:
   - '&7&oמשאב'
 SWEET_INGOT:
+  name: '&eמטיל מתוק'
   type:
   - '&7&oמשאב'
 TROPICAL_FISH_SCALE:
+  name: '&bקשקש דג טרופי'
   type:
   - '&7&oמשאב'
 UNBREAKABLE_RUNE:
+  name: '&7רונה עתיקה &8&l[&2&lבלתי שבירה&8&l]'
   type:
   - '&7&oשונות'
+  usage:
+  - '&eהשלך רונה זו על פריט מושלך כדי'
+  - '&eלהפוך אותו ל&2בלתי שביר'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cעצם שלד ווית''ר טמאה'
   type:
   - '&7&oמשאב'
 VILE_PUMPKIN:
+  name: '&cדלעת נתעבת'
   type:
   - '&7&oמשאב'
 VILE_SEEDS:
+  name: '&cזרעים נתעבים'
+  stats:
+  - '&7הגברת בריאות V'
   type:
   - '&7&oמזון'
 WIRELESS_TRANSMITTER:
+  name: '&fמשדר אלחוטי'
   type:
   - '&7&oמשאב'
