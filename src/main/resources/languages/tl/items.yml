@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Pinsala III'
+  - '&7Pagbutas sa Baluti II'
   type:
   - '&7&oSandata'
 AQUATIC_HELMET:
+  name: '&bAkwatikong Helmet'
+  stats:
+  - '&7Paghinga sa Tubig'
+  - '&7Paningin sa Dilim'
   type:
   - '&7&oBaluti'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bAkwatikong Bareta ng Netherite'
   type:
   - '&7&oRekurso'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Inaalis ang mga tinik sa mga palumpong ng matamis na berry.'
+  name: '&ePantabas ng Palumpong ng Matamis na Berry'
   type:
   - '&7&oKasangkapan'
 BLOOD:
+  name: '&cDugo'
   type:
   - '&7&oRekurso'
 BLOOD_INFUSED_SKULL:
+  name: '&cBungong Binuhusan ng Dugo'
   type:
   - '&7&oRekurso'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Kayang suportahan ang 2.5x na bilis.'
+  name: '&fPinalakas na Riles na Pang-aktiba'
   type:
   - '&7&oMakina'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Kayang suportahan ang 2.5x na bilis.'
+  name: '&fPinalakas na Riles na Pantukoy'
   type:
   - '&7&oMakina'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Kayang suportahan ang 2.5x na bilis.'
+  name: '&fPinalakas na Riles na Pinapagana'
   type:
   - '&7&oMakina'
 BOOSTED_RAIL:
+  description:
+  - '&7Kayang suportahan ang 2.5x na bilis.'
+  name: '&fPinalakas na Riles'
   type:
   - '&7&oMakina'
 BUCKET_OF_BLOOD:
+  name: '&cTimba ng Dugo'
   type:
   - '&7&oRekurso'
 CELESTIAL_SHARD:
+  description:
+  - '&7Materyal sa Paglikha'
+  - '&7Muling sisimulan ang isang Misyon kapag itinapon sa Altar...'
+  name: '&eBubog na Makalangit'
   type:
   - '&7&oRekurso'
 CELESTIAL_SWORD:
+  name: '&eEspadang Makalangit'
+  stats:
+  - '&7Banal na Hagupit II'
+  - '&7Pagtagos sa Baluti V'
   type:
   - '&7&oSandata'
 CHUNK_LOADER:
+  description:
+  - '&7Pinapanatiling nakakarga ang tipak.'
+  name: '&bTagakarga ng Tipak'
   type:
   - '&7&oMakina'
 COMPRESSED_SPONGE:
+  name: '&fSiksik na Espongha'
   type:
   - '&7&oRekurso'
 CURSED_RABBIT_PAW:
+  name: '&cIsinumpang Paa ng Kuneho'
   type:
   - '&7&oRekurso'
 CURSED_SHARD:
+  description:
+  - '&7Materyal sa Paglikha'
+  - '&7Muling sisimulan ang isang Misyon kapag itinapon sa Altar...'
+  name: '&cIsinumpang Bubog'
   type:
   - '&7&oRekurso'
 CURSED_SWORD:
+  description:
+  - '&7Nililito ang mga kaaway. Pinapataas ang pinsala.'
+  - '&7Maaaring makasama sa tagahawak.'
+  name: '&cIsinumpang Espada'
+  stats:
+  - '&7Pagnanakaw ng Buhay I'
+  - '&7Pagtagos sa Baluti I'
   type:
   - '&7&oSandata'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oRekurso'
 DEMONIC_INGOT:
+  name: '&cBareta ng Demonyo'
   type:
   - '&7&oRekurso'
 DEMONIC_PLATE:
+  name: '&cPlaka ng Demonyo'
   type:
   - '&7&oRekurso'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Lumikha ng impiyerno ng apoy.'
+  name: '&4Elektrikong Tungkod ng Apoy'
   stats:
   - '&8⇨ &e⚡ &7100 J na Buffer'
   type:
   - '&7&oKasangkapan'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Apoy, apoy, apoy!'
+  name: '&4Elektrikong Tungkod ng Apoy &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J na Buffer'
   type:
   - '&7&oKasangkapan'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Dinadalisay ang alikabok ng ginto tungo sa mga bareta ng ginto.'
+  name: '&bElektrikong Dalisayan ng Ginto'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oMakina'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Sumakay sa hangin.'
+  name: '&bElektrikong Tungkod ng Hangin'
   stats:
   - '&8⇨ &e⚡ &7100 J na Buffer'
   type:
   - '&7&oKasangkapan'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Pinsala III'
+  - '&7Pagnanakaw ng Buhay II'
+  - '&7Pagtagos sa Baluti II'
+  - '&7Labis na Paggaling'
   type:
   - '&7&oSandata'
 EQUANIMOUS_GEM:
+  name: '&aHiyas ng Kapanatagan'
   type:
   - '&7&oRekurso'
 FIERY_LEGGINGS:
+  name: '&cMaapoy na Baluting Binti'
+  stats:
+  - '&7Aura ng Apoy II'
   type:
   - '&7&oBaluti'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Materyal sa Paglikha'
+  name: '&fBalangkas ng Maapoy na Baluting Binti'
   type:
   - '&7&oRekurso'
 FILL_WAND:
+  name: '&eTungkod na Pampuno'
   stats:
   - '&8⇨ &e⚡ &71000 J na Buffer'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&7Piliin ang mga sulok gamit ang Pampili ng Posisyon.'
+  - '&7Shift kanang pindot upang piliin ang materyal.'
+  - '&7Kanang pindot upang punuin ang isang lugar.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Kapag pinapagana, gumagawa ng protektibong harang'
+  - '&7na may 32-blokeng radyus.'
+  - '&7Babalik sa dati kapag hindi na pinapagana o nabasag'
+  name: '&4Simboryo ng Puwersang Panangga'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oMakina'
 FORCEFIELD_ENGINE:
+  name: '&fMotor ng Puwersang Panangga'
   type:
   - '&7&oRekurso'
 FORCEFIELD_STABILIZER:
+  name: '&fPampatatag ng Puwersang Panangga'
   type:
   - '&7&oRekurso'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Isang blokeng hindi nasasalat.'
+  name: '&fBlokeng Multo: &6%mob%'
   type:
   - '&7&oGadyet'
 GHOST_BLOCK_REMOVER:
+  name: '&eTagapag-alis ng Blokeng Multo'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&7Kanang pindot upang alisin ang Blokeng Multo.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cItlog ng Pagsilang ng Mangangabayong Walang Ulo'
   type:
   - '&7&oIba pa'
 HEALING_BOW:
+  description:
+  - '&8Sa wakas, isang sandatang pansuporta.'
+  name: '&4Busog na Pampagaling'
+  stats:
+  - '&cPagpapagaling II'
   type:
   - '&7&oSandata'
 HELMET_FRAME:
+  description:
+  - '&7Materyal sa Paglikha'
+  name: '&fBalangkas ng Akwatikong Helmet'
   type:
   - '&7&oRekurso'
 HUMAN_SKULL:
+  name: '&cBungo ng Tao'
   type:
   - '&7&oRekurso'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Isama ito sa isang kasangkapan sa Pandayan ng Pagpapabuti upang pabutihin ito.'
+  name: '&aUbod ng Pagpapabuti'
   type:
   - '&7&oRekurso'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Ginagamit upang pabutihin ang mga kasangkapan, sandata at baluti ng Slimefun.'
+  name: '&bPandayan ng Pagpapabuti'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oMakina'
 LIGHT_BOOTS:
+  name: '&eMagaang Bota'
+  stats:
+  - '&7Talon I'
+  - '&7Bilis I'
+  - '&7Magaan'
   type:
   - '&7&oBaluti'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Materyal sa Paglikha'
+  name: '&fBalangkas ng Magaang Bota'
   type:
   - '&7&oRekurso'
 MAGIC_LUMP_4:
+  name: '&6Mahiwagang Bukol &7- &eIV'
+  stats:
+  - '&c&oBaitang: IV'
   type:
   - '&7&oRekurso'
 MAGIC_LUMP_5:
+  name: '&6Mahiwagang Bukol &7- &eV'
+  stats:
+  - '&c&oBaitang: V'
   type:
   - '&7&oRekurso'
 MAGMA_ESSENCE:
+  name: '&cEsensya ng Magma'
   type:
   - '&7&oRekurso'
 NUCLEAR_SALT:
+  name: '&aAsing Nuklear'
   stats:
   - '&a☢&7 Antas ng radyasyon: &cNAPAKATAAS'
   type:
   - '&7&oRekurso'
 PARROT_FEATHER:
+  name: '&aBalahibo ng Loro'
   type:
   - '&7&oRekurso'
 PIXIE_DUST:
+  name: '&eAlikabok ng Diwata'
+  stats:
+  - '&7Lakas IV'
   type:
   - '&7&oPagkain'
 PIXIE_QUEEN_HEART:
+  name: '&4Puso ng Reynang Diwata'
   type:
   - '&7&oRekurso'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aItlog ng Pagsilang ng Reynang Diwata'
   type:
   - '&7&oIba pa'
 POLAR_FOX_HIDE:
+  name: '&fBalat ng Soro sa Polo'
   type:
   - '&7&oRekurso'
 POSEIDONS_BLESSING:
+  name: '&bBasbas ni Poseidon'
   type:
   - '&7&oRekurso'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Kayang makahuli ng mga espesyal na bagay.'
+  name: '&bPamingwit ni Poseidon'
+  stats:
+  - '&7Basbas ni Poseidon'
   type:
   - '&7&oKasangkapan'
 POSITION_SELECTOR:
+  name: '&ePampili ng Posisyon'
   stats:
   - '&8⇨ &e⚡ &7200 J na Buffer'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&7Kaliwang pindot sa bloke upang piliin ang pangunahing posisyon.'
+  - '&7Kanang pindot sa bloke upang piliin ang pangalawang posisyon.'
 POTION_MIXER:
+  description:
+  - '&7Ginagamit upang ihalo ang mga timpla.'
+  name: '&bPanghalo ng Timpla'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oMakina'
 PURE_BONE_DUST:
+  name: '&bPurong Alikabok ng Buto'
   type:
   - '&7&oRekurso'
 PURIFIED_BONE:
+  name: '&bDinalisay na Buto'
   type:
   - '&7&oRekurso'
 REINFORCED_STRING:
+  name: '&bPinatibay na Sinulid'
   type:
   - '&7&oRekurso'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Nagbibigay-daan upang kontrolin ang Simboryo ng Puwersang Panangga mula sa malayo.'
+  name: '&cMalayuang Kontrolador'
   stats:
   - '&8⇨ &e⚡ &71000 J na Buffer'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&7Iugnay ito gamit ang Shift + Kanang Pindot.'
 RESISTANT_CHESTPLATE:
+  name: '&aMatibay na Baluting Dibdib'
+  stats:
+  - '&7Resistensya I'
+  - '&7Paggaling I'
   type:
   - '&7&oBaluti'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Materyal sa Paglikha'
+  name: '&fBalangkas ng Matibay na Baluting Dibdib'
   type:
   - '&7&oRekurso'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Ginagamit bilang bahagi ng Altar na Pang-alay.'
+  name: '&fPang-alay na Laryo ng Batong Itim'
   type:
   - '&7&oMakina'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Ginagamit bilang bahagi ng Altar na Pang-alay.'
+  name: '&fPang-alay na Hagdan ng Laryong Batong Itim'
   type:
   - '&7&oMakina'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Ginagamit bilang bahagi ng Altar na Pang-alay.'
+  name: '&fPang-alay na Pader ng Laryong Batong Itim'
   type:
   - '&7&oMakina'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Ginagamit bilang bahagi ng Altar na Pang-alay.'
+  name: '&fPang-alay na Banig'
   type:
   - '&7&oMakina'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Ginagamit bilang bahagi ng Altar na Pang-alay.'
+  name: '&fPang-alay na Sulo ng Kaluluwa'
   type:
   - '&7&oMakina'
 SPONGE_WAND:
+  name: '&eTungkod na Espongha'
   stats:
   - '&8⇨ &e⚡ &72000 J na Buffer'
   type:
   - '&7&oKasangkapan'
+  usage:
+  - '&7Piliin ang mga sulok gamit ang Pampili ng Posisyon.'
+  - '&7Kanang pindot upang alisin ang Tubig at Laba.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Isang matatag na materyal.'
+  name: '&bPinatatag na Nagbabagang Bloke'
   type:
   - '&7&oRekurso'
 SWEETENED_SWEET_INGOT:
+  name: '&ePinatamis na Matamis na Bareta'
   type:
   - '&7&oRekurso'
 SWEET_INGOT:
+  name: '&eMatamis na Bareta'
   type:
   - '&7&oRekurso'
 TROPICAL_FISH_SCALE:
+  name: '&bKaliskis ng Isdang Tropikal'
   type:
   - '&7&oRekurso'
 UNBREAKABLE_RUNE:
+  name: '&7Sinaunang Runa &8&l[&2&lHindi Mababasag&8&l]'
   type:
   - '&7&oIba pa'
+  usage:
+  - '&eIbitaw ang runang ito sa isang nabitawang bagay upang'
+  - '&egawin itong &2hindi mababasag'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cMaruming Buto ng Kalansay ng Wither'
   type:
   - '&7&oRekurso'
 VILE_PUMPKIN:
+  name: '&cKasuklam-suklam na Kalabasa'
   type:
   - '&7&oRekurso'
 VILE_SEEDS:
+  name: '&cKasuklam-suklam na Binhi'
+  stats:
+  - '&7Dagdag na Kalusugan V'
   type:
   - '&7&oPagkain'
 WIRELESS_TRANSMITTER:
+  name: '&fWalang Kableng Tagapadala'
   type:
   - '&7&oRekurso'
