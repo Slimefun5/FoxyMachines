@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eAcri Arcum'
+  stats:
+  - '&7Sebzés III'
+  - '&7Páncélátszúrás II'
   type:
   - '&7&oFegyver'
 AQUATIC_HELMET:
+  name: '&bVízi Sisak'
+  stats:
+  - '&7Víz Alatti Légzés'
+  - '&7Éjjellátás'
   type:
   - '&7&oPáncél'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bVízi Netherit Rúd'
   type:
   - '&7&oNyersanyag'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Eltávolítja a töviseket az édes bogyós bokrokról.'
+  name: '&eÉdes Bogyós Bokor Nyeső'
   type:
   - '&7&oEszköz'
 BLOOD:
+  name: '&cVér'
   type:
   - '&7&oNyersanyag'
 BLOOD_INFUSED_SKULL:
+  name: '&cVérrel Átitatott Koponya'
   type:
   - '&7&oNyersanyag'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Támogatja a 2.5x sebességet.'
+  name: '&fFelerősített Aktivátor Sín'
   type:
   - '&7&oGép'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Támogatja a 2.5x sebességet.'
+  name: '&fFelerősített Érzékelő Sín'
   type:
   - '&7&oGép'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Támogatja a 2.5x sebességet.'
+  name: '&fFelerősített Meghajtott Sín'
   type:
   - '&7&oGép'
 BOOSTED_RAIL:
+  description:
+  - '&7Támogatja a 2.5x sebességet.'
+  name: '&fFelerősített Sín'
   type:
   - '&7&oGép'
 BUCKET_OF_BLOOD:
+  name: '&cVödör Vér'
   type:
   - '&7&oNyersanyag'
 CELESTIAL_SHARD:
+  description:
+  - '&7Barkácsolási anyag'
+  - '&7Visszaállít egy Küldetést, ha Oltárba vetik...'
+  name: '&eÉgi Szilánk'
   type:
   - '&7&oNyersanyag'
 CELESTIAL_SWORD:
+  name: '&eÉgi Kard'
+  stats:
+  - '&7Isteni Csapás II'
+  - '&7Páncélátütés V'
   type:
   - '&7&oFegyver'
 CHUNK_LOADER:
+  description:
+  - '&7Betöltve tartja a chunkot.'
+  name: '&bChunk Betöltő'
   type:
   - '&7&oGép'
 COMPRESSED_SPONGE:
+  name: '&fTömörített Szivacs'
   type:
   - '&7&oNyersanyag'
 CURSED_RABBIT_PAW:
+  name: '&cElátkozott Nyúlláb'
   type:
   - '&7&oNyersanyag'
 CURSED_SHARD:
+  description:
+  - '&7Barkácsolási anyag'
+  - '&7Visszaállít egy Küldetést, ha Oltárba vetik...'
+  name: '&cElátkozott Szilánk'
   type:
   - '&7&oNyersanyag'
 CURSED_SWORD:
+  description:
+  - '&7Összezavarja az ellenfeleket. Növeli a sebzést.'
+  - '&7Negatívan hathat a viselőjére.'
+  name: '&cElátkozott Kard'
+  stats:
+  - '&7Életszívás I'
+  - '&7Páncélátütés I'
   type:
   - '&7&oFegyver'
 DAMIENIUM:
+  name: '&aDamienium'
   type:
   - '&7&oNyersanyag'
 DEMONIC_INGOT:
+  name: '&cDémoni Rúd'
   type:
   - '&7&oNyersanyag'
 DEMONIC_PLATE:
+  name: '&cDémoni Lemez'
   type:
   - '&7&oNyersanyag'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Teremts tűzvészt.'
+  name: '&4Elektromos Tűz Pálca'
   stats:
   - '&8⇨ &e⚡ &7100 J Puffer'
   type:
   - '&7&oEszköz'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Tűz, tűz, tűz!'
+  name: '&4Elektromos Tűz Pálca &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Puffer'
   type:
   - '&7&oEszköz'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Aranyport aranyrudakká finomít.'
+  name: '&bElektromos Arany Finomító'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oGép'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Szárnyalj a szélen.'
+  name: '&bElektromos Szél Pálca'
   stats:
   - '&8⇨ &e⚡ &7100 J Puffer'
   type:
   - '&7&oEszköz'
 ELUCIDATOR:
+  name: '&bElucidator'
+  stats:
+  - '&7Sebzés III'
+  - '&7Életszívás II'
+  - '&7Páncélátütés II'
+  - '&7Túlgyógyítás'
   type:
   - '&7&oFegyver'
 EQUANIMOUS_GEM:
+  name: '&aKiegyensúlyozott Drágakő'
   type:
   - '&7&oNyersanyag'
 FIERY_LEGGINGS:
+  name: '&cTüzes Lábvért'
+  stats:
+  - '&7Tűz Aura II'
   type:
   - '&7&oPáncél'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Barkácsolási anyag'
+  name: '&fTüzes Lábvért Váz'
   type:
   - '&7&oNyersanyag'
 FILL_WAND:
+  name: '&eKitöltő Pálca'
   stats:
   - '&8⇨ &e⚡ &71000 J Puffer'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&7Válaszd ki a sarokpontokat a Pozíció Kiválasztóval.'
+  - '&7Shift jobb klikk az anyag kiválasztásához.'
+  - '&7Jobb klikk egy terület kitöltéséhez.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Áram alatt védő korlátot hoz létre'
+  - '&732 blokk sugarú körben.'
+  - '&7Visszaváltozik, ha megszűnik az áram vagy eltörik'
+  name: '&4Erőtér Kupola'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oGép'
 FORCEFIELD_ENGINE:
+  name: '&fErőtér Motor'
   type:
   - '&7&oNyersanyag'
 FORCEFIELD_STABILIZER:
+  name: '&fErőtér Stabilizátor'
   type:
   - '&7&oNyersanyag'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Egy megfoghatatlan blokk.'
+  name: '&fSzellemblokk: &6%mob%'
   type:
   - '&7&oKütyü'
 GHOST_BLOCK_REMOVER:
+  name: '&eSzellemblokk Eltávolító'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&7Jobb klikk egy Szellemblokk eltávolításához.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cFejnélküli Lovas Idéző Tojás'
   type:
   - '&7&oEgyéb'
 HEALING_BOW:
+  description:
+  - '&8Végre egy támogató fegyver.'
+  name: '&4Gyógyító Íj'
+  stats:
+  - '&cGyógyítás II'
   type:
   - '&7&oFegyver'
 HELMET_FRAME:
+  description:
+  - '&7Barkácsolási anyag'
+  name: '&fVízi Sisak Váz'
   type:
   - '&7&oNyersanyag'
 HUMAN_SKULL:
+  name: '&cEmberi Koponya'
   type:
   - '&7&oNyersanyag'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Kombináld egy szerszámmal a Fejlesztő Kohóban a fejlesztéshez.'
+  name: '&aFejlesztő Mag'
   type:
   - '&7&oNyersanyag'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Slimefun szerszámok, fegyverek és páncélok fejlesztésére használatos.'
+  name: '&bFejlesztő Kohó'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oGép'
 LIGHT_BOOTS:
+  name: '&eKönnyű Csizma'
+  stats:
+  - '&7Ugrás I'
+  - '&7Sebesség I'
+  - '&7Könnyedség'
   type:
   - '&7&oPáncél'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Barkácsolási anyag'
+  name: '&fKönnyű Csizma Váz'
   type:
   - '&7&oNyersanyag'
 MAGIC_LUMP_4:
+  name: '&6Mágikus Rög &7- &eIV'
+  stats:
+  - '&c&oSzint: IV'
   type:
   - '&7&oNyersanyag'
 MAGIC_LUMP_5:
+  name: '&6Mágikus Rög &7- &eV'
+  stats:
+  - '&c&oSzint: V'
   type:
   - '&7&oNyersanyag'
 MAGMA_ESSENCE:
+  name: '&cMagma Eszencia'
   type:
   - '&7&oNyersanyag'
 NUCLEAR_SALT:
+  name: '&aNukleáris Só'
   stats:
   - '&a☢&7 Sugárzási szint: &cNAGYON MAGAS'
   type:
   - '&7&oNyersanyag'
 PARROT_FEATHER:
+  name: '&aPapagájtoll'
   type:
   - '&7&oNyersanyag'
 PIXIE_DUST:
+  name: '&eTündérpor'
+  stats:
+  - '&7Erő IV'
   type:
   - '&7&oÉtel'
 PIXIE_QUEEN_HEART:
+  name: '&4Tündérkirálynő Szíve'
   type:
   - '&7&oNyersanyag'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aTündérkirálynő Idéző Tojás'
   type:
   - '&7&oEgyéb'
 POLAR_FOX_HIDE:
+  name: '&fSarki Rókabőr'
   type:
   - '&7&oNyersanyag'
 POSEIDONS_BLESSING:
+  name: '&bPoszeidón Áldása'
   type:
   - '&7&oNyersanyag'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Különleges tárgyakat tud kifogni.'
+  name: '&bPoszeidón Horgászbotja'
+  stats:
+  - '&7Poszeidón Áldása'
   type:
   - '&7&oEszköz'
 POSITION_SELECTOR:
+  name: '&ePozíció Kiválasztó'
   stats:
   - '&8⇨ &e⚡ &7200 J Puffer'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&7Bal klikk egy blokkra az elsődleges pozíció kiválasztásához.'
+  - '&7Jobb klikk egy blokkra a másodlagos pozíció kiválasztásához.'
 POTION_MIXER:
+  description:
+  - '&7Főzetek keverésére használatos.'
+  name: '&bFőzet Keverő'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oGép'
 PURE_BONE_DUST:
+  name: '&bTiszta Csontpor'
   type:
   - '&7&oNyersanyag'
 PURIFIED_BONE:
+  name: '&bMegtisztított Csont'
   type:
   - '&7&oNyersanyag'
 REINFORCED_STRING:
+  name: '&bMegerősített Fonal'
   type:
   - '&7&oNyersanyag'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Lehetővé teszi az Erőtér Kupola távoli vezérlését.'
+  name: '&cTávvezérlő'
   stats:
   - '&8⇨ &e⚡ &71000 J Puffer'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&7Kösd össze Shift + Jobb Klikk segítségével.'
 RESISTANT_CHESTPLATE:
+  name: '&aEllenálló Mellvért'
+  stats:
+  - '&7Ellenállás I'
+  - '&7Regeneráció I'
   type:
   - '&7&oPáncél'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Barkácsolási anyag'
+  name: '&fEllenálló Mellvért Váz'
   type:
   - '&7&oNyersanyag'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Az Áldozati Oltár részeként használatos.'
+  name: '&fÁldozati Feketekő Téglák'
   type:
   - '&7&oGép'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Az Áldozati Oltár részeként használatos.'
+  name: '&fÁldozati Feketekő Tégla Lépcső'
   type:
   - '&7&oGép'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Az Áldozati Oltár részeként használatos.'
+  name: '&fÁldozati Feketekő Tégla Fal'
   type:
   - '&7&oGép'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Az Áldozati Oltár részeként használatos.'
+  name: '&fÁldozati Szőnyeg'
   type:
   - '&7&oGép'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Az Áldozati Oltár részeként használatos.'
+  name: '&fÁldozati Lélekfáklya'
   type:
   - '&7&oGép'
 SPONGE_WAND:
+  name: '&eSzivacs Pálca'
   stats:
   - '&8⇨ &e⚡ &72000 J Puffer'
   type:
   - '&7&oEszköz'
+  usage:
+  - '&7Válaszd ki a sarokpontokat a Pozíció Kiválasztóval.'
+  - '&7Jobb klikk a Víz és Láva eltávolításához.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Egy stabil anyag.'
+  name: '&bStabilizált Izzó Blokk'
   type:
   - '&7&oNyersanyag'
 SWEETENED_SWEET_INGOT:
+  name: '&eÉdesített Édes Rúd'
   type:
   - '&7&oNyersanyag'
 SWEET_INGOT:
+  name: '&eÉdes Rúd'
   type:
   - '&7&oNyersanyag'
 TROPICAL_FISH_SCALE:
+  name: '&bTrópusi Halpikkely'
   type:
   - '&7&oNyersanyag'
 UNBREAKABLE_RUNE:
+  name: '&7Ősi Rúna &8&l[&2&lTörhetetlen&8&l]'
   type:
   - '&7&oEgyéb'
+  usage:
+  - '&eDobd ezt a rúnát egy eldobott tárgyra, hogy'
+  - '&eez &2törhetetlenné váljon'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cSzentségtelen Wither Csontvázcsont'
   type:
   - '&7&oNyersanyag'
 VILE_PUMPKIN:
+  name: '&cAljas Tök'
   type:
   - '&7&oNyersanyag'
 VILE_SEEDS:
+  name: '&cAljas Vetőmagok'
+  stats:
+  - '&7Életerő Növelés V'
   type:
   - '&7&oÉtel'
 WIRELESS_TRANSMITTER:
+  name: '&fVezeték nélküli Adó'
   type:
   - '&7&oNyersanyag'
