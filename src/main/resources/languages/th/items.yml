@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eอาคริ อาร์คุม'
+  stats:
+  - '&7ความเสียหาย III'
+  - '&7ทะลวงเกราะ II'
   type:
   - '&7&oอาวุธ'
 AQUATIC_HELMET:
+  name: '&bหมวกเกราะแห่งน้ำ'
+  stats:
+  - '&7หายใจใต้น้ำ'
+  - '&7มองเห็นในที่มืด'
   type:
   - '&7&oเกราะ'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bแท่งเนเธอไรต์แห่งน้ำ'
   type:
   - '&7&oทรัพยากร'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7เอาหนามออกจากพุ่มเบอร์รีหวาน'
+  name: '&eเครื่องเล็มพุ่มเบอร์รีหวาน'
   type:
   - '&7&oเครื่องมือ'
 BLOOD:
+  name: '&cเลือด'
   type:
   - '&7&oทรัพยากร'
 BLOOD_INFUSED_SKULL:
+  name: '&cกะโหลกอาบเลือด'
   type:
   - '&7&oทรัพยากร'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7รองรับความเร็ว 2.5 เท่า'
+  name: '&fรางกระตุ้นเร่งความเร็ว'
   type:
   - '&7&oเครื่องจักร'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7รองรับความเร็ว 2.5 เท่า'
+  name: '&fรางตรวจจับเร่งความเร็ว'
   type:
   - '&7&oเครื่องจักร'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7รองรับความเร็ว 2.5 เท่า'
+  name: '&fรางพลังงานเร่งความเร็ว'
   type:
   - '&7&oเครื่องจักร'
 BOOSTED_RAIL:
+  description:
+  - '&7รองรับความเร็ว 2.5 เท่า'
+  name: '&fรางเร่งความเร็ว'
   type:
   - '&7&oเครื่องจักร'
 BUCKET_OF_BLOOD:
+  name: '&cถังเลือด'
   type:
   - '&7&oทรัพยากร'
 CELESTIAL_SHARD:
+  description:
+  - '&7วัสดุคราฟต์'
+  - '&7จะรีเซ็ตเควสต์เมื่อโยนลงในแท่นบูชา...'
+  name: '&eสะเก็ดสวรรค์'
   type:
   - '&7&oทรัพยากร'
 CELESTIAL_SWORD:
+  name: '&eดาบสวรรค์'
+  stats:
+  - '&7ลงทัณฑ์สวรรค์ II'
+  - '&7เจาะเกราะ V'
   type:
   - '&7&oอาวุธ'
 CHUNK_LOADER:
+  description:
+  - '&7ทำให้ชังก์ยังโหลดอยู่เสมอ'
+  name: '&bเครื่องโหลดชังก์'
   type:
   - '&7&oเครื่องจักร'
 COMPRESSED_SPONGE:
+  name: '&fฟองน้ำอัดแน่น'
   type:
   - '&7&oทรัพยากร'
 CURSED_RABBIT_PAW:
+  name: '&cอุ้งเท้ากระต่ายต้องสาป'
   type:
   - '&7&oทรัพยากร'
 CURSED_SHARD:
+  description:
+  - '&7วัสดุคราฟต์'
+  - '&7จะรีเซ็ตเควสต์เมื่อโยนลงในแท่นบูชา...'
+  name: '&cสะเก็ดต้องสาป'
   type:
   - '&7&oทรัพยากร'
 CURSED_SWORD:
+  description:
+  - '&7ทำให้ศัตรูสับสน เพิ่มความเสียหาย'
+  - '&7อาจส่งผลร้ายต่อผู้ถือได้'
+  name: '&cดาบต้องสาป'
+  stats:
+  - '&7ดูดชีวิต I'
+  - '&7เจาะเกราะ I'
   type:
   - '&7&oอาวุธ'
 DAMIENIUM:
+  name: '&aเดเมียเนียม'
   type:
   - '&7&oทรัพยากร'
 DEMONIC_INGOT:
+  name: '&cแท่งโลหะปีศาจ'
   type:
   - '&7&oทรัพยากร'
 DEMONIC_PLATE:
+  name: '&cแผ่นปีศาจ'
   type:
   - '&7&oทรัพยากร'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7สร้างนรกเพลิง'
+  name: '&4คทาเพลิงไฟฟ้า'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 100 J'
   type:
   - '&7&oเครื่องมือ'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7ไฟ ไฟ ไฟ'
+  name: '&4คทาเพลิงไฟฟ้า &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 200 J'
   type:
   - '&7&oเครื่องมือ'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7กลั่นผงทองให้เป็นแท่งทอง'
+  name: '&bโรงกลั่นทองไฟฟ้า'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oเครื่องจักร'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7โบยบินไปกับสายลม'
+  name: '&bคทาลมไฟฟ้า'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 100 J'
   type:
   - '&7&oเครื่องมือ'
 ELUCIDATOR:
+  name: '&bอิลูซิเดเตอร์'
+  stats:
+  - '&7ความเสียหาย III'
+  - '&7ดูดชีวิต II'
+  - '&7เจาะเกราะ II'
+  - '&7ฟื้นเกินขีด'
   type:
   - '&7&oอาวุธ'
 EQUANIMOUS_GEM:
+  name: '&aอัญมณีแห่งความสงบนิ่ง'
   type:
   - '&7&oทรัพยากร'
 FIERY_LEGGINGS:
+  name: '&cกางเกงเกราะเพลิง'
+  stats:
+  - '&7ออร่าเพลิง II'
   type:
   - '&7&oเกราะ'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7วัสดุคราฟต์'
+  name: '&fโครงกางเกงเกราะเพลิง'
   type:
   - '&7&oทรัพยากร'
 FILL_WAND:
+  name: '&eคทาเติมเต็ม'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
   type:
   - '&7&oเครื่องมือ'
+  usage:
+  - '&7เลือกจุดมุมด้วยตัวเลือกตำแหน่ง'
+  - '&7ชิฟต์คลิกขวาเพื่อเลือกวัสดุ'
+  - '&7คลิกขวาเพื่อเติมพื้นที่'
 FORCEFIELD_DOME:
+  description:
+  - '&7เมื่อมีพลังงาน จะสร้างกำแพงป้องกัน'
+  - '&7ในรัศมี 32 บล็อก'
+  - '&7จะคืนสภาพเมื่อหมดพลังงานหรือถูกทุบ'
+  name: '&4โดมสนามพลัง'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oเครื่องจักร'
 FORCEFIELD_ENGINE:
+  name: '&fเครื่องยนต์สนามพลัง'
   type:
   - '&7&oทรัพยากร'
 FORCEFIELD_STABILIZER:
+  name: '&fตัวปรับเสถียรสนามพลัง'
   type:
   - '&7&oทรัพยากร'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7บล็อกที่จับต้องไม่ได้'
+  name: '&fบล็อกผี: &6%mob%'
   type:
   - '&7&oอุปกรณ์'
 GHOST_BLOCK_REMOVER:
+  name: '&eเครื่องลบบล็อกผี'
   type:
   - '&7&oเครื่องมือ'
+  usage:
+  - '&7คลิกขวาเพื่อลบบล็อกผี'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cไข่เรียกอัศวินไร้หัว'
   type:
   - '&7&oเบ็ดเตล็ด'
 HEALING_BOW:
+  description:
+  - '&8ในที่สุดก็มีอาวุธสายสนับสนุน'
+  name: '&4ธนูรักษา'
+  stats:
+  - '&cรักษา II'
   type:
   - '&7&oอาวุธ'
 HELMET_FRAME:
+  description:
+  - '&7วัสดุคราฟต์'
+  name: '&fโครงหมวกเกราะแห่งน้ำ'
   type:
   - '&7&oทรัพยากร'
 HUMAN_SKULL:
+  name: '&cกะโหลกมนุษย์'
   type:
   - '&7&oทรัพยากร'
 IMPROVEMENT_CORE:
+  description:
+  - '&7รวมมันกับเครื่องมือในเตาหลอมปรับปรุงเพื่อยกระดับ'
+  name: '&aแกนปรับปรุง'
   type:
   - '&7&oทรัพยากร'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7ใช้ยกระดับเครื่องมือ อาวุธ และเกราะของ Slimefun'
+  name: '&bเตาหลอมปรับปรุง'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oเครื่องจักร'
 LIGHT_BOOTS:
+  name: '&eรองเท้าเกราะเบา'
+  stats:
+  - '&7กระโดด I'
+  - '&7ความเร็ว I'
+  - '&7น้ำหนักเบา'
   type:
   - '&7&oเกราะ'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7วัสดุคราฟต์'
+  name: '&fโครงรองเท้าเกราะเบา'
   type:
   - '&7&oทรัพยากร'
 MAGIC_LUMP_4:
+  name: '&6ก้อนเวทมนตร์ &7- &eIV'
+  stats:
+  - '&c&oระดับ: IV'
   type:
   - '&7&oทรัพยากร'
 MAGIC_LUMP_5:
+  name: '&6ก้อนเวทมนตร์ &7- &eV'
+  stats:
+  - '&c&oระดับ: V'
   type:
   - '&7&oทรัพยากร'
 MAGMA_ESSENCE:
+  name: '&cแก่นสารแม็กมา'
   type:
   - '&7&oทรัพยากร'
 NUCLEAR_SALT:
+  name: '&aเกลือนิวเคลียร์'
   stats:
   - '&a☢&7 ระดับรังสี: &cสูงมาก'
   type:
   - '&7&oทรัพยากร'
 PARROT_FEATHER:
+  name: '&aขนนกแก้ว'
   type:
   - '&7&oทรัพยากร'
 PIXIE_DUST:
+  name: '&eผงภูต'
+  stats:
+  - '&7ความแข็งแกร่ง IV'
   type:
   - '&7&oอาหาร'
 PIXIE_QUEEN_HEART:
+  name: '&4หัวใจราชินีภูต'
   type:
   - '&7&oทรัพยากร'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aไข่เรียกราชินีภูต'
   type:
   - '&7&oเบ็ดเตล็ด'
 POLAR_FOX_HIDE:
+  name: '&fหนังหมาจิ้งจอกขั้วโลก'
   type:
   - '&7&oทรัพยากร'
 POSEIDONS_BLESSING:
+  name: '&bพรแห่งโพไซดอน'
   type:
   - '&7&oทรัพยากร'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7จับไอเทมพิเศษได้'
+  name: '&bคันเบ็ดของโพไซดอน'
+  stats:
+  - '&7พรแห่งโพไซดอน'
   type:
   - '&7&oเครื่องมือ'
 POSITION_SELECTOR:
+  name: '&eตัวเลือกตำแหน่ง'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 200 J'
   type:
   - '&7&oเครื่องมือ'
+  usage:
+  - '&7คลิกซ้ายที่บล็อกเพื่อเลือกตำแหน่งแรก'
+  - '&7คลิกขวาที่บล็อกเพื่อเลือกตำแหน่งที่สอง'
 POTION_MIXER:
+  description:
+  - '&7ใช้ผสมยา'
+  name: '&bเครื่องผสมยา'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oเครื่องจักร'
 PURE_BONE_DUST:
+  name: '&bผงกระดูกบริสุทธิ์'
   type:
   - '&7&oทรัพยากร'
 PURIFIED_BONE:
+  name: '&bกระดูกชำระแล้ว'
   type:
   - '&7&oทรัพยากร'
 REINFORCED_STRING:
+  name: '&bเส้นด้ายเสริมแรง'
   type:
   - '&7&oทรัพยากร'
 REMOTE_CONTROLLER:
+  description:
+  - '&7ทำให้คุณควบคุมโดมสนามพลังจากระยะไกลได้'
+  name: '&cตัวควบคุมระยะไกล'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 1000 J'
   type:
   - '&7&oเครื่องมือ'
+  usage:
+  - '&7ผูกมันด้วยชิฟต์ + คลิกขวา'
 RESISTANT_CHESTPLATE:
+  name: '&aเสื้อเกราะทนทาน'
+  stats:
+  - '&7ความต้านทาน I'
+  - '&7ฟื้นฟูพลังชีวิต I'
   type:
   - '&7&oเกราะ'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7วัสดุคราฟต์'
+  name: '&fโครงเสื้อเกราะทนทาน'
   type:
   - '&7&oทรัพยากร'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7ใช้เป็นส่วนหนึ่งของแท่นบูชายัญ'
+  name: '&fอิฐหินดำบูชายัญ'
   type:
   - '&7&oเครื่องจักร'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7ใช้เป็นส่วนหนึ่งของแท่นบูชายัญ'
+  name: '&fบันไดอิฐหินดำบูชายัญ'
   type:
   - '&7&oเครื่องจักร'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7ใช้เป็นส่วนหนึ่งของแท่นบูชายัญ'
+  name: '&fกำแพงอิฐหินดำบูชายัญ'
   type:
   - '&7&oเครื่องจักร'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7ใช้เป็นส่วนหนึ่งของแท่นบูชายัญ'
+  name: '&fแผ่นรองบูชายัญ'
   type:
   - '&7&oเครื่องจักร'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7ใช้เป็นส่วนหนึ่งของแท่นบูชายัญ'
+  name: '&fคบเพลิงวิญญาณบูชายัญ'
   type:
   - '&7&oเครื่องจักร'
 SPONGE_WAND:
+  name: '&eคทาฟองน้ำ'
   stats:
   - '&8⇨ &e⚡ &7บัฟเฟอร์ 2000 J'
   type:
   - '&7&oเครื่องมือ'
+  usage:
+  - '&7เลือกจุดมุมด้วยตัวเลือกตำแหน่ง'
+  - '&7คลิกขวาเพื่อกำจัดน้ำและลาวา'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7วัสดุที่เสถียร'
+  name: '&bบล็อกร้อนระอุที่เสถียร'
   type:
   - '&7&oทรัพยากร'
 SWEETENED_SWEET_INGOT:
+  name: '&eแท่งโลหะหวานฉ่ำ'
   type:
   - '&7&oทรัพยากร'
 SWEET_INGOT:
+  name: '&eแท่งโลหะหวาน'
   type:
   - '&7&oทรัพยากร'
 TROPICAL_FISH_SCALE:
+  name: '&bเกล็ดปลาเขตร้อน'
   type:
   - '&7&oทรัพยากร'
 UNBREAKABLE_RUNE:
+  name: '&7รูนโบราณ &8&l[&2&lไม่แตกหัก&8&l]'
   type:
   - '&7&oเบ็ดเตล็ด'
+  usage:
+  - '&eโยนรูนนี้ลงบนไอเทมที่ตกอยู่เพื่อ'
+  - '&eทำให้มัน &2ไม่แตกหัก'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cกระดูกวิเธอร์อาธรรม์'
   type:
   - '&7&oทรัพยากร'
 VILE_PUMPKIN:
+  name: '&cฟักทองชั่วร้าย'
   type:
   - '&7&oทรัพยากร'
 VILE_SEEDS:
+  name: '&cเมล็ดชั่วร้าย'
+  stats:
+  - '&7เพิ่มพลังชีวิต V'
   type:
   - '&7&oอาหาร'
 WIRELESS_TRANSMITTER:
+  name: '&fตัวส่งสัญญาณไร้สาย'
   type:
   - '&7&oทรัพยากร'
