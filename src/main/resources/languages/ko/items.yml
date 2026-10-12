@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&e아크리 아르쿰'
+  stats:
+  - '&7피해 III'
+  - '&7방어구 돌파 II'
   type:
   - '&7&o무기'
 AQUATIC_HELMET:
+  name: '&b수중 투구'
+  stats:
+  - '&7수중 호흡'
+  - '&7암흑 시야'
   type:
   - '&7&o갑옷'
 AQUATIC_NETHERITE_INGOT:
+  name: '&b수중 네더라이트 주괴'
   type:
   - '&7&o자원'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7달콤한 열매 관목에서 가시를 없앱니다.'
+  name: '&e달콤한 열매 관목 전정기'
   type:
   - '&7&o도구'
 BLOOD:
+  name: '&c피'
   type:
   - '&7&o자원'
 BLOOD_INFUSED_SKULL:
+  name: '&c피가 스민 두개골'
   type:
   - '&7&o자원'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&72.5배 속도를 지원합니다.'
+  name: '&f강화 발동 레일'
   type:
   - '&7&o기계'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&72.5배 속도를 지원합니다.'
+  name: '&f강화 탐지 레일'
   type:
   - '&7&o기계'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&72.5배 속도를 지원합니다.'
+  name: '&f강화 파워 레일'
   type:
   - '&7&o기계'
 BOOSTED_RAIL:
+  description:
+  - '&72.5배 속도를 지원합니다.'
+  name: '&f강화 레일'
   type:
   - '&7&o기계'
 BUCKET_OF_BLOOD:
+  name: '&c피 양동이'
   type:
   - '&7&o자원'
 CELESTIAL_SHARD:
+  description:
+  - '&7제작 재료'
+  - '&7제단에 던져 넣으면 퀘스트가 초기화됩니다...'
+  name: '&e천상의 조각'
   type:
   - '&7&o자원'
 CELESTIAL_SWORD:
+  name: '&e천상의 검'
+  stats:
+  - '&7신성한 강타 II'
+  - '&7방어구 관통 V'
   type:
   - '&7&o무기'
 CHUNK_LOADER:
+  description:
+  - '&7청크를 계속 불러온 상태로 유지합니다.'
+  name: '&b청크 로더'
   type:
   - '&7&o기계'
 COMPRESSED_SPONGE:
+  name: '&f압축 스펀지'
   type:
   - '&7&o자원'
 CURSED_RABBIT_PAW:
+  name: '&c저주받은 토끼 발'
   type:
   - '&7&o자원'
 CURSED_SHARD:
+  description:
+  - '&7제작 재료'
+  - '&7제단에 던져 넣으면 퀘스트가 초기화됩니다...'
+  name: '&c저주받은 조각'
   type:
   - '&7&o자원'
 CURSED_SWORD:
+  description:
+  - '&7적을 혼란에 빠뜨립니다. 피해량이 늘어납니다.'
+  - '&7사용자에게 해를 끼칠 수도 있습니다.'
+  name: '&c저주받은 검'
+  stats:
+  - '&7생명 흡수 I'
+  - '&7방어구 관통 I'
   type:
   - '&7&o무기'
 DAMIENIUM:
+  name: '&a다미에늄'
   type:
   - '&7&o자원'
 DEMONIC_INGOT:
+  name: '&c악마의 주괴'
   type:
   - '&7&o자원'
 DEMONIC_PLATE:
+  name: '&c악마의 판'
   type:
   - '&7&o자원'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7불바다를 만드세요.'
+  name: '&4전기 불 지팡이'
   stats:
   - '&8⇨ &e⚡ &7100 J 버퍼'
   type:
   - '&7&o도구'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7불, 불, 불!'
+  name: '&4전기 불 지팡이 &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J 버퍼'
   type:
   - '&7&o도구'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7금 가루를 금 주괴로 정련합니다.'
+  name: '&b전기 금 정련소'
   stats:
   - '&8⇨ &e⚡ &736 J/초'
   type:
   - '&7&o기계'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7바람을 타고 날아오르세요.'
+  name: '&b전기 바람 지팡이'
   stats:
   - '&8⇨ &e⚡ &7100 J 버퍼'
   type:
   - '&7&o도구'
 ELUCIDATOR:
+  name: '&b엘루시데이터'
+  stats:
+  - '&7피해 III'
+  - '&7생명 흡수 II'
+  - '&7방어구 관통 II'
+  - '&7과잉 회복'
   type:
   - '&7&o무기'
 EQUANIMOUS_GEM:
+  name: '&a평정의 보석'
   type:
   - '&7&o자원'
 FIERY_LEGGINGS:
+  name: '&c화염 바지'
+  stats:
+  - '&7화염 오라 II'
   type:
   - '&7&o갑옷'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7제작 재료'
+  name: '&f화염 바지 골격'
   type:
   - '&7&o자원'
 FILL_WAND:
+  name: '&e채우기 지팡이'
   stats:
   - '&8⇨ &e⚡ &71000 J 버퍼'
   type:
   - '&7&o도구'
+  usage:
+  - '&7위치 선택기로 모서리 지점을 선택하세요.'
+  - '&7시프트 우클릭으로 재료를 선택합니다.'
+  - '&7우클릭하면 영역을 채웁니다.'
 FORCEFIELD_DOME:
+  description:
+  - '&7전력이 공급되면 보호 장벽을'
+  - '&732블록 반경으로 만듭니다.'
+  - '&7전력이 끊기거나 파괴되면 되돌아갑니다'
+  name: '&4역장 돔'
   stats:
   - '&8⇨ &e⚡ &76000 J/초'
   type:
   - '&7&o기계'
 FORCEFIELD_ENGINE:
+  name: '&f역장 엔진'
   type:
   - '&7&o자원'
 FORCEFIELD_STABILIZER:
+  name: '&f역장 안정기'
   type:
   - '&7&o자원'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7만질 수 없는 블록입니다.'
+  name: '&f유령 블록: &6%mob%'
   type:
   - '&7&o장치'
 GHOST_BLOCK_REMOVER:
+  name: '&e유령 블록 제거기'
   type:
   - '&7&o도구'
+  usage:
+  - '&7우클릭하면 유령 블록을 제거합니다.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&c머리 없는 기사 스폰 알'
   type:
   - '&7&o기타'
 HEALING_BOW:
+  description:
+  - '&8드디어 지원형 무기입니다.'
+  name: '&4치유 활'
+  stats:
+  - '&c치유 II'
   type:
   - '&7&o무기'
 HELMET_FRAME:
+  description:
+  - '&7제작 재료'
+  name: '&f수중 투구 골격'
   type:
   - '&7&o자원'
 HUMAN_SKULL:
+  name: '&c인간 두개골'
   type:
   - '&7&o자원'
 IMPROVEMENT_CORE:
+  description:
+  - '&7개선 제작소에서 도구와 함께 넣으면 그 도구가 개선됩니다.'
+  name: '&a개선 코어'
   type:
   - '&7&o자원'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Slimefun 도구와 무기, 방어구를 개선하는 데 사용합니다.'
+  name: '&b개선 제작소'
   stats:
   - '&8⇨ &e⚡ &7128 J/초'
   type:
   - '&7&o기계'
 LIGHT_BOOTS:
+  name: '&e경량 부츠'
+  stats:
+  - '&7점프 I'
+  - '&7신속 I'
+  - '&7경량'
   type:
   - '&7&o갑옷'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7제작 재료'
+  name: '&f경량 부츠 골격'
   type:
   - '&7&o자원'
 MAGIC_LUMP_4:
+  name: '&6마법 덩어리 &7- &eIV'
+  stats:
+  - '&c&o티어: IV'
   type:
   - '&7&o자원'
 MAGIC_LUMP_5:
+  name: '&6마법 덩어리 &7- &eV'
+  stats:
+  - '&c&o티어: V'
   type:
   - '&7&o자원'
 MAGMA_ESSENCE:
+  name: '&c마그마 정수'
   type:
   - '&7&o자원'
 NUCLEAR_SALT:
+  name: '&a핵 소금'
   stats:
   - '&a☢&7 방사능 수치: &c매우 높음'
   type:
   - '&7&o자원'
 PARROT_FEATHER:
+  name: '&a앵무새 깃털'
   type:
   - '&7&o자원'
 PIXIE_DUST:
+  name: '&e픽시 가루'
+  stats:
+  - '&7힘 IV'
   type:
   - '&7&o음식'
 PIXIE_QUEEN_HEART:
+  name: '&4픽시 여왕의 심장'
   type:
   - '&7&o자원'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&a픽시 여왕 스폰 알'
   type:
   - '&7&o기타'
 POLAR_FOX_HIDE:
+  name: '&f북극 여우 가죽'
   type:
   - '&7&o자원'
 POSEIDONS_BLESSING:
+  name: '&b포세이돈의 축복'
   type:
   - '&7&o자원'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7특별한 아이템을 낚을 수 있습니다.'
+  name: '&b포세이돈의 낚싯대'
+  stats:
+  - '&7포세이돈의 축복'
   type:
   - '&7&o도구'
 POSITION_SELECTOR:
+  name: '&e위치 선택기'
   stats:
   - '&8⇨ &e⚡ &7200 J 버퍼'
   type:
   - '&7&o도구'
+  usage:
+  - '&7블록을 좌클릭하면 첫 번째 위치를 선택합니다.'
+  - '&7블록을 우클릭하면 두 번째 위치를 선택합니다.'
 POTION_MIXER:
+  description:
+  - '&7물약을 섞는 데 사용합니다.'
+  name: '&b물약 혼합기'
   stats:
   - '&8⇨ &e⚡ &728 J/초'
   type:
   - '&7&o기계'
 PURE_BONE_DUST:
+  name: '&b순수한 뼈 가루'
   type:
   - '&7&o자원'
 PURIFIED_BONE:
+  name: '&b정화된 뼈'
   type:
   - '&7&o자원'
 REINFORCED_STRING:
+  name: '&b강화 실'
   type:
   - '&7&o자원'
 REMOTE_CONTROLLER:
+  description:
+  - '&7멀리서 역장 돔을 제어할 수 있게 해 줍니다.'
+  name: '&c원격 제어기'
   stats:
   - '&8⇨ &e⚡ &71000 J 버퍼'
   type:
   - '&7&o도구'
+  usage:
+  - '&7시프트 + 우클릭으로 연결하세요.'
 RESISTANT_CHESTPLATE:
+  name: '&a저항 흉갑'
+  stats:
+  - '&7저항 I'
+  - '&7재생 I'
   type:
   - '&7&o갑옷'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7제작 재료'
+  name: '&f저항 흉갑 골격'
   type:
   - '&7&o자원'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7희생 제단의 부품으로 사용합니다.'
+  name: '&f희생 흑암 벽돌'
   type:
   - '&7&o기계'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7희생 제단의 부품으로 사용합니다.'
+  name: '&f희생 흑암 벽돌 계단'
   type:
   - '&7&o기계'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7희생 제단의 부품으로 사용합니다.'
+  name: '&f희생 흑암 벽돌 담장'
   type:
   - '&7&o기계'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7희생 제단의 부품으로 사용합니다.'
+  name: '&f희생 매트'
   type:
   - '&7&o기계'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7희생 제단의 부품으로 사용합니다.'
+  name: '&f희생 영혼 횃불'
   type:
   - '&7&o기계'
 SPONGE_WAND:
+  name: '&e스펀지 지팡이'
   stats:
   - '&8⇨ &e⚡ &72000 J 버퍼'
   type:
   - '&7&o도구'
+  usage:
+  - '&7위치 선택기로 모서리 지점을 선택하세요.'
+  - '&7우클릭하면 물과 용암을 제거합니다.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7안정된 재료입니다.'
+  name: '&b안정화된 작열 블록'
   type:
   - '&7&o자원'
 SWEETENED_SWEET_INGOT:
+  name: '&e더 달콤해진 주괴'
   type:
   - '&7&o자원'
 SWEET_INGOT:
+  name: '&e달콤한 주괴'
   type:
   - '&7&o자원'
 TROPICAL_FISH_SCALE:
+  name: '&b열대어 비늘'
   type:
   - '&7&o자원'
 UNBREAKABLE_RUNE:
+  name: '&7고대 룬 &8&l[&2&l파괴 불가&8&l]'
   type:
   - '&7&o기타'
+  usage:
+  - '&e이 룬을 떨어진 아이템 위에 던지면'
+  - '&e그 아이템이 &2파괴 불가가 됩니다'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&c부정한 위더 스켈레톤 뼈'
   type:
   - '&7&o자원'
 VILE_PUMPKIN:
+  name: '&c사악한 호박'
   type:
   - '&7&o자원'
 VILE_SEEDS:
+  name: '&c사악한 씨앗'
+  stats:
+  - '&7체력 증가 V'
   type:
   - '&7&o음식'
 WIRELESS_TRANSMITTER:
+  name: '&f무선 송신기'
   type:
   - '&7&o자원'
