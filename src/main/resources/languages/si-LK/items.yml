@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eඅක්‍රි ආකුම්'
+  stats:
+  - '&7හානිය III'
+  - '&7සන්නාහ විදීම II'
   type:
   - '&7&oආයුධය'
 AQUATIC_HELMET:
+  name: '&bජලජ හිස්වැස්ම'
+  stats:
+  - '&7ජලයේ හුස්ම ගැනීම'
+  - '&7අඳුරේ දැකීම'
   type:
   - '&7&oසන්නාහය'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bජලජ නෙදරයිට් දණ්ඩ'
   type:
   - '&7&oසම්පත'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7මිහිරි බෙරි පඳුරුවලින් කටු ඉවත් කරයි.'
+  name: '&eමිහිරි බෙරි පඳුරු කප්පාදුව'
   type:
   - '&7&oමෙවලම'
 BLOOD:
+  name: '&cරුධිරය'
   type:
   - '&7&oසම්පත'
 BLOOD_INFUSED_SKULL:
+  name: '&cරුධිරය කැවූ හිස් කබල'
   type:
   - '&7&oසම්පත'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7වේගය 2.5x දක්වා දරයි.'
+  name: '&fත්වරිත සක්‍රියකාරක පීල්ල'
   type:
   - '&7&oයන්ත්‍රය'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7වේගය 2.5x දක්වා දරයි.'
+  name: '&fත්වරිත අනාවරක පීල්ල'
   type:
   - '&7&oයන්ත්‍රය'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7වේගය 2.5x දක්වා දරයි.'
+  name: '&fත්වරිත බල ගැන්වූ පීල්ල'
   type:
   - '&7&oයන්ත්‍රය'
 BOOSTED_RAIL:
+  description:
+  - '&7වේගය 2.5x දක්වා දරයි.'
+  name: '&fත්වරිත පීල්ල'
   type:
   - '&7&oයන්ත්‍රය'
 BUCKET_OF_BLOOD:
+  name: '&cරුධිර බාල්දිය'
   type:
   - '&7&oසම්පත'
 CELESTIAL_SHARD:
+  description:
+  - '&7තැනීම් ද්‍රව්‍ය'
+  - '&7පූජාසනයකට විසි කළ විට ගවේෂණයක් යළි සකසයි...'
+  name: '&eදිව්‍ය කැබැල්ල'
   type:
   - '&7&oසම්පත'
 CELESTIAL_SWORD:
+  name: '&eදිව්‍ය කඩුව'
+  stats:
+  - '&7දිව්‍ය පහර II'
+  - '&7සන්නාහ විනිවිදීම V'
   type:
   - '&7&oආයුධය'
 CHUNK_LOADER:
+  description:
+  - '&7කැබැල්ල පූරණය කර තබයි.'
+  name: '&bකැබලි පූරකය'
   type:
   - '&7&oයන්ත්‍රය'
 COMPRESSED_SPONGE:
+  name: '&fසම්පීඩිත ස්පොන්ජිය'
   type:
   - '&7&oසම්පත'
 CURSED_RABBIT_PAW:
+  name: '&cශාප ලත් හාවාගේ පාදය'
   type:
   - '&7&oසම්පත'
 CURSED_SHARD:
+  description:
+  - '&7තැනීම් ද්‍රව්‍ය'
+  - '&7පූජාසනයකට විසි කළ විට ගවේෂණයක් යළි සකසයි...'
+  name: '&cශාප ලත් කැබැල්ල'
   type:
   - '&7&oසම්පත'
 CURSED_SWORD:
+  description:
+  - '&7සතුරන් අවුල් කරයි. හානිය වැඩි කරයි.'
+  - '&7දරන්නාට අහිතකර ලෙස බලපෑ හැක.'
+  name: '&cශාප ලත් කඩුව'
+  stats:
+  - '&7ජීවය උරාගැනීම I'
+  - '&7සන්නාහ විනිවිදීම I'
   type:
   - '&7&oආයුධය'
 DAMIENIUM:
+  name: '&aඩේමියනියම්'
   type:
   - '&7&oසම්පත'
 DEMONIC_INGOT:
+  name: '&cයක්ෂ දණ්ඩ'
   type:
   - '&7&oසම්පත'
 DEMONIC_PLATE:
+  name: '&cයක්ෂ තහඩුව'
   type:
   - '&7&oසම්පත'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7ගිනිදැල් නිර්මාණය කරන්න.'
+  name: '&4විද්‍යුත් ගිනි සැරයටිය'
   stats:
   - '&8⇨ &e⚡ &7100 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7ගින්න, ගින්න, ගින්න!'
+  name: '&4විද්‍යුත් ගිනි සැරයටිය &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7රන් දූවිලි රන් දඬු බවට පිරිපහදු කරයි.'
+  name: '&bවිද්‍යුත් රන් පිරිපහදුව'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7සුළඟේ ගමන් කරන්න.'
+  name: '&bවිද්‍යුත් සුළං සැරයටිය'
   stats:
   - '&8⇨ &e⚡ &7100 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
 ELUCIDATOR:
+  name: '&bඑලුසිඩේටර්'
+  stats:
+  - '&7හානිය III'
+  - '&7ජීවය උරාගැනීම II'
+  - '&7සන්නාහ විනිවිදීම II'
+  - '&7අධි සුවය'
   type:
   - '&7&oආයුධය'
 EQUANIMOUS_GEM:
+  name: '&aසමචිත්ත මැණික'
   type:
   - '&7&oසම්පත'
 FIERY_LEGGINGS:
+  name: '&cගිනියම් කලිසම'
+  stats:
+  - '&7ගිනි වලයම II'
   type:
   - '&7&oසන්නාහය'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7තැනීම් ද්‍රව්‍ය'
+  name: '&fගිනියම් කලිසම් රාමුව'
   type:
   - '&7&oසම්පත'
 FILL_WAND:
+  name: '&eපිරවුම් සැරයටිය'
   stats:
   - '&8⇨ &e⚡ &71000 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
+  usage:
+  - '&7ස්ථාන තෝරකය සමඟ කෙළවර ලක්ෂ්‍ය තෝරන්න.'
+  - '&7ද්‍රව්‍ය තේරීමට ෂිෆ්ට් දකුණු ක්ලික් කරන්න.'
+  - '&7ප්‍රදේශයක් පිරවීමට දකුණු ක්ලික් කරන්න.'
 FORCEFIELD_DOME:
+  description:
+  - '&7බල ගැන්වූ විට, ආරක්ෂිත බාධකයක් සාදයි'
+  - '&7කුට්ටි 32-ක අරයක් සහිත.'
+  - '&7බලය නැති වූ විට හෝ කැඩුණු විට නැවත පෙර තත්ත්වයට පැමිණේ'
+  name: '&4බල ක්ෂේත්‍ර වියන'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 FORCEFIELD_ENGINE:
+  name: '&fබල ක්ෂේත්‍ර එන්ජිම'
   type:
   - '&7&oසම්පත'
 FORCEFIELD_STABILIZER:
+  name: '&fබල ක්ෂේත්‍ර ස්ථායීකාරකය'
   type:
   - '&7&oසම්පත'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7ස්පර්ශ කළ නොහැකි කුට්ටියකි.'
+  name: '&fඅවතාර කුට්ටිය: &6%mob%'
   type:
   - '&7&oඋපාංගය'
 GHOST_BLOCK_REMOVER:
+  name: '&eඅවතාර කුට්ටි ඉවත් කරන්නා'
   type:
   - '&7&oමෙවලම'
+  usage:
+  - '&7අවතාර කුට්ටියක් ඉවත් කිරීමට දකුණු ක්ලික් කරන්න.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cහිසක් නැති අසරුවාගේ බිහිවීම් බිත්තරය'
   type:
   - '&7&oවිවිධ'
 HEALING_BOW:
+  description:
+  - '&8අවසානයේ සහාය ආයුධයක්.'
+  name: '&4සුව කරන දුන්න'
+  stats:
+  - '&cසුවය II'
   type:
   - '&7&oආයුධය'
 HELMET_FRAME:
+  description:
+  - '&7තැනීම් ද්‍රව්‍ය'
+  name: '&fජලජ හිස්වැස්ම් රාමුව'
   type:
   - '&7&oසම්පත'
 HUMAN_SKULL:
+  name: '&cමිනිස් හිස් කබල'
   type:
   - '&7&oසම්පත'
 IMPROVEMENT_CORE:
+  description:
+  - '&7මෙවලමක් දියුණු කිරීමට දියුණු කිරීමේ කම්මලයේ එය සමඟ එකතු කරන්න.'
+  name: '&aදියුණු කිරීමේ හරය'
   type:
   - '&7&oසම්පත'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Slimefun මෙවලම්, ආයුධ හා සන්නාහ දියුණු කිරීමට භාවිතා කරයි.'
+  name: '&bදියුණු කිරීමේ කම්මලය'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 LIGHT_BOOTS:
+  name: '&eසැහැල්ලු පාවහන්'
+  stats:
+  - '&7පැනීම I'
+  - '&7වේගය I'
+  - '&7සැහැල්ලු'
   type:
   - '&7&oසන්නාහය'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7තැනීම් ද්‍රව්‍ය'
+  name: '&fසැහැල්ලු පාවහන් රාමුව'
   type:
   - '&7&oසම්පත'
 MAGIC_LUMP_4:
+  name: '&6ඉන්ද්‍රජාලික කැටිය &7- &eIV'
+  stats:
+  - '&c&oස්තරය: IV'
   type:
   - '&7&oසම්පත'
 MAGIC_LUMP_5:
+  name: '&6ඉන්ද්‍රජාලික කැටිය &7- &eV'
+  stats:
+  - '&c&oස්තරය: V'
   type:
   - '&7&oසම්පත'
 MAGMA_ESSENCE:
+  name: '&cමැග්මා සාරය'
   type:
   - '&7&oසම්පත'
 NUCLEAR_SALT:
+  name: '&aන්‍යෂ්ටික ලුණු'
   stats:
   - '&a☢&7 විකිරණ මට්ටම: &cඉතා ඉහළ'
   type:
   - '&7&oසම්පත'
 PARROT_FEATHER:
+  name: '&aගිරවාගේ පිහාටුව'
   type:
   - '&7&oසම්පත'
 PIXIE_DUST:
+  name: '&eපික්සි දූවිලි'
+  stats:
+  - '&7ප්‍රබලතාව IV'
   type:
   - '&7&oආහාර'
 PIXIE_QUEEN_HEART:
+  name: '&4පික්සි රැජිනගේ හදවත'
   type:
   - '&7&oසම්පත'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aපික්සි රැජිනගේ බිහිවීම් බිත්තරය'
   type:
   - '&7&oවිවිධ'
 POLAR_FOX_HIDE:
+  name: '&fධ්‍රැවීය නරියාගේ සම'
   type:
   - '&7&oසම්පත'
 POSEIDONS_BLESSING:
+  name: '&bපොසෙයිඩන්ගේ ආශිර්වාදය'
   type:
   - '&7&oසම්පත'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7විශේෂ අයිතම අල්ලා ගත හැක.'
+  name: '&bපොසෙයිඩන්ගේ මාළු බෑමේ කෝදුව'
+  stats:
+  - '&7පොසෙයිඩන්ගේ ආශිර්වාදය'
   type:
   - '&7&oමෙවලම'
 POSITION_SELECTOR:
+  name: '&eස්ථාන තෝරකය'
   stats:
   - '&8⇨ &e⚡ &7200 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
+  usage:
+  - '&7මූලික ස්ථානය තේරීමට කුට්ටියක් වම් ක්ලික් කරන්න.'
+  - '&7ද්විතීයික ස්ථානය තේරීමට කුට්ටියක් දකුණු ක්ලික් කරන්න.'
 POTION_MIXER:
+  description:
+  - '&7පාන මිශ්‍ර කිරීමට භාවිතා කරයි.'
+  name: '&bපාන මිශ්‍රකය'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oයන්ත්‍රය'
 PURE_BONE_DUST:
+  name: '&bපිරිසිදු ඇට දූවිලි'
   type:
   - '&7&oසම්පත'
 PURIFIED_BONE:
+  name: '&bපිරිසිදු කළ ඇටය'
   type:
   - '&7&oසම්පත'
 REINFORCED_STRING:
+  name: '&bශක්තිමත් කළ නූල'
   type:
   - '&7&oසම්පත'
 REMOTE_CONTROLLER:
+  description:
+  - '&7දුරින් සිට ඔබේ බල ක්ෂේත්‍ර වියන පාලනය කිරීමට ඉඩ දෙයි.'
+  name: '&cදුරස්ථ පාලකය'
   stats:
   - '&8⇨ &e⚡ &71000 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
+  usage:
+  - '&7ෂිෆ්ට් + දකුණු ක්ලික් භාවිතයෙන් එය බැඳ ගන්න.'
 RESISTANT_CHESTPLATE:
+  name: '&aප්‍රතිරෝධක පපු කවචය'
+  stats:
+  - '&7ප්‍රතිරෝධය I'
+  - '&7පුනර්ජනනය I'
   type:
   - '&7&oසන්නාහය'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7තැනීම් ද්‍රව්‍ය'
+  name: '&fප්‍රතිරෝධක පපු කවච රාමුව'
   type:
   - '&7&oසම්පත'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7බිලි පූජාසනයේ කොටසක් ලෙස භාවිතා වේ.'
+  name: '&fපූජා කළු ගල් ගඩොල්'
   type:
   - '&7&oයන්ත්‍රය'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7බිලි පූජාසනයේ කොටසක් ලෙස භාවිතා වේ.'
+  name: '&fපූජා කළු ගල් ගඩොල් පඩිපෙළ'
   type:
   - '&7&oයන්ත්‍රය'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7බිලි පූජාසනයේ කොටසක් ලෙස භාවිතා වේ.'
+  name: '&fපූජා කළු ගල් ගඩොල් බිත්තිය'
   type:
   - '&7&oයන්ත්‍රය'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7බිලි පූජාසනයේ කොටසක් ලෙස භාවිතා වේ.'
+  name: '&fපූජා පැදුර'
   type:
   - '&7&oයන්ත්‍රය'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7බිලි පූජාසනයේ කොටසක් ලෙස භාවිතා වේ.'
+  name: '&fපූජා ආත්ම පන්දම'
   type:
   - '&7&oයන්ත්‍රය'
 SPONGE_WAND:
+  name: '&eස්පොන්ජි සැරයටිය'
   stats:
   - '&8⇨ &e⚡ &72000 J ගබඩාව'
   type:
   - '&7&oමෙවලම'
+  usage:
+  - '&7ස්ථාන තෝරකය සමඟ කෙළවර ලක්ෂ්‍ය තෝරන්න.'
+  - '&7ජලය හා ලාවා ඉවත් කිරීමට දකුණු ක්ලික් කරන්න.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7ස්ථායී ද්‍රව්‍යයකි.'
+  name: '&bස්ථායීකරණය කළ දැවෙන කුට්ටිය'
   type:
   - '&7&oසම්පත'
 SWEETENED_SWEET_INGOT:
+  name: '&eපැණිරස මිහිරි දණ්ඩ'
   type:
   - '&7&oසම්පත'
 SWEET_INGOT:
+  name: '&eමිහිරි දණ්ඩ'
   type:
   - '&7&oසම්පත'
 TROPICAL_FISH_SCALE:
+  name: '&bනිවර්තන මාළු කොරපොතු'
   type:
   - '&7&oසම්පත'
 UNBREAKABLE_RUNE:
+  name: '&7පෞරාණික රූනය &8&l[&2&lනොබිඳෙන&8&l]'
   type:
   - '&7&oවිවිධ'
+  usage:
+  - '&eමෙම රූනය බිම වැටුණු අයිතමයක් මතට දමන්න'
+  - '&eඑය කරන්න &2නොබිඳෙන'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cඅපවිත්‍ර විදර් ඇටසැකිලි ඇටය'
   type:
   - '&7&oසම්පත'
 VILE_PUMPKIN:
+  name: '&cනීච වට්ටක්කා'
   type:
   - '&7&oසම්පත'
 VILE_SEEDS:
+  name: '&cනීච බීජ'
+  stats:
+  - '&7සෞඛ්‍ය වර්ධකය V'
   type:
   - '&7&oආහාර'
 WIRELESS_TRANSMITTER:
+  name: '&fනොරැහැන් සම්ප්‍රේෂකය'
   type:
   - '&7&oසම්පත'
