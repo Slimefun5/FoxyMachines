@@ -1,255 +1,454 @@
 ACRI_ARCUM:
+  name: '&eΆκρι Άρκουμ'
+  stats:
+  - '&7Ζημιά III'
+  - '&7Διαπέραση Πανοπλίας II'
   type:
   - '&7&oΌπλο'
 AQUATIC_HELMET:
+  name: '&bΥδάτινο Κράνος'
+  stats:
+  - '&7Υποβρύχια Αναπνοή'
+  - '&7Νυχτερινή Όραση'
   type:
   - '&7&oΠανοπλία'
 AQUATIC_NETHERITE_INGOT:
+  name: '&bΥδάτινο Πλίνθωμα Νέθεραϊτ'
   type:
   - '&7&oΠόρος'
 BERRY_BUSH_TRIMMER:
+  description:
+  - '&7Αφαιρεί τα αγκάθια από θάμνους γλυκών μούρων.'
+  name: '&eΚλαδευτήρι Θάμνου Γλυκών Μούρων'
   type:
   - '&7&oΕργαλείο'
 BLOOD:
+  name: '&cΑίμα'
   type:
   - '&7&oΠόρος'
 BLOOD_INFUSED_SKULL:
+  name: '&cΚρανίο Εμποτισμένο με Αίμα'
   type:
   - '&7&oΠόρος'
 BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&7Υποστηρίζει 2.5x την ταχύτητα.'
+  name: '&fΕνισχυμένη Ράγα Ενεργοποίησης'
   type:
   - '&7&oΜηχανή'
 BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&7Υποστηρίζει 2.5x την ταχύτητα.'
+  name: '&fΕνισχυμένη Ράγα Ανίχνευσης'
   type:
   - '&7&oΜηχανή'
 BOOSTED_POWERED_RAIL:
+  description:
+  - '&7Υποστηρίζει 2.5x την ταχύτητα.'
+  name: '&fΕνισχυμένη Τροφοδοτούμενη Ράγα'
   type:
   - '&7&oΜηχανή'
 BOOSTED_RAIL:
+  description:
+  - '&7Υποστηρίζει 2.5x την ταχύτητα.'
+  name: '&fΕνισχυμένη Ράγα'
   type:
   - '&7&oΜηχανή'
 BUCKET_OF_BLOOD:
+  name: '&cΚουβάς Αίματος'
   type:
   - '&7&oΠόρος'
 CELESTIAL_SHARD:
+  description:
+  - '&7Υλικό Κατασκευής'
+  - '&7Μηδενίζει μια Αποστολή αν ριχτεί σε Βωμό...'
+  name: '&eΟυράνιο Θραύσμα'
   type:
   - '&7&oΠόρος'
 CELESTIAL_SWORD:
+  name: '&eΟυράνιο Ξίφος'
+  stats:
+  - '&7Θεϊκό Χτύπημα II'
+  - '&7Διάτρηση Πανοπλίας V'
   type:
   - '&7&oΌπλο'
 CHUNK_LOADER:
+  description:
+  - '&7Κρατά το τμήμα φορτωμένο.'
+  name: '&bΦορτωτής Τμήματος'
   type:
   - '&7&oΜηχανή'
 COMPRESSED_SPONGE:
+  name: '&fΣυμπιεσμένο Σφουγγάρι'
   type:
   - '&7&oΠόρος'
 CURSED_RABBIT_PAW:
+  name: '&cΚαταραμένο Πόδι Κουνελιού'
   type:
   - '&7&oΠόρος'
 CURSED_SHARD:
+  description:
+  - '&7Υλικό Κατασκευής'
+  - '&7Μηδενίζει μια Αποστολή αν ριχτεί σε Βωμό...'
+  name: '&cΚαταραμένο Θραύσμα'
   type:
   - '&7&oΠόρος'
 CURSED_SWORD:
+  description:
+  - '&7Μπερδεύει τους εχθρούς. Αυξάνει τη ζημιά.'
+  - '&7Μπορεί να βλάψει αυτόν που το κρατά.'
+  name: '&cΚαταραμένο Ξίφος'
+  stats:
+  - '&7Κλοπή Ζωής I'
+  - '&7Διάτρηση Πανοπλίας I'
   type:
   - '&7&oΌπλο'
 DAMIENIUM:
+  name: '&aΝταμιένιουμ'
   type:
   - '&7&oΠόρος'
 DEMONIC_INGOT:
+  name: '&cΔαιμονικό Πλίνθωμα'
   type:
   - '&7&oΠόρος'
 DEMONIC_PLATE:
+  name: '&cΔαιμονική Πλάκα'
   type:
   - '&7&oΠόρος'
 ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7Δημιούργησε κόλαση φωτιάς.'
+  name: '&4Ηλεκτρικό Ραβδί Φωτιάς'
   stats:
   - '&8⇨ &e⚡ &7100 J Απόθεμα'
   type:
   - '&7&oΕργαλείο'
 ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7Φωτιά, φωτιά, φωτιά!'
+  name: '&4Ηλεκτρικό Ραβδί Φωτιάς &7- &eII'
   stats:
   - '&8⇨ &e⚡ &7200 J Απόθεμα'
   type:
   - '&7&oΕργαλείο'
 ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7Εξευγενίζει σκόνη χρυσού σε πλινθώματα χρυσού.'
+  name: '&bΗλεκτρικό Καθαριστήριο Χρυσού'
   stats:
   - '&8⇨ &e⚡ &736 J/s'
   type:
   - '&7&oΜηχανή'
 ELECTRIC_WIND_STAFF:
+  description:
+  - '&7Ταξίδεψε με τον άνεμο.'
+  name: '&bΗλεκτρικό Ραβδί Ανέμου'
   stats:
   - '&8⇨ &e⚡ &7100 J Απόθεμα'
   type:
   - '&7&oΕργαλείο'
 ELUCIDATOR:
+  name: '&bΕλουσιντέιτορ'
+  stats:
+  - '&7Ζημιά III'
+  - '&7Κλοπή Ζωής II'
+  - '&7Διάτρηση Πανοπλίας II'
+  - '&7Υπερθεραπεία'
   type:
   - '&7&oΌπλο'
 EQUANIMOUS_GEM:
+  name: '&aΓαλήνιο Πετράδι'
   type:
   - '&7&oΠόρος'
 FIERY_LEGGINGS:
+  name: '&cΦλογερές Περικνημίδες'
+  stats:
+  - '&7Αύρα Φωτιάς II'
   type:
   - '&7&oΠανοπλία'
 FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7Υλικό Κατασκευής'
+  name: '&fΣκελετός Φλογερών Περικνημίδων'
   type:
   - '&7&oΠόρος'
 FILL_WAND:
+  name: '&eΡαβδί Πλήρωσης'
   stats:
   - '&8⇨ &e⚡ &71000 J Απόθεμα'
   type:
   - '&7&oΕργαλείο'
+  usage:
+  - '&7Διάλεξε τα γωνιακά σημεία με τον Επιλογέα Θέσης.'
+  - '&7Σιφτ και δεξί κλικ για επιλογή υλικού.'
+  - '&7Δεξί κλικ για να γεμίσεις μια περιοχή.'
 FORCEFIELD_DOME:
+  description:
+  - '&7Όταν τροφοδοτείται, δημιουργεί προστατευτικό φράγμα'
+  - '&7με ακτίνα 32 μπλοκ.'
+  - '&7Επανέρχεται μόλις χάσει την ισχύ ή σπάσει'
+  name: '&4Θόλος Πεδίου Δύναμης'
   stats:
   - '&8⇨ &e⚡ &76000 J/s'
   type:
   - '&7&oΜηχανή'
 FORCEFIELD_ENGINE:
+  name: '&fΚινητήρας Πεδίου Δύναμης'
   type:
   - '&7&oΠόρος'
 FORCEFIELD_STABILIZER:
+  name: '&fΣταθεροποιητής Πεδίου Δύναμης'
   type:
   - '&7&oΠόρος'
 GHOST_BLOCK_%MOB%:
+  description:
+  - '&7Ένα άυλο μπλοκ.'
+  name: '&fΜπλοκ-Φάντασμα: &6%mob%'
   type:
   - '&7&oΣυσκευή'
 GHOST_BLOCK_REMOVER:
+  name: '&eΑφαιρετής Μπλοκ-Φάντασμα'
   type:
   - '&7&oΕργαλείο'
+  usage:
+  - '&7Δεξί κλικ για να αφαιρέσεις ένα Μπλοκ-Φάντασμα.'
 HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&cΑυγό Εμφάνισης Ακέφαλου Καβαλάρη'
   type:
   - '&7&oΔιάφορα'
 HEALING_BOW:
+  description:
+  - '&8Επιτέλους ένα όπλο υποστήριξης.'
+  name: '&4Τόξο Θεραπείας'
+  stats:
+  - '&cΘεραπεία II'
   type:
   - '&7&oΌπλο'
 HELMET_FRAME:
+  description:
+  - '&7Υλικό Κατασκευής'
+  name: '&fΣκελετός Υδάτινου Κράνους'
   type:
   - '&7&oΠόρος'
 HUMAN_SKULL:
+  name: '&cΑνθρώπινο Κρανίο'
   type:
   - '&7&oΠόρος'
 IMPROVEMENT_CORE:
+  description:
+  - '&7Συνδύασέ τον με ένα εργαλείο στο Καμίνι Βελτίωσης για να το βελτιώσεις.'
+  name: '&aΠυρήνας Βελτίωσης'
   type:
   - '&7&oΠόρος'
 IMPROVEMENT_FORGE:
+  description:
+  - '&7Χρησιμοποιείται για τη βελτίωση εργαλείων, όπλων και πανοπλιών του Slimefun.'
+  name: '&bΚαμίνι Βελτίωσης'
   stats:
   - '&8⇨ &e⚡ &7128 J/s'
   type:
   - '&7&oΜηχανή'
 LIGHT_BOOTS:
+  name: '&eΕλαφριές Μπότες'
+  stats:
+  - '&7Άλμα I'
+  - '&7Ταχύτητα I'
+  - '&7Ελαφροβαρές'
   type:
   - '&7&oΠανοπλία'
 LIGHT_BOOTS_FRAME:
+  description:
+  - '&7Υλικό Κατασκευής'
+  name: '&fΣκελετός Ελαφριών Μποτών'
   type:
   - '&7&oΠόρος'
 MAGIC_LUMP_4:
+  name: '&6Μαγικός Σβόλος &7- &eIV'
+  stats:
+  - '&c&oΒαθμίδα: IV'
   type:
   - '&7&oΠόρος'
 MAGIC_LUMP_5:
+  name: '&6Μαγικός Σβόλος &7- &eV'
+  stats:
+  - '&c&oΒαθμίδα: V'
   type:
   - '&7&oΠόρος'
 MAGMA_ESSENCE:
+  name: '&cΟυσία Μάγματος'
   type:
   - '&7&oΠόρος'
 NUCLEAR_SALT:
+  name: '&aΠυρηνικό Αλάτι'
   stats:
   - '&a☢&7 Επίπεδο ραδιενέργειας: &cΠΟΛΥ ΥΨΗΛΟ'
   type:
   - '&7&oΠόρος'
 PARROT_FEATHER:
+  name: '&aΦτερό Παπαγάλου'
   type:
   - '&7&oΠόρος'
 PIXIE_DUST:
+  name: '&eΣκόνη Νεράιδας'
+  stats:
+  - '&7Δύναμη IV'
   type:
   - '&7&oΦαγητό'
 PIXIE_QUEEN_HEART:
+  name: '&4Καρδιά Βασίλισσας Νεράιδων'
   type:
   - '&7&oΠόρος'
 PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aΑυγό Εμφάνισης Βασίλισσας Νεράιδων'
   type:
   - '&7&oΔιάφορα'
 POLAR_FOX_HIDE:
+  name: '&fΔέρμα Πολικής Αλεπούς'
   type:
   - '&7&oΠόρος'
 POSEIDONS_BLESSING:
+  name: '&bΕυλογία του Ποσειδώνα'
   type:
   - '&7&oΠόρος'
 POSEIDONS_FISHING_ROD:
+  description:
+  - '&7Μπορεί να πιάσει ειδικά αντικείμενα.'
+  name: '&bΤο Ψαροκάλαμο του Ποσειδώνα'
+  stats:
+  - '&7Ευλογία του Ποσειδώνα'
   type:
   - '&7&oΕργαλείο'
 POSITION_SELECTOR:
+  name: '&eΕπιλογέας Θέσης'
   stats:
   - '&8⇨ &e⚡ &7200 J Απόθεμα'
   type:
   - '&7&oΕργαλείο'
+  usage:
+  - '&7Αριστερό κλικ σε μπλοκ για επιλογή πρωτεύουσας θέσης.'
+  - '&7Δεξί κλικ σε μπλοκ για επιλογή δευτερεύουσας θέσης.'
 POTION_MIXER:
+  description:
+  - '&7Χρησιμοποιείται για την ανάμειξη φίλτρων.'
+  name: '&bΑναμικτήρας Φίλτρων'
   stats:
   - '&8⇨ &e⚡ &728 J/s'
   type:
   - '&7&oΜηχανή'
 PURE_BONE_DUST:
+  name: '&bΑγνή Σκόνη Οστών'
   type:
   - '&7&oΠόρος'
 PURIFIED_BONE:
+  name: '&bΕξαγνισμένο Οστό'
   type:
   - '&7&oΠόρος'
 REINFORCED_STRING:
+  name: '&bΕνισχυμένο Νήμα'
   type:
   - '&7&oΠόρος'
 REMOTE_CONTROLLER:
+  description:
+  - '&7Σου επιτρέπει να ελέγχεις τον Θόλο Πεδίου Δύναμης από μακριά.'
+  name: '&cΤηλεχειριστήριο'
   stats:
   - '&8⇨ &e⚡ &71000 J Απόθεμα'
   type:
   - '&7&oΕργαλείο'
+  usage:
+  - '&7Σύνδεσέ το με Σιφτ + Δεξί κλικ.'
 RESISTANT_CHESTPLATE:
+  name: '&aΑνθεκτικός Θώρακας'
+  stats:
+  - '&7Αντίσταση I'
+  - '&7Αναγέννηση I'
   type:
   - '&7&oΠανοπλία'
 RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7Υλικό Κατασκευής'
+  name: '&fΣκελετός Ανθεκτικού Θώρακα'
   type:
   - '&7&oΠόρος'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7Χρησιμοποιείται ως μέρος του Θυσιαστικού Βωμού.'
+  name: '&fΘυσιαστικά Τούβλα Μαυρόπετρας'
   type:
   - '&7&oΜηχανή'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7Χρησιμοποιείται ως μέρος του Θυσιαστικού Βωμού.'
+  name: '&fΘυσιαστικά Σκαλιά Τούβλων Μαυρόπετρας'
   type:
   - '&7&oΜηχανή'
 SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7Χρησιμοποιείται ως μέρος του Θυσιαστικού Βωμού.'
+  name: '&fΘυσιαστικός Τοίχος Τούβλων Μαυρόπετρας'
   type:
   - '&7&oΜηχανή'
 SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7Χρησιμοποιείται ως μέρος του Θυσιαστικού Βωμού.'
+  name: '&fΘυσιαστικό Χαλάκι'
   type:
   - '&7&oΜηχανή'
 SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7Χρησιμοποιείται ως μέρος του Θυσιαστικού Βωμού.'
+  name: '&fΘυσιαστικός Πυρσός Ψυχών'
   type:
   - '&7&oΜηχανή'
 SPONGE_WAND:
+  name: '&eΡαβδί Σφουγγαριού'
   stats:
   - '&8⇨ &e⚡ &72000 J Απόθεμα'
   type:
   - '&7&oΕργαλείο'
+  usage:
+  - '&7Διάλεξε τα γωνιακά σημεία με τον Επιλογέα Θέσης.'
+  - '&7Δεξί κλικ για να αφαιρέσεις Νερό και Λάβα.'
 STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7Ένα σταθερό υλικό.'
+  name: '&bΣταθεροποιημένο Πυρακτωμένο Μπλοκ'
   type:
   - '&7&oΠόρος'
 SWEETENED_SWEET_INGOT:
+  name: '&eΓλυκαμένο Γλυκό Πλίνθωμα'
   type:
   - '&7&oΠόρος'
 SWEET_INGOT:
+  name: '&eΓλυκό Πλίνθωμα'
   type:
   - '&7&oΠόρος'
 TROPICAL_FISH_SCALE:
+  name: '&bΛέπι Τροπικού Ψαριού'
   type:
   - '&7&oΠόρος'
 UNBREAKABLE_RUNE:
+  name: '&7Αρχαίος Ρούνος &8&l[&2&lΆθραυστος&8&l]'
   type:
   - '&7&oΔιάφορα'
+  usage:
+  - '&eΡίξε αυτόν τον ρούνο πάνω σε πεσμένο αντικείμενο για να'
+  - '&eτο κάνεις &2άθραυστο'
 UNHOLY_WITHER_SKELETON_BONE:
+  name: '&cΑνίερο Οστό Σκελετού Γουίδερ'
   type:
   - '&7&oΠόρος'
 VILE_PUMPKIN:
+  name: '&cΑχρεία Κολοκύθα'
   type:
   - '&7&oΠόρος'
 VILE_SEEDS:
+  name: '&cΑχρείοι Σπόροι'
+  stats:
+  - '&7Ενίσχυση Υγείας V'
   type:
   - '&7&oΦαγητό'
 WIRELESS_TRANSMITTER:
+  name: '&fΑσύρματος Πομπός'
   type:
   - '&7&oΠόρος'
