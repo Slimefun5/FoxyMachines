@@ -174,10 +174,10 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
      *           lore is rendered from {@code languages/<lang>/items.yml}, so the physical lore is empty
      *           after canonicalization. Only mutate it when a legacy baked lore is still present.
      */
-    private void updateLegacyBakedLore(ItemMeta meta, String humanizedName) {
+    private void updateLegacyBakedLore(ItemMeta meta, String storedMaterialName) {
         List<String> lore = this.getItem().getItemMeta().getLore();
         if (lore != null && lore.size() >= 2) {
-            lore.set(lore.size() - 2, ChatColor.GRAY + "Material: " + ChatColor.YELLOW + humanizedName);
+            lore.set(lore.size() - 2, ChatColor.GRAY + "Material: " + ChatColor.YELLOW + storedMaterialName);
             meta.setLore(lore);
         }
     }
