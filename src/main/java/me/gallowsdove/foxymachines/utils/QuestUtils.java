@@ -3,7 +3,7 @@ package me.gallowsdove.foxymachines.utils;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
-import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
+import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
 import org.bukkit.ChatColor;
@@ -134,6 +134,6 @@ public class QuestUtils {
             id = nextQuestLine(p);
         }
 
-        return ChatUtils.humanize(QUEST_MOBS.get(id).name().toLowerCase());
+        return Slimefun.getVanillaTranslationService().entity(p, QUEST_MOBS.get(id));
     }
 }

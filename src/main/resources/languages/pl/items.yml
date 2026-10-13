@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fStabilizator pola siłowego'
   type:
   - '&7&oSurowiec'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Niematerialny blok.'
-  name: '&fBlok Duch: &6%mob%'
+  name: '&fBlok Duch: &6%material%'
   type:
   - '&7&oGadzet'
 GHOST_BLOCK_REMOVER:

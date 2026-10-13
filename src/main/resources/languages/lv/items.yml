@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fSpēka lauka stabilizators'
   type:
   - '&7&oResurss'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Netverams bloks.'
-  name: '&fSpoku bloks: &6%mob%'
+  name: '&fSpoku bloks: &6%material%'
   type:
   - '&7&oIerīce'
 GHOST_BLOCK_REMOVER:

@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fStabilizátor silového pole'
   type:
   - '&7&oSurovina'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Nehmotný blok.'
-  name: '&fBlok duch: &6%mob%'
+  name: '&fBlok duch: &6%material%'
   type:
   - '&7&oPomůcka'
 GHOST_BLOCK_REMOVER:

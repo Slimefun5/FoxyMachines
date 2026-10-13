@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fΣταθεροποιητής Πεδίου Δύναμης'
   type:
   - '&7&oΠόρος'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Ένα άυλο μπλοκ.'
-  name: '&fΜπλοκ-Φάντασμα: &6%mob%'
+  name: '&fΜπλοκ-Φάντασμα: &6%material%'
   type:
   - '&7&oΣυσκευή'
 GHOST_BLOCK_REMOVER:

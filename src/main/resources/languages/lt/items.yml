@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fJėgos lauko stabilizatorius'
   type:
   - '&7&oIšteklius'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Neapčiuopiamas blokas.'
-  name: '&fVaiduokliškas blokas: &6%mob%'
+  name: '&fVaiduokliškas blokas: &6%material%'
   type:
   - '&7&oĮtaisas'
 GHOST_BLOCK_REMOVER:

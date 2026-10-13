@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fตัวปรับเสถียรสนามพลัง'
   type:
   - '&7&oทรัพยากร'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7บล็อกที่จับต้องไม่ได้'
-  name: '&fบล็อกผี: &6%mob%'
+  name: '&fบล็อกผี: &6%material%'
   type:
   - '&7&oอุปกรณ์'
 GHOST_BLOCK_REMOVER:

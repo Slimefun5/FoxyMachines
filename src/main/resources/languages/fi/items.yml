@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fVoimakenttävakain'
   type:
   - '&7&oResurssi'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Aineeton palikka.'
-  name: '&fHaamupalikka: &6%mob%'
+  name: '&fHaamupalikka: &6%material%'
   type:
   - '&7&oGadgetti'
 GHOST_BLOCK_REMOVER:

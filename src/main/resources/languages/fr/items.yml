@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fStabilisateur de champ de force'
   type:
   - '&7&oRessource'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Un bloc intangible.'
-  name: '&fBloc Fantome : &6%mob%'
+  name: '&fBloc Fantome : &6%material%'
   type:
   - '&7&oGadget'
 GHOST_BLOCK_REMOVER:

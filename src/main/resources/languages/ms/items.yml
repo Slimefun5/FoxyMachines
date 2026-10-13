@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fPenstabil Medan Daya'
   type:
   - '&7&oSumber'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Blok yang tidak ketara.'
-  name: '&fBlok Hantu: &6%mob%'
+  name: '&fBlok Hantu: &6%material%'
   type:
   - '&7&oGajet'
 GHOST_BLOCK_REMOVER:

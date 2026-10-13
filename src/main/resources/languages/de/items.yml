@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fKraftfeldstabilisator'
   type:
   - '&7&oRohstoff'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Ein immaterieller Block.'
-  name: '&fGeisterblock: &6%mob%'
+  name: '&fGeisterblock: &6%material%'
   type:
   - '&7&oGadget'
 GHOST_BLOCK_REMOVER:

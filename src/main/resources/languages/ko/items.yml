@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&f역장 안정기'
   type:
   - '&7&o자원'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7만질 수 없는 블록입니다.'
-  name: '&f유령 블록: &6%mob%'
+  name: '&f유령 블록: &6%material%'
   type:
   - '&7&o장치'
 GHOST_BLOCK_REMOVER:

@@ -1,0 +1,454 @@
+ACRI_ARCUM:
+  name: '&eアクリ・アルクム'
+  stats:
+  - '&7ダメージ III'
+  - '&7アーマー貫通 II'
+  type:
+  - '&7&o武器'
+AQUATIC_HELMET:
+  name: '&bアクアティックヘルメット'
+  stats:
+  - '&7水中呼吸'
+  - '&7暗視'
+  type:
+  - '&7&o防具'
+AQUATIC_NETHERITE_INGOT:
+  name: '&bアクアティックネザライトインゴット'
+  type:
+  - '&7&o資源'
+BERRY_BUSH_TRIMMER:
+  description:
+  - '&7甘いベリーの茂みからトゲを取り除きます。'
+  name: '&eスウィートベリー茂みトリマー'
+  type:
+  - '&7&o道具'
+BLOOD:
+  name: '&c血液'
+  type:
+  - '&7&o資源'
+BLOOD_INFUSED_SKULL:
+  name: '&c血液浸食の頭蓋骨'
+  type:
+  - '&7&o資源'
+BOOSTED_ACTIVATOR_RAIL:
+  description:
+  - '&72.5倍の速度に対応します。'
+  name: '&fブースト起動レール'
+  type:
+  - '&7&o機械'
+BOOSTED_DETECTOR_RAIL:
+  description:
+  - '&72.5倍の速度に対応します。'
+  name: '&fブースト検知レール'
+  type:
+  - '&7&o機械'
+BOOSTED_POWERED_RAIL:
+  description:
+  - '&72.5倍の速度に対応します。'
+  name: '&fブースト動力レール'
+  type:
+  - '&7&o機械'
+BOOSTED_RAIL:
+  description:
+  - '&72.5倍の速度に対応します。'
+  name: '&fブーストレール'
+  type:
+  - '&7&o機械'
+BUCKET_OF_BLOOD:
+  name: '&c血液入りバケツ'
+  type:
+  - '&7&o資源'
+CELESTIAL_SHARD:
+  description:
+  - '&7クラフト素材'
+  - '&7祭壇に投げ込むとクエストがリセットされる...'
+  name: '&e天界の欠片'
+  type:
+  - '&7&o資源'
+CELESTIAL_SWORD:
+  name: '&e天界の剣'
+  stats:
+  - '&7神罰の一撃 II'
+  - '&7アーマー貫通 V'
+  type:
+  - '&7&o武器'
+CHUNK_LOADER:
+  description:
+  - '&7チャンクを読み込んだ状態に保ちます。'
+  name: '&bチャンクローダー'
+  type:
+  - '&7&o機械'
+COMPRESSED_SPONGE:
+  name: '&f圧縮スポンジ'
+  type:
+  - '&7&o資源'
+CURSED_RABBIT_PAW:
+  name: '&c呪われたウサギの足'
+  type:
+  - '&7&o資源'
+CURSED_SHARD:
+  description:
+  - '&7クラフト素材'
+  - '&7祭壇に投げ込むとクエストがリセットされる...'
+  name: '&c呪われた欠片'
+  type:
+  - '&7&o資源'
+CURSED_SWORD:
+  description:
+  - '&7敵を混乱させます。ダメージが増加します。'
+  - '&7装備者に悪影響を及ぼすことがあります。'
+  name: '&c呪いの剣'
+  stats:
+  - '&7ライフスティール I'
+  - '&7アーマー貫通 I'
+  type:
+  - '&7&o武器'
+DAMIENIUM:
+  name: '&aダミエニウム'
+  type:
+  - '&7&o資源'
+DEMONIC_INGOT:
+  name: '&c悪魔のインゴット'
+  type:
+  - '&7&o資源'
+DEMONIC_PLATE:
+  name: '&c悪魔のプレート'
+  type:
+  - '&7&o資源'
+ELECTRIC_FIRE_STAFF:
+  description:
+  - '&7業火を生み出します。'
+  name: '&4電気の炎の杖'
+  stats:
+  - '&8⇨ &e⚡ &7100 J バッファー'
+  type:
+  - '&7&o道具'
+ELECTRIC_FIRE_STAFF_II:
+  description:
+  - '&7燃やせ、燃やせ、燃やせ!'
+  name: '&4電気の炎の杖 &7- &eII'
+  stats:
+  - '&8⇨ &e⚡ &7200 J バッファー'
+  type:
+  - '&7&o道具'
+ELECTRIC_GOLD_REFINERY:
+  description:
+  - '&7金ダストを金インゴットに精錬します。'
+  name: '&b電気式金精錬機'
+  stats:
+  - '&8⇨ &e⚡ &736 J/s'
+  type:
+  - '&7&o機械'
+ELECTRIC_WIND_STAFF:
+  description:
+  - '&7風に乗って移動します。'
+  name: '&b電気の風の杖'
+  stats:
+  - '&8⇨ &e⚡ &7100 J バッファー'
+  type:
+  - '&7&o道具'
+ELUCIDATOR:
+  name: '&bエルサ・シンカー'
+  stats:
+  - '&7ダメージ III'
+  - '&7ライフスティール II'
+  - '&7アーマー貫通 II'
+  - '&7オーバーヒール'
+  type:
+  - '&7&o武器'
+EQUANIMOUS_GEM:
+  name: '&a平静の宝石'
+  type:
+  - '&7&o資源'
+FIERY_LEGGINGS:
+  name: '&c炎のレギンス'
+  stats:
+  - '&7ファイアオーラ II'
+  type:
+  - '&7&o防具'
+FIERY_LEGGINGS_FRAME:
+  description:
+  - '&7クラフト素材'
+  name: '&f炎のレギンスフレーム'
+  type:
+  - '&7&o資源'
+FILL_WAND:
+  name: '&e塗りつぶしの杖'
+  stats:
+  - '&8⇨ &e⚡ &71000 J バッファー'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&7ポジションセレクターで角の点を選択します。'
+  - '&7シフト+右クリックで素材を選択します。'
+  - '&7右クリックで範囲を塗りつぶします。'
+FORCEFIELD_DOME:
+  description:
+  - '&7通電時、半径32ブロックの'
+  - '&7防御バリアを展開します。'
+  - '&7給電が止まるか破壊されると元に戻ります'
+  name: '&4フォースフィールドドーム'
+  stats:
+  - '&8⇨ &e⚡ &76000 J/s'
+  type:
+  - '&7&o機械'
+FORCEFIELD_ENGINE:
+  name: '&fフォースフィールドエンジン'
+  type:
+  - '&7&o資源'
+FORCEFIELD_STABILIZER:
+  name: '&fフォースフィールドスタビライザー'
+  type:
+  - '&7&o資源'
+GHOST_BLOCK_%MATERIAL%:
+  description:
+  - '&7実体のないブロック。'
+  name: '&fゴーストブロック: &6%material%'
+  type:
+  - '&7&oガジェット'
+GHOST_BLOCK_REMOVER:
+  name: '&eゴーストブロックリムーバー'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&7右クリックでゴーストブロックを削除します。'
+HEADLESS_HORSEMAN_SPAWN_EGG:
+  name: '&c首なし騎士のスポーンエッグ'
+  type:
+  - '&7&oその他'
+HEALING_BOW:
+  description:
+  - '&8ついに登場、支援型の武器。'
+  name: '&4ヒーリングボウ'
+  stats:
+  - '&c回復 II'
+  type:
+  - '&7&o武器'
+HELMET_FRAME:
+  description:
+  - '&7クラフト素材'
+  name: '&fアクアティックヘルメットフレーム'
+  type:
+  - '&7&o資源'
+HUMAN_SKULL:
+  name: '&c人間の頭蓋骨'
+  type:
+  - '&7&o資源'
+IMPROVEMENT_CORE:
+  description:
+  - '&7強化炉で道具と組み合わせて強化します。'
+  name: '&a強化コア'
+  type:
+  - '&7&o資源'
+IMPROVEMENT_FORGE:
+  description:
+  - '&7Slimefunの道具、武器、防具を強化するために使用します。'
+  name: '&b強化炉'
+  stats:
+  - '&8⇨ &e⚡ &7128 J/s'
+  type:
+  - '&7&o機械'
+LIGHT_BOOTS:
+  name: '&e軽量ブーツ'
+  stats:
+  - '&7ジャンプ I'
+  - '&7速度 I'
+  - '&7軽量化'
+  type:
+  - '&7&o防具'
+LIGHT_BOOTS_FRAME:
+  description:
+  - '&7クラフト素材'
+  name: '&f軽量ブーツフレーム'
+  type:
+  - '&7&o資源'
+MAGIC_LUMP_4:
+  name: '&6マジカルランプ &7- &eIV'
+  stats:
+  - '&c&oティア: IV'
+  type:
+  - '&7&o資源'
+MAGIC_LUMP_5:
+  name: '&6マジカルランプ &7- &eV'
+  stats:
+  - '&c&oティア: V'
+  type:
+  - '&7&o資源'
+MAGMA_ESSENCE:
+  name: '&cマグマエッセンス'
+  type:
+  - '&7&o資源'
+NUCLEAR_SALT:
+  name: '&a核塩'
+  stats:
+  - '&a☢&7 放射線レベル: &c非常に高い'
+  type:
+  - '&7&o資源'
+PARROT_FEATHER:
+  name: '&aオウムの羽根'
+  type:
+  - '&7&o資源'
+PIXIE_DUST:
+  name: '&eピクシーダスト'
+  stats:
+  - '&7力 IV'
+  type:
+  - '&7&o食料'
+PIXIE_QUEEN_HEART:
+  name: '&4ピクシークイーンの心臓'
+  type:
+  - '&7&o資源'
+PIXIE_QUEEN_SPAWN_EGG:
+  name: '&aピクシークイーンのスポーンエッグ'
+  type:
+  - '&7&oその他'
+POLAR_FOX_HIDE:
+  name: '&fホッキョクギツネの毛皮'
+  type:
+  - '&7&o資源'
+POSEIDONS_BLESSING:
+  name: '&bポセイドンの祝福'
+  type:
+  - '&7&o資源'
+POSEIDONS_FISHING_ROD:
+  description:
+  - '&7特殊なアイテムを釣ることができます。'
+  name: '&bポセイドンの釣り竿'
+  stats:
+  - '&7ポセイドンの祝福'
+  type:
+  - '&7&o道具'
+POSITION_SELECTOR:
+  name: '&eポジションセレクター'
+  stats:
+  - '&8⇨ &e⚡ &7200 J バッファー'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&7ブロックを左クリックして基準位置を選択します。'
+  - '&7ブロックを右クリックして対角位置を選択します。'
+POTION_MIXER:
+  description:
+  - '&7ポーションを調合するために使用します。'
+  name: '&bポーションミキサー'
+  stats:
+  - '&8⇨ &e⚡ &728 J/s'
+  type:
+  - '&7&o機械'
+PURE_BONE_DUST:
+  name: '&b純粋な骨粉'
+  type:
+  - '&7&o資源'
+PURIFIED_BONE:
+  name: '&b浄化された骨'
+  type:
+  - '&7&o資源'
+REINFORCED_STRING:
+  name: '&b強化糸'
+  type:
+  - '&7&o資源'
+REMOTE_CONTROLLER:
+  description:
+  - '&7フォースフィールドドームを遠隔操作できるようにします。'
+  name: '&cリモートコントローラー'
+  stats:
+  - '&8⇨ &e⚡ &71000 J バッファー'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&7シフト+右クリックで紐付けします。'
+RESISTANT_CHESTPLATE:
+  name: '&a耐性チェストプレート'
+  stats:
+  - '&7耐性 I'
+  - '&7再生 I'
+  type:
+  - '&7&o防具'
+RESISTANT_CHESTPLATE_FRAME:
+  description:
+  - '&7クラフト素材'
+  name: '&f耐性チェストプレートフレーム'
+  type:
+  - '&7&o資源'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICKS:
+  description:
+  - '&7生贄の祭壇の一部として使用します。'
+  name: '&f生贄のブラックストーンレンガ'
+  type:
+  - '&7&o機械'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_STAIRS:
+  description:
+  - '&7生贄の祭壇の一部として使用します。'
+  name: '&f生贄のブラックストーンレンガの階段'
+  type:
+  - '&7&o機械'
+SACRIFICIAL_ALTAR_BLACKSTONE_BRICK_WALL:
+  description:
+  - '&7生贄の祭壇の一部として使用します。'
+  name: '&f生贄のブラックストーンレンガの壁'
+  type:
+  - '&7&o機械'
+SACRIFICIAL_ALTAR_BLACKSTONE_PRESSURE_PLATE:
+  description:
+  - '&7生贄の祭壇の一部として使用します。'
+  name: '&f生贄のマット'
+  type:
+  - '&7&o機械'
+SACRIFICIAL_ALTAR_SOUL_TORCH:
+  description:
+  - '&7生贄の祭壇の一部として使用します。'
+  name: '&f生贄のソウルトーチ'
+  type:
+  - '&7&o機械'
+SPONGE_WAND:
+  name: '&eスポンジの杖'
+  stats:
+  - '&8⇨ &e⚡ &72000 J バッファー'
+  type:
+  - '&7&o道具'
+  usage:
+  - '&7ポジションセレクターで角の点を選択します。'
+  - '&7右クリックで水と溶岩を除去します。'
+STABILIZED_BLISTERING_BLOCK:
+  description:
+  - '&7安定した素材。'
+  name: '&b安定化したブリスターブロック'
+  type:
+  - '&7&o資源'
+SWEETENED_SWEET_INGOT:
+  name: '&e甘くされたスウィートインゴット'
+  type:
+  - '&7&o資源'
+SWEET_INGOT:
+  name: '&eスウィートインゴット'
+  type:
+  - '&7&o資源'
+TROPICAL_FISH_SCALE:
+  name: '&bネッタイギョのうろこ'
+  type:
+  - '&7&o資源'
+UNBREAKABLE_RUNE:
+  name: '&7古代のルーン &8&l[&2&l破壊不可&8&l]'
+  type:
+  - '&7&oその他'
+  usage:
+  - '&eこのルーンを落ちているアイテムに使うと'
+  - '&2破壊不可&eにできます'
+UNHOLY_WITHER_SKELETON_BONE:
+  name: '&c邪悪なウィザースケルトンの骨'
+  type:
+  - '&7&o資源'
+VILE_PUMPKIN:
+  name: '&c邪悪なカボチャ'
+  type:
+  - '&7&o資源'
+VILE_SEEDS:
+  name: '&c邪悪な種'
+  stats:
+  - '&7体力増加 V'
+  type:
+  - '&7&o食料'
+WIRELESS_TRANSMITTER:
+  name: '&fワイヤレストランスミッター'
+  type:
+  - '&7&o資源'

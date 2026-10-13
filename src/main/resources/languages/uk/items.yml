@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fСтабілізатор силового поля'
   type:
   - '&7&oРесурс'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Нематеріальний блок.'
-  name: '&fПримарний блок: &6%mob%'
+  name: '&fПримарний блок: &6%material%'
   type:
   - '&7&oГаджет'
 GHOST_BLOCK_REMOVER:

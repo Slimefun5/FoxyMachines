@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fKraftfeltstabilisator'
   type:
   - '&7&oRessurs'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7En ugripelig blokk.'
-  name: '&fSpøkelsesblokk: &6%mob%'
+  name: '&fSpøkelsesblokk: &6%material%'
   type:
   - '&7&oDings'
 GHOST_BLOCK_REMOVER:

@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&f力場穩定器'
   type:
   - '&7&o資源'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7一個無實體的方塊。'
-  name: '&f幽靈方塊: &6%mob%'
+  name: '&f幽靈方塊: &6%material%'
   type:
   - '&7&o裝置'
 GHOST_BLOCK_REMOVER:

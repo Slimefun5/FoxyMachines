@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fپایدارساز میدان نیرو'
   type:
   - '&7&oمنبع'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7یک بلوک ناملموس.'
-  name: '&fبلوک روح: &6%mob%'
+  name: '&fبلوک روح: &6%material%'
   type:
   - '&7&oابزارک'
 GHOST_BLOCK_REMOVER:

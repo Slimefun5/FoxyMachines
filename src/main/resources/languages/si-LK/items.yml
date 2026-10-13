@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fබල ක්ෂේත්‍ර ස්ථායීකාරකය'
   type:
   - '&7&oසම්පත'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7ස්පර්ශ කළ නොහැකි කුට්ටියකි.'
-  name: '&fඅවතාර කුට්ටිය: &6%mob%'
+  name: '&fඅවතාර කුට්ටිය: &6%material%'
   type:
   - '&7&oඋපාංගය'
 GHOST_BLOCK_REMOVER:

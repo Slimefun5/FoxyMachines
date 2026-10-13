@@ -11,7 +11,6 @@ import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey;
 import io.github.thebusybiscuit.slimefun5.utils.compatibility.PdcCompat;
-import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
 import io.github.thebusybiscuit.slimefun5.utils.tags.SlimefunTag;
 import me.gallowsdove.foxymachines.FoxyMachines;
 import me.gallowsdove.foxymachines.Items;
@@ -110,7 +109,7 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
 
             if (player.isSneaking() && !isRemoving() && e.getClickedBlock().isPresent()) {
                 Material material = e.getClickedBlock().get().getType();
-                String humanizedName = ChatUtils.humanize(material.toString());
+                String humanizedName = Slimefun.getVanillaTranslationService().material(player, material);
                 if ((material.isBlock() && material.isSolid() && material.isOccluding() && !BLACKLIST.contains(material)) ||
                         WHITELIST.contains(material)) {
                     Messages.send(player, ChatColor.LIGHT_PURPLE, "wand.material-set", "Material set to: %material%",

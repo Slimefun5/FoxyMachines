@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fErőtér Stabilizátor'
   type:
   - '&7&oNyersanyag'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7Egy megfoghatatlan blokk.'
-  name: '&fSzellemblokk: &6%mob%'
+  name: '&fSzellemblokk: &6%material%'
   type:
   - '&7&oKütyü'
 GHOST_BLOCK_REMOVER:

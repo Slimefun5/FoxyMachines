@@ -200,10 +200,10 @@ FORCEFIELD_STABILIZER:
   name: '&fמייצב שדה כוח'
   type:
   - '&7&oמשאב'
-GHOST_BLOCK_%MOB%:
+GHOST_BLOCK_%MATERIAL%:
   description:
   - '&7בלוק בלתי מוחשי.'
-  name: '&fבלוק רפאים: &6%mob%'
+  name: '&fבלוק רפאים: &6%material%'
   type:
   - '&7&oגאדג׳ט'
 GHOST_BLOCK_REMOVER:
