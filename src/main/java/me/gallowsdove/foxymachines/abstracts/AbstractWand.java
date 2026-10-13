@@ -109,18 +109,19 @@ public abstract class AbstractWand extends SlimefunItem implements NotPlaceable,
 
             if (player.isSneaking() && !isRemoving() && e.getClickedBlock().isPresent()) {
                 Material material = e.getClickedBlock().get().getType();
-                String humanizedName = Slimefun.getVanillaTranslationService().material(player, material);
+                String viewerMaterialName = Slimefun.getVanillaTranslationService().material(player, material);
+                String storedMaterialName = Slimefun.getVanillaTranslationService().material((Player) null, material);
                 if ((material.isBlock() && material.isSolid() && material.isOccluding() && !BLACKLIST.contains(material)) ||
                         WHITELIST.contains(material)) {
                     Messages.send(player, ChatColor.LIGHT_PURPLE, "wand.material-set", "Material set to: %material%",
-                            line -> line.replace("%material%", humanizedName));
+                            line -> line.replace("%material%", viewerMaterialName));
                     PdcCompat.setString(meta, AbstractWand.MATERIAL_KEY, material.toString());
-                    updateLegacyBakedLore(meta, humanizedName);
+                    updateLegacyBakedLore(meta, storedMaterialName);
                     itemInInventory.setItemMeta(meta);
                     setItemCharge(itemInInventory, getItemCharge(itemInInventory)); // To update it in lore
                 } else {
                     Messages.send(player, ChatColor.RED, "wand.material-not-usable", "Cannot use: %material%, with the fill wand",
-                            line -> line.replace("%material%", humanizedName));
+                            line -> line.replace("%material%", viewerMaterialName));
                 }
             } else {
                 if (isRemoving() && !PdcCompat.has(meta, MATERIAL_KEY, "STRING")) {
