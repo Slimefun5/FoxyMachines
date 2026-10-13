@@ -3,6 +3,7 @@ package me.gallowsdove.foxymachines.abstracts;
 import io.github.mooy1.infinitylib.common.Events;
 import lombok.Getter;
 import me.gallowsdove.foxymachines.FoxyMachines;
+import me.gallowsdove.foxymachines.utils.Messages;
 
 import io.github.thebusybiscuit.slimefun5.libraries.commons.lang.Validate;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
@@ -14,6 +15,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;
+import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
@@ -143,10 +145,17 @@ public abstract class CustomMob {
         MOB_CACHE.put(this, entities);
     }
 
-    public static void debug() {
-        Bukkit.broadcastMessage("CACHE:");
+    /**
+     * Dumps the mob cache for one admin.
+     *
+     * @implNote The dump is a list of ids and UUIDs, so it stays untranslated. It is sent to the
+     *           {@link CommandSender} who asked rather than broadcast: it used to reach every
+     *           online player in English whenever one admin ran the command.
+     */
+    public static void debug(@Nonnull CommandSender recipient) {
+        Messages.send(recipient, "commands.mob-cache", "CACHE:");
         for (Map.Entry<CustomMob, Set<UUID>> entry : CustomMob.MOB_CACHE.entrySet()) {
-            Bukkit.broadcastMessage(entry.getKey().getId() + " (" + entry.getValue().size() + ")\n" + entry.getValue().stream().map(UUID::toString).collect(Collectors.joining("\n")));
+            recipient.sendMessage(entry.getKey().getId() + " (" + entry.getValue().size() + ")\n" + entry.getValue().stream().map(UUID::toString).collect(Collectors.joining("\n")));
         }
     }
 

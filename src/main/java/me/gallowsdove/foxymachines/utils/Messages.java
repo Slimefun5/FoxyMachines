@@ -38,6 +38,10 @@ public final class Messages {
         return Slimefun.getAddonMessageService().getMessages(player, FoxyMachines.getInstance(), key, english);
     }
 
+    public static void send(@Nonnull CommandSender recipient, @Nonnull String key, @Nonnull String english) {
+        Slimefun.getAddonMessageService().sendMessage(recipient, FoxyMachines.getInstance(), key, english);
+    }
+
     public static void send(@Nonnull CommandSender recipient, @Nonnull ChatColor colour, @Nonnull String key, @Nonnull String english) {
         send(recipient, colour, key, english, UnaryOperator.identity());
     }

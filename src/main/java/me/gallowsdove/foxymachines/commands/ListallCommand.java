@@ -28,7 +28,7 @@ public class ListallCommand extends SubCommand {
             return;
         }
 
-        CustomMob.debug();
+        CustomMob.debug(sender);
     }
 
     @Override
