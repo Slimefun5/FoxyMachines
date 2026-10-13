@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Käyttö: /%usage%"
   custom-mobs-unsupported: "Omia mobeja ei tueta tässä Minecraft-versiossa."
+  mob-cache: "VÄLIMUISTI:"
   killed-entities: "Tapettiin %count% olentoa"
   hold-a-sword: "Sinun täytyy pitää kädessäsi %cursed% tai %celestial% nähdäksesi tehtäväsi."
 

@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "භාවිතය: /%usage%"
   custom-mobs-unsupported: "මෙම Minecraft අනුවාදයේ අභිරුචි සතුන් සඳහා සහාය නැත."
+  mob-cache: "නිහිතය:"
   killed-entities: "සත්ත්ව %count% ක් මරා දමන ලදී"
   hold-a-sword: "ඔබේ මෙහෙවර බැලීමට ඔබ %cursed% හෝ %celestial% අතේ තබාගත යුතුය."
 

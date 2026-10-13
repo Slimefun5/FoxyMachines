@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Utilizare: /%usage%"
   custom-mobs-unsupported: "Mobii personalizați nu sunt suportați pe această versiune de Minecraft."
+  mob-cache: "MEMORIE CACHE:"
   killed-entities: "%count% entități ucise"
   hold-a-sword: "Trebuie să ții în mână %cursed% sau %celestial% pentru a vedea misiunea ta."
 

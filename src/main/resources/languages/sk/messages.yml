@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Použitie: /%usage%"
   custom-mobs-unsupported: "Vlastné moby nie sú v tejto verzii Minecraftu podporované."
+  mob-cache: "VYROVNÁVACIA PAMÄŤ:"
   killed-entities: "Zabitých %count% entít"
   hold-a-sword: "Aby si videl svoju úlohu, musíš držať %cursed% alebo %celestial%."
 

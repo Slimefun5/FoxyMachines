@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Použití: /%usage%"
   custom-mobs-unsupported: "Vlastní mobové nejsou v této verzi Minecraftu podporováni."
+  mob-cache: "MEZIPAMĚŤ:"
   killed-entities: "Zabito %count% entit"
   hold-a-sword: "Abys viděl svůj úkol, musíš držet %cursed% nebo %celestial%."
 

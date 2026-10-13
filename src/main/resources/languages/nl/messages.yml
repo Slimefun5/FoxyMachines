@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Gebruik: /%usage%"
   custom-mobs-unsupported: "Aangepaste mobs worden niet ondersteund op deze Minecraft-versie."
+  mob-cache: "CACHE:"
   killed-entities: "%count% entiteiten gedood"
   hold-a-sword: "Je moet het %cursed% of het %celestial% in je hand houden om je opdracht te bekijken."
 

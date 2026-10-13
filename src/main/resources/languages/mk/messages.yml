@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Употреба: /%usage%"
   custom-mobs-unsupported: "Прилагодените мобови не се поддржани на оваа верзија на Minecraft."
+  mob-cache: "КЕШ:"
   killed-entities: "Убиени %count% суштества"
   hold-a-sword: "Мораш да држиш %cursed% или %celestial% за да ја видиш својата задача."
 

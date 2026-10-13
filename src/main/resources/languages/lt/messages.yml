@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Naudojimas: /%usage%"
   custom-mobs-unsupported: "Savi padarai nepalaikomi šioje Minecraft versijoje."
+  mob-cache: "PODĖLIS:"
   killed-entities: "Nužudyta %count% būtybių"
   hold-a-sword: "Kad pamatytum savo užduotį, turi laikyti %cursed% arba %celestial%."
 

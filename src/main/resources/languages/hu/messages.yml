@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Használat: /%usage%"
   custom-mobs-unsupported: "Az egyéni mobok nem támogatottak ezen a Minecraft verzión."
+  mob-cache: "GYORSÍTÓTÁR:"
   killed-entities: "%count% entitás megölve"
   hold-a-sword: "A küldetésed megtekintéséhez az %cursed% vagy az %celestial% kell a kezedben."
 

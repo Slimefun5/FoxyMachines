@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Użycie: /%usage%"
   custom-mobs-unsupported: "Własne moby nie są obsługiwane w tej wersji Minecrafta."
+  mob-cache: "PAMIĘĆ PODRĘCZNA:"
   killed-entities: "Zabito %count% istot"
   hold-a-sword: "Musisz trzymać %cursed% lub %celestial%, aby zobaczyć swoje zadanie."
 

@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Brug: /%usage%"
   custom-mobs-unsupported: "Tilpassede mobs understøttes ikke på denne Minecraft-version."
+  mob-cache: "CACHE:"
   killed-entities: "Dræbte %count% enheder"
   hold-a-sword: "Du skal holde %cursed% eller %celestial% for at se din opgave."
 

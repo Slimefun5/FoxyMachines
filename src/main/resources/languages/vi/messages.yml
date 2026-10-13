@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Cách dùng: /%usage%"
   custom-mobs-unsupported: "Sinh vật tùy chỉnh không được hỗ trợ trên phiên bản Minecraft này."
+  mob-cache: "BỘ ĐỆM:"
   killed-entities: "Đã tiêu diệt %count% thực thể"
   hold-a-sword: "Bạn phải cầm %cursed% hoặc %celestial% để xem nhiệm vụ của mình."
 

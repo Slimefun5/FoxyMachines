@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "שימוש: /%usage%"
   custom-mobs-unsupported: "יצורים מותאמים אינם נתמכים בגרסת Minecraft הזו."
+  mob-cache: "מטמון:"
   killed-entities: "%count% ישויות נהרגו"
   hold-a-sword: "עליך להחזיק את %cursed% או את %celestial% כדי לראות את המשימה שלך."
 

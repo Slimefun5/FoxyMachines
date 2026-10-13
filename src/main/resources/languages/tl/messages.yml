@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Paggamit: /%usage%"
   custom-mobs-unsupported: "Hindi suportado ang mga pasadyang nilalang sa bersyong ito ng Minecraft."
+  mob-cache: "IMBAKANG-SIPI:"
   killed-entities: "Napatay ang %count% nilalang"
   hold-a-sword: "Kailangan mong hawakan ang %cursed% o ang %celestial% para matingnan ang misyon mo."
 

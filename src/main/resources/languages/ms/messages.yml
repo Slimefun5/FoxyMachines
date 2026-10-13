@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Penggunaan: /%usage%"
   custom-mobs-unsupported: "Mob tersuai tidak disokong pada versi Minecraft ini."
+  mob-cache: "TEMBOLOK:"
   killed-entities: "%count% entiti dibunuh"
   hold-a-sword: "Kamu perlu memegang %cursed% atau %celestial% untuk melihat misimu."
 

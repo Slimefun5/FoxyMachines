@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Lietojums: /%usage%"
   custom-mobs-unsupported: "Pielāgotie radījumi šajā Minecraft versijā netiek atbalstīti."
+  mob-cache: "KEŠATMIŅA:"
   killed-entities: "Nogalinātas %count% būtnes"
   hold-a-sword: "Lai redzētu savu uzdevumu, tev rokā jātur %cursed% vai %celestial%."
 

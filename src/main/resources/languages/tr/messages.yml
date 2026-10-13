@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Kullanım: /%usage%"
   custom-mobs-unsupported: "Özel yaratıklar bu Minecraft sürümünde desteklenmiyor."
+  mob-cache: "ÖNBELLEK:"
   killed-entities: "%count% varlık öldürüldü"
   hold-a-sword: "Görevini görmek için %cursed% ya da %celestial% tutuyor olmalısın."
 

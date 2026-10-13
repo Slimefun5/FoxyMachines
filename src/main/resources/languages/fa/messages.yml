@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "کاربرد: /%usage%"
   custom-mobs-unsupported: "موجودات سفارشی در این نسخه Minecraft پشتیبانی نمی‌شوند."
+  mob-cache: "حافظه نهان:"
   killed-entities: "%count% موجود کشته شد"
   hold-a-sword: "برای دیدن مأموریتت باید %cursed% یا %celestial% را در دست داشته باشی."
 

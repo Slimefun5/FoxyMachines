@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "用法：/%usage%"
   custom-mobs-unsupported: "此 Minecraft 版本不支持自定义生物。"
+  mob-cache: "缓存："
   killed-entities: "已清除 %count% 个实体"
   hold-a-sword: "你需要手持%cursed%或%celestial%才能查看你的任务。"
 

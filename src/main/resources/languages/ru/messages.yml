@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Использование: /%usage%"
   custom-mobs-unsupported: "Пользовательские мобы не поддерживаются в этой версии Minecraft."
+  mob-cache: "КЭШ:"
   killed-entities: "Убито существ: %count%"
   hold-a-sword: "Чтобы увидеть своё задание, вы должны держать в руках %cursed% или %celestial%."
 

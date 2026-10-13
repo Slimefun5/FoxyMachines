@@ -13,6 +13,7 @@ wand:
 commands:
   usage: "Χρήση: /%usage%"
   custom-mobs-unsupported: "Τα προσαρμοσμένα πλάσματα δεν υποστηρίζονται σε αυτή την έκδοση του Minecraft."
+  mob-cache: "ΠΡΟΣΩΡΙΝΗ ΜΝΗΜΗ:"
   killed-entities: "Σκοτώθηκαν %count% οντότητες"
   hold-a-sword: "Πρέπει να κρατάς το %cursed% ή το %celestial% για να δεις την αποστολή σου."
 
