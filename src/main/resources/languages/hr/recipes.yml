@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Pecanje'
+  sacrificial_altar:
+    name: 'Žrtveni oltar'
+  mob_drop:
+    name: 'Jedinstveni plijen od mobova'
+  quest:
+    name: 'Nagrada za zadatak'

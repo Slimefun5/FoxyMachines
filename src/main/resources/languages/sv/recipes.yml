@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Fiske'
+  sacrificial_altar:
+    name: 'Offeraltare'
+  mob_drop:
+    name: 'Unikt byte från varelse'
+  quest:
+    name: 'Uppdragsbelöning'

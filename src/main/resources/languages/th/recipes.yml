@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'ตกปลา'
+  sacrificial_altar:
+    name: 'แท่นบูชายัญ'
+  mob_drop:
+    name: 'ดรอปพิเศษจากม็อบ'
+  quest:
+    name: 'รางวัลเควสต์'

@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Pangingisda'
+  sacrificial_altar:
+    name: 'Altar ng Pag-aalay'
+  mob_drop:
+    name: 'Natatanging Drop mula sa Mob'
+  quest:
+    name: 'Gantimpala sa Misyon'

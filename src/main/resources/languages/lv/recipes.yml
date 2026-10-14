@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Makšķerēšana'
+  sacrificial_altar:
+    name: 'Upurēšanas altāris'
+  mob_drop:
+    name: 'Unikāls radījuma izkritums'
+  quest:
+    name: 'Uzdevuma balva'

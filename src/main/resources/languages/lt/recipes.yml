@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Žvejyba'
+  sacrificial_altar:
+    name: 'Aukojimo altorius'
+  mob_drop:
+    name: 'Unikalus padarų grobis'
+  quest:
+    name: 'Užduoties apdovanojimas'

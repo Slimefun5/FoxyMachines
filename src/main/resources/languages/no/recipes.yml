@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Fiske'
+  sacrificial_altar:
+    name: 'Offeralter'
+  mob_drop:
+    name: 'Unikt bytte fra skapning'
+  quest:
+    name: 'Oppdragsbelønning'

@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Pêche'
+  sacrificial_altar:
+    name: 'Autel sacrificiel'
+  mob_drop:
+    name: 'Butin de monstre unique'
+  quest:
+    name: 'Récompense de quête'

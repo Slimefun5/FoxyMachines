@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Pesca'
+  sacrificial_altar:
+    name: 'Altar de sacrificios'
+  mob_drop:
+    name: 'Botín único de mob'
+  quest:
+    name: 'Recompensa de misión'

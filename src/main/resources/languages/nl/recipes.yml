@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Vissen'
+  sacrificial_altar:
+    name: 'Offeraltaar'
+  mob_drop:
+    name: 'Unieke monsterbuit'
+  quest:
+    name: 'Missiebeloning'

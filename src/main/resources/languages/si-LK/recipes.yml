@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'මසුන් ඇල්ලීම'
+  sacrificial_altar:
+    name: 'පූජා අල්තාරය'
+  mob_drop:
+    name: 'අද්විතීය ජීවී වැටීම'
+  quest:
+    name: 'මෙහෙවර ත්‍යාගය'

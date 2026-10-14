@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'דיג'
+  sacrificial_altar:
+    name: 'מזבח הקורבנות'
+  mob_drop:
+    name: 'פריט ייחודי מיצור'
+  quest:
+    name: 'פרס משימה'

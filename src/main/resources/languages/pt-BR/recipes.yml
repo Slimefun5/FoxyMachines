@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Pesca'
+  sacrificial_altar:
+    name: 'Altar de Sacrifício'
+  mob_drop:
+    name: 'Item Único Derrubado por Mob'
+  quest:
+    name: 'Recompensa de Missão'

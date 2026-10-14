@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Ψάρεμα'
+  sacrificial_altar:
+    name: 'Θυσιαστικός Βωμός'
+  mob_drop:
+    name: 'Μοναδικό Λάφυρο Τέρατος'
+  quest:
+    name: 'Ανταμοιβή Αποστολής'

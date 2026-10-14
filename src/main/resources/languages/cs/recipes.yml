@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Rybaření'
+  sacrificial_altar:
+    name: 'Obětní oltář'
+  mob_drop:
+    name: 'Unikátní kořist z mobů'
+  quest:
+    name: 'Odměna za úkol'

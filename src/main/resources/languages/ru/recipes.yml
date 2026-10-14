@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Рыбалка'
+  sacrificial_altar:
+    name: 'Жертвенный алтарь'
+  mob_drop:
+    name: 'Уникальная добыча с мобов'
+  quest:
+    name: 'Награда за задание'

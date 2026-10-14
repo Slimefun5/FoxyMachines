@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Memancing'
+  sacrificial_altar:
+    name: 'Altar Kurban'
+  mob_drop:
+    name: 'Jatuhan Monster Unik'
+  quest:
+    name: 'Hadiah Misi'

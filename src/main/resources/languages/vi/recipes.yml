@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Câu cá'
+  sacrificial_altar:
+    name: 'Tế đàn Hiến tế'
+  mob_drop:
+    name: 'Vật phẩm rơi Độc nhất từ quái vật'
+  quest:
+    name: 'Phần thưởng Nhiệm vụ'

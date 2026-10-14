@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Pescuit'
+  sacrificial_altar:
+    name: 'Altar de Sacrificiu'
+  mob_drop:
+    name: 'Pradă Unică de Mob'
+  quest:
+    name: 'Recompensă de Misiune'

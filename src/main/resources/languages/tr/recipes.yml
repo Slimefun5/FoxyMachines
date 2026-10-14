@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Balık Tutma'
+  sacrificial_altar:
+    name: 'Kurban Sunağı'
+  mob_drop:
+    name: 'Benzersiz Yaratık Ganimeti'
+  quest:
+    name: 'Görev Ödülü'

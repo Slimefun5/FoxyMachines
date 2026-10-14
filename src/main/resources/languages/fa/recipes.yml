@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'ماهیگیری'
+  sacrificial_altar:
+    name: 'محراب قربانی'
+  mob_drop:
+    name: 'غنیمت ویژهٔ موجود'
+  quest:
+    name: 'پاداش مأموریت'

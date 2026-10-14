@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: '낚시'
+  sacrificial_altar:
+    name: '희생 제단'
+  mob_drop:
+    name: '고유 몹 드롭'
+  quest:
+    name: '퀘스트 보상'

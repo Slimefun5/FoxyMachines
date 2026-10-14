@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Horgászat'
+  sacrificial_altar:
+    name: 'Áldozati oltár'
+  mob_drop:
+    name: 'Egyedi élőlényzsákmány'
+  quest:
+    name: 'Küldetésjutalom'

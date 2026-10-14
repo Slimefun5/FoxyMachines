@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: '釣り'
+  sacrificial_altar:
+    name: '生贄の祭壇'
+  mob_drop:
+    name: '固有モブドロップ'
+  quest:
+    name: 'クエスト報酬'

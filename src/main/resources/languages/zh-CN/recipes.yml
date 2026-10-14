@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: '钓鱼'
+  sacrificial_altar:
+    name: '献祭祭坛'
+  mob_drop:
+    name: '特殊生物掉落'
+  quest:
+    name: '任务奖励'

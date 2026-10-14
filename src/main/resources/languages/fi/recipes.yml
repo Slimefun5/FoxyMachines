@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Kalastus'
+  sacrificial_altar:
+    name: 'Uhrialttari'
+  mob_drop:
+    name: 'Ainutlaatuinen olennon pudotus'
+  quest:
+    name: 'Tehtäväpalkkio'

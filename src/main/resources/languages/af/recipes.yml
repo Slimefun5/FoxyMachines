@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Visvang'
+  sacrificial_altar:
+    name: 'Offeraltaar'
+  mob_drop:
+    name: 'Unieke buit van ''n wese'
+  quest:
+    name: 'Soektogbeloning'

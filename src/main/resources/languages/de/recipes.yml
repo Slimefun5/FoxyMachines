@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Angeln'
+  sacrificial_altar:
+    name: 'Opferaltar'
+  mob_drop:
+    name: 'Einzigartiger Mob-Drop'
+  quest:
+    name: 'Questbelohnung'

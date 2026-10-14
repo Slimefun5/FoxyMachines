@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'صيد السمك'
+  sacrificial_altar:
+    name: 'المذبح القرباني'
+  mob_drop:
+    name: 'غنيمة مخلوق فريدة'
+  quest:
+    name: 'مكافأة مهمة'

@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Memancing'
+  sacrificial_altar:
+    name: 'Altar Korban'
+  mob_drop:
+    name: 'Jatuhan Mob Unik'
+  quest:
+    name: 'Ganjaran Misi'

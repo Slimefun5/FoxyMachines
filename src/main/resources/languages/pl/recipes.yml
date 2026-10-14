@@ -1,0 +1,9 @@
+foxymachines:
+  fishing:
+    name: 'Łowienie'
+  sacrificial_altar:
+    name: 'Ołtarz Ofiarny'
+  mob_drop:
+    name: 'Unikalny łup z moba'
+  quest:
+    name: 'Nagroda za zadanie'
