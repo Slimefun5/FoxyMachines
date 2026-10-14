@@ -64,6 +64,7 @@ public class FoxyMachines extends AbstractAddon {
         // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
         Slimefun.getLocalization().registerItemGroupTranslations(this);
+        Slimefun.getLocalization().registerRecipeTypeTranslations(this);
         Slimefun.getLocalization().registerResearchTranslations(this);
         Slimefun.getAddonMessageService().registerTranslations(this);
 
